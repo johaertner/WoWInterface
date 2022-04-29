@@ -1,0 +1,12 @@
+VER 3 0100000000000002 "CRY" "Ability_Creature_Disease_03"
+/Cry
+END
+VER 3 0100000000000001 "DANCE" "Ability_Creature_Poison_05"
+/Dance
+END
+VER 3 0100000000000003 "JUBELN" "Ability_Creature_Cursed_01"
+/Jubeln
+END
+VER 3 0100000000000004 "WITZ" "Ability_Creature_Cursed_03"
+/Witz
+END

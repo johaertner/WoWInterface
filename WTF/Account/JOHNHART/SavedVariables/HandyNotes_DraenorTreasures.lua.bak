@@ -1,0 +1,36 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Elliara - Azshara"] = "Default",
+		["Wenzelaus - Nathrezim"] = "Default",
+		["Rigobert - Nathrezim"] = "Default",
+		["Minnegard - Nathrezim"] = "Default",
+		["Friedebrecht - Nathrezim"] = "Default",
+		["Arnun - Die Silberne Hand"] = "Default",
+		["Guntram - Nathrezim"] = "Default",
+		["Dankrun - Nathrezim"] = "Default",
+		["Siegenot - Nathrezim"] = "Default",
+		["Warglgunde - Nathrezim"] = "Default",
+		["Wigbald - Nathrezim"] = "Default",
+		["Kudgy - Blackrock"] = "Default",
+		["Adelgard - Nathrezim"] = "Default",
+		["Trautwin - Nathrezim"] = "Default",
+		["Adelmuth - Nathrezim"] = "Default",
+		["Adelgard - Anetheron"] = "Default",
+		["Kudgy - Ravencrest"] = "Default",
+		["Wendelbert - Nathrezim"] = "Default",
+		["Bernhardates - Anetheron"] = "Default",
+		["Giselmund - Nathrezim"] = "Default",
+		["Adelgunde - Nathrezim"] = "Default",
+		["Eckehard - Nathrezim"] = "Default",
+		["Kudgy - Kazzak"] = "Default",
+		["Widukind - Nathrezim"] = "Default",
+		["Bernharda - Anetheron"] = "Default",
+		["Kudgy - Area 52"] = "Default",
+		["Erkenbald - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

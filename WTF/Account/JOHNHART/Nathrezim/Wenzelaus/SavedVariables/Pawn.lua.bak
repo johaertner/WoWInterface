@@ -1,0 +1,100 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0325,
+	["LastPlayerFullName"] = "Wenzelaus-Nathrezim",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 157889,
+			["Level"] = 405,
+			["Link"] = "|cffa335ee|Hitem:157889::::::::120:262::28:4:1592:4786:6261:4775:::|h[Schreckenssumpfhelm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 479,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:262::11:4:4932:4933:6316:1616:::|h[Herz von Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 157923,
+			["Level"] = 405,
+			["Link"] = "|cffa335ee|Hitem:157923::::::::120:262::28:4:1592:4786:6262:4775:::|h[Schulterschützer von Pa'kus Windreiter]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 170517,
+			["Level"] = 390,
+			["Link"] = "|cffa335ee|Hitem:170517::::::::120:262::11:4:1577:4786:5413:4775:::|h[Kettenpanzer der eidgebundenen Vorhut]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 167773,
+			["Level"] = 400,
+			["Link"] = "|cffa335ee|Hitem:167773::::::::120:262:::4:6300:6289:1487:4786:::|h[Sturmwogerkettengürtel der Azsh'ari]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 170109,
+			["Level"] = 400,
+			["Link"] = "|cffa335ee|Hitem:170109::::::::120:262:::4:6300:6289:1487:4786:::|h[Sturmwogerbeinkleider der Azsh'ari]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 169892,
+			["Level"] = 400,
+			["Link"] = "|cffa335ee|Hitem:169892::::::::120:262:::4:6300:6289:1487:4786:::|h[Sturmwogerstiefel der Azsh'ari]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 170329,
+			["Level"] = 400,
+			["Link"] = "|cffa335ee|Hitem:170329::::::::120:262:::4:6300:6289:1487:4786:::|h[Neris Kettenfesseln]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 170377,
+			["Level"] = 400,
+			["Link"] = "|cffa335ee|Hitem:170377::::::::120:262:::4:6300:6289:1487:4786:::|h[Inowaris Wassertänzerhandschützer]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 165679,
+			["Level"] = 390,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:165679::::::::120:262::28:3:4803:1582:4785:::|h[Verzierter Ring von Elun'dris]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 158151,
+			["Level"] = 380,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:158151::::::::120:262::25:4:4803:40:1572:4785:::|h[Zandalariband]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 165666,
+			["Level"] = 405,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:165666::::::::120:262::27:4:4803:1582:5860:4784:::|h[Mondstein von Zin-Azshari]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 155568,
+			["Level"] = 390,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:155568::::::::120:262::26:4:4803:1577:5850:4781:::|h[Böenwindspiel]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 163366,
+			["Level"] = 405,
+			["Link"] = "|cffa335ee|Hitem:163366::::::::120:262::28:3:5125:1597:4786:::|h[Umhang der eidgebundenen Vorhut]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 170095,
+			["Level"] = 420,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:170095::::::::120:262::3:4:4798:1487:5850:4783:::|h[Baton der Mondpriesterin]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 160978,
+			["Level"] = 385,
+			["Link"] = "|cff0070dd|Hitem:160978::::::::120:262::26:3:4803:1577:4785:::|h[Goldener Grabverteidiger]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "SHAMAN",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

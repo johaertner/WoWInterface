@@ -1,0 +1,31 @@
+
+MethodAltManagerDB = {
+	["alts"] = 1,
+	["data"] = {
+		["Player-1104-0599AC6F"] = {
+			["stygia"] = 12045,
+			["guid"] = "Player-1104-0599AC6F",
+			["nathria_normal"] = 0,
+			["seals_bought"] = 0,
+			["dungeon"] = "Unknown",
+			["conquest_earned"] = 0,
+			["stored_anima"] = 7981,
+			["ilevel"] = 249.375,
+			["level"] = "?",
+			["time_until_reset"] = 37272,
+			["charlevel"] = 60,
+			["max_conduit_charges"] = 10,
+			["nathria_mythic"] = 0,
+			["nathria_heroic"] = 0,
+			["data_obtained"] = 1635885527,
+			["conduit_charges"] = 10,
+			["class"] = "PALADIN",
+			["name"] = "Adelgunde",
+			["conquest_total"] = 0,
+			["soul_ash"] = 28855,
+			["renown"] = 80,
+			["expires"] = 1637132399,
+			["worldboss"] = false,
+		},
+	},
+}

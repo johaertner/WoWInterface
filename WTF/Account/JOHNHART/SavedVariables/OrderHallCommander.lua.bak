@@ -1,0 +1,34 @@
+
+dbOHC = {
+	["char"] = {
+		["Wigbald - Nathrezim"] = {
+			["firstun"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Wigbald - Nathrezim"] = "Default",
+	},
+	["global"] = {
+		["warn02_seen"] = 0,
+		["warn01_seen"] = 0,
+		["firstrun"] = false,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["toggles"] = {
+				["SAVETROOPS"] = false,
+				["TROOPALERT"] = true,
+				["BONUS"] = true,
+				["SORTMISSION"] = "Garrison_SortMissions_Original",
+				["SPARE"] = false,
+				["MAKEITVERYQUICK"] = false,
+				["MAXCHAMP"] = 2,
+				["MAKEITQUICK"] = false,
+				["MOVEPANEL"] = true,
+				["MAXIMIZEXP"] = false,
+				["USEALLY"] = false,
+			},
+			["showmenu"] = true,
+		},
+	},
+}

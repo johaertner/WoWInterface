@@ -1,0 +1,26 @@
+
+ThogarAssistDB = {
+	["profileKeys"] = {
+		["Elliara - Azshara"] = "Default",
+		["Kudgy - Blackrock"] = "Default",
+		["Adelgard - Anetheron"] = "Default",
+		["Wenzelaus - Nathrezim"] = "Default",
+		["Rigobert - Nathrezim"] = "Default",
+		["Bernhardates - Anetheron"] = "Default",
+		["Adelgunde - Nathrezim"] = "Default",
+		["Friedebrecht - Nathrezim"] = "Default",
+		["Eckehard - Nathrezim"] = "Default",
+		["Kudgy - Kazzak"] = "Default",
+		["Kudgy - Ravencrest"] = "Default",
+		["Bernharda - Anetheron"] = "Default",
+		["Kudgy - Area 52"] = "Default",
+		["Arnun - Die Silberne Hand"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["posx"] = 316.26708277463,
+			["posy"] = 686.73795340021,
+			["lock"] = false,
+		},
+	},
+}

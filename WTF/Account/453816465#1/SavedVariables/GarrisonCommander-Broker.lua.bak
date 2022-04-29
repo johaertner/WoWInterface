@@ -1,0 +1,82 @@
+
+dbGACB = {
+	["char"] = {
+		["Kudgy - Malfurion"] = {
+			["firstun"] = false,
+		},
+		["Adelgunde - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Rigobert - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Kudgy - Azshara"] = {
+			["firstun"] = false,
+		},
+	},
+	["global"] = {
+		["firstrun"] = false,
+		["missionType"] = {
+			[1562] = 4,
+			[1311] = 4,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["toggles"] = {
+				["OLDINT"] = false,
+				["FREQUENCY"] = 5,
+				["SHOWNEXT"] = false,
+				["SUMMARY"] = false,
+			},
+		},
+		["Adelgunde - Nathrezim"] = {
+			["toggles"] = {
+				["OLDINT"] = false,
+				["FREQUENCY"] = 5,
+				["SHOWNEXT"] = false,
+				["SUMMARY"] = false,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kudgy - Malfurion"] = "Default",
+		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
+		["Rigobert - Nathrezim"] = "Default",
+		["Kudgy - Azshara"] = "Default",
+	},
+	["realm"] = {
+		["Azshara"] = {
+			["cachesize"] = {
+				["Kudgy"] = 500,
+			},
+		},
+		["Malfurion"] = {
+			["cachesize"] = {
+				["Kudgy"] = 500,
+			},
+		},
+		["Nathrezim"] = {
+			["cachesize"] = {
+				["Adelgunde"] = 1000,
+				["Rigobert"] = 500,
+			},
+			["missions"] = {
+				"000001487666566.1562.Rigobert.4", -- [1]
+				"000001487740142.1311.Adelgunde.4", -- [2]
+			},
+			["orders"] = {
+				["Adelgunde"] = {
+					["Frostwallmine"] = 0,
+					["Kräutergarten"] = 0,
+				},
+			},
+			["farms"] = {
+				["Adelgunde"] = {
+					["Frostwallmine"] = 0,
+					["Kräutergarten"] = 0,
+				},
+			},
+		},
+	},
+}

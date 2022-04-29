@@ -1,0 +1,25 @@
+------------------------------------------------------------------------
+r17 | pomerol2 | 2014-10-22 20:19:28 +0000 (Wed, 22 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/LostTreasures.toc
+
+6.02 update alpha test 003 -- fixed 3.03 mistake
+------------------------------------------------------------------------
+r16 | pomerol2 | 2014-10-22 19:23:39 +0000 (Wed, 22 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/LostTreasures.toc
+
+6.02 update alpha test 002
+------------------------------------------------------------------------
+r15 | pomerol2 | 2014-10-22 18:47:41 +0000 (Wed, 22 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/LostTreasures.toc
+
+6.02 update alpha test
+------------------------------------------------------------------------
+r14 | pomerol2 | 2014-03-19 01:04:30 +0000 (Wed, 19 Mar 2014) | 1 line
+Changed paths:
+   M /trunk/LostTreasures.toc
+
+set 50300 to 50400
+------------------------------------------------------------------------

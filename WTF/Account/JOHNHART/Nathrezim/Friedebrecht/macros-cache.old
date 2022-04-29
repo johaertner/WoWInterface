@@ -1,0 +1,89 @@
+VER 3 0100000000000014 "CANCEL" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/cancelaura Zorn der Gerechtigkeit
+END
+VER 3 010000000000000E "DRAKO" "INV_Helm_Mail_DungeonMail_C_06"
+/target Dràko
+/click ExtraActionButton1
+/script SendChatMessage("! DU HAST DAS LICHT !", "WHISPER", "Common", UnitName("target"));
+END
+VER 3 010000000000000F "Fokus" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/target focus
+/cast Denunzierung
+END
+VER 3 0100000000000005 "FokusCC" "INV_MACE_1H_PANDARAID_D_02"
+/target Focus
+/click ExtraActionButton1
+/lasttarget
+END
+VER 3 010000000000000C "GRP" "INV_Helm_Leather_PVPDruid_C_02"
+/click ExtraActionButton1
+/script SendChatMessage("! DU HAST DAS LICHT !", "WHISPER", "Common", UnitName("target"));
+END
+VER 3 0100000000000016 "HAMMER" "Spell_Paladin_HammerOfWrath"
+/target Knisternder Pirscher
+/cast Faust der Gerechtigkeit
+/target lasttarget
+END
+VER 3 010000000000000B "HEAL" "SPELL_HOLY_AVENGINEWRATH"
+/cast Aura der Hingabe
+/cast Wächter der Uralten Könige
+/cast Zornige Vergeltung
+/cast Göttliche Gunst
+/cast Heiliges Strahlen
+END
+VER 3 0100000000000007 "HOT WEG" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/cancelaura Erneuerung
+/cancelaura Verjüngung
+/cancelaura Erneuernder Nebel
+/cancelaura Wildwuchs
+/cancelaura Springflug
+/cancelaura Ewige Flamme
+/cancelaura Echo des Lichts
+/cancelaura Samenkorn des Lebens
+/cancelaura Nachwachsen
+END
+VER 3 0100000000000009 "Judge" "INV_SWORD_BLOODELF_03"
+/target Focus
+/cast Richturteil
+/target lasttarget
+END
+VER 3 010000000000000A "KICK" "SPELL_HOLY_REBUKE"
+/target focus
+/cast Zurechtweisung
+END
+VER 3 0100000000000004 "KILL" "ABILITY_PALADIN_SHEATHOFLIGHT"
+/use Zornige Vergeltung
+/use Heiliger Rächer
+/use Wächter der Uralten Könige
+/use Hammer des Zorns
+/use Wok des eisernen Bauchs
+END
+VER 3 0100000000000003 "Lila Mark" "Spell_Nature_AstralRecal"
+/script SetRaidTarget("target", 3)
+END
+VER 3 0100000000000017 "LorThemar" "INV_ENCHANT_SHARDGLIMMERINGLARGE"
+/target Lor'them
+END
+VER 3 0100000000000013 "MANA" "SPELL_HOLY_ASPIRATION"
+/cast Arkaner Strom(Volksfähigkeit)
+/cast Göttliche Bitte
+END
+VER 3 0100000000000015 "PRISMA" "SPELL_PALADIN_HOLYPRISM"
+/target Focus
+/cast Heiliges Prisma
+/target lasttarget
+END
+VER 3 010000000000000D "SHANTA" "INV_Helm_Mail_Reputation_C_01"
+/target Shanta
+/click ExtraActionButton1
+/script SendChatMessage("! DU HAST DAS LICHT !", "WHISPER", "Common", UnitName("target"));
+END
+VER 3 0100000000000011 "TERJ" "Ability_Warlock_Backdraft"
+/target Terrorhorngeist
+/cast Richturteil
+/target lasttarget
+END
+VER 3 0100000000000012 "TERROR" "INV_MISC_QUESTIONMARK"
+/target Terrorhorngeist
+/cast Denunzierung
+END

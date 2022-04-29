@@ -1,0 +1,175 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Elliara - Azshara"] = "Elliara - Azshara",
+		["Wenzelaus - Nathrezim"] = "Wenzelaus - Nathrezim",
+		["Rigobert - Nathrezim"] = "Rigobert - Nathrezim",
+		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
+		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
+		["Arnun - Die Silberne Hand"] = "Arnun - Die Silberne Hand",
+		["Guntram - Nathrezim"] = "Guntram - Nathrezim",
+		["Dankrun - Nathrezim"] = "Dankrun - Nathrezim",
+		["Siegenot - Nathrezim"] = "Siegenot - Nathrezim",
+		["Warglgunde - Nathrezim"] = "Warglgunde - Nathrezim",
+		["Wigbald - Nathrezim"] = "Wigbald - Nathrezim",
+		["Kudgy - Blackrock"] = "Kudgy - Blackrock",
+		["Adelgard - Nathrezim"] = "Adelgard - Nathrezim",
+		["Trautwin - Nathrezim"] = "Trautwin - Nathrezim",
+		["Adelmuth - Nathrezim"] = "Adelmuth - Nathrezim",
+		["Adelgard - Anetheron"] = "Adelgard - Anetheron",
+		["Kudgy - Ravencrest"] = "Kudgy - Ravencrest",
+		["Wendelbert - Nathrezim"] = "Wendelbert - Nathrezim",
+		["Bernhardates - Anetheron"] = "Bernhardates - Anetheron",
+		["Giselmund - Nathrezim"] = "Giselmund - Nathrezim",
+		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
+		["Eckehard - Nathrezim"] = "Eckehard - Nathrezim",
+		["Kudgy - Kazzak"] = "Kudgy - Kazzak",
+		["Widukind - Nathrezim"] = "Widukind - Nathrezim",
+		["Bernharda - Anetheron"] = "Bernharda - Anetheron",
+		["Kudgy - Area 52"] = "Kudgy - Area 52",
+		["Erkenbald - Nathrezim"] = "Erkenbald - Nathrezim",
+	},
+	["profiles"] = {
+		["Elliara - Azshara"] = {
+		},
+		["Wenzelaus - Nathrezim"] = {
+		},
+		["Rigobert - Nathrezim"] = {
+		},
+		["Minnegard - Nathrezim"] = {
+		},
+		["Friedebrecht - Nathrezim"] = {
+		},
+		["Arnun - Die Silberne Hand"] = {
+		},
+		["Guntram - Nathrezim"] = {
+		},
+		["Dankrun - Nathrezim"] = {
+		},
+		["Siegenot - Nathrezim"] = {
+		},
+		["Warglgunde - Nathrezim"] = {
+		},
+		["Wigbald - Nathrezim"] = {
+		},
+		["Kudgy - Blackrock"] = {
+		},
+		["Adelgard - Nathrezim"] = {
+		},
+		["Trautwin - Nathrezim"] = {
+		},
+		["Adelmuth - Nathrezim"] = {
+		},
+		["Adelgard - Anetheron"] = {
+		},
+		["Kudgy - Ravencrest"] = {
+		},
+		["Wendelbert - Nathrezim"] = {
+		},
+		["Bernhardates - Anetheron"] = {
+		},
+		["Giselmund - Nathrezim"] = {
+		},
+		["Adelgunde - Nathrezim"] = {
+		},
+		["Eckehard - Nathrezim"] = {
+		},
+		["Kudgy - Kazzak"] = {
+		},
+		["Widukind - Nathrezim"] = {
+		},
+		["Bernharda - Anetheron"] = {
+		},
+		["Kudgy - Area 52"] = {
+		},
+		["Erkenbald - Nathrezim"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Elliara - Azshara"] = "Elliara - Azshara",
+		["Wenzelaus - Nathrezim"] = "Wenzelaus - Nathrezim",
+		["Rigobert - Nathrezim"] = "Rigobert - Nathrezim",
+		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
+		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
+		["Arnun - Die Silberne Hand"] = "Arnun - Die Silberne Hand",
+		["Guntram - Nathrezim"] = "Guntram - Nathrezim",
+		["Dankrun - Nathrezim"] = "Dankrun - Nathrezim",
+		["Siegenot - Nathrezim"] = "Siegenot - Nathrezim",
+		["Warglgunde - Nathrezim"] = "Warglgunde - Nathrezim",
+		["Wigbald - Nathrezim"] = "Wigbald - Nathrezim",
+		["Kudgy - Blackrock"] = "Kudgy - Blackrock",
+		["Adelgard - Nathrezim"] = "Adelgard - Nathrezim",
+		["Trautwin - Nathrezim"] = "Trautwin - Nathrezim",
+		["Adelmuth - Nathrezim"] = "Adelmuth - Nathrezim",
+		["Adelgard - Anetheron"] = "Adelgard - Anetheron",
+		["Kudgy - Ravencrest"] = "Kudgy - Ravencrest",
+		["Wendelbert - Nathrezim"] = "Wendelbert - Nathrezim",
+		["Bernhardates - Anetheron"] = "Bernhardates - Anetheron",
+		["Giselmund - Nathrezim"] = "Giselmund - Nathrezim",
+		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
+		["Eckehard - Nathrezim"] = "Eckehard - Nathrezim",
+		["Kudgy - Kazzak"] = "Kudgy - Kazzak",
+		["Widukind - Nathrezim"] = "Widukind - Nathrezim",
+		["Bernharda - Anetheron"] = "Bernharda - Anetheron",
+		["Kudgy - Area 52"] = "Kudgy - Area 52",
+		["Erkenbald - Nathrezim"] = "Erkenbald - Nathrezim",
+	},
+	["profiles"] = {
+		["Elliara - Azshara"] = {
+		},
+		["Wenzelaus - Nathrezim"] = {
+		},
+		["Rigobert - Nathrezim"] = {
+		},
+		["Minnegard - Nathrezim"] = {
+		},
+		["Friedebrecht - Nathrezim"] = {
+		},
+		["Arnun - Die Silberne Hand"] = {
+		},
+		["Guntram - Nathrezim"] = {
+		},
+		["Dankrun - Nathrezim"] = {
+		},
+		["Siegenot - Nathrezim"] = {
+		},
+		["Warglgunde - Nathrezim"] = {
+		},
+		["Wigbald - Nathrezim"] = {
+		},
+		["Kudgy - Blackrock"] = {
+		},
+		["Adelgard - Nathrezim"] = {
+		},
+		["Trautwin - Nathrezim"] = {
+		},
+		["Adelmuth - Nathrezim"] = {
+		},
+		["Adelgard - Anetheron"] = {
+		},
+		["Kudgy - Ravencrest"] = {
+		},
+		["Wendelbert - Nathrezim"] = {
+		},
+		["Bernhardates - Anetheron"] = {
+		},
+		["Giselmund - Nathrezim"] = {
+		},
+		["Adelgunde - Nathrezim"] = {
+		},
+		["Eckehard - Nathrezim"] = {
+		},
+		["Kudgy - Kazzak"] = {
+		},
+		["Widukind - Nathrezim"] = {
+		},
+		["Bernharda - Anetheron"] = {
+		},
+		["Kudgy - Area 52"] = {
+		},
+		["Erkenbald - Nathrezim"] = {
+		},
+	},
+}

@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Hidden" "INV_SWORD_04"
+/run print(IsQuestFlaggedCompleted(44311))
+/run print(IsQuestFlaggedCompleted(44310))
+END

@@ -1,0 +1,6 @@
+## Interface: 80000
+## Title: Right Click Modifier
+## Author: Zevade
+## Version: 1.09
+## SavedVariables: RCM_SavedVariables
+RightClickModifier.lua

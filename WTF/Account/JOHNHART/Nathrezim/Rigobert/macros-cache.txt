@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "Anregen" "136048"
+#showtooltip Anregen
+/target Rigobert
+/cast Anregen
+/targetlasttarget
+END

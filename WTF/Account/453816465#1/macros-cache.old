@@ -1,0 +1,37 @@
+VER 3 0000000000000009 "10 Pull" "SPELL_NATURE_BLOODLUST"
+/dbm pull 10
+END
+VER 3 000000000000000A "3 Pull" "ABILITY_WARRIOR_DEVASTATE"
+/dbm pull 3
+END
+VER 3 0000000000000008 "5 Pull" "ABILITY_WARRIOR_CHALLANGE"
+/dbm pull 5
+END
+VER 3 0000000000000001 "Blau" "SPELL_FROST_ARCTICWINDS"
+/target Verjüngender Pilz
+END
+VER 3 0000000000000005 "BOP Slowi" "SPELL_ARCANE_STUDENTOFMAGIC"
+/target Slôwi
+/cast Hand des Schutzes
+/target lasttarget
+END
+VER 3 0000000000000006 "BOP Target" "SPELL_NATURE_SWIFTNESS"
+/target Adelgunde
+/cast Gottesschild
+/target hymdall
+/cast Hand der Abrechnung
+/target lasttarget
+END
+VER 3 0000000000000002 "CAM" "SPELL_SHADOW_TELEPORT"
+/Console CameraDistanceMaxFactor 6
+END
+VER 3 0000000000000007 "Spott Statue" "538576"
+/target Statue des Schwarzen Ochsen
+/cast Provokation
+/targetlasttarget
+END
+VER 3 000000000000000B "Zorn +Trinket" "1360763"
+#showtooltip Kreuzzug
+/cast Kreuzzug
+/use Horn der Ehre
+END

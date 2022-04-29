@@ -1,0 +1,27 @@
+## Interface: 60000
+## Title: LostTreasures
+## Notes: An addon to help you find the treasures of Pandaria!
+## Author: looktokid
+## Version: 3.03
+## SavedVariablesPerCharacter: LostTreasuresDB
+## RequiredDeps: TomTom
+## X-Curse-Packaged-Version: r17
+## X-Curse-Project-Name: [INACTIVE] LostTreasures
+## X-Curse-Project-ID: losttreasures
+## X-Curse-Repository-ID: wow/losttreasures/mainline
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\LibMapData-1.0\library.lua
+
+LostTreasures.lua
+LostTreasures_Config.lua
+LostTreasures_Waypoints.lua
+LostTreasures_WaypointsHandler.lua

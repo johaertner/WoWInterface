@@ -1,0 +1,11 @@
+## Interface: 80000
+## Title: WoWScribe DataBroker Object
+## Version: 1.0
+## Author: VincentSDSH
+## Notes: DataBroker Plugin for WoWScribe
+## OptionalDeps:
+## SavedVariables: wsDBcfg
+## Dependencies: WoWScribe
+
+WoWScribe_DataBroker.lua
+embeds.xml

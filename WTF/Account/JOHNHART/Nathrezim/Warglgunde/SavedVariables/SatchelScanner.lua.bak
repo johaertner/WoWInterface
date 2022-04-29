@@ -1,0 +1,23 @@
+
+SatchelScannerDB = {
+	["notificationtimer"] = 10,
+	["raidwarning"] = true,
+	["LFROnce"] = false,
+	["scantimer"] = 5,
+	["version"] = 7.23,
+	["showMainFrame"] = false,
+	["scanInDungeon"] = false,
+	["satchels"] = 0,
+	["MainFrameLoc"] = {
+		"TOPLEFT", -- [1]
+		nil, -- [2]
+		"TOPLEFT", -- [3]
+		364.383605957031, -- [4]
+		-79.0194396972656, -- [5]
+	},
+	["GearCheck"] = false,
+	["ClassCheck"] = false,
+	["LFGOnce"] = false,
+	["scanInGroup"] = false,
+	["sounds"] = true,
+}

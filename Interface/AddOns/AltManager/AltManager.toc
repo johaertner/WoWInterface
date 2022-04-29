@@ -1,0 +1,10 @@
+## Interface: 90002
+## Title: Alt Manager
+## Author: Qoning
+## Version: v2.6.2
+## Notes: Concise information about your alts and weekly stuff.
+## SavedVariables: MethodAltManagerDB
+
+embeds.xml
+AltManager.lua
+

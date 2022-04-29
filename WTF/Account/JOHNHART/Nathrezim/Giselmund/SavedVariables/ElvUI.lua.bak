@@ -1,0 +1,49 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		" wollten gerade gehen", -- [1]
+		" würde hc sagen", -- [2]
+		"/p ok go", -- [3]
+		"/p guten tag", -- [4]
+		"/p |cffa335ee|Hkeystone:207:12:5:4:9|h[Schlüsselstein: Das Verlies der Wächterinnen]|h|r", -- [5]
+		"/p heal you good?", -- [6]
+		"/p danke fürs mitkommen", -- [7]
+		"/p not enough", -- [8]
+		"/alts", -- [9]
+		"wollten gerade gehen", -- [10]
+		"/p ich würde allerdings nicht mehr tanken", -- [11]
+		"/p dks are too slow!", -- [12]
+		"/p bye", -- [13]
+		"/p müsste dann heulen", -- [14]
+		"würde hc sagen", -- [15]
+		"/p |cffa335ee|Hitem:134540::::::::110:250::16:4:3418:1808:1567:3528:::|h[Ring der verzwirnten Spinnweben]|h|r", -- [16]
+		"musst du jetzt off?", -- [17]
+		"/jubeln", -- [18]
+		"/p heilen", -- [19]
+		"/played", -- [20]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"was bringt es die Mytic Steine in der Zeit zu schaffen ?", -- [1]
+			"Thaddáus-Anetheron", -- [2]
+			"", -- [3]
+			"2. Handel - Hauptstädte", -- [4]
+			"Thaddáus-Anetheron", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Handel - Hauptstädte", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"Player-1104-07884F44", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Thaddáus-Anetheron|r",
+			[51] = 1603398441,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+	},
+}

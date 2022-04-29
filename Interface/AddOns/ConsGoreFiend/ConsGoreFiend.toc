@@ -1,0 +1,15 @@
+## Interface: 60200
+## X-Min-Interface: 60200
+
+## Title: ConsGoreFiend
+## Notes: Gorefiend Mythic (http://www.consequence-eu.com)
+## Author: Zyrrael
+## Version: 1.81
+## SavedVariables: CG_MissionInfo, CG_QuickMissionInfo
+
+locale.en.lua
+locale.cn.lua
+locale.de.lua
+
+ConsGoreFiend.xml
+ConsGoreFiend.lua

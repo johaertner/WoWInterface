@@ -1,0 +1,11 @@
+
+LostTreasuresDB = {
+	["profileKeys"] = {
+		["Rigobert - Nathrezim"] = "Rigobert - Nathrezim",
+	},
+	["char"] = {
+		["Rigobert - Nathrezim"] = {
+			["VERSION"] = 3.03,
+		},
+	},
+}

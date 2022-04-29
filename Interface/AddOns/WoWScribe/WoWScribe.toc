@@ -1,0 +1,10 @@
+## Interface: 80000
+## Title: WoWScribe
+## Version: 8.0
+## Author: Rhianidd of the Silver Daggers on Silver Hand
+## Notes: Chat Logger
+## OptionalDeps:
+## SavedVariables: WoWScribeDB
+## Dependencies:
+
+WoWScribe.lua

@@ -1,0 +1,6 @@
+
+wsDBcfg = {
+	["DBIconTable"] = {
+		["hide"] = false,
+	},
+}

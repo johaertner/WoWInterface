@@ -1,0 +1,140 @@
+
+dbGAC = {
+	["char"] = {
+		["Wigbald - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Kudgy - Anetheron"] = {
+			["firstun"] = false,
+		},
+		["Wenzelaus - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Rigobert - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Minnegard - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Friedebrecht - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Adelgunde - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Guntram - Nathrezim"] = {
+			["firstun"] = false,
+		},
+		["Warglgunde - Nathrezim"] = {
+			["firstun"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Wigbald - Nathrezim"] = "Default",
+		["Kudgy - Anetheron"] = "Default",
+		["Wenzelaus - Nathrezim"] = "Default",
+		["Rigobert - Nathrezim"] = "Default",
+		["Minnegard - Nathrezim"] = "Default",
+		["Friedebrecht - Nathrezim"] = "Default",
+		["Adelgunde - Nathrezim"] = "Default",
+		["Guntram - Nathrezim"] = "Default",
+		["Warglgunde - Nathrezim"] = "Default",
+	},
+	["global"] = {
+		["firstrun"] = false,
+		["news"] = {
+			[21800] = true,
+			[21801] = true,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["missionControl"] = {
+				["rewardList"] = {
+					"gold", -- [1]
+					"resources", -- [2]
+					"oil", -- [3]
+					"rush", -- [4]
+					"xp", -- [5]
+					"followerUpgrade", -- [6]
+					"itemLevel", -- [7]
+					"apexis", -- [8]
+					"seal", -- [9]
+					"other", -- [10]
+					"primalspirit", -- [11]
+					"ark", -- [12]
+					"training", -- [13]
+					"legendary", -- [14]
+					"toys", -- [15]
+					"reputation", -- [16]
+				},
+				["version"] = 3,
+			},
+			["toggles"] = {
+				["SHIPPIN"] = false,
+				["NOTOOLTIP"] = false,
+				["HALLPIN"] = true,
+				["SAUTOLOGOUT"] = false,
+				["MAXRES"] = true,
+				["USEFUL"] = true,
+				["MAXMISSIONS"] = 5,
+				["AUTOLOGOUT"] = false,
+				["GCMINLEVEL"] = 540,
+				["ILV"] = true,
+				["GCMINUPGRADE"] = 600,
+				["NOCONFIRM"] = true,
+				["SHIPMOVEPANEL"] = true,
+				["SGCSKIPEPIC"] = true,
+				["MINGOLD"] = 50,
+				["MSORT"] = "Garrison_SortMissions_Original",
+				["PIN"] = false,
+				["IXP"] = true,
+				["SWAPBUTTONS"] = false,
+				["IGM"] = true,
+				["HF"] = false,
+				["SHIPENHA"] = true,
+				["MSORTH"] = "Garrison_SortMissions_Chance",
+				["SGCMINLEVEL"] = 540,
+				["MAXRESCHANCE"] = 80,
+				["MINPERC"] = 50,
+				["MOVEPANEL"] = true,
+				["GCSKIPRARE"] = true,
+				["BIGSCREEN"] = true,
+				["NOFILL"] = false,
+				["MINXPLEVEL"] = 90,
+				["GCSKIPEPIC"] = true,
+				["IGP"] = true,
+				["HALLMOVEPANEL"] = true,
+				["UPG"] = true,
+			},
+			["shipControl"] = {
+				["rewardList"] = {
+					"gold", -- [1]
+					"rush", -- [2]
+					"xp", -- [3]
+					"followerUpgrade", -- [4]
+					"itemLevel", -- [5]
+					"apexis", -- [6]
+					"seal", -- [7]
+					"other", -- [8]
+					"primalspirit", -- [9]
+					"ark", -- [10]
+					"training", -- [11]
+					"legendary", -- [12]
+					"toys", -- [13]
+					"reputation", -- [14]
+				},
+				["version"] = 3,
+			},
+			["blacklist"] = {
+				[1296] = true,
+				[1118] = true,
+				[1297] = false,
+				[1385] = false,
+				[1697] = false,
+				[1180] = true,
+				[1396] = true,
+			},
+		},
+	},
+}

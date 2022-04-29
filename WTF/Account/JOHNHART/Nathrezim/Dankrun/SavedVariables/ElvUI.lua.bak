@@ -1,0 +1,49 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		" 2 boss", -- [1]
+		" vorletzter boss meine ich", -- [2]
+		"/p well done", -- [3]
+		"/p wipe", -- [4]
+		"/p ill place portal in boss room", -- [5]
+		"/p k", -- [6]
+		"/p and again pls", -- [7]
+		"/p go?^^", -- [8]
+		"/p klick", -- [9]
+		"/i by", -- [10]
+		"vorletzter boss meine ich", -- [11]
+		"/p ok", -- [12]
+		"/p ty bye^^", -- [13]
+		"/p ^^", -- [14]
+		"/p ill respecc for the bosses", -- [15]
+		"/p tank go the center when he does his strike", -- [16]
+		"/i hi", -- [17]
+		"2 boss", -- [18]
+		"/p kk", -- [19]
+		"/p bl on pull", -- [20]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"%s hat den Erfolg |cffffff00|Hachievement:11214:Player-1104-0595E2AF:1:11:23:20:4294967295:4294967295:4294967295:4294967295|h[Eine Handvoll Missionen]|h|r errungen!", -- [1]
+			"Morhel-Nathrezim", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Morhel-Nathrezim", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-1104-0595E2AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Morhel|r",
+			[51] = 1606147799,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [1]
+	},
+}

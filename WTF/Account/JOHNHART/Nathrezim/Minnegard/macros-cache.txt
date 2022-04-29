@@ -1,0 +1,24 @@
+VER 3 0100000000000005 "Dispell" "135894"
+#showtooltip Läutern
+/wirken [target=mouseover,help,nodead][]Läutern
+END
+VER 3 0100000000000006 "PainSup" "135936"
+#showtooltip Schmerzunterdrückung
+/wirken [target=mouseover,help,nodead][]Schmerzunterdrückung
+END
+VER 3 0100000000000004 "Pen" "237545"
+#showtooltip Sühne
+/wirken [target=mouseover,help,nodead][]Sühne
+END
+VER 3 0100000000000003 "Radiance" "1386546"
+#showtooltip Machtwort: Glanz
+/wirken [target=mouseover,help,nodead][]Machtwort: Glanz
+END
+VER 3 0100000000000001 "Schild" "135940"
+#showtooltip Machtwort: Schild
+/wirken [target=mouseover,help,nodead][]Machtwort: Schild
+END
+VER 3 0100000000000002 "Shadowmend" "136202"
+#showtooltip Schattenheilung
+/wirken [target=mouseover,help,nodead][]Schattenheilung
+END

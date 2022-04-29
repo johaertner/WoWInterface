@@ -1,0 +1,11 @@
+
+LostTreasuresDB = {
+	["profileKeys"] = {
+		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
+	},
+	["char"] = {
+		["Friedebrecht - Nathrezim"] = {
+			["VERSION"] = 3.03,
+		},
+	},
+}

@@ -1,0 +1,14 @@
+
+SatchelScannerDB = {
+	["raidwarning"] = true,
+	["scanDps"] = false,
+	["showMainFrame"] = false,
+	["updateint"] = 5,
+	["sounds"] = true,
+	["version"] = 7.05,
+	["scanHeal"] = true,
+	["scanInDungeon"] = false,
+	["satchels"] = 0,
+	["scanInGroup"] = true,
+	["scanTank"] = true,
+}

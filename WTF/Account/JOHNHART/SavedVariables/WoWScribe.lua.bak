@@ -1,0 +1,6 @@
+
+WoWScribeDB = {
+	["filteringEnabled"] = true,
+	["loggedChannelGroups"] = {
+	},
+}

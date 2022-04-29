@@ -1,0 +1,124 @@
+
+MasterPlanAG = {
+	["Nathrezim"] = {
+		["Friedebrecht"] = {
+			["class"] = "MONK",
+			["lastCacheTime"] = 1445796045,
+			["summary"] = {
+				["inProgress"] = {
+					[177] = 1448999581,
+					[127] = 1449011278,
+				},
+			},
+			["faction"] = "Horde",
+		},
+		["Eckehard"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+		["Dankrun"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+		["Adelgunde"] = {
+			["summary"] = {
+				["tt2"] = 1468784448,
+				["tt3"] = 1468781508,
+				["tt1"] = 1468359351,
+				["ti1"] = 118531,
+				["ti3"] = 127855,
+				["inProgress"] = {
+					[455] = 1468982108,
+					[539] = 1469017416,
+					[176] = 1468955298,
+					[384] = 1468967711,
+					[392] = 1468974914,
+					[519] = 1468955127,
+					[394] = 1468982118,
+					[306] = 1468981393,
+				},
+				["ti2"] = 122486,
+			},
+			["faction"] = "Horde",
+			["cacheSize"] = 1000,
+			["class"] = "PALADIN",
+			["lastCacheTime"] = 1467463204,
+		},
+		["Manfred"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+		["Wenzelaus"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[177] = 1448999543,
+					[176] = 1448999546,
+					[211] = 1449000214,
+					[360] = 1449014841,
+				},
+			},
+			["faction"] = "Horde",
+			["class"] = "SHAMAN",
+			["curRes"] = 300,
+			["lastCacheTime"] = 1445795961,
+		},
+		["Rigobert"] = {
+		},
+		["Guntram"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
+	},
+	["Area 52"] = {
+		["Kudgy"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Horde",
+		},
+	},
+	["Anetheron"] = {
+		["Adelgard"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Bernhardates"] = {
+			["faction"] = "Horde",
+			["class"] = "WARLOCK",
+		},
+		["Bernharda"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Horde",
+		},
+	},
+	["IgnoreRewards"] = {
+	},
+	["Azshara"] = {
+		["Elliara"] = {
+			["faction"] = "Horde",
+			["class"] = "ROGUE",
+		},
+	},
+	["Blackrock"] = {
+		["Kudgy"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+	},
+	["Ravencrest"] = {
+		["Kudgy"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+		},
+	},
+	["Die Silberne Hand"] = {
+		["Arnun"] = {
+			["class"] = "PALADIN",
+			["faction"] = "Alliance",
+		},
+	},
+	["Kazzak"] = {
+		["Kudgy"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+	},
+}

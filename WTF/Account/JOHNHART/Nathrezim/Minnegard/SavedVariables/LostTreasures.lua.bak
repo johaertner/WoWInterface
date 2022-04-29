@@ -1,0 +1,11 @@
+
+LostTreasuresDB = {
+	["profileKeys"] = {
+		["Wenzelaus - Nathrezim"] = "Wenzelaus - Nathrezim",
+	},
+	["char"] = {
+		["Wenzelaus - Nathrezim"] = {
+			["VERSION"] = 3.03,
+		},
+	},
+}

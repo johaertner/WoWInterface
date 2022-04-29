@@ -1,0 +1,63 @@
+
+OmniBarDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Giselmund - Nathrezim"] = "Default",
+		["Wenzelaus - Nathrezim"] = "Default",
+		["Rigobert - Nathrezim"] = "Default",
+		["Minnegard - Nathrezim"] = "Default",
+		["Adelgunde - Nathrezim"] = "Default",
+		["Eckehard - Nathrezim"] = "Default",
+		["Manfred - Nathrezim"] = "Default",
+		["Dankrun - Nathrezim"] = "Default",
+		["Wendelbert - Nathrezim"] = "Default",
+		["Guntram - Nathrezim"] = "Default",
+		["Friedebrecht - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["scenario"] = true,
+					["border"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["center"] = false,
+					["highlightFocus"] = false,
+					["growUpward"] = true,
+					["trackUnit"] = "ENEMY",
+					["padding"] = 2,
+					["size"] = 40,
+					["world"] = true,
+					["cooldownCount"] = true,
+					["highlightTarget"] = true,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.45,
+					["align"] = "CENTER",
+					["ratedBattleground"] = true,
+					["showUnused"] = false,
+					["adaptive"] = false,
+					["maxIcons"] = 500,
+					["swipeAlpha"] = 0.65,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
+						["yOfs"] = -230.8727111816406,
+						["xOfs"] = -40.95843887329102,
+						["frameStrata"] = "MEDIUM",
+					},
+					["tooltips"] = true,
+					["arena"] = true,
+					["locked"] = true,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

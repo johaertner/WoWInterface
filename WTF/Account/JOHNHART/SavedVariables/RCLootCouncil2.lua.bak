@@ -1,0 +1,106 @@
+
+RCLootCouncilDB = {
+	["global"] = {
+		["localizedSubTypes"] = {
+			["Bogen"] = "Bows",
+			["Einhandschwerter"] = "One-Handed Swords",
+			["Einhandäxte"] = "One-Handed Axes",
+			["Einhandstreitkolben"] = "One-Handed Maces",
+			["Zweihandschwerter"] = "Two-Handed Swords",
+			["Armbrüste"] = "Crossbows",
+			["Platte"] = "Plate",
+			["Schusswaffen"] = "Guns",
+			["Leder"] = "Leather",
+			["Dolche"] = "Daggers",
+			["Zauberstäbe"] = "Wands",
+			["Zweihandäxte"] = "Two-Handed Axes",
+			["Stoff"] = "Cloth",
+			["Stäbe"] = "Staves",
+			["created"] = true,
+			["Faustwaffen"] = "Fist Weapons",
+			["Stangenwaffen"] = "Polearms",
+			["Schilde"] = "Shields",
+			["Kette"] = "Mail",
+			["Zweihandstreitkolben"] = "Two-Handed Maces",
+		},
+		["log"] = {
+			"08/23/15", -- [1]
+			"21:17:58 - ", -- [2]
+			"21:17:58 - Logged In", -- [3]
+			"21:17:58 - ML initialized!", -- [4]
+			"21:18:02 - Event: (PLAYER_ENTERING_WORLD)", -- [5]
+			"21:18:02 - GetML()", -- [6]
+			"21:18:03 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.7^t^^) (from:) (Adelgunde) (distri:) (GUILD)", -- [7]
+			"21:18:03 - GetPlayersGuildRank()", -- [8]
+			"21:18:03 - Found Guild Rank: Infernalis", -- [9]
+			"21:18:03 - Comm received: (^1^SverTestReply^T^N1^SAlissâ-Anetheron^N2^SMONK^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Alissâ-Anetheron) (distri:) (WHISPER)", -- [10]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SYødâ-Gul'dan^N2^SDRUID^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Yødâ-Gul'dan) (distri:) (WHISPER)", -- [11]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SThrilla-Anetheron^N2^SROGUE^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Thrilla-Anetheron) (distri:) (WHISPER)", -- [12]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SSedin-Anetheron^N2^SDRUID^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Sedin-Anetheron) (distri:) (WHISPER)", -- [13]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SRelas-Nathrezim^N2^SHUNTER^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Relas) (distri:) (WHISPER)", -- [14]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SSodeh-Gul'dan^N2^SDRUID^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Sodeh-Gul'dan) (distri:) (WHISPER)", -- [15]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^STaroi-Anetheron^N2^SSHAMAN^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Taroi-Anetheron) (distri:) (WHISPER)", -- [16]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SSykrâ-Nathrezim^N2^SPALADIN^N3^STrial^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Sykrâ) (distri:) (WHISPER)", -- [17]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SFlakez-Anetheron^N2^SROGUE^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Flakez-Anetheron) (distri:) (WHISPER)", -- [18]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SCasic-Anetheron^N2^SMAGE^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Casic-Anetheron) (distri:) (WHISPER)", -- [19]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SPinkspring-Anetheron^N2^SPALADIN^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Pinkspring-Anetheron) (distri:) (WHISPER)", -- [20]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SSlôwi-Anetheron^N2^SDRUID^N3^SInfernalis^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Slôwi-Anetheron) (distri:) (WHISPER)", -- [21]
+			"21:18:04 - Comm received: (^1^SverTestReply^T^N1^SCâllêy-Anetheron^N2^SMAGE^N3^SDr.~`Sommer^N4^S2.0.0^N5^SAlpha.7^t^^) (from:) (Câllêy-Anetheron) (distri:) (WHISPER)", -- [22]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [23]
+			"21:18:04 - Found One-Handed Axes localized as: Einhandäxte", -- [24]
+			"21:18:04 - Found One-Handed Swords localized as: Einhandschwerter", -- [25]
+			"21:18:04 - Found Staves localized as: Stäbe", -- [26]
+			"21:18:04 - Found Crossbows localized as: Armbrüste", -- [27]
+			"21:18:04 - Found Plate localized as: Platte", -- [28]
+			"21:18:04 - Found One-Handed Maces localized as: Einhandstreitkolben", -- [29]
+			"21:18:04 - Found Shields localized as: Schilde", -- [30]
+			"21:18:04 - Found Polearms localized as: Stangenwaffen", -- [31]
+			"21:18:04 - Found Bows localized as: Bogen", -- [32]
+			"21:18:04 - Found Two-Handed Swords localized as: Zweihandschwerter", -- [33]
+			"21:18:04 - Found Two-Handed Maces localized as: Zweihandstreitkolben", -- [34]
+			"21:18:04 - Found Leather localized as: Leder", -- [35]
+			"21:18:04 - Found Mail localized as: Kette", -- [36]
+			"21:18:04 - Found Guns localized as: Schusswaffen", -- [37]
+			"21:18:04 - Found Fist Weapons localized as: Faustwaffen", -- [38]
+			"21:18:04 - Found Cloth localized as: Stoff", -- [39]
+			"21:18:04 - Found Wands localized as: Zauberstäbe", -- [40]
+			"21:18:04 - Found Daggers localized as: Dolche", -- [41]
+			"21:18:04 - Found Two-Handed Axes localized as: Zweihandäxte", -- [42]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [43]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [44]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [45]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [46]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [47]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [48]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [49]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [50]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [51]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [52]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [53]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [54]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [55]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [56]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [57]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [58]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [59]
+			"21:18:04 - Timer LocalizeSubTypes passed", -- [60]
+			"21:19:37 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.7^t^^) (from:) (Dràko) (distri:) (GUILD)", -- [61]
+			"21:19:40 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.7^t^^) (from:) (Relas) (distri:) (GUILD)", -- [62]
+		},
+		["version"] = "2.0.0",
+		["tVersion"] = "Alpha.7",
+		["logMaxEntries"] = 1000,
+	},
+	["profileKeys"] = {
+		["Adelgunde - Nathrezim"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
+	},
+}

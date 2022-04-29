@@ -1,0 +1,15 @@
+Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 366
+Y: 150
+W: 365
+H: 240
+Frame: DBMMinimapButton
+FrameLevel: 8
+Anchor: TOPRIGHT
+X: -230
+Y: -190
+W: 32
+H: 32

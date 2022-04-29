@@ -1,0 +1,134 @@
+VER 3 0000000000000009 "10 Pull" "SPELL_NATURE_BLOODLUST"
+/dbm pull 10
+END
+VER 3 000000000000000A "3 Pull" "ABILITY_WARRIOR_DEVASTATE"
+/dbm pull 3
+END
+VER 3 0000000000000008 "5 Pull" "ABILITY_WARRIOR_CHALLANGE"
+/dbm pull 5
+END
+VER 3 000000000000001C "Bestow" "INV_MISC_QUESTIONMARK"
+#showtooltip Zuversicht verleihen
+/wirken [target=mouseover,help,nodead][]Zuversicht verleihen
+END
+VER 3 0000000000000001 "Blau" "SPELL_FROST_ARCTICWINDS"
+/target Verjüngender Pilz
+END
+VER 3 0000000000000016 "BoL" "236247"
+#showtooltip Flamme des Glaubens
+/wirken [target=mouseover,help,nodead][]Flamme des Glaubens
+END
+VER 3 000000000000001A "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip Segen des Schutzes
+/wirken [target=mouseover,help,nodead][]Segen des Schutzes
+END
+VER 3 0000000000000022 "BOP Goliath" "INV_MISC_QUESTIONMARK"
+#showtooltip Segen des Schutzes
+/target Goliath der Steinlegion
+/target targettarget
+/cast Segen des Schutzes
+/targetlasttarget
+END
+VER 3 0000000000000005 "BOP Slowi" "SPELL_ARCANE_STUDENTOFMAGIC"
+/target Slôwi
+/cast Hand des Schutzes
+/target lasttarget
+END
+VER 3 0000000000000006 "BOP Target" "SPELL_NATURE_SWIFTNESS"
+/target Adelgunde
+/cast Gottesschild
+/target lasttarget
+END
+VER 3 000000000000001B "BoS" "INV_MISC_QUESTIONMARK"
+#showtooltip Segen der Aufopferung
+/stopcasting
+/cast [@mouseover] Segen der Aufopferung
+END
+VER 3 000000000000001D "CS" "135891"
+#showtooltip Kreuzfahrerstoß
+/cast [harm] Kreuzfahrerstoß
+/stopmacro [harm]
+/targetenemy
+/cast Kreuzfahrerstoß
+END
+VER 3 000000000000001E "Focus Mouseover" "133040"
+/focus [@mouseover]
+END
+VER 3 0000000000000018 "Freedom" "135968"
+#showtooltip Segen der Freiheit
+/wirken [target=mouseover,help,nodead][]Segen der Freiheit
+END
+VER 3 0000000000000023 "Freedom Self" "236254"
+#showtooltip Segen der Freiheit
+/target Adelgunde
+/wirken Segen der Freiheit
+END
+VER 3 0000000000000020 "Glockenschlag" "3565448"
+#showtooltip Göttlicher Glockenschlag(Kyrianer)
+/wirken Herrschaft des Gesetzes
+/wirken [target=mouseover,help,nodead][]Göttlicher Glockenschlag(Kyrianer)
+END
+VER 3 0000000000000021 "Hammer des Zorns" "INV_MISC_QUESTIONMARK"
+#showtooltip Hammer des Zorns
+/cast [harm] Hammer des Zorns
+/stopmacro [harm]
+/targetenemy
+/cast Richturteil
+END
+VER 3 0000000000000014 "Heiliger Schock" "INV_MISC_QUESTIONMARK"
+#showtooltip Heiliger Schock
+/wirken [target=mouseover,help,nodead][] Heiliger Schock
+END
+VER 3 0000000000000013 "Heiliges Licht" "INV_MISC_QUESTIONMARK"
+#showtooltip Heiliges Licht
+/wirken [target=mouseover,help,nodead][]Heiliges Licht
+END
+VER 3 0000000000000010 "Inner Ursa" "136103"
+/w Ursarus-Gul'Dan Anregen! Anregen! Anregen!
+/w Ursarus-Gul'Dan Anregen! Anregen! Anregen!
+END
+VER 3 000000000000000F "Inner Vivo" "1033183"
+/w Womblez Anregen! Anregen! Anregen!
+/w Womblez Anregen! Anregen! Anregen!
+END
+VER 3 000000000000000E "InnerFrellur" "132152"
+/w Frellur-Rajaxx  Anregen! Anregen! Anregen!
+/w Frellur-Rajaxx Anregen! Anregen! Anregen!
+END
+VER 3 000000000000000D "Judge General" "135959"
+#showtooltip Richturteil
+/cast [harm] Richturteil
+/stopmacro [harm]
+/targetenemy
+/cast Richturteil
+END
+VER 3 0000000000000012 "Lichtblitz" "135907"
+#showtooltipLichtblitz
+/wirken [target=mouseover,help,nodead][]Lichtblitz
+END
+VER 3 0000000000000019 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Handauflegung
+/stopcasting
+/cast [@mouseover] Handauflegung
+END
+VER 3 0000000000000015 "LoM" "INV_MISC_QUESTIONMARK"
+#showtooltip Licht des Märtyrers
+/wirken [target=mouseover,help,nodead][]Licht des Märtyrers
+END
+VER 3 0000000000000017 "Läuterung" "INV_MISC_QUESTIONMARK"
+#showtooltip Läuterung
+/wirken [target=mouseover,help,nodead][]Läuterung
+END
+VER 3 0000000000000024 "Roh" "135754"
+/run C_ChatInfo.SendAddonMessage("RELOE_AFFINITY", "nilcheck", "RAID")
+END
+VER 3 000000000000001F "WoG" "INV_MISC_QUESTIONMARK"
+#showtooltip Wort der Herrlichkeit
+/wirken [target=mouseover,help,nodead][]Wort der Herrlichkeit
+END
+VER 3 000000000000000B "Zorn +Trinket" "135875"
+#showtooltip Zornige Vergeltung
+/wirken Herrschaft des Gesetzes
+/use 14
+/cast Zornige Vergeltung
+END

@@ -1,0 +1,71 @@
+
+MasterPlanAG = {
+	["Azshara"] = {
+		["Kudgy"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Horde",
+		},
+	},
+	["Malfurion"] = {
+		["Kudgy"] = {
+			["faction"] = "Horde",
+			["class"] = "PALADIN",
+		},
+	},
+	["Nathrezim"] = {
+		["Friedebrecht"] = {
+			["class"] = "MONK",
+			["lastCacheTime"] = 1445796045,
+			["summary"] = {
+				["inProgress"] = {
+					[177] = 1448999581,
+					[127] = 1449011278,
+				},
+			},
+			["faction"] = "Horde",
+		},
+		["Eckehard"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+		["Wenzelaus"] = {
+			["lastCacheTime"] = 1445795961,
+			["class"] = "PRIEST",
+			["summary"] = {
+				["inProgress"] = {
+					[177] = 1448999543,
+					[176] = 1448999546,
+					[211] = 1449000214,
+					[360] = 1449014841,
+				},
+			},
+			["faction"] = "Horde",
+		},
+		["Adelgunde"] = {
+			["summary"] = {
+				["tt2"] = 1468784448,
+				["tt3"] = 1468781508,
+				["ti1"] = 118531,
+				["tt1"] = 1468359351,
+				["ti3"] = 127855,
+				["inProgress"] = {
+					[392] = 1468974914,
+					[539] = 1469017416,
+					[306] = 1468981393,
+					[384] = 1468967711,
+					[455] = 1468982108,
+					[519] = 1468955127,
+					[394] = 1468982118,
+					[176] = 1468955298,
+				},
+				["ti2"] = 122486,
+			},
+			["faction"] = "Horde",
+			["cacheSize"] = 1000,
+			["class"] = "PALADIN",
+			["lastCacheTime"] = 1467463204,
+		},
+		["Rigobert"] = {
+		},
+	},
+}

@@ -1,0 +1,4310 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 24,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 2200,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.004644,
+							["total"] = 305.004644,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rohnkor"] = 305,
+							},
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["spec"] = 265,
+							["colocacao"] = 1,
+							["aID"] = "1104-07CE3AF5",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 238.004644,
+							["friendlyfire"] = {
+							},
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1606148023,
+							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[980] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 71,
+										["targets"] = {
+											["Rohnkor"] = 71,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 71,
+										["n_min"] = 71,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 71,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 980,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[316099] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 167,
+										["targets"] = {
+											["Rohnkor"] = 167,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 167,
+										["n_min"] = 167,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 167,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 316099,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1104-07CE3AF5",
+							["last_dps"] = 267.3134478656339,
+							["custom"] = 0,
+							["last_event"] = 1606148023,
+							["damage_taken"] = 0.004644,
+							["start_time"] = 1606148022,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001244,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rohnkor"] = 67,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 67.001244,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 67.001244,
+							["aID"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 67,
+										["targets"] = {
+											["Rohnkor"] = 67,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 67,
+										["n_min"] = 67,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 67,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1606148023,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001244,
+							["start_time"] = 1606148022,
+							["delay"] = 0,
+							["last_event"] = 1606148022,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007173,
+							["damage_from"] = {
+								["Mezztaz <Dankrun>"] = true,
+								["Dankrun"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["aID"] = "128930",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007173,
+							["fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1606148023,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rohnkor",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["total"] = 0.007173,
+							["serial"] = "Creature-0-3773-1642-10308-128930-00003BDDF0",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 305.007173,
+							["start_time"] = 1606148023,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2200,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Mezztaz <Dankrun>"] = 28,
+							},
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["iniciar_hps"] = true,
+							["aID"] = "1104-07CE3AF5",
+							["totalover"] = 28.007454,
+							["total_without_pet"] = 285.007454,
+							["total"] = 285.007454,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = true,
+							["serial"] = "Player-1104-07CE3AF5",
+							["totalabsorb"] = 0.007454,
+							["last_hps"] = 249.7874268306094,
+							["targets"] = {
+								["Dankrun"] = 285,
+							},
+							["totalover_without_pet"] = 0.007454,
+							["healing_taken"] = 285.007454,
+							["timeMachine"] = 8,
+							["healing_from"] = {
+								["Dankrun"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Mezztaz <Dankrun>"] = 28,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Mezztaz <Dankrun>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 28,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Mezztaz <Dankrun>"] = 0,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[270661] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 57,
+										["targets"] = {
+											["Dankrun"] = 285,
+										},
+										["n_min"] = 57,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 285,
+										["c_max"] = 0,
+										["id"] = 270661,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 285,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1606148022,
+							["spec"] = 265,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "WARLOCK",
+							["totaldenied"] = 0.007454,
+							["delay"] = 1606148071,
+							["last_event"] = 1606148071,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.001177,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["targets"] = {
+							},
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["start_time"] = 1606148023,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.001177,
+							["total_without_pet"] = 0.001177,
+							["totalover_without_pet"] = 0.001177,
+							["healing_taken"] = 0.001177,
+							["end_time"] = 1606148023,
+							["total"] = 0.001177,
+							["classe"] = "PET",
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["targets_absorbs"] = {
+							},
+							["aID"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["heal_enemy"] = {
+							},
+							["serial"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.001177,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2200,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2200,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[980] = {
+										["activedamt"] = -1,
+										["id"] = 980,
+										["targets"] = {
+										},
+										["actived_at"] = 1606148022,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[297871] = {
+										["activedamt"] = 0,
+										["id"] = 297871,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[264408] = {
+										["activedamt"] = 1,
+										["id"] = 264408,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[302797] = {
+										["activedamt"] = 1,
+										["id"] = 302797,
+										["targets"] = {
+										},
+										["actived_at"] = 1606148023,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Dankrun",
+							["spec"] = 265,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1606148023,
+							["pets"] = {
+							},
+							["aID"] = "1104-07CE3AF5",
+							["serial"] = "Player-1104-07CE3AF5",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2200,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dankrun"] = true,
+				},
+				["tempo_start"] = 1606148022,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rohnkor",
+				["combat_counter"] = 4750,
+				["totals"] = {
+					304.998823, -- [1]
+					284.9827650000005, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Dankrun"] = {
+						{
+							false, -- [1]
+							270661, -- [2]
+							57, -- [3]
+							1606148058.91, -- [4]
+							8647, -- [5]
+							"Dankrun", -- [6]
+							nil, -- [7]
+							0, -- [8]
+						}, -- [1]
+						{
+							false, -- [1]
+							270661, -- [2]
+							57, -- [3]
+							1606148061.499, -- [4]
+							8800, -- [5]
+							"Dankrun", -- [6]
+							nil, -- [7]
+							0, -- [8]
+						}, -- [2]
+						{
+							false, -- [1]
+							270661, -- [2]
+							57, -- [3]
+							1606148064.651, -- [4]
+							8953, -- [5]
+							"Dankrun", -- [6]
+							nil, -- [7]
+							0, -- [8]
+						}, -- [3]
+						{
+							false, -- [1]
+							270661, -- [2]
+							57, -- [3]
+							1606148067.587, -- [4]
+							9202, -- [5]
+							"Dankrun", -- [6]
+							nil, -- [7]
+							0, -- [8]
+						}, -- [4]
+						{
+							false, -- [1]
+							270661, -- [2]
+							57, -- [3]
+							1606148070.521, -- [4]
+							9354, -- [5]
+							"Dankrun", -- [6]
+							nil, -- [7]
+							0, -- [8]
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 6,
+					},
+				},
+				["instance_type"] = "none",
+				["frags_need_refresh"] = false,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "17:13:43",
+				["end_time"] = 942551.625,
+				["combat_id"] = 2200,
+				["cleu_timeline"] = {
+				},
+				["totals_grupo"] = {
+					238, -- [1]
+					285, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Dankrun"] = 0.007454,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Dankrun"] = 305.004644,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+				},
+				["data_fim"] = "17:13:44",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 942550.484,
+				["contra"] = "Rohnkor",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 2199,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003758,
+							["damage_from"] = {
+								["Rohnkor"] = true,
+								["Dankrun"] = true,
+								["Mala'kili"] = true,
+							},
+							["targets"] = {
+								["Rohnkor"] = 14486,
+							},
+							["end_time"] = 1606148021,
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 5777,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12216.003758,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+								["Dankrun"] = {
+									["spells"] = {
+										[111400] = 5777,
+									},
+									["total"] = 5777,
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 14486.003758,
+							["classe"] = "WARLOCK",
+							["aID"] = "1104-07CE3AF5",
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[63106] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 230,
+										["g_amt"] = 0,
+										["n_max"] = 140,
+										["targets"] = {
+											["Rohnkor"] = 1424,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1194,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 1424,
+										["c_max"] = 230,
+										["spellschool"] = 32,
+										["id"] = 63106,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 230,
+									},
+									[316099] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 737,
+										["g_amt"] = 0,
+										["n_max"] = 228,
+										["targets"] = {
+											["Rohnkor"] = 3432,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2695,
+										["n_min"] = 168,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 3432,
+										["c_max"] = 373,
+										["spellschool"] = 32,
+										["id"] = 316099,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["r_amt"] = 0,
+										["c_min"] = 364,
+									},
+									[146739] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 185,
+										["g_amt"] = 0,
+										["n_max"] = 106,
+										["targets"] = {
+											["Rohnkor"] = 1494,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1309,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 1494,
+										["c_max"] = 185,
+										["spellschool"] = 32,
+										["id"] = 146739,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 185,
+									},
+									[324540] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1024,
+										["targets"] = {
+											["Rohnkor"] = 2048,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2048,
+										["n_min"] = 1024,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2048,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 324540,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[198590] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 288,
+										["g_amt"] = 0,
+										["n_max"] = 277,
+										["targets"] = {
+											["Rohnkor"] = 1507,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1219,
+										["n_min"] = 127,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1507,
+										["c_max"] = 288,
+										["spellschool"] = 32,
+										["id"] = 198590,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 288,
+									},
+									[980] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 1395,
+										["g_amt"] = 0,
+										["n_max"] = 123,
+										["targets"] = {
+											["Rohnkor"] = 2311,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 916,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 2311,
+										["c_max"] = 245,
+										["spellschool"] = 32,
+										["id"] = 980,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 265,
+							["serial"] = "Player-1104-07CE3AF5",
+							["last_dps"] = 428.8464358908926,
+							["custom"] = 0,
+							["last_event"] = 1606148021,
+							["damage_taken"] = 11320.003758,
+							["start_time"] = 1606147988,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 34.007768,
+							["total"] = 4215.007768,
+							["damage_from"] = {
+								["Mezztaz <Dankrun>"] = true,
+								["Dankrun"] = true,
+							},
+							["targets"] = {
+								["Dankrun"] = 3732,
+								["Mezztaz <Dankrun>"] = 483,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "128930",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4215.007768,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1606148021,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Rohnkor",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 459,
+										["g_amt"] = 0,
+										["n_max"] = 274,
+										["targets"] = {
+											["Dankrun"] = 2269,
+											["Mezztaz <Dankrun>"] = 437,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2247,
+										["n_min"] = 94,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 2706,
+										["c_max"] = 459,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 2461,
+										["m_crit"] = 0,
+										["a_amt"] = 12,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 459,
+									}, -- [1]
+									[274954] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Dankrun"] = 14,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 14,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 274954,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[274952] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 274952,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[274965] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 750,
+										["targets"] = {
+											["Dankrun"] = 1449,
+											["Mezztaz <Dankrun>"] = 46,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1495,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1495,
+										["c_max"] = 0,
+										["id"] = 274965,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 718,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3773-1642-10308-128930-00003BDDF0",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606148021,
+							["damage_taken"] = 14486.007768,
+							["start_time"] = 1606147988,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004787,
+							["damage_from"] = {
+								["Rohnkor"] = true,
+							},
+							["targets"] = {
+								["Rohnkor"] = 2270,
+							},
+							["total"] = 2270.004787,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2270.004787,
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["dps_started"] = false,
+							["end_time"] = 1606148021,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 288,
+										["g_amt"] = 0,
+										["n_max"] = 74,
+										["targets"] = {
+											["Rohnkor"] = 1389,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1101,
+										["n_min"] = 62,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 1389,
+										["c_max"] = 149,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 139,
+									}, -- [1]
+									[3716] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Rohnkor"] = 881,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 881,
+										["n_min"] = 39,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 881,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 3716,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[17735] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Rohnkor"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["IMMUNE"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 17735,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606148021,
+							["damage_taken"] = 483.004787,
+							["start_time"] = 1606147988,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005408,
+							["total"] = 1811.005408,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Dankrun"] = 1811,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "128935",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1811.005408,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1606148021,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Mala'kili",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[260136] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 136,
+										["targets"] = {
+											["Dankrun"] = 1565,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1565,
+										["n_min"] = 101,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 1565,
+										["c_max"] = 0,
+										["id"] = 260136,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 1299,
+										["m_crit"] = 0,
+										["a_amt"] = 11,
+										["m_amt"] = 0,
+										["successful_casted"] = 14,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[274971] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 134,
+										["targets"] = {
+											["Dankrun"] = 246,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 246,
+										["n_min"] = 112,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 246,
+										["c_max"] = 0,
+										["id"] = 274971,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 112,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3773-1642-10308-128935-00003BDDEF",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606148021,
+							["damage_taken"] = 0.005408,
+							["start_time"] = 1606147990,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2199,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Mezztaz <Dankrun>"] = 2,
+								["Dankrun"] = 8,
+							},
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1104-07CE3AF5",
+							["totalover"] = 10.007831,
+							["total_without_pet"] = 3892.007831,
+							["total"] = 3892.007831,
+							["targets_absorbs"] = {
+								["Mezztaz <Dankrun>"] = 110,
+								["Dankrun"] = 882,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1104-07CE3AF5",
+							["totalabsorb"] = 992.007831,
+							["last_hps"] = 115.2197469134326,
+							["targets"] = {
+								["Mezztaz <Dankrun>"] = 110,
+								["Dankrun"] = 3782,
+							},
+							["totalover_without_pet"] = 0.007831,
+							["healing_taken"] = 3782.007831,
+							["fight_component"] = true,
+							["end_time"] = 1606148021,
+							["healing_from"] = {
+								["Dankrun"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 992,
+										["targets_overheal"] = {
+											["Mezztaz <Dankrun>"] = 2,
+											["Dankrun"] = 8,
+										},
+										["n_max"] = 81,
+										["targets"] = {
+											["Mezztaz <Dankrun>"] = 110,
+											["Dankrun"] = 882,
+										},
+										["n_min"] = 0,
+										["counter"] = 38,
+										["overheal"] = 10,
+										["total"] = 992,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Mezztaz <Dankrun>"] = 110,
+											["Dankrun"] = 882,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 992,
+										["n_amt"] = 38,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[63106] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 69,
+										["targets"] = {
+											["Dankrun"] = 423,
+										},
+										["n_min"] = 3,
+										["counter"] = 12,
+										["overheal"] = 0,
+										["total"] = 423,
+										["c_max"] = 0,
+										["id"] = 63106,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 423,
+										["n_amt"] = 12,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[6262] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2477,
+										["targets"] = {
+											["Dankrun"] = 2477,
+										},
+										["n_min"] = 2477,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 2477,
+										["c_max"] = 0,
+										["id"] = 6262,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2477,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1606147989,
+							["spec"] = 265,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "WARLOCK",
+							["totaldenied"] = 0.007831,
+							["delay"] = 0,
+							["last_event"] = 1606148021,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004183,
+							["total_without_pet"] = 0.004183,
+							["total"] = 0.004183,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["totalabsorb"] = 0.004183,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004183,
+							["healing_taken"] = 110.004183,
+							["fight_component"] = true,
+							["end_time"] = 1606148021,
+							["healing_from"] = {
+								["Dankrun"] = true,
+							},
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["start_time"] = 1606148021,
+							["classe"] = "PET",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["totaldenied"] = 0.004183,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2199,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.005769,
+							["resource"] = 4.005769,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1104-07CE3AF5",
+							["passiveover"] = 0.005769,
+							["fight_component"] = true,
+							["total"] = 0.005769,
+							["resource_type"] = 7,
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 265,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.005769,
+							["last_event"] = 1606148019,
+							["classe"] = "WARLOCK",
+							["tipo"] = 3,
+							["serial"] = "Player-1104-07CE3AF5",
+							["totalover"] = 0.005769,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2199,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[63106] = {
+										["activedamt"] = 0,
+										["id"] = 63106,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[316099] = {
+										["activedamt"] = 1,
+										["id"] = 316099,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[146739] = {
+										["activedamt"] = 0,
+										["id"] = 146739,
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198590] = {
+										["activedamt"] = 0,
+										["id"] = 198590,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[980] = {
+										["activedamt"] = 0,
+										["id"] = 980,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 0,
+										["refreshamt"] = 8,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 174,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[264408] = {
+										["activedamt"] = 1,
+										["id"] = 264408,
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[268609] = {
+										["activedamt"] = 2,
+										["id"] = 268609,
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[280713] = {
+										["activedamt"] = 1,
+										["id"] = 280713,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["activedamt"] = 21,
+										["id"] = 108366,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 21,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274430] = {
+										["activedamt"] = 1,
+										["id"] = 274430,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[272893] = {
+										["activedamt"] = 2,
+										["id"] = 272893,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227041] = {
+										["activedamt"] = 1,
+										["id"] = 227041,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[111400] = {
+										["activedamt"] = 1,
+										["id"] = 111400,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274431] = {
+										["activedamt"] = 1,
+										["id"] = 274431,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[270661] = {
+										["activedamt"] = 4,
+										["id"] = 270661,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 126,
+							["nome"] = "Dankrun",
+							["spec"] = 265,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[119907] = 1,
+								[63106] = 2,
+								[316099] = 2,
+								[172] = 2,
+								[324536] = 2,
+								[6262] = 1,
+								[111400] = 1,
+								[198590] = 4,
+								[980] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1606148021,
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["aID"] = "1104-07CE3AF5",
+							["serial"] = "Player-1104-07CE3AF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Mala'kili",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[260136] = 14,
+								[274971] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3773-1642-10308-128935-00003BDDEF",
+							["aID"] = "128935",
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["aID"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[17735] = 1,
+								[112042] = 1,
+								[3716] = 20,
+							},
+							["tipo"] = 4,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3773-1642-10308-1860-050284AFB2",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Rohnkor",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[274965] = 2,
+								[274952] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3773-1642-10308-128930-00003BDDF0",
+							["aID"] = "128930",
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2199,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dankrun"] = true,
+				},
+				["tempo_start"] = 1606147988,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["TotalElapsedCombatTime"] = 942549.9670000001,
+				["enemy"] = "Rohnkor",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					20512, -- [1]
+					3892, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					17993, -- [1]
+					3892, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								111400, -- [2]
+								340, -- [3]
+								1606148012.024, -- [4]
+								1773, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								true, -- [1]
+								111400, -- [2]
+								340, -- [3]
+								1606148013.025, -- [4]
+								1433, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								1, -- [2]
+								243, -- [3]
+								1606148013.209, -- [4]
+								1433, -- [5]
+								"Rohnkor", -- [6]
+								56, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								false, -- [1]
+								108366, -- [2]
+								56, -- [3]
+								1606148013.209, -- [4]
+								1433, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								false, -- [1]
+								63106, -- [2]
+								34, -- [3]
+								1606148013.209, -- [4]
+								1280, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [5]
+							{
+								false, -- [1]
+								108366, -- [2]
+								31, -- [3]
+								1606148013.943, -- [4]
+								1280, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [6]
+							{
+								true, -- [1]
+								260136, -- [2]
+								124, -- [3]
+								1606148013.943, -- [4]
+								1187, -- [5]
+								"Mala'kili", -- [6]
+								31, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [7]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1606148013.943, -- [4]
+								1187, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [8]
+							{
+								true, -- [1]
+								111400, -- [2]
+								340, -- [3]
+								1606148014.076, -- [4]
+								847, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [9]
+							{
+								true, -- [1]
+								1, -- [2]
+								193, -- [3]
+								1606148014.693, -- [4]
+								847, -- [5]
+								"Rohnkor", -- [6]
+								48, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [10]
+							{
+								false, -- [1]
+								108366, -- [2]
+								48, -- [3]
+								1606148014.693, -- [4]
+								847, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+							}, -- [11]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1606148014.693, -- [4]
+								847, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [12]
+							{
+								true, -- [1]
+								111400, -- [2]
+								339, -- [3]
+								1606148015.094, -- [4]
+								363, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [13]
+							{
+								false, -- [1]
+								63106, -- [2]
+								69, -- [3]
+								1606148015.961, -- [4]
+								432, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [14]
+							{
+								true, -- [1]
+								1, -- [2]
+								202, -- [3]
+								1606148016.245, -- [4]
+								432, -- [5]
+								"Rohnkor", -- [6]
+								18, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [15]
+							{
+								false, -- [1]
+								108366, -- [2]
+								18, -- [3]
+								1606148016.245, -- [4]
+								432, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [16]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1606148016.245, -- [4]
+								432, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [17]
+							{
+								false, -- [1]
+								108366, -- [2]
+								81, -- [3]
+								1606148016.945, -- [4]
+								248, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+							}, -- [18]
+							{
+								true, -- [1]
+								260136, -- [2]
+								125, -- [3]
+								1606148016.945, -- [4]
+								204, -- [5]
+								"Mala'kili", -- [6]
+								81, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [19]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1606148016.945, -- [4]
+								204, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [20]
+							{
+								false, -- [1]
+								63106, -- [2]
+								30, -- [3]
+								1606148018.696, -- [4]
+								234, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [21]
+							{
+								4, -- [1]
+								274971, -- [2]
+								1, -- [3]
+								1606148018.964, -- [4]
+								234, -- [5]
+								"Mala'kili", -- [6]
+								false, -- [7]
+								false, -- [8]
+								false, -- [9]
+								false, -- [10]
+							}, -- [22]
+							{
+								false, -- [1]
+								108366, -- [2]
+								63, -- [3]
+								1606148018.964, -- [4]
+								234, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [23]
+							{
+								true, -- [1]
+								274971, -- [2]
+								112, -- [3]
+								1606148018.964, -- [4]
+								185, -- [5]
+								"Mala'kili", -- [6]
+								63, -- [7]
+								40, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [24]
+							{
+								false, -- [1]
+								63106, -- [2]
+								3, -- [3]
+								1606148018.964, -- [4]
+								188, -- [5]
+								"Dankrun", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [25]
+							{
+								false, -- [1]
+								108366, -- [2]
+								7, -- [3]
+								1606148020.848, -- [4]
+								188, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [26]
+							{
+								true, -- [1]
+								274954, -- [2]
+								7, -- [3]
+								1606148020.848, -- [4]
+								188, -- [5]
+								"Rohnkor", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [27]
+							{
+								false, -- [1]
+								108366, -- [2]
+								81, -- [3]
+								1606148021.349, -- [4]
+								188, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [28]
+							{
+								true, -- [1]
+								260136, -- [2]
+								108, -- [3]
+								1606148021.349, -- [4]
+								161, -- [5]
+								"Mala'kili", -- [6]
+								81, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [29]
+							{
+								true, -- [1]
+								1, -- [2]
+								274, -- [3]
+								1606148022.2, -- [4]
+								161, -- [5]
+								"Rohnkor", -- [6]
+								7, -- [7]
+								1, -- [8]
+								false, -- [9]
+								106, -- [10]
+							}, -- [30]
+							{
+								false, -- [1]
+								108366, -- [2]
+								7, -- [3]
+								1606148022.2, -- [4]
+								161, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [31]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1606148022.2, -- [4]
+								161, -- [5]
+								"Dankrun", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [32]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Dankrun", -- [6]
+							}, -- [33]
+						}, -- [1]
+						1606148022.2, -- [2]
+						"Dankrun", -- [3]
+						"WARLOCK", -- [4]
+						9400, -- [5]
+						"0m 33s", -- [6]
+						["dead_at"] = 33.77900000009686,
+						["dead"] = true,
+					}, -- [1]
+				},
+				["frags_need_refresh"] = false,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Dankrun"] = 3892.007831,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Dankrun"] = 14486.003758,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 942549.9670000001,
+				["instance_type"] = "none",
+				["combat_id"] = 2199,
+				["combat_counter"] = 4749,
+				["player_last_events"] = {
+				},
+				["CombatEndedAt"] = 942549.9670000001,
+				["spells_cast_timeline"] = {
+				},
+				["data_fim"] = "17:13:42",
+				["data_inicio"] = "17:13:09",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+				},
+				["start_time"] = 942516.188,
+				["TimeData"] = {
+				},
+				["contra"] = "Rohnkor",
+			}, -- [2]
+			{
+				{
+					["combatId"] = 2198,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.005292,
+							["damage_from"] = {
+								["Dankrun"] = true,
+								["Vollgefressener Saurolisk"] = true,
+							},
+							["targets"] = {
+								["Spitzschnabel der Flussmarschen"] = 1055,
+								["Vollgefressener Saurolisk"] = 34198,
+							},
+							["end_time"] = 1606147906,
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["friendlyfire_total"] = 3396,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 32755.005292,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+								["Dankrun"] = {
+									["spells"] = {
+										[111400] = 3396,
+									},
+									["total"] = 3396,
+								},
+							},
+							["dps_started"] = false,
+							["total"] = 35253.005292,
+							["classe"] = "WARLOCK",
+							["aID"] = "1104-07CE3AF5",
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[205179] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 307,
+										["g_amt"] = 0,
+										["n_max"] = 200,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 2946,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2639,
+										["n_min"] = 153,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 2946,
+										["c_max"] = 307,
+										["spellschool"] = 32,
+										["id"] = 205179,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 307,
+									},
+									[324540] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2371,
+										["g_amt"] = 0,
+										["n_max"] = 1117,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 4266,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1895,
+										["n_min"] = 778,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4266,
+										["c_max"] = 2371,
+										["spellschool"] = 32,
+										["id"] = 324540,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 2371,
+									},
+									[316099] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 1754,
+										["g_amt"] = 0,
+										["n_max"] = 217,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 9319,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7565,
+										["n_min"] = 167,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 9319,
+										["c_max"] = 406,
+										["spellschool"] = 32,
+										["id"] = 316099,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 41,
+										["r_amt"] = 0,
+										["c_min"] = 336,
+									},
+									[264106] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1355,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 1355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1355,
+										["n_min"] = 1355,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1355,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 264106,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[980] = {
+										["c_amt"] = 14,
+										["b_amt"] = 0,
+										["c_dmg"] = 2392,
+										["g_amt"] = 0,
+										["n_max"] = 117,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 5818,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3426,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 50,
+										["total"] = 5818,
+										["c_max"] = 219,
+										["spellschool"] = 32,
+										["id"] = 980,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 36,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+									[205246] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 154,
+										["targets"] = {
+											["Spitzschnabel der Flussmarschen"] = 460,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 460,
+										["n_min"] = 153,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 460,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 205246,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 588,
+										["g_amt"] = 0,
+										["n_max"] = 83,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 1108,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 520,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 1108,
+										["c_max"] = 166,
+										["spellschool"] = 32,
+										["id"] = 234153,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 136,
+									},
+									[198590] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 509,
+										["g_amt"] = 0,
+										["n_max"] = 139,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 2625,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2116,
+										["n_min"] = 127,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 2625,
+										["c_max"] = 255,
+										["spellschool"] = 32,
+										["id"] = 198590,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 254,
+									},
+									[146739] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 385,
+										["g_amt"] = 0,
+										["n_max"] = 115,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 4858,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4473,
+										["n_min"] = 87,
+										["g_dmg"] = 0,
+										["counter"] = 49,
+										["total"] = 4858,
+										["c_max"] = 193,
+										["spellschool"] = 32,
+										["id"] = 146739,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 47,
+										["r_amt"] = 0,
+										["c_min"] = 192,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 265,
+							["serial"] = "Player-1104-07CE3AF5",
+							["last_dps"] = 397.1811587911827,
+							["custom"] = 0,
+							["last_event"] = 1606147904,
+							["damage_taken"] = 18222.005292,
+							["start_time"] = 1606147815,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.002942,
+							["damage_from"] = {
+								["Vollgefressener Saurolisk"] = true,
+								["Spitzschnabel der Flussmarschen"] = true,
+							},
+							["targets"] = {
+								["Spitzschnabel der Flussmarschen"] = 595,
+								["Vollgefressener Saurolisk"] = 1903,
+							},
+							["total"] = 2498.002942,
+							["pets"] = {
+							},
+							["aID"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2498.002942,
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["dps_started"] = false,
+							["end_time"] = 1606147906,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 245,
+										["g_amt"] = 0,
+										["n_max"] = 67,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 1189,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 944,
+										["n_min"] = 61,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 1189,
+										["c_max"] = 123,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 122,
+									}, -- [1]
+									[3716] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 43,
+										["targets"] = {
+											["Spitzschnabel der Flussmarschen"] = 595,
+											["Vollgefressener Saurolisk"] = 714,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1309,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 33,
+										["total"] = 1309,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 3716,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 33,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606147851,
+							["damage_taken"] = 8194.002942,
+							["start_time"] = 1606147869,
+							["delay"] = 1606147851,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 909.006072,
+							["damage_from"] = {
+								["Mezztaz <Dankrun>"] = true,
+								["Dankrun"] = true,
+							},
+							["targets"] = {
+								["Mezztaz <Dankrun>"] = 5984,
+								["Dankrun"] = 14826,
+							},
+							["serial"] = "Vehicle-0-3773-1642-10308-124375-00003BDD98",
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20810.006072,
+							["fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1606147906,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Vollgefressener Saurolisk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 870,
+										["g_amt"] = 0,
+										["n_max"] = 514,
+										["targets"] = {
+											["Dankrun"] = 12226,
+											["Mezztaz <Dankrun>"] = 4844,
+											["Mezztaz"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16200,
+										["n_min"] = 200,
+										["g_dmg"] = 0,
+										["counter"] = 52,
+										["MISS"] = 5,
+										["total"] = 17070,
+										["c_max"] = 870,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 13869,
+										["m_crit"] = 0,
+										["a_amt"] = 36,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 46,
+										["r_amt"] = 0,
+										["c_min"] = 870,
+									}, -- [1]
+									[260614] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 262,
+										["targets"] = {
+											["Mezztaz <Dankrun>"] = 1140,
+											["Dankrun"] = 2600,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3740,
+										["n_min"] = 87,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 3740,
+										["c_max"] = 0,
+										["id"] = 260614,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 1816,
+										["m_crit"] = 0,
+										["a_amt"] = 13,
+										["m_amt"] = 0,
+										["successful_casted"] = 6,
+										["b_dmg"] = 0,
+										["n_amt"] = 25,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[260615] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 260615,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[247081] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 247081,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 20810.006072,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606147904,
+							["damage_taken"] = 34198.006072,
+							["start_time"] = 1606147815,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008073,
+							["damage_from"] = {
+								["Mezztaz <Dankrun>"] = true,
+								["Dankrun"] = true,
+							},
+							["targets"] = {
+								["Mezztaz <Dankrun>"] = 2210,
+							},
+							["pets"] = {
+							},
+							["total"] = 2210.008073,
+							["aID"] = "130224",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2210.008073,
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1606147906,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Spitzschnabel der Flussmarschen",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Mezztaz <Dankrun>"] = 2210,
+											["Mezztaz"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2210,
+										["n_min"] = 124,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["MISS"] = 1,
+										["total"] = 2210,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 970,
+										["m_crit"] = 0,
+										["a_amt"] = 7,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3773-1642-10308-130224-00003BDC56",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1606147846,
+							["damage_taken"] = 1055.008073,
+							["start_time"] = 1606147874,
+							["delay"] = 1606147846,
+							["tipo"] = 1,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2198,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Mezztaz <Dankrun>"] = 17,
+								["Dankrun"] = 18,
+							},
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1104-07CE3AF5",
+							["totalover"] = 35.004676,
+							["total_without_pet"] = 12276.004676,
+							["total"] = 12276.004676,
+							["targets_absorbs"] = {
+								["Mezztaz <Dankrun>"] = 856,
+								["Dankrun"] = 1958,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1104-07CE3AF5",
+							["totalabsorb"] = 2814.004676,
+							["last_hps"] = 137.3800294993059,
+							["targets"] = {
+								["Mezztaz <Dankrun>"] = 856,
+								["Dankrun"] = 11420,
+							},
+							["totalover_without_pet"] = 0.004676,
+							["healing_taken"] = 11420.004676,
+							["fight_component"] = true,
+							["end_time"] = 1606147906,
+							["healing_from"] = {
+								["Dankrun"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[205179] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 76,
+										["targets"] = {
+											["Dankrun"] = 686,
+										},
+										["n_min"] = 38,
+										["counter"] = 15,
+										["overheal"] = 0,
+										["total"] = 686,
+										["c_max"] = 0,
+										["id"] = 205179,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 686,
+										["n_amt"] = 15,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[234153] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 685,
+										["targets"] = {
+											["Dankrun"] = 3580,
+										},
+										["n_min"] = 340,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 3580,
+										["c_max"] = 0,
+										["id"] = 234153,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 3580,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[6262] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2489,
+										["targets"] = {
+											["Dankrun"] = 2489,
+										},
+										["n_min"] = 2489,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 2489,
+										["c_max"] = 0,
+										["id"] = 6262,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2489,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[108396] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1880,
+										["targets"] = {
+											["Dankrun"] = 1880,
+										},
+										["n_min"] = 1880,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1880,
+										["c_max"] = 0,
+										["id"] = 108396,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1880,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[205246] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 38,
+										["targets"] = {
+											["Dankrun"] = 79,
+										},
+										["n_min"] = 3,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 79,
+										["c_max"] = 0,
+										["id"] = 205246,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 79,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[270661] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 58,
+										["targets"] = {
+											["Dankrun"] = 58,
+										},
+										["n_min"] = 58,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 58,
+										["c_max"] = 0,
+										["id"] = 270661,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 58,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2814,
+										["targets_overheal"] = {
+											["Mezztaz <Dankrun>"] = 17,
+											["Dankrun"] = 18,
+										},
+										["n_max"] = 479,
+										["targets"] = {
+											["Mezztaz <Dankrun>"] = 856,
+											["Dankrun"] = 1958,
+										},
+										["n_min"] = 75,
+										["counter"] = 93,
+										["overheal"] = 35,
+										["total"] = 2814,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Mezztaz <Dankrun>"] = 856,
+											["Dankrun"] = 1958,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2814,
+										["n_amt"] = 93,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[269238] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 346,
+										["targets"] = {
+											["Dankrun"] = 690,
+										},
+										["n_min"] = 344,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 690,
+										["c_max"] = 0,
+										["id"] = 269238,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 690,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1606147815,
+							["spec"] = 265,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "WARLOCK",
+							["totaldenied"] = 0.004676,
+							["delay"] = 0,
+							["last_event"] = 1606147904,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007045,
+							["total_without_pet"] = 0.007045,
+							["total"] = 0.007045,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["totalabsorb"] = 0.007045,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007045,
+							["healing_taken"] = 856.0070450000001,
+							["fight_component"] = true,
+							["end_time"] = 1606147906,
+							["healing_from"] = {
+								["Dankrun"] = true,
+							},
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["start_time"] = 1606147906,
+							["classe"] = "PET",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["totaldenied"] = 0.007045,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2198,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.001625,
+							["resource"] = 8.001625,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1104-07CE3AF5",
+							["passiveover"] = 0.001625,
+							["fight_component"] = true,
+							["total"] = 0.001625,
+							["resource_type"] = 7,
+							["nome"] = "Dankrun",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 265,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001625,
+							["last_event"] = 1606147904,
+							["classe"] = "WARLOCK",
+							["tipo"] = 3,
+							["serial"] = "Player-1104-07CE3AF5",
+							["totalover"] = 0.001625,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2198,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[205179] = {
+										["activedamt"] = 0,
+										["id"] = 205179,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[980] = {
+										["activedamt"] = -1,
+										["id"] = 980,
+										["targets"] = {
+										},
+										["uptime"] = 91,
+										["appliedamt"] = 0,
+										["refreshamt"] = 8,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[316099] = {
+										["activedamt"] = 0,
+										["id"] = 316099,
+										["targets"] = {
+										},
+										["uptime"] = 83,
+										["appliedamt"] = 1,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[146739] = {
+										["activedamt"] = -1,
+										["id"] = 146739,
+										["targets"] = {
+										},
+										["actived_at"] = 1606147904,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198590] = {
+										["activedamt"] = 0,
+										["id"] = 198590,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 6,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[234153] = {
+										["activedamt"] = 0,
+										["id"] = 234153,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 4,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6789] = {
+										["activedamt"] = 0,
+										["id"] = 6789,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 453,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6789] = {
+										["id"] = 6789,
+										["targets"] = {
+											["Vollgefressener Saurolisk"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[264408] = {
+										["activedamt"] = 1,
+										["id"] = 264408,
+										["targets"] = {
+										},
+										["uptime"] = 91,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[268609] = {
+										["activedamt"] = 2,
+										["id"] = 268609,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269239] = {
+										["activedamt"] = 2,
+										["id"] = 269239,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333889] = {
+										["activedamt"] = 1,
+										["id"] = 333889,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 91,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["activedamt"] = 31,
+										["id"] = 108366,
+										["targets"] = {
+										},
+										["uptime"] = 69,
+										["appliedamt"] = 31,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274430] = {
+										["activedamt"] = 1,
+										["id"] = 274430,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[280713] = {
+										["activedamt"] = 1,
+										["id"] = 280713,
+										["targets"] = {
+										},
+										["uptime"] = 75,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[272893] = {
+										["activedamt"] = 5,
+										["id"] = 272893,
+										["targets"] = {
+										},
+										["uptime"] = 28,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[111400] = {
+										["activedamt"] = 1,
+										["id"] = 111400,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274431] = {
+										["activedamt"] = 2,
+										["id"] = 274431,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[270661] = {
+										["activedamt"] = 4,
+										["id"] = 270661,
+										["targets"] = {
+										},
+										["uptime"] = 22,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 239,
+							["cc_done_targets"] = {
+								["Vollgefressener Saurolisk"] = 1,
+							},
+							["cc_done"] = 1.006439,
+							["nome"] = "Dankrun",
+							["spec"] = 265,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[119907] = 1,
+								[205179] = 2,
+								[324536] = 3,
+								[333889] = 1,
+								[6789] = 1,
+								[264106] = 1,
+								[6262] = 1,
+								[234153] = 5,
+								[980] = 4,
+								[111400] = 1,
+								[198590] = 7,
+								[316099] = 7,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1606147906,
+							["pets"] = {
+								"Mezztaz <Dankrun>", -- [1]
+							},
+							["aID"] = "1104-07CE3AF5",
+							["serial"] = "Player-1104-07CE3AF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Dankrun",
+							["nome"] = "Mezztaz <Dankrun>",
+							["aID"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[17735] = 1,
+								[112042] = 1,
+								[3716] = 18,
+							},
+							["tipo"] = 4,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3773-1642-10308-1860-020284AFB2",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["aID"] = "",
+							["nome"] = "Vollgefressener Saurolisk",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[260614] = 6,
+								[260615] = 5,
+								[247081] = 1,
+							},
+							["monster"] = true,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["serial"] = "Vehicle-0-3773-1642-10308-124375-00003BDD98",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2198,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dankrun"] = true,
+				},
+				["CombatStartedAt"] = 942515.071,
+				["tempo_start"] = 1606147815,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Vollgefressener Saurolisk",
+				["combat_counter"] = 4748,
+				["playing_solo"] = true,
+				["totals"] = {
+					58273, -- [1]
+					12276, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 942434.287,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "17:10:16",
+				["end_time"] = 942434.287,
+				["totals_grupo"] = {
+					36151, -- [1]
+					12276, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 2198,
+				["TotalElapsedCombatTime"] = 942434.287,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Dankrun"] = 12276.004676,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Dankrun"] = 35253.005292,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Vollgefressener Saurolisk"] = 1,
+					["Spitzschnabel der Flussmarschen"] = 1,
+				},
+				["data_fim"] = "17:11:47",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 942343.711,
+				["contra"] = "Vollgefressener Saurolisk",
+				["TimeData"] = {
+				},
+			}, -- [3]
+		},
+	},
+	["combat_counter"] = 4750,
+	["character_data"] = {
+		["logons"] = 283,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+	},
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = true,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[2] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -310.9254150390625,
+					["x"] = 899.6986083984375,
+					["w"] = 278.1638488769531,
+					["h"] = 164.8588256835938,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["verticalSnap"] = true,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[4] = 1,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -477.4836120605469,
+					["x"] = 899.6986083984375,
+					["w"] = 278.1638488769531,
+					["h"] = 128.2574615478516,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1607442903,
+		["last_version"] = 12,
+	},
+	["last_instance_id"] = 1516,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Adelgunde-Nathrezim",
+	["last_realversion"] = 144,
+	["ignore_nicktag"] = false,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["author"] = "Details! Team",
+			["dps"] = 0,
+			["level"] = 1,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["last_boss"] = false,
+			["v1"] = true,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["first_run"] = true,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["deaths_threshold"] = 10,
+			["show_icon"] = 1,
+			["max_segments_for_current"] = 2,
+			["max_deaths_for_current"] = 15,
+			["last_player"] = false,
+			["InstalledAt"] = 1506795409,
+			["last_encounter_hash"] = false,
+			["showing_type"] = 4,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["last_combat_id"] = 2197,
+			["timeline_cutoff_delete_time"] = 3,
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				{
+					["name"] = "Class Damage",
+					["iType"] = "raid-DAMAGER",
+					["segment_type"] = 1,
+					["version"] = "v2.0",
+					["data"] = "PRESET_DAMAGE_SAME_CLASS",
+					["texture"] = "line",
+				}, -- [2]
+				{
+					["name"] = "Raid Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Raid Damage Done",
+					["texture"] = "line",
+				}, -- [3]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["auto_create"] = true,
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300.000061035156, -- [1]
+				500, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -6.103515625e-05,
+				["x"] = -6.103515625e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["font_size"] = 10,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = -1.52587890625e-05,
+			["use_spark"] = true,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+	},
+	["cached_talents"] = {
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "Der Arkus",
+		["started"] = false,
+		["segment_id"] = 6,
+		["ej_id"] = 726,
+		["started_at"] = 1522613681.7,
+		["run_id"] = 24,
+		["level"] = 17,
+		["dungeon_zone_id"] = 1516,
+		["previous_boss_killed_at"] = 1522615726,
+	},
+	["on_death_menu"] = true,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_version"] = "v9.0.1.7950",
+	["combat_id"] = 2200,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 1522613718,
+	["last_encounter"] = "Kin'garoth",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["tempo_start"] = 1606147815,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 4747,
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["spells_cast_timeline"] = {
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 0,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["force_font_outline"] = "",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["last_day"] = "23",
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1104-07CE3AF5"] = 265,
+		["Player-1104-053F0E3F"] = 250,
+		["Player-531-0778A661"] = 261,
+		["Player-604-09D64079"] = 105,
+	},
+}
