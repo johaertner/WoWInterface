@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0406,
+	["LastVersion"] = 2.0537,
 	["LastPlayerFullName"] = "Minnegard-Nathrezim",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

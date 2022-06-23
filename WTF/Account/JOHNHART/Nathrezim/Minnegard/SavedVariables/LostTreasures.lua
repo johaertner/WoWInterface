@@ -1,9 +1,13 @@
 
 LostTreasuresDB = {
 	["profileKeys"] = {
+		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
 		["Wenzelaus - Nathrezim"] = "Wenzelaus - Nathrezim",
 	},
 	["char"] = {
+		["Minnegard - Nathrezim"] = {
+			["VERSION"] = 3.03,
+		},
 		["Wenzelaus - Nathrezim"] = {
 			["BLOCKED_WAYPOINTS"] = {
 				[941] = {
@@ -17,9 +21,9 @@ LostTreasuresDB = {
 						["callbacks"] = {
 							["distance"] = {
 							},
-							["minimap"] = {
-							},
 							["world"] = {
+							},
+							["minimap"] = {
 							},
 						},
 						["persistent"] = false,
@@ -39,9 +43,9 @@ LostTreasuresDB = {
 						["callbacks"] = {
 							["distance"] = {
 							},
-							["minimap"] = {
-							},
 							["world"] = {
+							},
+							["minimap"] = {
 							},
 						},
 						["persistent"] = false,
@@ -63,9 +67,9 @@ LostTreasuresDB = {
 						["callbacks"] = {
 							["distance"] = {
 							},
-							["world"] = {
-							},
 							["minimap"] = {
+							},
+							["world"] = {
 							},
 						},
 						["persistent"] = false,
@@ -87,9 +91,9 @@ LostTreasuresDB = {
 						["callbacks"] = {
 							["distance"] = {
 							},
-							["world"] = {
-							},
 							["minimap"] = {
+							},
+							["world"] = {
 							},
 						},
 						["persistent"] = false,
@@ -106,50 +110,6 @@ LostTreasuresDB = {
 						0, -- [2]
 						0.797080218791962, -- [3]
 						0.495143473148346, -- [4]
-						["corpse"] = true,
-						["arrivaldistance"] = 15,
-						["callbacks"] = {
-							["distance"] = {
-							},
-							["world"] = {
-							},
-							["minimap"] = {
-							},
-						},
-						["persistent"] = false,
-						["minimap"] = true,
-						["cleardistance"] = 10,
-						["title"] = "My Corpse",
-						["crazy"] = true,
-						["world"] = true,
-					},
-					["950:0:823306441.30707:480965912.34207:My Corpse"] = {
-						950, -- [1]
-						0, -- [2]
-						0.823306441307068, -- [3]
-						0.480965912342072, -- [4]
-						["corpse"] = true,
-						["arrivaldistance"] = 15,
-						["callbacks"] = {
-							["distance"] = {
-							},
-							["world"] = {
-							},
-							["minimap"] = {
-							},
-						},
-						["persistent"] = false,
-						["minimap"] = true,
-						["cleardistance"] = 10,
-						["title"] = "My Corpse",
-						["crazy"] = true,
-						["world"] = true,
-					},
-					["950:0:789625644.68384:303667128.08609:My Corpse"] = {
-						950, -- [1]
-						0, -- [2]
-						0.789625644683838, -- [3]
-						0.30366712808609, -- [4]
 						["corpse"] = true,
 						["arrivaldistance"] = 15,
 						["callbacks"] = {
@@ -177,9 +137,53 @@ LostTreasuresDB = {
 						["callbacks"] = {
 							["distance"] = {
 							},
+							["minimap"] = {
+							},
+							["world"] = {
+							},
+						},
+						["persistent"] = false,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "My Corpse",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					["950:0:789625644.68384:303667128.08609:My Corpse"] = {
+						950, -- [1]
+						0, -- [2]
+						0.789625644683838, -- [3]
+						0.30366712808609, -- [4]
+						["corpse"] = true,
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
 							["world"] = {
 							},
 							["minimap"] = {
+							},
+						},
+						["persistent"] = false,
+						["minimap"] = true,
+						["cleardistance"] = 10,
+						["title"] = "My Corpse",
+						["crazy"] = true,
+						["world"] = true,
+					},
+					["950:0:823306441.30707:480965912.34207:My Corpse"] = {
+						950, -- [1]
+						0, -- [2]
+						0.823306441307068, -- [3]
+						0.480965912342072, -- [4]
+						["corpse"] = true,
+						["arrivaldistance"] = 15,
+						["callbacks"] = {
+							["distance"] = {
+							},
+							["minimap"] = {
+							},
+							["world"] = {
 							},
 						},
 						["persistent"] = false,

@@ -304,6 +304,16 @@ function _detalhes:GetSkinTexture()
 	return _detalhes.skins [self.skin] and _detalhes.skins [self.skin].file
 end
 
+function Details:GetAllLines()
+	return self.barras
+end
+function Details:GetLine(lineId) --alias of _detalhes:GetRow(index)
+	return self.barras[lineId]
+end
+function Details:GetNumLinesShown() --alis of _detalhes:GetNumRows()
+	return self.rows_fit_in_window
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 
 --> retorna se a inst�ncia esta ou n�o ativa
@@ -2149,6 +2159,7 @@ function _detalhes:TrocaTabela (instancia, segmento, atributo, sub_atributo, ini
 		instancia = self
 	end
 
+	--Details:GetWindow(1):SetDisplay(DETAILS_SEGMENTID_CURRENT, 1, 1, false, DETAILS_MODE_GROUP) InstanceMode is nil on this example
 	if (InstanceMode and InstanceMode ~= instancia:GetMode()) then
 		instancia:AlteraModo (instancia, InstanceMode)
 	end

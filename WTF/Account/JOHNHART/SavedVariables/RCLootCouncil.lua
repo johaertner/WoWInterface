@@ -32,2006 +32,2006 @@ RCLootCouncilDB = {
 	},
 	["global"] = {
 		["log"] = {
-			"<20:46:20> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Pouked-Gul'dan", -- [1]
-			"<20:46:21> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189793::::::::60:257::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167:::::|h[Sash~`of~`the~`Silent~`Sonata]|h|r^N2^S181224^t^^	RAID	Cascadá-Gul'dan", -- [2]
-			"<20:46:21> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189791::::::::60:72::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Tuch~`der~`Klagelieder]|h|r^N2^S181224^t^^	RAID	Munstar-Gul'dan", -- [3]
-			"<20:46:22> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Lidocain-Nathrezim", -- [4]
-			"<20:46:22> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Lidocain-Nathrezim", -- [5]
-			"<20:46:22> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189784::::::::60:261::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Epaulets~`of~`the~`Ailing~`Aria]|h|r^N2^S181224^t^^	RAID	Pouked-Gul'dan", -- [6]
-			"<20:46:23> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Trîâlbôdy-Anetheron", -- [7]
-			"<20:46:23> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Trîâlbôdy-Anetheron", -- [8]
-			"<20:46:25> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S189784:::::::::::6:6:7187:8132:8117:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SPouked-Gul'dan^Sboss^SDausegne,~`the~`Fallen~`Oracle^t^N2^T^Sstring^S189793:::::::::::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SCascadá-Gul'dan^Sboss^SDausegne,~`the~`Fallen~`Oracle^t^N3^T^Sstring^S189791:::::::::::6:6:7187:8132:8138:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SMunstar-Gul'dan^Sboss^SDausegne,~`the~`Fallen~`Oracle^t^t^t^^	RAID	Ursarus-Gul'dan", -- [9]
-			"<20:46:25> <INFO>		Autopassed on: 	|cffa335ee|Hitem:189784::::::::60:65::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Schulterklappen der schwindenden Arie]|h|r", -- [10]
-			"<20:46:25> <INFO>		Autopassed on: 	|cffa335ee|Hitem:189793::::::::60:65::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167:::::|h[Schärpe der stummen Sonate]|h|r", -- [11]
-			"<20:46:25> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189784::::::::60:65::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Schulterklappen der schwindenden Arie]|h|r	INVTYPE_SHOULDER", -- [12]
-			"<20:46:25> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189793::::::::60:65::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167:::::|h[Schärpe der stummen Sonate]|h|r	INVTYPE_WAIST", -- [13]
-			"<20:46:25> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189791::::::::60:65::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Tuch der Klagelieder]|h|r	INVTYPE_CLOAK", -- [14]
-			"<20:46:25> <INFO>		LootFrame:Start	3	nil", -- [15]
-			"<20:46:25> <DEBUG>		Restoring entry:	default	1", -- [16]
-			"<20:46:25> <DEBUG>		GetButtons	default", -- [17]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N105^N2^N274.0625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N0^t^Sgear1^T^N1^S188851::::::::60:105::35:6:7359:6652:8152:7786:1498:6646^N2^S189773::::::::60:105::6:7:7187:6652:7579:8132:8137:1524:6646:1:28:2167^N3^S185843:6204:::::::60:105::35:7:7800:8136:8138:7359:41:1595:6646^t^Sgear2^T^t^t^t^^	RAID	Womblez-Nathrezim", -- [18]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N258^N2^N275.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N13^t^Sgear1^T^N1^S188879::::::::60:258::6:6:8117:6652:7187:8095:8152:1498^N2^S173248::173128::::::60:258::69:7:8126:7882:8156:6649:6648:1588:6935:1:28:2142^N3^S189815:6203:::::::60:258::5:6:7188:8118:8138:6652:1511:6646:1:28:2166^t^Sgear2^T^t^t^t^^	RAID	Farlandér-Gul'dan", -- [19]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N72^N2^N276.4375^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N13^N2^N0^N3^N-13^t^Sgear1^T^N1^S189814::::::::60:72::5:6:7188:8118:8117:6652:1511:6646:1:28:2166^N2^S179326::::::::60:72::35:8:7786:8136:8137:7359:6652:7579:1592:6646^N3^S173242:6203:::::::60:72::69:6:6964:7882:8156:6649:6648:1588:1:28:2142^t^Sgear2^T^t^t^t^^	RAID	Hetarnia-Gul'dan", -- [20]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N64^N2^N274.875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N0^t^Sgear1^T^N1^S189810::::::::60:64::6:6:7187:8132:8117:6652:1524:6646:1:28:2167^N2^S173248::173127::::::60:64::69:7:6823:7882:8156:6649:6647:1588:6935:1:28:2142^N3^S189815:6203:::::::60:64::6:6:7187:8132:8138:6652:1524:6646^t^Sgear2^T^t^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [21]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N254^N2^N276.125^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-7^N2^N-13^N3^N0^t^Sgear1^T^N1^S188856::::::::60:254::6:5:7187:6652:8152:1505:6646^N2^S172328::173130::::::60:254::69:7:8122:7882:8156:6647:6648:1588:6935:1:28:2142^N3^S178755:6203:::::::60:254::35:7:7800:8136:8138:7359:6652:1592:6646::::::4897^t^Sgear2^T^t^t^t^^	RAID	Nheemo-Gul'dan", -- [22]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N72^N2^N274.875^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N6^N2^N0^N3^N-13^t^Sgear1^T^N1^S188941::::::::60:72::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S189826::::::::60:72::6:7:7187:6652:7578:8132:8137:1524:6646^N3^S173242:6203:::::::60:72::69:6:6964:7882:8156:6649:6648:1588:1:28:2142^t^Sgear2^T^t^t^t^^	RAID	Munstar-Gul'dan", -- [23]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N64^N2^N274.6875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N0^t^Sgear1^T^N1^S188843::::::::60:64::6:6:8117:6652:7187:8095:8152:1498^N2^S173248::173127::::::60:64::68:7:6823:6647:6649:6935:8156:7882:1588:1:28:2142^N3^S189791:6203:::::::60:64::6:6:7187:8132:8138:6652:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Rodymage-Gul'dan", -- [24]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N65^N2^N274.375^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-7^N2^N13^N3^N0^t^Sgear1^T^N1^S188932::::::::60:65::6:5:7187:6652:8152:1505:6646^N2^S189840::::::::60:65::5:7:7188:6652:7578:8118:8137:1511:6646:1:28:2167^N3^S189815:6204:::::::60:65::6:6:7187:8132:8138:6652:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Adelgunde-Nathrezim", -- [25]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N261^N2^N276.625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N6^N2^N-13^N3^N6^t^Sgear1^T^N1^S188905::::::::60:261::44:5:6652:8152:7539:1492:6646^N2^S172320::173129::::::60:261::69:7:8127:7882:8156:6647:6650:1588:6935:1:28:2142^N3^S178755:6202:::::::60:261::16:7:8136:8138:7359:6652:7798:1586:6646:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	Pouked-Gul'dan", -- [26]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N256^N2^N274.0625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N0^t^Sgear1^T^N1^S188879::::::::60:256::6:6:8117:6652:7187:8095:8152:1498^N2^S173248::173128::::::60:256::69:7:8126:7882:8156:6649:6647:1588:6935:1:28:2142^N3^S180123:6204:::::::60:256::35:7:7800:8136:8138:7359:6652:1592:6646^t^Sgear2^T^t^t^t^^	RAID	Thalyra-Gul'dan", -- [27]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N264^N2^N274.6875^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N6^N2^N-13^N3^N13^t^Sgear1^T^N1^S188920::::::::60:264::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S172328::173127::::::60:264::69:7:8128:7882:8156:6647:6650:1588:6935:1:28:2142^N3^S189791:6204:::::::60:264::5:6:7188:8118:8138:6652:1511:6646^t^Sgear2^T^t^t^t^^	RAID	øliwia-Gul'dan", -- [28]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N254^N2^N275.25^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N0^t^Sgear1^T^N1^S188856::::::::60:254::6:6:8117:6652:7187:8095:8152:1498^N2^S172328::173128::::::60:254::69:7:8122:7882:8156:6649:6650:1588:6935:1:28:2142^N3^S189815:6203:::::::60:254::6:6:7187:8132:8138:42:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Lidocain-Nathrezim", -- [29]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N70^N2^N276.125^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N-13^t^Sgear1^T^N1^S188932::::::::60:70::35:6:7359:6652:8152:7786:1498:6646^N2^S178734::::::::60:70::35:8:7786:8136:8137:7359:6652:7579:1592:6646^N3^S173242:6203:::::::60:70::69:6:7064:7882:8156:6649:6648:1588:1:28:2142^t^Sgear2^T^t^t^t^^	RAID	Liádrin-Gul'dan", -- [30]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N6^t^Sgear1^T^N1^S188896::::::::60:577::35:6:7359:6652:8152:7786:1498:6646^N2^S172320::173127::::::60:577::69:7:8120:7882:8156:6647:6649:1588:6935:1:28:2142^N3^S185843:6203:::::::60:577::16:6:8136:8138:7359:7798:1589:6646:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	Endaxis-Anetheron", -- [31]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N257^N2^N276.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N0^N3^N-13^t^Sgear1^T^N1^S189810::::::::60:257::6:6:7187:8132:8117:6652:1524:6646:1:28:2167^N2^S189821::::::::60:257::6:7:7187:6652:7579:8132:8137:1524:6646:1:28:2167^N3^S173242:6204:::::::60:257::69:6:8126:7882:8156:6649:6648:1588:1:28:2142^t^Sgear2^T^t^t^t^^	RAID	Cascadá-Gul'dan", -- [32]
-			"<20:46:25> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [33]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N268^N2^N274.4375^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N0^t^Sgear1^T^N1^S188914::::::::60:268::6:6:8117:6652:7187:8095:8152:1498^N2^S172320::173129::::::60:268::66:7:7077:6647:6650:6935:8156:7882:1588:1:28:2142^N3^S179349:6204:::::::60:268::35:7:7800:8136:8138:7359:6652:1592:6646^t^Sgear2^T^t^t^t^^	RAID	Tankposi-Gul'dan", -- [34]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N250^N2^N276.5^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N6^N2^N-13^N3^N6^t^Sgear1^T^N1^S188867::::::::60:250::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S171418::173128::::::60:250::69:7:6941:7882:8156:6650:6649:1588:6935:1:28:2142^N3^S189847:6203:::::::60:250::5:6:7188:8118:8138:6652:1511:6646:1:28:2166^t^Sgear2^T^t^t^t^^	RAID	Pepo-Gul'dan", -- [35]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N251^N2^N275.75^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-7^N2^N6^N3^N0^t^Sgear1^T^N1^S188867::::::::60:251::6:5:7187:6652:8152:1505:6646^N2^S185806::::::::60:251::33:8:8136:8137:7359:6652:7578:7784:1589:6646:1:28:1279^N3^S189815:6204:::::::60:251::6:6:7187:8132:8138:6652:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Memegeburt-Gul'dan", -- [36]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N262^N2^N274.75^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N6^N2^N-13^N3^N0^t^Sgear1^T^N1^S188920::::::::60:262::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S172328::173130::::::60:262::69:7:8128:7882:8156:6649:6650:1588:6935:1:28:2142^N3^S189815:6203:::::::60:262::6:6:7187:8132:8138:6652:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Wubs-Nathrezim", -- [37]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^N2^N-13^N3^N6^t^Sgear1^T^N1^S188888::::::::60:266::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S173248::173128::::::60:266::69:7:8129:7882:8156:6649:6648:1588:6935:1:28:2142^N3^S189847:6203:::::::60:266::5:6:7188:8118:8138:6652:1511:6646:1:28:2166^t^Sgear2^T^t^t^t^^	RAID	Schléx-Nathrezim", -- [38]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N102^N2^N276.6875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N6^N2^N0^N3^N6^t^Sgear1^T^N1^S188851::::::::60:102::5:5:7188:6652:8152:1492:6646:1:28:1040^N2^S189773::::::::60:102::6:7:7187:6652:7578:8132:8137:1524:6646:1:28:2167^N3^S185781:6203:::::::60:102::33:7:8136:8138:7359:6652:7798:1589:6646:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	Ursarus-Gul'dan", -- [39]
-			"<20:46:25> <Comm>		^1^SlootAck^T^N1^N263^N2^N277.75^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N-7^N2^N0^N3^N0^t^Sgear1^T^N1^S188920::::::::60:263::6:5:7187:6652:8152:1505:6646^N2^S189776::::::::60:263::6:7:7187:6652:7578:8132:8137:1524:6646:1:28:2167^N3^S180123:6203:::::::60:263::35:7:7800:8136:8138:7359:6652:1592:6646^t^Sgear2^T^t^t^t^^	RAID	Rahzkek-Gul'dan", -- [40]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [41]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [42]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [43]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Adelgunde-Nathrezim", -- [44]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [45]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [46]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [47]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Munstar-Gul'dan", -- [48]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [49]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [50]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [51]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [52]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [53]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [54]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [55]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [56]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Wubs-Nathrezim", -- [57]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [58]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [59]
-			"<20:46:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [60]
-			"<20:46:28> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Liádrin-Gul'dan", -- [61]
-			"<20:46:29> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Tankposi-Gul'dan", -- [62]
-			"<20:46:32> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Rodymage-Gul'dan", -- [63]
-			"<20:46:33> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Rodymage-Gul'dan", -- [64]
-			"<20:46:33> <DEBUG>		LootFrame:Response	PASS	Response:	Passen", -- [65]
-			"<20:46:33> <DEBUG>		SendResponse	group	3	PASS	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [66]
-			"<20:46:33> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:189791::::::::60:65::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Tuch der Klagelieder]|h|r", -- [67]
-			"<20:46:34> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Adelgunde-Nathrezim", -- [68]
-			"<20:46:35> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [69]
-			"<20:46:36> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [70]
-			"<20:46:36> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Rahzkek-Gul'dan", -- [71]
-			"<20:46:37> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Thalyra-Gul'dan", -- [72]
-			"<20:46:37> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sstat~`upgrade~`+30^Sresponse^N2^t^t^^	RAID	Tankposi-Gul'dan", -- [73]
-			"<20:46:37> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^S+13~`ilvl~`best~`stats^Sresponse^N1^t^t^^	RAID	øliwia-Gul'dan", -- [74]
-			"<20:46:37> <Comm>		^1^Soffline_timer^T^t^^	RAID	Ursarus-Gul'dan", -- [75]
-			"<20:46:37> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Thalyra-Gul'dan", -- [76]
-			"<20:46:41> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N4^t^t^^	RAID	Munstar-Gul'dan", -- [77]
-			"<20:46:43> <Comm>		^1^Svote^T^N1^N1^N2^SPouked-Gul'dan^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [78]
-			"<20:46:44> <Comm>		^1^Svote^T^N1^N1^N2^SPouked-Gul'dan^N3^N-1^t^^	RAID	Rahzkek-Gul'dan", -- [79]
-			"<20:46:47> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N2^t^t^^	RAID	Nheemo-Gul'dan", -- [80]
-			"<20:46:48> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^b^Sresponse^N3^t^t^^	RAID	Cascadá-Gul'dan", -- [81]
-			"<20:46:50> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^S+50dps~`best~`in~`slot^Sresponse^N1^t^t^^	RAID	Pouked-Gul'dan", -- [82]
-			"<20:46:50> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sshitstats~`aber~`+65~`atm^Sresponse^N2^t^t^^	RAID	Farlandér-Gul'dan", -- [83]
-			"<20:46:54> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Pouked-Gul'dan", -- [84]
-			"<20:46:54> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N4^t^t^^	RAID	Farlandér-Gul'dan", -- [85]
-			"<20:46:57> <Comm>		^1^Svote^T^N1^N3^N2^SPouked-Gul'dan^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [86]
-			"<20:47:00> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^S35~`frost.~`64~`arcane^Sresponse^N2^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [87]
-			"<20:47:03> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^S73~`dps^Sresponse^N1^t^t^^	RAID	Endaxis-Anetheron", -- [88]
-			"<20:47:04> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Wubs-Nathrezim", -- [89]
-			"<20:47:04> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Wubs-Nathrezim", -- [90]
-			"<20:47:05> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Pepo-Gul'dan", -- [91]
-			"<20:47:08> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Ssidegrade~`für~`leggy~`auf~`anderen~`slot~`^Sresponse^N3^t^t^^	RAID	Schléx-Nathrezim", -- [92]
-			"<20:47:10> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Endaxis-Anetheron", -- [93]
-			"<20:47:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sfalls~`niemand~`braucht~`und~`ich~`mal~`unity~`wechsel~`auf~`gürtel^Sresponse^N3^t^t^^	RAID	Cascadá-Gul'dan", -- [94]
-			"<20:47:12> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Schléx-Nathrezim", -- [95]
-			"<20:47:12> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sae^Sresponse^N2^t^t^^	RAID	Wubs-Nathrezim", -- [96]
-			"<20:47:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sbewertet~`es,~`wie~`ihr~`wollt,~`aber~`in~`naher~`zukunft~`ich~`sv~`148dps^Sresponse^N1^t^t^^	RAID	Lidocain-Nathrezim", -- [97]
-			"<20:47:24> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Hetarnia-Gul'dan", -- [98]
-			"<20:47:25> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^S94~`arcane^Sresponse^N2^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [99]
-			"<20:47:28> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Pepo-Gul'dan", -- [100]
-			"<20:47:42> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N276.9375^N6^N266^t^^	RAID	Zinghultus-Gul'dan", -- [101]
-			"<20:47:46> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N6^t^Sgear1^T^N1^S189810::::::::60:266::6:6:7187:8132:8117:6652:1524:6646:1:28:2167^N2^S173248::173128::::::60:266::69:7:8129:7882:8156:6649:6648:1588:6935:1:28:2142^N3^S185781:6203:::::::60:266::33:7:8136:8138:7359:6652:7798:1589:6646:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [102]
-			"<20:47:51> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [103]
-			"<20:47:51> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [104]
-			"<20:47:51> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [105]
-			"<20:47:52> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [106]
-			"<20:48:08> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N274.6875^N6^N577^t^^	RAID	Cleavarious-Gul'dan", -- [107]
-			"<20:48:12> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N-13^t^Sgear1^T^N1^S188896::::::::60:577::35:6:7786:8117:6652:7359:8152:1498^N2^S178699::173128::::::60:577::35:8:7786:8136:8137:7359:6652:1592:6646:7580^N3^S173242:6203:::::::60:577::63:6:7041:6649:6650:8156:7882:1588^t^Sgear2^T^t^t^t^^	RAID	Cleavarious-Gul'dan", -- [108]
-			"<20:48:15> <Comm>		^1^Svote^T^N1^N2^N2^STrîâlbôdy-Anetheron^N3^N1^t^^	RAID	Ursarus-Gul'dan", -- [109]
-			"<20:48:17> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [110]
-			"<20:48:17> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [111]
-			"<20:48:25> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Memegeburt-Gul'dan", -- [112]
-			"<20:49:01> <Comm>		^1^Svote^T^N1^N2^N2^STrîâlbôdy-Anetheron^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [113]
-			"<20:49:13> <Comm>		^1^Svote^T^N1^N3^N2^SEndaxis-Anetheron^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [114]
-			"<20:49:18> <Comm>		^1^Svote^T^N1^N3^N2^Søliwia-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [115]
-			"<20:49:23> <Comm>		^1^Svote^T^N1^N2^N2^STrîâlbôdy-Anetheron^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [116]
-			"<20:50:01> <DEBUG>		Event:	LOOT_READY	true", -- [117]
-			"<20:50:01> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0	1	Creature-0-4254-2481-9247-185610-0001698158	1", -- [118]
-			"<20:50:01> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:188671::::::::60:65:::::::::|h[Großer vergoldeter Ring]|h|r	0	1	Creature-0-4254-2481-9247-185610-0001E98158	1", -- [119]
-			"<20:50:01> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Farlandér-Gul'dan", -- [120]
-			"<20:50:01> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Farlandér-Gul'dan", -- [121]
-			"<20:50:01> <DEBUG>		Event:	LOOT_READY	true", -- [122]
-			"<20:50:01> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0	1	Creature-0-4254-2481-9247-185610-0001698158	1", -- [123]
-			"<20:50:01> <DEBUG>		Adding to self.lootSlotInfo	3	|cff9d9d9d|Hitem:188671::::::::60:65:::::::::|h[Großer vergoldeter Ring]|h|r	0	1	Creature-0-4254-2481-9247-185610-0001E98158	1", -- [124]
-			"<20:50:02> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0", -- [125]
-			"<20:50:02> <DEBUG>		OnLootSlotCleared()	3	|cff9d9d9d|Hitem:188671::::::::60:65:::::::::|h[Großer vergoldeter Ring]|h|r	0", -- [126]
-			"<20:50:02> <DEBUG>		Event:	LOOT_CLOSED", -- [127]
-			"<20:50:02> <DEBUG>		Event:	LOOT_CLOSED", -- [128]
-			"<20:50:02> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Adelgunde-Nathrezim", -- [129]
-			"<20:50:02> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Adelgunde-Nathrezim", -- [130]
-			"<20:50:07> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Tankposi-Gul'dan", -- [131]
-			"<20:50:07> <DEBUG>		Event:	LOOT_READY	true", -- [132]
-			"<20:50:07> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0	1	Creature-0-4254-2481-9247-185610-0008E98158	1", -- [133]
-			"<20:50:07> <DEBUG>		Event:	LOOT_READY	true", -- [134]
-			"<20:50:07> <DEBUG>		Adding to self.lootSlotInfo	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0	1	Creature-0-4254-2481-9247-185610-0008E98158	1", -- [135]
-			"<20:50:07> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Memegeburt-Gul'dan", -- [136]
-			"<20:50:08> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	189157	|cff0070dd|Hitem:189157::::::::60:65:::::::::|h[Schimmer der Animation]|h|r	1	Pepo-Gul'dan	DEATHKNIGHT", -- [137]
-			"<20:50:08> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Rahzkek-Gul'dan", -- [138]
-			"<20:50:08> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Rahzkek-Gul'dan", -- [139]
-			"<20:50:08> <DEBUG>		OnLootSlotCleared()	2	|cff9d9d9d|Hitem:188669::::::::60:65:::::::::|h[Obsidiankern]|h|r	0", -- [140]
-			"<20:50:08> <DEBUG>		Event:	LOOT_CLOSED", -- [141]
-			"<20:50:08> <DEBUG>		Event:	LOOT_CLOSED", -- [142]
-			"<20:50:08> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Adelgunde-Nathrezim", -- [143]
-			"<20:50:08> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Adelgunde-Nathrezim", -- [144]
-			"<20:50:08> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Wubs-Nathrezim", -- [145]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Liádrin-Gul'dan", -- [146]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Rodymage-Gul'dan", -- [147]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Rodymage-Gul'dan", -- [148]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Ursarus-Gul'dan", -- [149]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Ursarus-Gul'dan", -- [150]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Endaxis-Anetheron", -- [151]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Endaxis-Anetheron", -- [152]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Trîâlbôdy-Anetheron", -- [153]
-			"<20:50:09> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Trîâlbôdy-Anetheron", -- [154]
-			"<20:50:10> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	øliwia-Gul'dan", -- [155]
-			"<20:50:10> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	øliwia-Gul'dan", -- [156]
-			"<20:50:10> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Farlandér-Gul'dan", -- [157]
-			"<20:50:10> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Farlandér-Gul'dan", -- [158]
-			"<20:50:11> <Comm>		^1^Sn_t^T^N1^S|cff0070dd|Hitem:189157::::::::60:250:::::::::|h[Glimmer~`of~`Animation]|h|r^N2^S185610^t^^	RAID	Pepo-Gul'dan", -- [159]
-			"<20:50:11> <Comm>		^1^Shistory^T^N1^SPepo-Gul'dan^N2^T^SmapID^N2481^Sowner^SPepo-Gul'dan^Sid^S1651081807-7^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SDEATHKNIGHT^Sdate^S27/04/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cff0070dd|Hitem:189157::::::::60:250:::::::::|h[Glimmer~`of~`Animation]|h|r^SdifficultyID^N16^Sboss^SDausegne,~`the~`Fallen~`Oracle^SresponseID^SPL^Stime^S20:50:07^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [160]
-			"<20:50:11> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Schléx-Nathrezim", -- [161]
-			"<20:50:11> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Schléx-Nathrezim", -- [162]
-			"<20:50:11> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Lidocain-Nathrezim", -- [163]
-			"<20:50:11> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Lidocain-Nathrezim", -- [164]
-			"<20:50:16> <DEBUG>		Event:	ENCOUNTER_START	2544	Prototypenpantheon	16	20", -- [165]
-			"<20:50:16> <INFO>		UpdatePlayersData()", -- [166]
-			"<20:50:16> <DEBUG>		Event:	ENCOUNTER_END	2544	Prototypenpantheon	16	20	0", -- [167]
-			"<20:50:24> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Cascadá-Gul'dan", -- [168]
-			"<20:50:24> <Comm>		^1^Sl^T^N1^S185610^t^^	RAID	Cascadá-Gul'dan", -- [169]
-			"<20:52:01> <Comm>		^1^Shistory^T^N1^SPouked-Gul'dan^N2^T^SmapID^N2481^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Sclass^SROGUE^SgroupSize^N20^Sboss^SDausegne,~`the~`Fallen~`Oracle^Stime^S20:51:56^SitemReplaced1^S|cffa335ee|Hitem:188905::::::::60:102::44:5:6652:8152:7539:1492:6646::::::|h[Soulblade~`Nightwings]|h|r^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SPouked-Gul'dan^Sresponse^SPass^StypeCode^Sdefault^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:189784::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Epaulets~`of~`the~`Ailing~`Aria]|h|r^Sid^S1651081916-8^Sdate^S27/04/22^SresponseID^SPASS^Svotes^N0^SisAwardReason^b^t^t^^	RAID	Ursarus-Gul'dan", -- [170]
-			"<20:52:01> <Comm>		^1^Sawarded^T^N1^N1^N2^SPouked-Gul'dan^N3^SPouked-Gul'dan^t^^	RAID	Ursarus-Gul'dan", -- [171]
-			"<20:52:02> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Zinghultus-Gul'dan", -- [172]
-			"<20:52:02> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N276.5625^N6^N267^t^^	RAID	Zinghultus-Gul'dan", -- [173]
-			"<20:52:06> <Comm>		^1^Shistory^T^N1^STrîâlbôdy-Anetheron^N2^T^SmapID^N2481^Sdate^S27/04/22^Sclass^SMAGE^SgroupSize^N20^Svotes^N3^Stime^S20:52:02^SitemReplaced1^S|cffff8000|Hitem:173248::173127::::::60:102::69:7:6823:7882:8156:6649:6647:1588:6935:1:28:2142:::::|h[Frostburn]|h|r^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SCascadá-Gul'dan^StypeCode^Sdefault^Sresponse^SMinor~`Upgrade^Sid^S1651081922-9^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:189793::::::::60:102::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167:::::|h[Sash~`of~`the~`Silent~`Sonata]|h|r^Snote^S94~`arcane^SisAwardReason^b^SresponseID^N2^Sboss^SDausegne,~`the~`Fallen~`Oracle^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [174]
-			"<20:52:06> <Comm>		^1^Sawarded^T^N1^N2^N2^STrîâlbôdy-Anetheron^N3^SCascadá-Gul'dan^t^^	RAID	Ursarus-Gul'dan", -- [175]
-			"<20:52:07> <Comm>		^1^SlootAck^T^N1^N267^N2^N276.5625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N-13^N3^N6^t^Sgear1^T^N1^S189810::::::::60:267::6:6:7187:8132:8117:6652:1524:6646:1:28:2167^N2^S173248::173128::::::60:267::69:7:8129:7882:8156:6649:6648:1588:6935:1:28:2142^N3^S185781:6203:::::::60:267::33:7:8136:8138:7359:6652:7798:1589:6646:1:28:1279^t^Sgear2^T^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [176]
-			"<20:52:15> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [177]
-			"<20:52:15> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [178]
-			"<20:52:39> <Comm>		^1^Svote^T^N1^N3^N2^Søliwia-Gul'dan^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [179]
-			"<20:52:40> <Comm>		^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:189793::::::::60:257::6:7:7187:6652:7580:8132:8137:1524:6646:1:28:2167:::::|h[Sash~`of~`the~`Silent~`Sonata]|h|r^N2^Søliwia-Gul'dan^N3^SCascadá-Gul'dan^N4^STrîâlbôdy-Anetheron^t^^	RAID	Cascadá-Gul'dan", -- [180]
-			"<20:52:51> <Comm>		^1^Svote^T^N1^N3^N2^Søliwia-Gul'dan^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [181]
-			"<20:53:30> <DEBUG>		Event:	ENCOUNTER_START	2544	Prototypenpantheon	16	20", -- [182]
-			"<20:53:30> <INFO>		UpdatePlayersData()", -- [183]
-			"<20:53:30> <DEBUG>		Event:	ENCOUNTER_END	2544	Prototypenpantheon	16	20	0", -- [184]
-			"<20:54:35> <Comm>		^1^Shistory^T^N1^Søliwia-Gul'dan^N2^T^SmapID^N2481^Sdate^S27/04/22^Sclass^SSHAMAN^SgroupSize^N20^Svotes^N3^Stime^S20:54:31^SitemReplaced1^S|cffa335ee|Hitem:189791:6204:::::::60:102::5:6:7188:8118:8138:6652:1511:6646::::::|h[Drape~`of~`Mournful~`Melodies]|h|r^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SMunstar-Gul'dan^StypeCode^Sdefault^Sresponse^SMainspec/Need^Sid^S1651082071-10^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:189791::::::::60:102::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Drape~`of~`Mournful~`Melodies]|h|r^Snote^S+13~`ilvl~`best~`stats^SisAwardReason^b^SresponseID^N1^Sboss^SDausegne,~`the~`Fallen~`Oracle^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [185]
-			"<20:54:35> <Comm>		^1^Sawarded^T^N1^N3^N2^Søliwia-Gul'dan^N3^SMunstar-Gul'dan^t^^	RAID	Ursarus-Gul'dan", -- [186]
-			"<20:54:36> <Comm>		^1^Ssession_end^T^t^^	RAID	Ursarus-Gul'dan", -- [187]
-			"<20:54:47> <Comm>		^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:189791::::::::60:72::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Tuch~`der~`Klagelieder]|h|r^N2^SLiádrin-Gul'dan^N3^SMunstar-Gul'dan^N4^Søliwia-Gul'dan^t^^	RAID	Munstar-Gul'dan", -- [188]
-			"<20:56:03> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Rahzkek-Gul'dan", -- [189]
-			"<20:56:03> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N277.75^N6^N263^t^^	RAID	Rahzkek-Gul'dan", -- [190]
-			"<20:56:29> <DEBUG>		Event:	ENCOUNTER_START	2544	Prototypenpantheon	16	20", -- [191]
-			"<20:56:29> <INFO>		UpdatePlayersData()", -- [192]
-			"<21:00:31> <DEBUG>		Event:	ENCOUNTER_END	2544	Prototypenpantheon	16	20	0", -- [193]
-			"<21:01:30> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Schléx-Nathrezim", -- [194]
-			"<21:01:30> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N275.9375^N6^N267^t^^	RAID	Schléx-Nathrezim", -- [195]
-			"<21:01:30> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Sreconnect^t^^	RAID	Schléx-Nathrezim", -- [196]
-			"<21:01:31> <Comm>		^1^Sxrealm^T^N1^SSchléx-Nathrezim^N2^Smldb^N3^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [197]
-			"<21:01:31> <Comm>		^1^Sxrealm^T^N1^SSchléx-Nathrezim^N2^Scouncil^N3^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [198]
-			"<21:02:19> <DEBUG>		Event:	ENCOUNTER_START	2544	Prototypenpantheon	16	20", -- [199]
-			"<21:02:19> <INFO>		UpdatePlayersData()", -- [200]
-			"<21:08:41> <DEBUG>		Event:	ENCOUNTER_END	2544	Prototypenpantheon	16	20	1", -- [201]
-			"<21:08:45> <DEBUG>		Event:	LOOT_READY	false", -- [202]
-			"<21:08:45> <DEBUG>		Adding to self.lootSlotInfo	1	nil	1	0	Creature-0-4254-2481-9247-181548-00006992E7	741293", -- [203]
-			"<21:08:45> <DEBUG>		Ignoring	|cffff8000|Hcurrency:2009:100|h[Kosmischer Flux]|h|r	as it's a currency", -- [204]
-			"<21:08:45> <DEBUG>		Ignoring	|cff0070dd|Hcurrency:1982:5000|h[Belobigung der Erleuchteten]|h|r	as it's a currency", -- [205]
-			"<21:08:45> <Comm>		^1^Sl^T^N1^S181224^t^^	RAID	Munstar-Gul'dan", -- [206]
-			"<21:08:46> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Ursarus-Gul'dan", -- [207]
-			"<21:08:46> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Ursarus-Gul'dan", -- [208]
-			"<21:08:46> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Liádrin-Gul'dan", -- [209]
-			"<21:08:46> <DEBUG>		OnLootSlotCleared()	1	nil	1", -- [210]
-			"<21:08:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	188270	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r	1	Tankposi-Gul'dan	MONK", -- [211]
-			"<21:08:46> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Wubs-Nathrezim", -- [212]
-			"<21:08:46> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Munstar-Gul'dan", -- [213]
-			"<21:08:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	189544	|cff0070dd|Hitem:189544::::::::60:65:::::::::|h[Animagewebe]|h|r	3	Adelgunde	PALADIN", -- [214]
-			"<21:08:46> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	181759	|cffa335ee|Hitem:181759::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Schlag voller Klarheit]|h|r	1	Tankposi-Gul'dan	MONK", -- [215]
-			"<21:08:47> <DEBUG>		Event:	LOOT_CLOSED", -- [216]
-			"<21:08:47> <DEBUG>		Event:	LOOT_CLOSED", -- [217]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Tankposi-Gul'dan", -- [218]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Tankposi-Gul'dan", -- [219]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Adelgunde-Nathrezim", -- [220]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Adelgunde-Nathrezim", -- [221]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Zinghultus-Gul'dan", -- [222]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Zinghultus-Gul'dan", -- [223]
-			"<21:08:47> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Schléx-Nathrezim", -- [224]
-			"<21:08:48> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Cleavarious-Gul'dan", -- [225]
-			"<21:08:48> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Cleavarious-Gul'dan", -- [226]
-			"<21:08:48> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Thalyra-Gul'dan", -- [227]
-			"<21:08:48> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Thalyra-Gul'dan", -- [228]
-			"<21:08:49> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Memegeburt-Gul'dan", -- [229]
-			"<21:08:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	182129	|cffa335ee|Hitem:182129::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Feenfermate]|h|r	1	Cascadá-Gul'dan	PRIEST", -- [230]
-			"<21:08:49> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Rodymage-Gul'dan", -- [231]
-			"<21:08:49> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Rodymage-Gul'dan", -- [232]
-			"<21:08:49> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:188270::::::::60:268::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegy~`of~`the~`Eternals]|h|r^N2^S181548^t^^	RAID	Tankposi-Gul'dan", -- [233]
-			"<21:08:49> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Cascadá-Gul'dan", -- [234]
-			"<21:08:49> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Cascadá-Gul'dan", -- [235]
-			"<21:08:50> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	188270	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r	1	Øliwia-Gul'dan	SHAMAN", -- [236]
-			"<21:08:50> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	øliwia-Gul'dan", -- [237]
-			"<21:08:50> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	øliwia-Gul'dan", -- [238]
-			"<21:08:50> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Trîâlbôdy-Anetheron", -- [239]
-			"<21:08:50> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Trîâlbôdy-Anetheron", -- [240]
-			"<21:08:51> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	189789	|cffa335ee|Hitem:189789::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Streben nach Sieg]|h|r	1	Farlandér-Gul'dan	PRIEST", -- [241]
-			"<21:08:52> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Farlandér-Gul'dan", -- [242]
-			"<21:08:52> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Farlandér-Gul'dan", -- [243]
-			"<21:08:53> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:188270::::::::60:264::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie~`der~`Ewigen]|h|r^N2^S181548^t^^	RAID	øliwia-Gul'dan", -- [244]
-			"<21:08:53> <Comm>		^1^Shistory^T^N1^Søliwia-Gul'dan^N2^T^SmapID^N2481^Sowner^Søliwia-Gul'dan^Sid^S1651082929-11^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SSHAMAN^Sdate^S27/04/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:188270::::::::60:264::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie~`der~`Ewigen]|h|r^SdifficultyID^N16^Sboss^SPrototype~`Pantheon^SresponseID^SPL^Stime^S21:08:49^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [245]
-			"<21:08:54> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189789::::::::60:258::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Pursuit~`of~`Victory]|h|r^N2^S181548^t^^	RAID	Farlandér-Gul'dan", -- [246]
-			"<21:08:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2544	189800	|cffa335ee|Hitem:189800::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Auftakt zum Stolz]|h|r	1	Pepo-Gul'dan	DEATHKNIGHT", -- [247]
-			"<21:08:55> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Pepo-Gul'dan", -- [248]
-			"<21:08:56> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Rahzkek-Gul'dan", -- [249]
-			"<21:08:56> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Rahzkek-Gul'dan", -- [250]
-			"<21:08:58> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189800::::::::60:250::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Prelude~`to~`Pride]|h|r^N2^S181548^t^^	RAID	Pepo-Gul'dan", -- [251]
-			"<21:08:58> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Lidocain-Nathrezim", -- [252]
-			"<21:08:58> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Lidocain-Nathrezim", -- [253]
-			"<21:09:00> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S189789:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SFarlandér-Gul'dan^Sboss^SPrototype~`Pantheon^t^N2^T^Sstring^S189800:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SPepo-Gul'dan^Sboss^SPrototype~`Pantheon^t^N3^T^Sstring^S188270:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^STankposi-Gul'dan^Sboss^SPrototype~`Pantheon^t^t^t^^	RAID	Ursarus-Gul'dan", -- [254]
-			"<21:09:00> <INFO>		Autopassed on: 	|cffa335ee|Hitem:189789::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Streben nach Sieg]|h|r", -- [255]
-			"<21:09:00> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189789::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Streben nach Sieg]|h|r	INVTYPE_2HWEAPON", -- [256]
-			"<21:09:00> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189800::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Auftakt zum Stolz]|h|r	INVTYPE_2HWEAPON", -- [257]
-			"<21:09:00> <INFO>		GetPlayersGear	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r	INVTYPE_TRINKET", -- [258]
-			"<21:09:00> <INFO>		LootFrame:Start	3	nil", -- [259]
-			"<21:09:00> <DEBUG>		Restoring entry:	default	1", -- [260]
-			"<21:09:00> <DEBUG>		GetButtons	default", -- [261]
-			"<21:09:00> <DEBUG>		Restoring entry:	default	1", -- [262]
-			"<21:09:00> <DEBUG>		GetButtons	default", -- [263]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N65^N2^N274.375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S178709:6229:::::::60:65::35:5:7856:7359:6652:1592:6646^N2^S178709:6229:::::::60:65::35:5:7856:7359:6652:1592:6646^N3^S188270::::::::60:65::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N1^S189819::::::::60:65::6:4:7187:6652:1524:6646^N2^S189819::::::::60:65::6:4:7187:6652:1524:6646^N3^S178708::::::::60:65::33:6:7359:6652:6917:7782:1579:6646:1:28:1279^t^t^t^^	RAID	Adelgunde-Nathrezim", -- [264]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N264^N2^N275.5^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S178829:6229:::::::60:264::35:5:7828:7359:6652:1592:6646^N2^S178829:6229:::::::60:264::35:5:7828:7359:6652:1592:6646^N3^S188270::::::::60:264::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N3^S178708::::::::60:264::33:6:7359:6652:6916:7784:1586:6646:1:28:1279^t^t^t^^	RAID	øliwia-Gul'dan", -- [265]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N267^N2^N276.5625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S185822:6229:::::::60:267::35:5:7828:7359:6652:1595:6646^N2^S185822:6229:::::::60:267::35:5:7828:7359:6652:1595:6646^N3^S178809::::::::60:267::35:5:7786:7359:6652:1592:6646^t^Sgear2^T^N3^S178708::::::::60:267::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [266]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N254^N2^N276.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S179348:6195:::::::60:254::35:5:7828:7359:6652:1592:6646^N2^S179348:6195:::::::60:254::35:5:7828:7359:6652:1592:6646^N3^S179350::::::::60:254::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N3^S190958::::::::60:254::16:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Nheemo-Gul'dan", -- [267]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N251^N2^N275.75^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^N2^N6^N3^N19^t^Sgear1^T^N1^S189851:6243:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^N2^S189851:6243:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^N3^S179350::::::::60:251::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S189851:3368:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^N2^S189851:3368:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^N3^S186438::::::::60:251::6:4:7187:6652:1498:6646^t^t^t^^	RAID	Memegeburt-Gul'dan", -- [268]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N262^N2^N274.125^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S178789:6229:::::::60:262::35:5:7856:7359:6652:1592:6646^N2^S178789:6229:::::::60:262::35:5:7856:7359:6652:1592:6646^N3^S188271::::::::60:262::5:4:6652:7188:1511:6646:1:28:2166^t^Sgear2^T^N1^S189819::::::::60:262::6:4:7187:6652:1524:6646:1:28:2167^N2^S189819::::::::60:262::6:4:7187:6652:1524:6646:1:28:2167^N3^S178708::::::::60:262::16:6:7359:6652:7784:1586:6646:6916:1:28:1279^t^t^t^^	RAID	Wubs-Nathrezim", -- [269]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N72^N2^N275.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^N2^N6^N3^N32^t^Sgear1^T^N1^S178866:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^N2^S178866:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^N3^S179342::::::::60:72::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S189862:6229:::::::60:72::5:5:7188:6652:8159:1511:6646^N2^S189862:6229:::::::60:72::5:5:7188:6652:8159:1511:6646^N3^S186438::::::::60:72::5:4:7188:6652:1485:6646:1:28:2044^t^t^t^^	RAID	Munstar-Gul'dan", -- [270]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N267^N2^N275.9375^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S178829:6229:::::::60:267::35:5:7828:7359:6652:1592:6646^N2^S178829:6229:::::::60:267::35:5:7828:7359:6652:1592:6646^N3^S178809::::::::60:267::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N3^S188270::::::::60:267::5:4:7188:6652:1511:6646:1:28:2166^t^t^t^^	RAID	Schléx-Nathrezim", -- [271]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N64^N2^N274.875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S189789:6229:::::::60:64::6:4:7187:6652:1524:6646^N2^S189789:6229:::::::60:64::6:4:7187:6652:1524:6646^N3^S188271::::::::60:64::5:4:42:7188:1511:6646:1:28:2166^t^Sgear2^T^N3^S178708::::::::60:64::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [272]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N72^N2^N276.4375^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^N2^N19^N3^N19^t^Sgear1^T^N1^S178713:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^N2^S178713:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^N3^S188271::::::::60:72::6:4:6652:7187:1524:6646:1:28:2167^t^Sgear2^T^N1^S186410:6229:::::::60:72::6:5:7187:6652:1498:6646:7748^N2^S186410:6229:::::::60:72::6:5:7187:6652:1498:6646:7748^N3^S186438::::::::60:72::6:4:7187:6652:1498:6646^t^t^t^^	RAID	Hetarnia-Gul'dan", -- [273]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N250^N2^N276.5^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N0^N3^N19^t^Sgear1^T^N1^S178713:3368:::::::60:250::35:5:7828:7359:6652:1592:6646^N2^S178713:3368:::::::60:250::35:5:7828:7359:6652:1592:6646^N3^S186438::::::::60:250::6:4:7187:6652:1498:6646^t^Sgear2^T^N3^S185836::::::::60:250::33:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Pepo-Gul'dan", -- [274]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N257^N2^N272.0625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N16^N2^N16^N3^N6^t^Sgear1^T^N1^S179339:6229:::::::60:257::16:5:7823:7359:6652:1576:6646:1:28:1279^N2^S179339:6229:::::::60:257::16:5:7823:7359:6652:1576:6646:1:28:1279^N3^S190958::::::::60:257::16:5:7359:6652:7784:1589:6646:1:28:1279^t^Sgear2^T^N3^S178708::::::::60:257::33:6:7359:6652:6917:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Thalyra-Gul'dan", -- [275]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N64^N2^N274.6875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N6^N2^N6^N3^N13^t^Sgear1^T^N1^S178856:6229:::::::60:64::35:5:7856:7359:6652:1592:6646^N2^S178856:6229:::::::60:64::35:5:7856:7359:6652:1592:6646^N3^S188271::::::::60:64::5:4:6652:7188:1511:6646:1:28:2166^t^Sgear2^T^N1^S185812::::::::60:64::33:5:7359:6652:7840:1589:6646:1:28:1279^N2^S185812::::::::60:64::33:5:7359:6652:7840:1589:6646:1:28:1279^N3^S178708::::::::60:64::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Rodymage-Gul'dan", -- [276]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N263^N2^N277.75^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S178857:6228:::::::60:263::35:5:7814:7359:6652:1592:6646^N2^S178857:6228:::::::60:263::35:5:7814:7359:6652:1592:6646^N3^S137541::::::::60:263::87:5:6652:7749:7784:3151:6646:1:28:1179^t^Sgear2^T^N1^S189779:6229:::::::60:263::6:4:7187:6652:1524:6646^N2^S189779:6229:::::::60:263::6:4:7187:6652:1524:6646^N3^S190958::::::::60:263::33:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Rahzkek-Gul'dan", -- [277]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N268^N2^N276.25^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S178865:6228:::::::60:268::35:5:7828:7359:41:1592:6646^N2^S178865:6228:::::::60:268::35:5:7828:7359:41:1592:6646^N3^S178771::::::::60:268::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N3^S188265::::::::60:268::6:4:7187:6652:1524:6646:1:28:2167^t^t^t^^	RAID	Tankposi-Gul'dan", -- [278]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N257^N2^N276.9375^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S178714:6229:::::::60:257::35:5:7828:7359:42:1592:6646^N2^S178714:6229:::::::60:257::35:5:7828:7359:42:1592:6646^N3^S190958::::::::60:257::33:5:7359:6652:7784:1589:6646:1:28:1279^t^Sgear2^T^N3^S178708::::::::60:257::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^t^t^t^^	RAID	Cascadá-Gul'dan", -- [279]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N26^N2^N26^N3^N13^t^Sgear1^T^N1^S178754:6228:::::::60:577::33:5:7359:6652:7812:1586:6646:1:28:1279^N2^S178754:6228:::::::60:577::33:5:7359:6652:7812:1586:6646:1:28:1279^N3^S188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N1^S186388:6229:::::::60:577::6:4:7187:6652:1498:6646:1:28:2106^N2^S186388:6229:::::::60:577::6:4:7187:6652:1498:6646:1:28:2106^N3^S178771::::::::60:577::33:5:7359:6652:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Cleavarious-Gul'dan", -- [280]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N258^N2^N275.3125^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N6^t^Sgear1^T^N1^S189789:6229:::::::60:258::6:4:7187:40:1524:6646:1:28:2167^N2^S189789:6229:::::::60:258::6:4:7187:40:1524:6646:1:28:2167^N3^S178809::::::::60:258::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N3^S178708::::::::60:258::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Farlandér-Gul'dan", -- [281]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N254^N2^N275.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S189790:6196:::::::60:254::6:4:7187:6652:1524:6646^N2^S189790:6196:::::::60:254::6:4:7187:6652:1524:6646^N3^S188271::::::::60:254::5:4:40:7188:1511:6646:1:28:2166^t^Sgear2^T^N3^S179350::::::::60:254::35:5:7786:7359:6652:1592:6646^t^t^t^^	RAID	Lidocain-Nathrezim", -- [282]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N105^N2^N274.0625^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N6^N2^N6^N3^N26^t^Sgear1^T^N1^S178753:6229:::::::60:105::35:5:7856:7359:6652:1592:6646^N2^S178753:6229:::::::60:105::35:5:7856:7359:6652:1592:6646^N3^S188270::::::::60:105::3:4:7189:6652:1498:6646:1:28:2165^t^Sgear2^T^N1^S178868::::::::60:105::16:5:7359:6652:7840:1586:6646:1:28:1279^N2^S178868::::::::60:105::16:5:7359:6652:7840:1586:6646:1:28:1279^N3^S178708::::::::60:105::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^t^t^t^^	RAID	Womblez-Nathrezim", -- [283]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N70^N2^N276.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^N2^N6^N3^N19^t^Sgear1^T^N1^S189862:6228:::::::60:70::5:5:7188:6652:8159:1511:6646:1:28:2166^N2^S189862:6228:::::::60:70::5:5:7188:6652:8159:1511:6646:1:28:2166^N3^S186438::::::::60:70::6:3:7187:1498:6646^t^Sgear2^T^N3^S188271::::::::60:70::6:4:6652:7187:1524:6646^t^t^t^^	RAID	Liádrin-Gul'dan", -- [284]
-			"<21:09:00> <Comm>		^1^SlootAck^T^N1^N102^N2^N276.6875^N3^T^Sresponse^T^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S179339:6229:::::::60:102::35:5:7828:7359:6652:1592:6646^N2^S179339:6229:::::::60:102::35:5:7828:7359:6652:1592:6646^N3^S179350::::::::60:102::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N3^S188271::::::::60:102::5:4:6652:7188:1511:6646:1:28:2166^t^t^t^^	RAID	Ursarus-Gul'dan", -- [285]
-			"<21:09:03> <DEBUG>		LootFrame:Response	1	Response:	Hauptspezialisierung/Bedarf", -- [286]
-			"<21:09:03> <DEBUG>		SendResponse	group	3	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [287]
-			"<21:09:03> <DEBUG>		Trashing entry:	2	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r", -- [288]
-			"<21:09:03> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	Adelgunde-Nathrezim", -- [289]
-			"<21:09:03> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Tankposi-Gul'dan", -- [290]
-			"<21:09:03> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [291]
-			"<21:09:05> <DEBUG>		LootFrame:Response	3	Response:	Offspec", -- [292]
-			"<21:09:05> <DEBUG>		SendResponse	group	2	3	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [293]
-			"<21:09:05> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:189800::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Auftakt zum Stolz]|h|r", -- [294]
-			"<21:09:05> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Farlandér-Gul'dan", -- [295]
-			"<21:09:06> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Tankposi-Gul'dan", -- [296]
-			"<21:09:06> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N3^t^t^^	RAID	Adelgunde-Nathrezim", -- [297]
-			"<21:09:06> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N4^t^t^^	RAID	Farlandér-Gul'dan", -- [298]
-			"<21:09:07> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Nheemo-Gul'dan", -- [299]
-			"<21:09:07> <Comm>		^1^Sl^T^N1^S181548^t^^	RAID	Nheemo-Gul'dan", -- [300]
-			"<21:09:09> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N4^t^t^^	RAID	Liádrin-Gul'dan", -- [301]
-			"<21:09:09> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [302]
-			"<21:09:09> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Liádrin-Gul'dan", -- [303]
-			"<21:09:10> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	Cascadá-Gul'dan", -- [304]
-			"<21:09:11> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Wubs-Nathrezim", -- [305]
-			"<21:09:11> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Wubs-Nathrezim", -- [306]
-			"<21:09:12> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^	RAID	Cascadá-Gul'dan", -- [307]
-			"<21:09:12> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [308]
-			"<21:09:13> <Comm>		^1^Soffline_timer^T^t^^	RAID	Ursarus-Gul'dan", -- [309]
-			"<21:09:17> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	øliwia-Gul'dan", -- [310]
-			"<21:09:17> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Rodymage-Gul'dan", -- [311]
-			"<21:09:19> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N4^t^t^^	RAID	Nheemo-Gul'dan", -- [312]
-			"<21:09:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sm+~`only^Sresponse^N3^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [313]
-			"<21:09:20> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	øliwia-Gul'dan", -- [314]
-			"<21:09:21> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [315]
-			"<21:09:22> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Nheemo-Gul'dan", -- [316]
-			"<21:09:33> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^b^Sresponse^N1^t^t^^	RAID	Rodymage-Gul'dan", -- [317]
-			"<21:09:35> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sbessere~`stats,~`aber~`kein~`großes~`Upgrade~`(denke~`unter~`50~`dps)^Sresponse^N2^t^t^^	RAID	Munstar-Gul'dan", -- [318]
-			"<21:09:35> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S+81~`int~`:(^Sresponse^N1^t^t^^	RAID	Thalyra-Gul'dan", -- [319]
-			"<21:09:37> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Munstar-Gul'dan", -- [320]
-			"<21:09:37> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Munstar-Gul'dan", -- [321]
-			"<21:09:41> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sexactly~`nur~`für~`halondrus,~`da~`halt~`121DPS^Sresponse^N3^t^t^^	RAID	Memegeburt-Gul'dan", -- [322]
-			"<21:09:45> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N2^t^t^^	RAID	Thalyra-Gul'dan", -- [323]
-			"<21:09:50> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^Sfür~`destro,~`hab~`aber~`keine~`sims~`leider^Sresponse^N1^t^t^^	RAID	Schléx-Nathrezim", -- [324]
-			"<21:09:52> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	Schléx-Nathrezim", -- [325]
-			"<21:09:56> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N3^t^t^^	RAID	Rahzkek-Gul'dan", -- [326]
-			"<21:10:01> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Lidocain-Nathrezim", -- [327]
-			"<21:10:03> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N4^t^t^^	RAID	Lidocain-Nathrezim", -- [328]
-			"<21:10:07> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [329]
-			"<21:10:09> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N276.625^N6^N261^t^^	RAID	Pouked-Gul'dan", -- [330]
-			"<21:10:14> <Comm>		^1^SlootAck^T^N1^N261^N2^N276.625^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N6^N2^N6^N3^N6^t^Sgear1^T^N1^S178853:6229:::::::60:261::35:5:7814:7359:6652:1592:6646^N2^S178853:6229:::::::60:261::35:5:7814:7359:6652:1592:6646^N3^S178771::::::::60:261::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S186856:6228:::::::60:261::14:3:7569:1544:6646:1:28:807^N2^S186856:6228:::::::60:261::14:3:7569:1544:6646:1:28:807^N3^S179356::::::::60:261::35:5:7786:7359:6652:1592:6646^t^t^t^^	RAID	Pouked-Gul'dan", -- [331]
-			"<21:10:17> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [332]
-			"<21:10:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Pouked-Gul'dan", -- [333]
-			"<21:10:19> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [334]
-			"<21:10:24> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sdestro~`multitarget~`statstick~`dps~`sehr~`fightabhäängig^Sresponse^N2^t^t^^	RAID	Zinghultus-Gul'dan", -- [335]
-			"<21:10:25> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^N1^t^t^^	RAID	Rahzkek-Gul'dan", -- [336]
-			"<21:10:28> <Comm>		^1^Svote^T^N1^N1^N2^SThalyra-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [337]
-			"<21:10:37> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^Sbis~`+53^Sresponse^N1^t^t^^	RAID	Nheemo-Gul'dan", -- [338]
-			"<21:10:55> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Snote^S77^Sresponse^N1^t^t^^	RAID	Lidocain-Nathrezim", -- [339]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Memegeburt-Gul'dan", -- [340]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Pepo-Gul'dan", -- [341]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Pepo-Gul'dan", -- [342]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Hetarnia-Gul'dan", -- [343]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Hetarnia-Gul'dan", -- [344]
-			"<21:11:00> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Hetarnia-Gul'dan", -- [345]
-			"<21:11:05> <Comm>		^1^Sl^T^N1^S184738^t^^	RAID	Liádrin-Gul'dan", -- [346]
-			"<21:11:21> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [347]
-			"<21:11:21> <INFO>		UpdatePlayersData()", -- [348]
-			"<21:11:23> <DEBUG>		GetML()", -- [349]
-			"<21:11:32> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [350]
-			"<21:11:32> <INFO>		UpdatePlayersData()", -- [351]
-			"<21:11:34> <DEBUG>		GetML()", -- [352]
-			"<21:11:45> <Comm>		^1^Svote^T^N1^N1^N2^SThalyra-Gul'dan^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [353]
-			"<21:12:02> <Comm>		^1^Svote^T^N1^N2^N2^SMunstar-Gul'dan^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [354]
-			"<21:12:34> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [355]
-			"<21:12:34> <INFO>		UpdatePlayersData()", -- [356]
-			"<21:12:36> <DEBUG>		GetML()", -- [357]
-			"<21:13:04> <Comm>		^1^Svote^T^N1^N2^N2^SMunstar-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [358]
-			"<21:13:15> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N274.6875^N6^N577^t^^	RAID	Endaxis-Anetheron", -- [359]
-			"<21:13:15> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Sreconnect^t^^	RAID	Endaxis-Anetheron", -- [360]
-			"<21:13:15> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Smldb^N3^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [361]
-			"<21:13:15> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scouncil^N3^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [362]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^SlootTable^N3^T^N1^T^Sstring^S189789:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SFarlandér-Gul'dan^Sboss^SPrototype~`Pantheon^t^N2^T^Sstring^S189800:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SPepo-Gul'dan^Sboss^SPrototype~`Pantheon^t^N3^T^Sstring^S188270:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^STankposi-Gul'dan^Sboss^SPrototype~`Pantheon^t^t^t^^	RAID	Ursarus-Gul'dan", -- [363]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [364]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [365]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [366]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [367]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [368]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [369]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [370]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [371]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [372]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [373]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [374]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [375]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [376]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [377]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [378]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [379]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [380]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [381]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [382]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [383]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [384]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [385]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [386]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [387]
-			"<21:13:19> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^N1^B^N2^B^t^Sdiff^T^N1^N0^N2^N0^N3^N13^t^Sgear1^T^N1^S178857:6228:::::::60:577::35:5:7814:7359:6652:1592:6646^N2^S178857:6228:::::::60:577::35:5:7814:7359:6652:1592:6646^N3^S178771::::::::60:577::16:5:7359:41:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S178854:6229:::::::60:577::35:5:7814:7359:6652:1592:6646^N2^S178854:6229:::::::60:577::35:5:7814:7359:6652:1592:6646^N3^S188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^t^t^t^^	RAID	Endaxis-Anetheron", -- [388]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [389]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [390]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [391]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [392]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [393]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [394]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [395]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [396]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [397]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [398]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [399]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [400]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [401]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [402]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [403]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [404]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [405]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [406]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [407]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [408]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [409]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [410]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [411]
-			"<21:13:19> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [412]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [413]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [414]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [415]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [416]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [417]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [418]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [419]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [420]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [421]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [422]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [423]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [424]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [425]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [426]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [427]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [428]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [429]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [430]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [431]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [432]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [433]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [434]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [435]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [436]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [437]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [438]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [439]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [440]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [441]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [442]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [443]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [444]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [445]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [446]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [447]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [448]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [449]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [450]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [451]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [452]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [453]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [454]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [455]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [456]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [457]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [458]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [459]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [460]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [461]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [462]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [463]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [464]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [465]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [466]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [467]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [468]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [469]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [470]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [471]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [472]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [473]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [474]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [475]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [476]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [477]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [478]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [479]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [480]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [481]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [482]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [483]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [484]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [485]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [486]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [487]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [488]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [489]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [490]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [491]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [492]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [493]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [494]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [495]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [496]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [497]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [498]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [499]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [500]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [501]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [502]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [503]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [504]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [505]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [506]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [507]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [508]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [509]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [510]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [511]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [512]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [513]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [514]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [515]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [516]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [517]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [518]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [519]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [520]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [521]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [522]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [523]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [524]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [525]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [526]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [527]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [528]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [529]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [530]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [531]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [532]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [533]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [534]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [535]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [536]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [537]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [538]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [539]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [540]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [541]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [542]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [543]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [544]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [545]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [546]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [547]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [548]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [549]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [550]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [551]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [552]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [553]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [554]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [555]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [556]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [557]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [558]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [559]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [560]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [561]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [562]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [563]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [564]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [565]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [566]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [567]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [568]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [569]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [570]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [571]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [572]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [573]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [574]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [575]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [576]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [577]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [578]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [579]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [580]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [581]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [582]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [583]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [584]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [585]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [586]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [587]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [588]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [589]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [590]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [591]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [592]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [593]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [594]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [595]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [596]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [597]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [598]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [599]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [600]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [601]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [602]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [603]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [604]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [605]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [606]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [607]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [608]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [609]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [610]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [611]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [612]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [613]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [614]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [615]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [616]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [617]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [618]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [619]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [620]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [621]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [622]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [623]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [624]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [625]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [626]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [627]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [628]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [629]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [630]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [631]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [632]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [633]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [634]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [635]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [636]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [637]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [638]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [639]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [640]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [641]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [642]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [643]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [644]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [645]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [646]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [647]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [648]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [649]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [650]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [651]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [652]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [653]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [654]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [655]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [656]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [657]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [658]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [659]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [660]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [661]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [662]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [663]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [664]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [665]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [666]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [667]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [668]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [669]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [670]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [671]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [672]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [673]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [674]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [675]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [676]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [677]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [678]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [679]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [680]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [681]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [682]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [683]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [684]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [685]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [686]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [687]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [688]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [689]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [690]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [691]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [692]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [693]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [694]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [695]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [696]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [697]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [698]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [699]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [700]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [701]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [702]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [703]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [704]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [705]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [706]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [707]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [708]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [709]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [710]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [711]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [712]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [713]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [714]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [715]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [716]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [717]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [718]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [719]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [720]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [721]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [722]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [723]
-			"<21:13:19> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [724]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [725]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [726]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [727]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [728]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [729]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [730]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [731]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [732]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [733]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [734]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [735]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [736]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [737]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [738]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [739]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [740]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [741]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [742]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [743]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [744]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [745]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [746]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [747]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [748]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [749]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [750]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [751]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [752]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [753]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [754]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [755]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [756]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [757]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [758]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [759]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [760]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [761]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [762]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [763]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [764]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [765]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [766]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [767]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [768]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [769]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [770]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [771]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [772]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [773]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [774]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [775]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [776]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [777]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [778]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [779]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [780]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [781]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [782]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [783]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [784]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [785]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [786]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [787]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [788]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [789]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [790]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [791]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [792]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [793]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [794]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [795]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [796]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [797]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [798]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [799]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [800]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [801]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [802]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [803]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [804]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [805]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [806]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [807]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [808]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [809]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [810]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [811]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [812]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [813]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [814]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [815]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [816]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [817]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [818]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [819]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [820]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [821]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [822]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [823]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [824]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [825]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [826]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [827]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [828]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [829]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [830]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [831]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [832]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [833]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [834]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [835]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [836]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [837]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [838]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [839]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [840]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [841]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [842]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [843]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [844]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [845]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [846]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [847]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [848]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [849]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [850]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [851]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [852]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [853]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [854]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [855]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [856]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [857]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [858]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [859]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [860]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [861]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [862]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [863]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [864]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [865]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [866]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [867]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [868]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [869]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [870]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [871]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [872]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [873]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [874]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [875]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [876]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [877]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [878]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [879]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [880]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [881]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [882]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [883]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [884]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [885]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [886]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [887]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [888]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [889]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [890]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [891]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [892]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [893]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [894]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [895]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [896]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [897]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [898]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [899]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [900]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [901]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [902]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [903]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [904]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [905]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [906]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [907]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [908]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [909]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [910]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [911]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [912]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [913]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [914]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [915]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [916]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [917]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [918]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [919]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [920]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [921]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [922]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [923]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [924]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [925]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [926]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [927]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [928]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [929]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [930]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [931]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [932]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [933]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [934]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [935]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [936]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [937]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [938]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [939]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [940]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [941]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [942]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [943]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [944]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [945]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [946]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [947]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [948]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [949]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [950]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [951]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [952]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [953]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [954]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [955]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [956]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [957]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [958]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [959]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [960]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [961]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [962]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [963]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [964]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [965]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [966]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [967]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [968]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [969]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [970]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [971]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [972]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [973]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [974]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [975]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [976]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [977]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [978]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [979]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [980]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [981]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [982]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [983]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [984]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [985]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [986]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [987]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [988]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [989]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [990]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [991]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [992]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [993]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [994]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [995]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [996]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [997]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [998]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [999]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1000]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1001]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1002]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1003]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1004]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1005]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1006]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1007]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1008]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1009]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1010]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1011]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1012]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1013]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1014]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1015]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1016]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1017]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1018]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1019]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1020]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1021]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1022]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1023]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1024]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1025]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1026]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1027]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1028]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1029]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1030]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1031]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1032]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1033]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1034]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1035]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1036]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1037]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1038]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1039]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1040]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1041]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1042]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1043]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1044]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1045]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1046]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1047]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1048]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1049]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1050]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1051]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1052]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1053]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1054]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1055]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1056]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1057]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1058]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1059]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1060]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1061]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1062]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1063]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1064]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1065]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1066]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1067]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1068]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1069]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1070]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1071]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1072]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1073]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1074]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1075]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1076]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1077]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1078]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1079]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1080]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1081]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1082]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1083]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1084]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1085]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1086]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1087]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1088]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1089]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1090]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1091]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1092]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1093]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1094]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1095]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1096]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1097]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1098]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1099]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1100]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1101]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1102]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1103]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1104]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1105]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1106]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1107]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1108]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1109]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1110]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1111]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1112]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1113]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1114]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1115]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1116]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1117]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1118]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1119]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1120]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1121]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [1122]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1123]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1124]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1125]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1126]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1127]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1128]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1129]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1130]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1131]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1132]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1133]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1134]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1135]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1136]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1137]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1138]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1139]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1140]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1141]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1142]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1143]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1144]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1145]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1146]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1147]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1148]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1149]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1150]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1151]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1152]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1153]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1154]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1155]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1156]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1157]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1158]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1159]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1160]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1161]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1162]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1163]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1164]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1165]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1166]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1167]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1168]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1169]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1170]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1171]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1172]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1173]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1174]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1175]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1176]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1177]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1178]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1179]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1180]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1181]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1182]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1183]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1184]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1185]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1186]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1187]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1188]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1189]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1190]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1191]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1192]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1193]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1194]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1195]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1196]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1197]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1198]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1199]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1200]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1201]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1202]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1203]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1204]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1205]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1206]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1207]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1208]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1209]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1210]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1211]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1212]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1213]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1214]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1215]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1216]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [1217]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1218]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1219]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1220]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1221]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1222]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1223]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1224]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1225]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1226]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1227]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1228]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1229]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1230]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1231]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1232]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1233]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1234]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1235]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1236]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1237]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1238]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1239]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1240]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1241]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [1242]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1243]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1244]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [1245]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1246]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1247]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1248]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1249]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1250]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1251]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1252]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1253]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1254]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1255]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [1256]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1257]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1258]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1259]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [1260]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1261]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1262]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [1263]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1264]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1265]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1266]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1267]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1268]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1269]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1270]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1271]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1272]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1273]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1274]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1275]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1276]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1277]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1278]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1279]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1280]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [1281]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [1282]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1283]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1284]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1285]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1286]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1287]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1288]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1289]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1290]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1291]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1292]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1293]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1294]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1295]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Lidocain-Nathrezim", -- [1296]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	øliwia-Gul'dan", -- [1297]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Nheemo-Gul'dan", -- [1298]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1299]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1300]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [1301]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1302]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1303]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1304]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1305]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1306]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1307]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1308]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1309]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1310]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1311]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Munstar-Gul'dan", -- [1312]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1313]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1314]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1315]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1316]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Wubs-Nathrezim", -- [1317]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1318]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1319]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1320]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1321]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1322]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1323]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1324]
-			"<21:13:20> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1325]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1326]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1327]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1328]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1329]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1330]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1331]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1332]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1333]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1334]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1335]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1336]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rodymage-Gul'dan", -- [1337]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1338]
-			"<21:13:21> <Comm>		^1^Sresponse^T^N1^N3^N2^T^Sresponse^SPASS^t^t^^	RAID	Endaxis-Anetheron", -- [1339]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1340]
-			"<21:13:21> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1341]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1342]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1343]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1344]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1345]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1346]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1347]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1348]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1349]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1350]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1351]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1352]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1353]
-			"<21:13:22> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1354]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1355]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1356]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1357]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1358]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1359]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1360]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1361]
-			"<21:13:23> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1362]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1363]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1364]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1365]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1366]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1367]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1368]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1369]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1370]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1371]
-			"<21:13:24> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1372]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1373]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1374]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1375]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1376]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1377]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1378]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1379]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1380]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^SreconnectData^N3^T^N1^T^SequipLoc^SINVTYPE_2HWEAPON^Sstring^S189789:::::::::::6:4:7187:6652:1524:6646:1:28:2167^Silvl^N278^Sadded^B^StypeID^N2^Sboss^SPrototype~`Pantheon^Sboe^b^Stexture^N3751726^Slink^S|cffa335ee|Hitem:189789::::::::60:102::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Pursuit~`of~`Victory]|h|r^StypeCode^Sdefault^Sowner^SFarlandér-Gul'dan^SsubType^SStaves^SsubTypeID^N10^Squality^N4^ShaveVoted^b^Sclasses^N4294967295^Ssession^N1^Scandidates^T^Søliwia-Gul'dan^T^ShaveVoted^b^Silvl^N275.5^Sclass^SSHAMAN^Sresponse^SPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N264^Sgear1^Sitem:178829:6229:::::::60:264::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SRodymage-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SMAGE^Sgear2^Sitem:185812::::::::60:64::33:5:7359:6652:7840:1589:6646:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N64^Sgear1^Sitem:178856:6229:::::::60:64::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SThalyra-Gul'dan^T^ShaveVoted^b^Silvl^N272.0625^Sclass^SPRIEST^Snote^S+81~`int~`:(^Sresponse^N1^Svoters^T^N1^SMemegeburt-Gul'dan^N2^SWubs-Nathrezim^t^Srole^SHEALER^Sdiff^N16^Svotes^N2^SspecID^N257^Sgear1^Sitem:179339:6229:::::::60:257::16:5:7823:7359:6652:1576:6646:1:28:1279^Srank^SMythic~`Raider^t^SZinghultus-Gul'dan^T^ShaveVoted^b^Silvl^N276.5625^Sclass^SWARLOCK^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N267^Sgear1^Sitem:185822:6229:::::::60:267::35:5:7828:7359:6652:1595:6646^Srank^SOfficer^t^SAdelgunde-Nathrezim^T^ShaveVoted^b^Silvl^N274.375^Sclass^SPALADIN^Sgear2^Sitem:189819::::::::60:65::6:4:7187:6652:1524:6646^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N65^Sgear1^Sitem:178709:6229:::::::60:65::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SPouked-Gul'dan^T^ShaveVoted^b^Silvl^N276.625^Sclass^SROGUE^Sgear2^Sitem:186856:6228:::::::60:261::14:3:7569:1544:6646:1:28:807^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N261^Sgear1^Sitem:178853:6229:::::::60:261::35:5:7814:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SWubs-Nathrezim^T^ShaveVoted^b^Silvl^N274.125^Sclass^SSHAMAN^Sgear2^Sitem:189819::::::::60:262::6:4:7187:6652:1524:6646:1:28:2167^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N262^Sgear1^Sitem:178789:6229:::::::60:262::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SHetarnia-Gul'dan^T^ShaveVoted^b^Silvl^N276.4375^Sclass^SWARRIOR^Sgear2^Sitem:186410:6229:::::::60:72::6:5:7187:6652:1498:6646:7748^Sresponse^STIMEOUT^Svoters^T^t^Srole^SDAMAGER^Sdiff^N19^Svotes^N0^SspecID^N72^Sgear1^Sitem:178713:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SSchléx-Nathrezim^T^ShaveVoted^b^Silvl^N275.9375^Sclass^SWARLOCK^Snote^Sfür~`destro,~`hab~`aber~`keine~`sims~`leider^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N267^Sgear1^Sitem:178829:6229:::::::60:267::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SLiádrin-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Sclass^SPALADIN^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N70^Sgear1^Sitem:189862:6228:::::::60:70::5:5:7188:6652:8159:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SWomblez-Nathrezim^T^ShaveVoted^b^Silvl^N274.0625^Sclass^SDRUID^Sgear2^Sitem:178868::::::::60:105::16:5:7359:6652:7840:1586:6646:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N6^Svotes^N0^SspecID^N105^Sgear1^Sitem:178753:6229:::::::60:105::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SPepo-Gul'dan^T^ShaveVoted^b^Silvl^N276.5^Sclass^SDEATHKNIGHT^Sresponse^SAUTOPASS^Svoters^T^t^Srole^STANK^Sdiff^N0^Svotes^N0^SspecID^N250^Sgear1^Sitem:178713:3368:::::::60:250::35:5:7828:7359:6652:1592:6646^Srank^SGuild~`Master^t^STankposi-Gul'dan^T^ShaveVoted^b^Silvl^N276.25^Sclass^SMONK^Sresponse^N4^Svoters^T^t^Srole^STANK^Sdiff^N0^Svotes^N0^SspecID^N268^Sgear1^Sitem:178865:6228:::::::60:268::35:5:7828:7359:41:1592:6646^Srank^SMythic~`Raider^t^SMunstar-Gul'dan^T^ShaveVoted^b^Silvl^N275.6875^Sclass^SWARRIOR^Sgear2^Sitem:189862:6229:::::::60:72::5:5:7188:6652:8159:1511:6646^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N72^Sgear1^Sitem:178866:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SNheemo-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Sclass^SHUNTER^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N254^Sgear1^Sitem:179348:6195:::::::60:254::35:5:7828:7359:6652:1592:6646^Srank^SGünni^t^SCleavarious-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:186388:6229:::::::60:577::6:4:7187:6652:1498:6646:1:28:2106^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N26^Svotes^N0^SspecID^N577^Sgear1^Sitem:178754:6228:::::::60:577::33:5:7359:6652:7812:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SEndaxis-Anetheron^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:178854:6229:::::::60:577::35:5:7814:7359:6652:1592:6646^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N577^Sgear1^Sitem:178857:6228:::::::60:577::35:5:7814:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SMemegeburt-Gul'dan^T^ShaveVoted^b^Silvl^N275.75^Sclass^SDEATHKNIGHT^Sgear2^Sitem:189851:3368:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N251^Sgear1^Sitem:189851:6243:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SUrsarus-Gul'dan^T^ShaveVoted^b^Silvl^N276.6875^Sclass^SDRUID^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N102^Sgear1^Sitem:179339:6229:::::::60:102::35:5:7828:7359:6652:1592:6646^Srank^SOfficer^t^SCascadá-Gul'dan^T^ShaveVoted^b^Silvl^N276.9375^Sclass^SPRIEST^Sresponse^N3^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N257^Sgear1^Sitem:178714:6229:::::::60:257::35:5:7828:7359:42:1592:6646^Srank^SOfficer^t^SRahzkek-Gul'dan^T^ShaveVoted^b^Silvl^N277.75^Sclass^SSHAMAN^Sgear2^Sitem:189779:6229:::::::60:263::6:4:7187:6652:1524:6646^Sresponse^N3^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N263^Sgear1^Sitem:178857:6228:::::::60:263::35:5:7814:7359:6652:1592:6646^Srank^SOfficer^t^SFarlandér-Gul'dan^T^ShaveVoted^b^Silvl^N275.3125^Sclass^SPRIEST^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N258^Sgear1^Sitem:189789:6229:::::::60:258::6:4:7187:40:1524:6646:1:28:2167^Srank^SMythic~`Raider^t^SLidocain-Nathrezim^T^ShaveVoted^b^Silvl^N275.25^Sclass^SHUNTER^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N254^Sgear1^Sitem:189790:6196:::::::60:254::6:4:7187:6652:1524:6646^Srank^SOfficer^t^STrîâlbôdy-Anetheron^T^ShaveVoted^b^Silvl^N274.875^Sclass^SMAGE^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N64^Sgear1^Sitem:189789:6229:::::::60:64::6:4:7187:6652:1524:6646^Srank^SMythic~`Raider^t^t^t^N2^T^SequipLoc^SINVTYPE_2HWEAPON^Sstring^S189800:::::::::::6:4:7187:6652:1524:6646:1:28:2167^Silvl^N278^Sadded^B^StypeID^N2^Sboss^SPrototype~`Pantheon^Sboe^b^Stexture^N3751728^Slink^S|cffa335ee|Hitem:189800::::::::60:102::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Prelude~`to~`Pride]|h|r^StypeCode^Sdefault^Sowner^SPepo-Gul'dan^SsubType^STwo-Handed~`Swords^SsubTypeID^N8^Squality^N4^ShaveVoted^b^Sclasses^N4294967295^Ssession^N2^Scandidates^T^Søliwia-Gul'dan^T^ShaveVoted^b^Silvl^N275.5^Sclass^SSHAMAN^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N264^Sgear1^Sitem:178829:6229:::::::60:264::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SRodymage-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SMAGE^Sgear2^Sitem:185812::::::::60:64::33:5:7359:6652:7840:1589:6646:1:28:1279^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N64^Sgear1^Sitem:178856:6229:::::::60:64::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SThalyra-Gul'dan^T^ShaveVoted^b^Silvl^N272.0625^Sclass^SPRIEST^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N16^Svotes^N0^SspecID^N257^Sgear1^Sitem:179339:6229:::::::60:257::16:5:7823:7359:6652:1576:6646:1:28:1279^Srank^SMythic~`Raider^t^SZinghultus-Gul'dan^T^ShaveVoted^b^Silvl^N276.5625^Sclass^SWARLOCK^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N267^Sgear1^Sitem:185822:6229:::::::60:267::35:5:7828:7359:6652:1595:6646^Srank^SOfficer^t^SAdelgunde-Nathrezim^T^ShaveVoted^b^Silvl^N274.375^Sclass^SPALADIN^Sgear2^Sitem:189819::::::::60:65::6:4:7187:6652:1524:6646^Sresponse^N3^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N65^Sgear1^Sitem:178709:6229:::::::60:65::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SPouked-Gul'dan^T^ShaveVoted^b^Silvl^N276.625^Sclass^SROGUE^Sgear2^Sitem:186856:6228:::::::60:261::14:3:7569:1544:6646:1:28:807^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N261^Sgear1^Sitem:178853:6229:::::::60:261::35:5:7814:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SWubs-Nathrezim^T^ShaveVoted^b^Silvl^N274.125^Sclass^SSHAMAN^Sgear2^Sitem:189819::::::::60:262::6:4:7187:6652:1524:6646:1:28:2167^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N262^Sgear1^Sitem:178789:6229:::::::60:262::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SHetarnia-Gul'dan^T^ShaveVoted^b^Silvl^N276.4375^Sclass^SWARRIOR^Sgear2^Sitem:186410:6229:::::::60:72::6:5:7187:6652:1498:6646:7748^Sresponse^STIMEOUT^Svoters^T^t^Srole^SDAMAGER^Sdiff^N19^Svotes^N0^SspecID^N72^Sgear1^Sitem:178713:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SSchléx-Nathrezim^T^ShaveVoted^b^Silvl^N275.9375^Sclass^SWARLOCK^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N267^Sgear1^Sitem:178829:6229:::::::60:267::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SLiádrin-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Sclass^SPALADIN^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N70^Sgear1^Sitem:189862:6228:::::::60:70::5:5:7188:6652:8159:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SWomblez-Nathrezim^T^ShaveVoted^b^Silvl^N274.0625^Sclass^SDRUID^Sgear2^Sitem:178868::::::::60:105::16:5:7359:6652:7840:1586:6646:1:28:1279^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N6^Svotes^N0^SspecID^N105^Sgear1^Sitem:178753:6229:::::::60:105::35:5:7856:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SPepo-Gul'dan^T^ShaveVoted^b^Silvl^N276.5^Sclass^SDEATHKNIGHT^Sresponse^STIMEOUT^Svoters^T^t^Srole^STANK^Sdiff^N0^Svotes^N0^SspecID^N250^Sgear1^Sitem:178713:3368:::::::60:250::35:5:7828:7359:6652:1592:6646^Srank^SGuild~`Master^t^STankposi-Gul'dan^T^ShaveVoted^b^Silvl^N276.25^Sclass^SMONK^Sresponse^SAUTOPASS^Svoters^T^t^Srole^STANK^Sdiff^N0^Svotes^N0^SspecID^N268^Sgear1^Sitem:178865:6228:::::::60:268::35:5:7828:7359:41:1592:6646^Srank^SMythic~`Raider^t^SMunstar-Gul'dan^T^ShaveVoted^b^Silvl^N275.6875^Snote^Sbessere~`stats,~`aber~`kein~`großes~`Upgrade~`(denke~`unter~`50~`dps)^Sclass^SWARRIOR^Sgear2^Sitem:189862:6229:::::::60:72::5:5:7188:6652:8159:1511:6646^Sresponse^N2^Svoters^T^N1^SWubs-Nathrezim^N2^SMemegeburt-Gul'dan^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N2^SspecID^N72^Sgear1^Sitem:178866:6228:::::::60:72::35:5:7828:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SNheemo-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Sclass^SHUNTER^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N254^Sgear1^Sitem:179348:6195:::::::60:254::35:5:7828:7359:6652:1592:6646^Srank^SGünni^t^SCleavarious-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:186388:6229:::::::60:577::6:4:7187:6652:1498:6646:1:28:2106^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N26^Svotes^N0^SspecID^N577^Sgear1^Sitem:178754:6228:::::::60:577::33:5:7359:6652:7812:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SEndaxis-Anetheron^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:178854:6229:::::::60:577::35:5:7814:7359:6652:1592:6646^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N577^Sgear1^Sitem:178857:6228:::::::60:577::35:5:7814:7359:6652:1592:6646^Srank^SMythic~`Raider^t^SMemegeburt-Gul'dan^T^ShaveVoted^b^Silvl^N275.75^Snote^Sexactly~`nur~`für~`halondrus,~`da~`halt~`121DPS^Sclass^SDEATHKNIGHT^Sgear2^Sitem:189851:3368:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^Sresponse^N3^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N251^Sgear1^Sitem:189851:6243:::::::60:251::5:4:7188:6652:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SUrsarus-Gul'dan^T^ShaveVoted^b^Silvl^N276.6875^Sclass^SDRUID^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N102^Sgear1^Sitem:179339:6229:::::::60:102::35:5:7828:7359:6652:1592:6646^Srank^SOfficer^t^SCascadá-Gul'dan^T^ShaveVoted^b^Silvl^N276.9375^Sclass^SPRIEST^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N0^Svotes^N0^SspecID^N257^Sgear1^Sitem:178714:6229:::::::60:257::35:5:7828:7359:42:1592:6646^Srank^SOfficer^t^SRahzkek-Gul'dan^T^ShaveVoted^b^Silvl^N277.75^Sclass^SSHAMAN^Sgear2^Sitem:189779:6229:::::::60:263::6:4:7187:6652:1524:6646^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N263^Sgear1^Sitem:178857:6228:::::::60:263::35:5:7814:7359:6652:1592:6646^Srank^SOfficer^t^SFarlandér-Gul'dan^T^ShaveVoted^b^Silvl^N275.3125^Sclass^SPRIEST^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N258^Sgear1^Sitem:189789:6229:::::::60:258::6:4:7187:40:1524:6646:1:28:2167^Srank^SMythic~`Raider^t^SLidocain-Nathrezim^T^ShaveVoted^b^Silvl^N275.25^Sclass^SHUNTER^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N254^Sgear1^Sitem:189790:6196:::::::60:254::6:4:7187:6652:1524:6646^Srank^SOfficer^t^STrîâlbôdy-Anetheron^T^ShaveVoted^b^Silvl^N274.875^Sclass^SMAGE^Sresponse^SAUTOPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N0^Svotes^N0^SspecID^N64^Sgear1^Sitem:189789:6229:::::::60:64::6:4:7187:6652:1524:6646^Srank^SMythic~`Raider^t^t^t^N3^T^SequipLoc^SINVTYPE_TRINKET^Sstring^S188270:::::::::::6:4:7187:6652:1524:6646:1:28:2167^Silvl^N278^Sadded^B^StypeID^N4^Sboss^SPrototype~`Pantheon^Sboe^b^Stexture^N3950364^Slink^S|cffa335ee|Hitem:188270::::::::60:102::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegy~`of~`the~`Eternals]|h|r^StypeCode^Sdefault^Sowner^STankposi-Gul'dan^SsubType^SMiscellaneous^SsubTypeID^N0^Squality^N4^ShaveVoted^b^Sclasses^N4294967295^Ssession^N3^Scandidates^T^Søliwia-Gul'dan^T^ShaveVoted^b^Silvl^N275.5^Sclass^SSHAMAN^Sgear2^Sitem:178708::::::::60:264::33:6:7359:6652:6916:7784:1586:6646:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N13^Svotes^N0^SspecID^N264^Sgear1^Sitem:188270::::::::60:264::5:4:7188:6652:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SRodymage-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Snote^b^Sclass^SMAGE^Sgear2^Sitem:178708::::::::60:64::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N64^Sgear1^Sitem:188271::::::::60:64::5:4:6652:7188:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SThalyra-Gul'dan^T^ShaveVoted^b^Silvl^N272.0625^Sclass^SPRIEST^Sgear2^Sitem:178708::::::::60:257::33:6:7359:6652:6917:7784:1586:6646:1:28:1279^Sresponse^N2^Svoters^T^t^Srole^SHEALER^Sdiff^N6^Svotes^N0^SspecID^N257^Sgear1^Sitem:190958::::::::60:257::16:5:7359:6652:7784:1589:6646:1:28:1279^Srank^SMythic~`Raider^t^SZinghultus-Gul'dan^T^ShaveVoted^b^Silvl^N276.5625^Snote^Sdestro~`multitarget~`statstick~`dps~`sehr~`fightabhäängig^Sclass^SWARLOCK^Sgear2^Sitem:178708::::::::60:267::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^Sresponse^N2^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N267^Sgear1^Sitem:178809::::::::60:267::35:5:7786:7359:6652:1592:6646^Srank^SOfficer^t^SAdelgunde-Nathrezim^T^ShaveVoted^b^Silvl^N274.375^Sclass^SPALADIN^Sgear2^Sitem:178708::::::::60:65::33:6:7359:6652:6917:7782:1579:6646:1:28:1279^Sresponse^N1^Svoters^T^t^Srole^SHEALER^Sdiff^N13^Svotes^N0^SspecID^N65^Sgear1^Sitem:188270::::::::60:65::5:4:7188:6652:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SPouked-Gul'dan^T^ShaveVoted^b^Silvl^N276.625^Sclass^SROGUE^Sgear2^Sitem:179356::::::::60:261::35:5:7786:7359:6652:1592:6646^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N261^Sgear1^Sitem:178771::::::::60:261::16:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SWubs-Nathrezim^T^ShaveVoted^b^Silvl^N274.125^Sclass^SSHAMAN^Sgear2^Sitem:178708::::::::60:262::16:6:7359:6652:7784:1586:6646:6916:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N262^Sgear1^Sitem:188271::::::::60:262::5:4:6652:7188:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SHetarnia-Gul'dan^T^ShaveVoted^b^Silvl^N276.4375^Sclass^SWARRIOR^Sgear2^Sitem:186438::::::::60:72::6:4:7187:6652:1498:6646^Sresponse^STIMEOUT^Svoters^T^t^Srole^SDAMAGER^Sdiff^N19^Svotes^N0^SspecID^N72^Sgear1^Sitem:188271::::::::60:72::6:4:6652:7187:1524:6646:1:28:2167^Srank^SMythic~`Raider^t^SSchléx-Nathrezim^T^ShaveVoted^b^Silvl^N275.9375^Sclass^SWARLOCK^Sgear2^Sitem:188270::::::::60:267::5:4:7188:6652:1511:6646:1:28:2166^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N267^Sgear1^Sitem:178809::::::::60:267::33:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SLiádrin-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Sclass^SPALADIN^Sgear2^Sitem:188271::::::::60:70::6:4:6652:7187:1524:6646^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N19^Svotes^N0^SspecID^N70^Sgear1^Sitem:186438::::::::60:70::6:3:7187:1498:6646^Srank^SMythic~`Raider^t^SWomblez-Nathrezim^T^ShaveVoted^b^Silvl^N274.0625^Sclass^SDRUID^Sgear2^Sitem:178708::::::::60:105::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SHEALER^Sdiff^N26^Svotes^N0^SspecID^N105^Sgear1^Sitem:188270::::::::60:105::3:4:7189:6652:1498:6646:1:28:2165^Srank^SMythic~`Raider^t^SPepo-Gul'dan^T^ShaveVoted^b^Silvl^N276.5^Sclass^SDEATHKNIGHT^Sgear2^Sitem:185836::::::::60:250::33:5:7359:6652:7784:1589:6646:1:28:1279^Sresponse^STIMEOUT^Svoters^T^t^Srole^STANK^Sdiff^N19^Svotes^N0^SspecID^N250^Sgear1^Sitem:186438::::::::60:250::6:4:7187:6652:1498:6646^Srank^SGuild~`Master^t^STankposi-Gul'dan^T^ShaveVoted^b^Silvl^N276.25^Sclass^SMONK^Sgear2^Sitem:188265::::::::60:268::6:4:7187:6652:1524:6646:1:28:2167^Sresponse^SPASS^Svoters^T^t^Srole^STANK^Sdiff^N6^Svotes^N0^SspecID^N268^Sgear1^Sitem:178771::::::::60:268::33:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SMunstar-Gul'dan^T^ShaveVoted^b^Silvl^N275.6875^Sclass^SWARRIOR^Sgear2^Sitem:186438::::::::60:72::5:4:7188:6652:1485:6646:1:28:2044^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N32^Svotes^N0^SspecID^N72^Sgear1^Sitem:179342::::::::60:72::33:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SNheemo-Gul'dan^T^ShaveVoted^b^Silvl^N276.125^Snote^Sbis~`+53^Sclass^SHUNTER^Sgear2^Sitem:190958::::::::60:254::16:5:7359:6652:7784:1589:6646:1:28:1279^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N254^Sgear1^Sitem:179350::::::::60:254::16:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SGünni^t^SCleavarious-Gul'dan^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:178771::::::::60:577::33:5:7359:6652:7784:1586:6646:1:28:1279^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N577^Sgear1^Sitem:188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^SEndaxis-Anetheron^T^ShaveVoted^b^Silvl^N274.6875^Sclass^SDEMONHUNTER^Sgear2^Sitem:188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^Sresponse^SNOTHING^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N577^Sgear1^Sitem:178771::::::::60:577::16:5:7359:41:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SMemegeburt-Gul'dan^T^ShaveVoted^b^Silvl^N275.75^Sclass^SDEATHKNIGHT^Sgear2^Sitem:186438::::::::60:251::6:4:7187:6652:1498:6646^Sresponse^STIMEOUT^Svoters^T^t^Srole^SDAMAGER^Sdiff^N19^Svotes^N0^SspecID^N251^Sgear1^Sitem:179350::::::::60:251::16:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SUrsarus-Gul'dan^T^ShaveVoted^b^Silvl^N276.6875^Sclass^SDRUID^Sgear2^Sitem:188271::::::::60:102::5:4:6652:7188:1511:6646:1:28:2166^Sresponse^SPASS^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N102^Sgear1^Sitem:179350::::::::60:102::16:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SOfficer^t^SCascadá-Gul'dan^T^ShaveVoted^b^Silvl^N276.9375^Sclass^SPRIEST^Sgear2^Sitem:178708::::::::60:257::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^Sresponse^N1^Svoters^T^t^Srole^SHEALER^Sdiff^N6^Svotes^N0^SspecID^N257^Sgear1^Sitem:190958::::::::60:257::33:5:7359:6652:7784:1589:6646:1:28:1279^Srank^SOfficer^t^SRahzkek-Gul'dan^T^ShaveVoted^b^Silvl^N277.75^Sclass^SSHAMAN^Sgear2^Sitem:190958::::::::60:263::33:5:7359:6652:7784:1589:6646:1:28:1279^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N263^Sgear1^Sitem:137541::::::::60:263::87:5:6652:7749:7784:3151:6646:1:28:1179^Srank^SOfficer^t^SFarlandér-Gul'dan^T^ShaveVoted^b^Silvl^N275.3125^Sclass^SPRIEST^Sgear2^Sitem:178708::::::::60:258::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^Sresponse^N4^Svoters^T^t^Srole^SDAMAGER^Sdiff^N6^Svotes^N0^SspecID^N258^Sgear1^Sitem:178809::::::::60:258::16:5:7359:6652:7784:1586:6646:1:28:1279^Srank^SMythic~`Raider^t^SLidocain-Nathrezim^T^ShaveVoted^b^Silvl^N275.25^Snote^S77^Sclass^SHUNTER^Sgear2^Sitem:179350::::::::60:254::35:5:7786:7359:6652:1592:6646^Sresponse^N1^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N254^Sgear1^Sitem:188271::::::::60:254::5:4:40:7188:1511:6646:1:28:2166^Srank^SOfficer^t^STrîâlbôdy-Anetheron^T^ShaveVoted^b^Silvl^N274.875^Snote^Sm+~`only^Sclass^SMAGE^Sgear2^Sitem:178708::::::::60:64::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^Sresponse^N3^Svoters^T^t^Srole^SDAMAGER^Sdiff^N13^Svotes^N0^SspecID^N64^Sgear1^Sitem:188271::::::::60:64::5:4:42:7188:1511:6646:1:28:2166^Srank^SMythic~`Raider^t^t^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1381]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1382]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1383]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1384]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1385]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1386]
-			"<21:13:25> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1387]
-			"<21:13:26> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1388]
-			"<21:13:26> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1389]
-			"<21:13:26> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1390]
-			"<21:13:26> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1391]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1392]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1393]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1394]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1395]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1396]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1397]
-			"<21:13:27> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1398]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1399]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1400]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1401]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1402]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1403]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1404]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1405]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1406]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1407]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1408]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1409]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1410]
-			"<21:13:28> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1411]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1412]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1413]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1414]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1415]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1416]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1417]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1418]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1419]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1420]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1421]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1422]
-			"<21:13:29> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1423]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1424]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1425]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1426]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1427]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1428]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1429]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1430]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1431]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1432]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1433]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1434]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1435]
-			"<21:13:30> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1436]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1437]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1438]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1439]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1440]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1441]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1442]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1443]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1444]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1445]
-			"<21:13:31> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1446]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1447]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1448]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1449]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1450]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1451]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1452]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1453]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1454]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1455]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1456]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1457]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1458]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1459]
-			"<21:13:32> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1460]
-			"<21:13:33> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1461]
-			"<21:13:33> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1462]
-			"<21:13:33> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1463]
-			"<21:13:33> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1464]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1465]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1466]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1467]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1468]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1469]
-			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Schléx-Nathrezim", -- [1470]
-			"<21:14:20> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Mausoleum der Ersten (Mythisch)	560739	1	0", -- [1471]
-			"<21:14:20> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1472]
-			"<21:14:20> <INFO>		UpdatePlayersData()", -- [1473]
-			"<21:14:22> <DEBUG>		GetML()", -- [1474]
-			"<21:14:29> <Comm>		^1^Svote^T^N1^N3^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [1475]
-			"<21:14:35> <Comm>		^1^Svote^T^N1^N3^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1476]
-			"<21:14:36> <Comm>		^1^Svote^T^N1^N3^N2^SLidocain-Nathrezim^N3^N-1^t^^	RAID	Memegeburt-Gul'dan", -- [1477]
-			"<21:14:37> <Comm>		^1^Svote^T^N1^N3^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1478]
-			"<21:16:05> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N276.6875^N6^N102^t^^	RAID	Ursarus-Gul'dan", -- [1479]
-			"<21:16:06> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	Ursarus-Gul'dan", -- [1480]
-			"<21:16:06> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [1481]
-			"<21:16:06> <INFO>		OnMLDBReceived", -- [1482]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SOfficer^N6^N0^N7^N275.25^N8^N254^t^^	RAID	Lidocain-Nathrezim", -- [1483]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N273.875^N8^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [1484]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N276.375^N8^N266^t^^	RAID	Schléx-Nathrezim", -- [1485]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N274.75^N8^N262^t^^	RAID	Wubs-Nathrezim", -- [1486]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N274.0625^N8^N105^t^^	RAID	Womblez-Nathrezim", -- [1487]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N275.1875^N8^N65^t^^	RAID	Adelgunde-Nathrezim", -- [1488]
-			"<21:16:06> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N274.6875^N8^N577^t^^	RAID	Endaxis-Anetheron", -- [1489]
-			"<21:16:07> <Comm>		^1^Scouncil^T^N1^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [1490]
-			"<21:16:07> <DEBUG>		isCouncil	false", -- [1491]
-			"<21:16:07> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	Ursarus-Gul'dan", -- [1492]
-			"<21:16:27> <Comm>		^1^Svote^T^N1^N3^N2^SAdelgunde-Nathrezim^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1493]
-			"<21:16:31> <Comm>		^1^Svote^T^N1^N3^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Thalyra-Gul'dan", -- [1494]
-			"<21:17:37> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S188270:::::::::::6:4:7187:6652:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SUrsarus-Gul'dan^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1495]
-			"<21:17:37> <INFO>		GetPlayersGear	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r	INVTYPE_TRINKET", -- [1496]
-			"<21:17:37> <INFO>		LootFrame:Start	1	nil", -- [1497]
-			"<21:17:37> <DEBUG>		Restoring entry:	default	1", -- [1498]
-			"<21:17:37> <DEBUG>		GetButtons	default", -- [1499]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N261^N2^N276.625^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S178771::::::::60:261::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S179356::::::::60:261::35:5:7786:7359:6652:1592:6646^t^t^t^^	RAID	Pouked-Gul'dan", -- [1500]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N72^N2^N276.4375^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S188271::::::::60:72::6:4:6652:7187:1524:6646:1:28:2167^t^Sgear2^T^N1^S186438::::::::60:72::6:4:7187:6652:1498:6646^t^t^t^^	RAID	Hetarnia-Gul'dan", -- [1501]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S178809::::::::60:266::35:5:7786:7359:6652:1592:6646^t^Sgear2^T^N1^S178769::::::::60:266::33:5:7359:6652:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [1502]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N63^N2^N273.875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188271::::::::60:63::5:4:42:7188:1511:6646:1:28:2166^t^Sgear2^T^N1^S178708::::::::60:63::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [1503]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N264^N2^N275.5^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188270::::::::60:264::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N1^S178708::::::::60:264::33:6:7359:6652:6916:7784:1586:6646:1:28:1279^t^t^t^^	RAID	øliwia-Gul'dan", -- [1504]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N63^N2^N276.3125^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S179350::::::::60:63::35:5:7786:7359:6652:1592:6646^t^Sgear2^T^N1^S178769::::::::60:63::33:5:7359:6652:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Rodymage-Gul'dan", -- [1505]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N254^N2^N276.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S179350::::::::60:254::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S190958::::::::60:254::16:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Nheemo-Gul'dan", -- [1506]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N268^N2^N276.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S178771::::::::60:268::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S188265::::::::60:268::6:4:7187:6652:1524:6646:1:28:2167^t^t^t^^	RAID	Tankposi-Gul'dan", -- [1507]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N1^S178771::::::::60:577::33:5:7359:6652:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Cleavarious-Gul'dan", -- [1508]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N65^N2^N275.1875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188270::::::::60:65::5:4:7188:6652:1511:6646:1:28:2166^t^Sgear2^T^N1^S178708::::::::60:65::33:6:7359:6652:6917:7782:1579:6646:1:28:1279^t^t^t^^	RAID	Adelgunde-Nathrezim", -- [1509]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N258^N2^N275.3125^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S178809::::::::60:258::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S178708::::::::60:258::33:6:7359:6652:7784:1586:6646:6917:1:28:1279^t^t^t^^	RAID	Farlandér-Gul'dan", -- [1510]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N72^N2^N275.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N32^t^Sgear1^T^N1^S179342::::::::60:72::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S186438::::::::60:72::5:4:7188:6652:1485:6646:1:28:2044^t^t^t^^	RAID	Munstar-Gul'dan", -- [1511]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S178771::::::::60:577::16:5:7359:41:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S188265::::::::60:577::5:4:7188:6652:1511:6646:1:28:2166^t^t^t^^	RAID	Endaxis-Anetheron", -- [1512]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N254^N2^N275.25^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188271::::::::60:254::5:4:40:7188:1511:6646:1:28:2166^t^Sgear2^T^N1^S179350::::::::60:254::35:5:7786:7359:6652:1592:6646^t^t^t^^	RAID	Lidocain-Nathrezim", -- [1513]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N70^N2^N276.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S186438::::::::60:70::6:3:7187:1498:6646^t^Sgear2^T^N1^S188271::::::::60:70::6:4:6652:7187:1524:6646^t^t^t^^	RAID	Liádrin-Gul'dan", -- [1514]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N257^N2^N276.9375^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S190958::::::::60:257::33:5:7359:6652:7784:1589:6646:1:28:1279^t^Sgear2^T^N1^S178708::::::::60:257::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^t^t^t^^	RAID	Cascadá-Gul'dan", -- [1515]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N256^N2^N274.0625^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S190958::::::::60:256::16:5:7359:6652:7784:1589:6646:1:28:1279^t^Sgear2^T^N1^S178809::::::::60:256::35:5:7786:7359:6652:1592:6646^t^t^t^^	RAID	Thalyra-Gul'dan", -- [1516]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N251^N2^N275.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S179350::::::::60:251::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S186438::::::::60:251::6:4:7187:6652:1498:6646^t^t^t^^	RAID	Memegeburt-Gul'dan", -- [1517]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N105^N2^N274.0625^N3^T^Sresponse^T^t^Sdiff^T^N1^N26^t^Sgear1^T^N1^S188270::::::::60:105::3:4:7189:6652:1498:6646:1:28:2165^t^Sgear2^T^N1^S178708::::::::60:105::33:6:7359:6652:7784:1586:6646:6918:1:28:1279^t^t^t^^	RAID	Womblez-Nathrezim", -- [1518]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N250^N2^N276.5^N3^T^Sresponse^T^t^Sdiff^T^N1^N19^t^Sgear1^T^N1^S186438::::::::60:250::6:4:7187:6652:1498:6646^t^Sgear2^T^N1^S185836::::::::60:250::33:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Pepo-Gul'dan", -- [1519]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N262^N2^N274.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188271::::::::60:262::5:4:6652:7188:1511:6646:1:28:2166^t^Sgear2^T^N1^S178708::::::::60:262::16:6:7359:6652:7784:1586:6646:6916:1:28:1279^t^t^t^^	RAID	Wubs-Nathrezim", -- [1520]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N263^N2^N277.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S137541::::::::60:263::87:5:6652:7749:7784:3151:6646:1:28:1179^t^Sgear2^T^N1^S190958::::::::60:263::33:5:7359:6652:7784:1589:6646:1:28:1279^t^t^t^^	RAID	Rahzkek-Gul'dan", -- [1521]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N6^t^Sgear1^T^N1^S178809::::::::60:266::33:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S178769::::::::60:266::16:5:7359:6652:7784:1586:6646:1:28:1279^t^t^t^^	RAID	Schléx-Nathrezim", -- [1522]
-			"<21:17:37> <Comm>		^1^SlootAck^T^N1^N102^N2^N276.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S179350::::::::60:102::16:5:7359:6652:7784:1586:6646:1:28:1279^t^Sgear2^T^N1^S188271::::::::60:102::5:4:6652:7188:1511:6646:1:28:2166^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1523]
-			"<21:17:39> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Munstar-Gul'dan", -- [1524]
-			"<21:17:40> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [1525]
-			"<21:17:40> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Tankposi-Gul'dan", -- [1526]
-			"<21:17:41> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	øliwia-Gul'dan", -- [1527]
-			"<21:17:41> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Farlandér-Gul'dan", -- [1528]
-			"<21:17:43> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S56^Sresponse^N1^t^t^^	RAID	Rahzkek-Gul'dan", -- [1529]
-			"<21:17:43> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	Thalyra-Gul'dan", -- [1530]
-			"<21:17:44> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S77~`nf^Sresponse^N1^t^t^^	RAID	Lidocain-Nathrezim", -- [1531]
-			"<21:17:48> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Memegeburt-Gul'dan", -- [1532]
-			"<21:17:49> <Comm>		^1^Soffline_timer^T^t^^	RAID	Ursarus-Gul'dan", -- [1533]
-			"<21:17:49> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S1006~`dps~`xd^Sresponse^N1^t^t^^	RAID	Pepo-Gul'dan", -- [1534]
-			"<21:17:51> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [1535]
-			"<21:17:52> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S+53~`bis^Sresponse^N1^t^t^^	RAID	Nheemo-Gul'dan", -- [1536]
-			"<21:17:52> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^Sgood~`statstick~`für~`destro~`multitarget^Sresponse^N2^t^t^^	RAID	Zinghultus-Gul'dan", -- [1537]
-			"<21:17:54> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N4^t^t^^	RAID	Wubs-Nathrezim", -- [1538]
-			"<21:18:00> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^Sfrost~`m+,~`arcane~`118^Sresponse^N3^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [1539]
-			"<21:18:00> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Endaxis-Anetheron", -- [1540]
-			"<21:18:04> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^SWut~`is~`dis~`sheet?^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [1541]
-			"<21:18:15> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S-158^Sresponse^SPASS^t^t^^	RAID	Liádrin-Gul'dan", -- [1542]
-			"<21:18:23> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^Sin~`allen~`fights~`in~`denen~`sigil~`bad~`ist^Sresponse^N1^t^t^^	RAID	Rodymage-Gul'dan", -- [1543]
-			"<21:18:32> <Comm>		^1^Svote^T^N1^N1^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1544]
-			"<21:18:36> <Comm>		^1^Svote^T^N1^N1^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [1545]
-			"<21:18:37> <DEBUG>		LootFrame:Response	1	Response:	Hauptspezialisierung/Bedarf", -- [1546]
-			"<21:18:37> <DEBUG>		SendResponse	group	1	1	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1547]
-			"<21:18:37> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:188270::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegie der Ewigen]|h|r", -- [1548]
-			"<21:18:37> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	Adelgunde-Nathrezim", -- [1549]
-			"<21:18:38> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Cascadá-Gul'dan", -- [1550]
-			"<21:19:12> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Pouked-Gul'dan", -- [1551]
-			"<21:19:33> <Comm>		^1^Svote^T^N1^N1^N2^SLidocain-Nathrezim^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1552]
-			"<21:19:37> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Hetarnia-Gul'dan", -- [1553]
-			"<21:19:37> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Schléx-Nathrezim", -- [1554]
-			"<21:20:25> <Comm>		^1^Shistory^T^N1^SLidocain-Nathrezim^N2^T^SmapID^N2481^Sdate^S27/04/22^Sclass^SHUNTER^SgroupSize^N20^Sboss^SUnknown^Stime^S21:20:20^SitemReplaced1^S|cffa335ee|Hitem:188271::::::::60:102::5:4:40:7188:1511:6646:1:28:2166:::::|h[The~`First~`Sigil]|h|r^StypeCode^Sdefault^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SUrsarus-Gul'dan^Sid^S1651083620-0^Sresponse^SMainspec/Need^Snote^S77~`nf^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:188270::::::::60:102::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Elegy~`of~`the~`Eternals]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:179350::::::::60:102::35:5:7786:7359:6652:1592:6646::::::|h[Inscrutable~`Quantum~`Device]|h|r^Svotes^N3^t^t^^	RAID	Ursarus-Gul'dan", -- [1555]
-			"<21:20:25> <Comm>		^1^Sawarded^T^N1^N1^N2^SLidocain-Nathrezim^N3^SUrsarus-Gul'dan^t^^	RAID	Ursarus-Gul'dan", -- [1556]
-			"<21:20:26> <Comm>		^1^Ssession_end^T^t^^	RAID	Ursarus-Gul'dan", -- [1557]
-			"<21:21:59> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1558]
-			"<21:21:59> <INFO>		UpdatePlayersData()", -- [1559]
-			"<21:23:31> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1560]
-			"<21:24:56> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1561]
-			"<21:24:56> <INFO>		UpdatePlayersData()", -- [1562]
-			"<21:28:01> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N276.4375^N6^N72^t^^	RAID	Hetarnia-Gul'dan", -- [1563]
-			"<21:30:40> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1564]
-			"<21:31:53> <Comm>		^1^SpI^T^N1^STANK^N2^SMythic~`Raider^N4^N0^N5^N276.25^N6^N268^t^^	RAID	Tankposi-Gul'dan", -- [1565]
-			"<21:32:09> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [1566]
-			"<21:32:09> <INFO>		OnMLDBReceived", -- [1567]
-			"<21:33:26> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1568]
-			"<21:33:26> <INFO>		UpdatePlayersData()", -- [1569]
-			"<21:36:57> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1570]
-			"<21:39:49> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1571]
-			"<21:39:49> <INFO>		UpdatePlayersData()", -- [1572]
-			"<21:44:35> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1573]
-			"<21:57:28> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1574]
-			"<21:57:28> <INFO>		UpdatePlayersData()", -- [1575]
-			"<22:01:38> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1576]
-			"<22:03:25> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1577]
-			"<22:03:25> <INFO>		UpdatePlayersData()", -- [1578]
-			"<22:05:00> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1579]
-			"<22:06:11> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1580]
-			"<22:06:11> <INFO>		UpdatePlayersData()", -- [1581]
-			"<22:10:05> <Comm>		^1^SpI^T^N1^SHEALER^N2^SOfficer^N3^B^N4^N115^N5^N276.9375^N6^N257^t^^	RAID	Cascadá-Gul'dan", -- [1582]
-			"<22:11:49> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1583]
-			"<22:13:58> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1584]
-			"<22:13:58> <INFO>		UpdatePlayersData()", -- [1585]
-			"<22:17:37> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1586]
-			"<22:19:28> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1587]
-			"<22:19:28> <INFO>		UpdatePlayersData()", -- [1588]
-			"<22:24:21> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1589]
-			"<22:27:11> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1590]
-			"<22:27:11> <INFO>		UpdatePlayersData()", -- [1591]
-			"<22:32:02> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1592]
-			"<22:33:24> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1593]
-			"<22:33:24> <INFO>		UpdatePlayersData()", -- [1594]
-			"<22:41:33> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1595]
-			"<22:43:22> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1596]
-			"<22:43:22> <INFO>		UpdatePlayersData()", -- [1597]
-			"<22:44:21> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N276.4375^N6^N72^t^^	RAID	Hetarnia-Gul'dan", -- [1598]
-			"<22:51:12> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1599]
-			"<22:53:04> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1600]
-			"<22:53:04> <INFO>		UpdatePlayersData()", -- [1601]
-			"<22:55:23> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	0", -- [1602]
-			"<22:56:49> <DEBUG>		Event:	ENCOUNTER_START	2539	Lihuvim, der oberste Architekt	16	20", -- [1603]
-			"<22:56:49> <INFO>		UpdatePlayersData()", -- [1604]
-			"<23:05:26> <DEBUG>		Event:	ENCOUNTER_END	2539	Lihuvim, der oberste Architekt	16	20	1", -- [1605]
-			"<23:05:28> <DEBUG>		Event:	LOOT_READY	false", -- [1606]
-			"<23:05:28> <DEBUG>		Adding to self.lootSlotInfo	1	nil	1	0	Creature-0-4254-2481-9247-182169-000069ADD3	739224", -- [1607]
-			"<23:05:28> <DEBUG>		Ignoring	|cffff8000|Hcurrency:2009:100|h[Kosmischer Flux]|h|r	as it's a currency", -- [1608]
-			"<23:05:28> <DEBUG>		Ignoring	|cff0070dd|Hcurrency:1982:5000|h[Belobigung der Erleuchteten]|h|r	as it's a currency", -- [1609]
-			"<23:05:29> <DEBUG>		OnLootSlotCleared()	1	nil	1", -- [1610]
-			"<23:05:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	189544	|cff0070dd|Hitem:189544::::::::60:65:::::::::|h[Animagewebe]|h|r	3	Adelgunde	PALADIN", -- [1611]
-			"<23:05:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	182608	|cffa335ee|Hitem:182608::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Tugendhafter Befehl]|h|r	1	Adelgunde	PALADIN", -- [1612]
-			"<23:05:31> <DEBUG>		Event:	LOOT_CLOSED", -- [1613]
-			"<23:05:31> <DEBUG>		Event:	LOOT_CLOSED", -- [1614]
-			"<23:05:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	182624	|cffa335ee|Hitem:182624::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Machtdemonstration]|h|r	1	Munstar-Gul'dan	WARRIOR", -- [1615]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Adelgunde-Nathrezim", -- [1616]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Adelgunde-Nathrezim", -- [1617]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Munstar-Gul'dan", -- [1618]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Munstar-Gul'dan", -- [1619]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Memegeburt-Gul'dan", -- [1620]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Memegeburt-Gul'dan", -- [1621]
-			"<23:05:32> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Liádrin-Gul'dan", -- [1622]
-			"<23:05:33> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Tankposi-Gul'dan", -- [1623]
-			"<23:05:33> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Tankposi-Gul'dan", -- [1624]
-			"<23:05:34> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	189802	|cffa335ee|Hitem:189802::::::::60:65::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot des redseligen Hüters]|h|r	1	Rodymage-Gul'dan	MAGE", -- [1625]
-			"<23:05:34> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Trîâlbôdy-Anetheron", -- [1626]
-			"<23:05:34> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Trîâlbôdy-Anetheron", -- [1627]
-			"<23:05:34> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Ursarus-Gul'dan", -- [1628]
-			"<23:05:34> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Ursarus-Gul'dan", -- [1629]
-			"<23:05:35> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Pepo-Gul'dan", -- [1630]
-			"<23:05:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	191014	|cffa335ee|Hitem:191014::::::::60:65::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Schreckliches Handmodul]|h|r	1	Zinghultus-Gul'dan	WARLOCK", -- [1631]
-			"<23:05:35> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Rodymage-Gul'dan", -- [1632]
-			"<23:05:35> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Rodymage-Gul'dan", -- [1633]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Endaxis-Anetheron", -- [1634]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Endaxis-Anetheron", -- [1635]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Zinghultus-Gul'dan", -- [1636]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Zinghultus-Gul'dan", -- [1637]
-			"<23:05:36> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	191015	|cffa335ee|Hitem:191015::::::::60:65::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Mystisches Handmodul]|h|r	1	Lidocain	HUNTER", -- [1638]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Farlandér-Gul'dan", -- [1639]
-			"<23:05:36> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Farlandér-Gul'dan", -- [1640]
-			"<23:05:37> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	189178	|cff0070dd|Hitem:189178::::::::60:65:::::::::|h[Werkzeuge unbegreiflicher Experimente]|h|r	1	Wubs	SHAMAN", -- [1641]
-			"<23:05:37> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Wubs-Nathrezim", -- [1642]
-			"<23:05:37> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Wubs-Nathrezim", -- [1643]
-			"<23:05:37> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:189802::::::::60:63::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Loquacious~`Keeper's~`Peridot]|h|r^N2^S182169^t^^	RAID	Rodymage-Gul'dan", -- [1644]
-			"<23:05:37> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Lidocain-Nathrezim", -- [1645]
-			"<23:05:37> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Lidocain-Nathrezim", -- [1646]
-			"<23:05:38> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:191014::::::::60:266::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Dreadful~`Hand~`Module]|h|r^N2^S182169^t^^	RAID	Zinghultus-Gul'dan", -- [1647]
-			"<23:05:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	187707	|cffff8000|Hitem:187707::::::::60:65:::::::::|h[Progenitoressentia]|h|r	1	Cleavarious-Gul'dan	DEMONHUNTER", -- [1648]
-			"<23:05:39> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Cleavarious-Gul'dan", -- [1649]
-			"<23:05:39> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Cleavarious-Gul'dan", -- [1650]
-			"<23:05:39> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:191015::::::::60:254::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Mystisches~`Handmodul]|h|r^N2^S182169^t^^	RAID	Lidocain-Nathrezim", -- [1651]
-			"<23:05:40> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Rahzkek-Gul'dan", -- [1652]
-			"<23:05:40> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Rahzkek-Gul'dan", -- [1653]
-			"<23:05:40> <Comm>		^1^Shistory^T^N1^SLidocain-Nathrezim^N2^T^SmapID^N2481^Sowner^SLidocain-Nathrezim^Sid^S1651089935-1^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SHUNTER^Sdate^S27/04/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:191015::::::::60:254::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Mystisches~`Handmodul]|h|r^SdifficultyID^N16^Sboss^SLihuvim,~`Principal~`Architect^SresponseID^SPL^Stime^S23:05:35^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1654]
-			"<23:05:40> <Comm>		^1^Sn_t^T^N1^S|cff0070dd|Hitem:189178::::::::60:262:::::::::|h[Tools~`of~`Incomprehensible~`Experimentation]|h|r^N2^S182169^t^^	RAID	Wubs-Nathrezim", -- [1655]
-			"<23:05:40> <Comm>		^1^Shistory^T^N1^SWubs-Nathrezim^N2^T^SmapID^N2481^Sowner^SWubs-Nathrezim^Sid^S1651089936-2^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SSHAMAN^Sdate^S27/04/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cff0070dd|Hitem:189178::::::::60:262:::::::::|h[Tools~`of~`Incomprehensible~`Experimentation]|h|r^SdifficultyID^N16^Sboss^SLihuvim,~`Principal~`Architect^SresponseID^SPL^Stime^S23:05:36^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1656]
-			"<23:05:41> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Pepo-Gul'dan", -- [1657]
-			"<23:05:41> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S191014:::::::::::6:4:7187:8154:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SZinghultus-Gul'dan^Sboss^SLihuvim,~`Principal~`Architect^t^N2^T^Sstring^S189802:::::::::::6:5:7187:6652:7578:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SRodymage-Gul'dan^Sboss^SLihuvim,~`Principal~`Architect^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1658]
-			"<23:05:41> <INFO>		Autopassed on: 	|cffa335ee|Hitem:191014::::::::60:65::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Schreckliches Handmodul]|h|r", -- [1659]
-			"<23:05:41> <INFO>		GetPlayersGear	|cffa335ee|Hitem:191014::::::::60:65::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Schreckliches Handmodul]|h|r	INVTYPE_HAND", -- [1660]
-			"<23:05:41> <INFO>		GetPlayersGear	|cffa335ee|Hitem:189802::::::::60:65::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot des redseligen Hüters]|h|r	INVTYPE_FINGER", -- [1661]
-			"<23:05:41> <INFO>		LootFrame:Start	2	nil", -- [1662]
-			"<23:05:41> <DEBUG>		Restoring entry:	default	1", -- [1663]
-			"<23:05:41> <DEBUG>		GetButtons	default", -- [1664]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N65^N2^N275.1875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N0^t^Sgear1^T^N1^S188928:6210:::::::60:65::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S179355:6166:173128::::::60:65::35:6:7800:7359:41:1592:6646:7580^t^Sgear2^T^N2^S178926:6166:173128::::::60:65::68:7:7128:6649:6650:6935:8156:7882:1588:1:28:2142^t^t^t^^	RAID	Adelgunde-Nathrezim", -- [1665]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N72^N2^N274.875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N13^t^Sgear1^T^N1^S188937:6210:::::::60:72::35:6:7359:6652:8154:7786:1498:6646^N2^S189772:6166:::::::60:72::6:5:7187:6652:7578:1524:6646:1:28:2167^t^Sgear2^T^N2^S189802:6166:173128::::::60:72::5:5:7188:6652:7580:1511:6646:1:28:2166^t^t^t^^	RAID	Munstar-Gul'dan", -- [1666]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N6^t^Sgear1^T^N1^S188898::::::::60:577::35:6:7359:6652:8154:7786:1498:6646^N2^S178781:6170:173129::::::60:577::16:6:7359:6652:7580:7798:1586:6646:1:28:1279^t^Sgear2^T^N2^S178926:6166:173129::::::60:577::69:7:8120:7882:8156:6649:6650:1588:6935:1:28:2142^t^t^t^^	RAID	Cleavarious-Gul'dan", -- [1667]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N254^N2^N275.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N6^t^Sgear1^T^N1^S188861::::::::60:254::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S178872:6166:173128::::::60:254::35:6:7800:7359:41:7580:1592:6646^t^Sgear2^T^N2^S189854:6166:::::::60:254::5:5:7188:6652:7579:1511:6646:1:28:2166^t^t^t^^	RAID	Lidocain-Nathrezim", -- [1668]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N6^t^Sgear1^T^N1^S188890::::::::60:266::35:6:7359:42:8154:7786:1498:6646^N2^S179355:6166:::::::60:266::16:6:7359:6652:7578:7798:1586:6646:1:28:1279^t^Sgear2^T^N2^S178926:6166:173128::::::60:266::68:7:7025:8156:6649:6648:6935:7882:1588:1:28:2142^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [1669]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N261^N2^N276.625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N6^N2^N6^t^Sgear1^T^N1^S188907::::::::60:261::14:5:8117:8154:7539:1492:6646^N2^S178848:6170:::::::60:261::16:6:7359:6652:7579:7798:1586:6646:1:28:1279^t^Sgear2^T^N2^S189772:6170:::::::60:261::6:5:7187:6652:7578:1524:6646:1:28:2167^t^t^t^^	RAID	Pouked-Gul'dan", -- [1670]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N63^N2^N273.875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N127^t^Sgear1^T^N1^S188845::::::::60:63::5:5:7188:6652:8154:1485:6646^N2^S178926:6166:173127::::::60:63::69:7:8123:7882:8156:6649:6650:1588:6935:1:28:2142^t^Sgear2^T^N2^S173133:6166:173128::::::60:63::13:1:7881:3:9:60:28:2142:29:40^t^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [1671]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N258^N2^N275.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N26^t^Sgear1^T^N1^S188881::::::::60:258::35:6:7786:8117:6652:7359:8154:1498^N2^S178824:6166:173128::::::60:258::35:6:7800:7359:6652:1592:6646:7580^t^Sgear2^T^N2^S189839:6166:::::::60:258::3:5:7189:41:7579:1498:6646:1:28:2167^t^t^t^^	RAID	Farlandér-Gul'dan", -- [1672]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N70^N2^N276.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N0^t^Sgear1^T^N1^S188928:6210:::::::60:70::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S178926:6164:173130::::::60:70::69:7:8125:7882:8156:6649:6648:1588:6935:1:28:2142^t^Sgear2^T^N2^S178824:6168:::::::60:70::35:6:7800:7359:6652:7578:1592:6646^t^t^t^^	RAID	Liádrin-Gul'dan", -- [1673]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N577^N2^N274.6875^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^N2^N127^t^Sgear1^T^N1^S137480::::::::60:577::87:7:6652:7749:8136:8117:7782:3144:6646:1:28:1173^N2^S173131:6164:173127::::::60:577::13:3:7960:7881:6649:3:9:60:28:2142:29:49^t^Sgear2^T^N2^S178871:6164:173127::::::60:577::33:6:7359:6652:7580:7798:1586:6646:1:28:1279^t^t^t^^	RAID	Endaxis-Anetheron", -- [1674]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N263^N2^N277.75^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N6^t^Sgear1^T^N1^S188925::::::::60:263::6:6:8117:6652:7187:8095:8154:1498^N2^S178869:6168:173128::::::60:263::33:6:7359:6652:7580:7798:1586:6646:1:28:1279^t^Sgear2^T^N2^S178926:6168:173128::::::60:263::69:7:6995:7882:8156:6648:6649:1588:6935:1:28:2142^t^t^t^^	RAID	Rahzkek-Gul'dan", -- [1675]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N256^N2^N276.0625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N13^t^Sgear1^T^N1^S188881::::::::60:256::5:5:7188:6652:8154:1485:6646^N2^S178926:6166:173128::::::60:256::63:7:6980:6649:6647:6935:8156:7882:1588^t^Sgear2^T^N2^S189839:6166:::::::60:256::5:5:7188:6652:7579:1511:6646^t^t^t^^	RAID	Thalyra-Gul'dan", -- [1676]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N72^N2^N276.4375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N0^t^Sgear1^T^N1^S188937:6210:::::::60:72::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S178848:6168:::::::60:72::35:6:7800:7359:41:7579:1592:6646^t^Sgear2^T^N2^S189772:6168:::::::60:72::6:5:7187:6652:7578:1524:6646:1:28:2167^t^t^t^^	RAID	Hetarnia-Gul'dan", -- [1677]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N105^N2^N274.0625^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N13^t^Sgear1^T^N1^S188853::::::::60:105::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S178933:6166:173128::::::60:105::33:6:7359:6652:7580:7798:1586:6646:1:28:1279^t^Sgear2^T^N2^S189802:6166:::::::60:105::5:5:7188:6652:7579:1511:6646:1:28:2166^t^t^t^^	RAID	Womblez-Nathrezim", -- [1678]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N266^N2^N276.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N127^t^Sgear1^T^N1^S188890::::::::60:266::6:5:7187:6652:8154:1498:6646^N2^S173133:6166:173128::::::60:266::13:3:6648:7881:7960:3:9:60:28:2142:29:40^t^Sgear2^T^N2^S178926:6166:173128::::::60:266::68:7:7025:6649:6648:6935:8156:7882:1588:1:28:2142^t^t^t^^	RAID	Schléx-Nathrezim", -- [1679]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N262^N2^N274.75^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N13^t^Sgear1^T^N1^S188925:6205:::::::60:262::35:6:7359:6652:8154:7786:1498:6646^N2^S189833:6170:::::::60:262::5:5:7188:6652:7578:1511:6646:1:28:2167^t^Sgear2^T^N2^S179355:6170:173129::::::60:262::33:6:7359:6652:7798:1586:6646:7580:1:28:1279^t^t^t^^	RAID	Wubs-Nathrezim", -- [1680]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N102^N2^N277.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N0^t^Sgear1^T^N1^S188853::::::::60:102::35:6:7786:8117:6652:7359:8154:1498^N2^S179355:6168:173130::::::60:102::35:6:7800:7359:6652:1592:6646:7580^t^Sgear2^T^N2^S178926:6168:173130::::::60:102::66:7:7088:6649:6648:6935:8156:7882:1588:1:28:2142^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1681]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N251^N2^N276.5625^N3^T^Sresponse^T^t^Sdiff^T^N1^N13^N2^N0^t^Sgear1^T^N1^S188863:6210:::::::60:251::5:5:7188:6652:8154:1485:6646^N2^S178926:6164:173127::::::60:251::69:7:7160:7882:8156:6647:6648:1588:6935:1:28:2142^t^Sgear2^T^N2^S189772:6164:173127::::::60:251::6:5:7187:6652:7580:1524:6646:1:28:2167^t^t^t^^	RAID	Memegeburt-Gul'dan", -- [1682]
-			"<23:05:42> <Comm>		^1^Scouncil^T^N1^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [1683]
-			"<23:05:42> <DEBUG>		isCouncil	false", -- [1684]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N63^N2^N275.5^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N16^t^Sgear1^T^N1^S188845::::::::60:63::35:6:7359:6652:8154:7786:1498:6646^N2^S178736:6166:::::::60:63::16:6:7795:7359:6652:7578:1576:6646:1:28:1279^t^Sgear2^T^N2^S178926:6164:173127::::::60:63::69:7:8123:7882:8156:6649:6650:1588:6935:1:28:2142^t^t^t^^	RAID	Rodymage-Gul'dan", -- [1685]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N250^N2^N276.5^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^N2^N13^t^Sgear1^T^N1^S188863:6210:::::::60:250::35:6:7786:8117:6652:7359:8154:1498^N2^S189802:6166:::::::60:250::5:5:7188:6652:7579:1511:6646:1:28:2166^t^Sgear2^T^N2^S178736:6166:173128::::::60:250::35:6:7800:7359:6652:7580:1592:6646^t^t^t^^	RAID	Pepo-Gul'dan", -- [1686]
-			"<23:05:42> <Comm>		^1^SlootAck^T^N1^N268^N2^N276.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^N2^N127^t^Sgear1^T^N1^S188916::::::::60:268::5:5:7188:6652:8154:1485:6646:1:28:1040^N2^S173131:6170:173129::::::60:268::13:3:6647:7881:7960:3:9:60:28:2142:29:36^t^Sgear2^T^N2^S178933:6170:::::::60:268::35:6:7800:7359:40:7578:1592:6646^t^t^t^^	RAID	Tankposi-Gul'dan", -- [1687]
-			"<23:05:45> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Tankposi-Gul'dan", -- [1688]
-			"<23:05:45> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Liádrin-Gul'dan", -- [1689]
-			"<23:05:46> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Schléx-Nathrezim", -- [1690]
-			"<23:05:46> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Schléx-Nathrezim", -- [1691]
-			"<23:05:47> <Comm>		^1^Scouncil^T^N1^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [1692]
-			"<23:05:47> <DEBUG>		isCouncil	false", -- [1693]
-			"<23:05:47> <DEBUG>		LootFrame:Response	3	Response:	Offspec", -- [1694]
-			"<23:05:47> <DEBUG>		SendResponse	group	2	3	nil	nil	nil	nil	nil	nil	nil	nil	nil	nil", -- [1695]
-			"<23:05:47> <DEBUG>		Trashing entry:	1	|cffa335ee|Hitem:189802::::::::60:65::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot des redseligen Hüters]|h|r", -- [1696]
-			"<23:05:47> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Thalyra-Gul'dan", -- [1697]
-			"<23:05:47> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Thalyra-Gul'dan", -- [1698]
-			"<23:05:47> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N3^t^t^^	RAID	Adelgunde-Nathrezim", -- [1699]
-			"<23:05:48> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Pouked-Gul'dan", -- [1700]
-			"<23:05:49> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Schléx-Nathrezim", -- [1701]
-			"<23:05:50> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Pouked-Gul'dan", -- [1702]
-			"<23:05:50> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Pouked-Gul'dan", -- [1703]
-			"<23:05:50> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^N3^t^t^^	RAID	Farlandér-Gul'dan", -- [1704]
-			"<23:05:53> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N2^t^t^^	RAID	Endaxis-Anetheron", -- [1705]
-			"<23:05:54> <Comm>		^1^Soffline_timer^T^t^^	RAID	Ursarus-Gul'dan", -- [1706]
-			"<23:05:54> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^SSchmutz^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [1707]
-			"<23:05:56> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Ursarus-Gul'dan", -- [1708]
-			"<23:05:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	189802	|cffa335ee|Hitem:189802::::::::60:65::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot des redseligen Hüters]|h|r	1	Womblez	DRUID", -- [1709]
-			"<23:05:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2539	183482	|cffa335ee|Hitem:183482::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Plötzlicher Überfall]|h|r	1	Womblez	DRUID", -- [1710]
-			"<23:05:57> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Womblez-Nathrezim", -- [1711]
-			"<23:05:57> <Comm>		^1^Sl^T^N1^S182169^t^^	RAID	Womblez-Nathrezim", -- [1712]
-			"<23:05:57> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [1713]
-			"<23:05:58> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Cleavarious-Gul'dan", -- [1714]
-			"<23:05:59> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Wubs-Nathrezim", -- [1715]
-			"<23:05:59> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:189802::::::::60:105::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot~`des~`redseligen~`Hüters]|h|r^N2^S182169^t^^	RAID	Womblez-Nathrezim", -- [1716]
-			"<23:06:00> <Comm>		^1^Shistory^T^N1^SWomblez-Nathrezim^N2^T^SmapID^N2481^Sowner^SWomblez-Nathrezim^Sid^S1651089955-3^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SDRUID^Sdate^S27/04/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:189802::::::::60:105::6:5:7187:6652:7578:1524:6646:1:28:2167:::::|h[Peridot~`des~`redseligen~`Hüters]|h|r^SdifficultyID^N16^Sboss^SLihuvim,~`Principal~`Architect^SresponseID^SPL^Stime^S23:05:55^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1717]
-			"<23:06:00> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^Stertiär~`stats~`pls~`:)~`kekw^Sresponse^N2^t^t^^	RAID	Zinghultus-Gul'dan", -- [1718]
-			"<23:06:07> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S94dps~`~`~`halt~`von~`hc~`auf~`mythic^Sresponse^N1^t^t^^	RAID	Memegeburt-Gul'dan", -- [1719]
-			"<23:06:08> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Memegeburt-Gul'dan", -- [1720]
-			"<23:06:09> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Zinghultus-Gul'dan", -- [1721]
-			"<23:06:10> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Womblez-Nathrezim", -- [1722]
-			"<23:06:11> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sbis/~`hc~`upgrade^Sresponse^N1^t^t^^	RAID	Pepo-Gul'dan", -- [1723]
-			"<23:06:13> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Rodymage-Gul'dan", -- [1724]
-			"<23:06:19> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Pepo-Gul'dan", -- [1725]
-			"<23:06:21> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Snur~`m+^Sresponse^N2^t^t^^	RAID	Thalyra-Gul'dan", -- [1726]
-			"<23:06:55> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sca~`30-35~`dps~`mit~`sockel^Sresponse^N2^t^t^^	RAID	Endaxis-Anetheron", -- [1727]
-			"<23:06:55> <Comm>		^1^Svote^T^N1^N1^N2^SMemegeburt-Gul'dan^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [1728]
-			"<23:07:05> <Comm>		^1^Svote^T^N1^N2^N2^SPepo-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1729]
-			"<23:07:21> <Comm>		^1^Svote^T^N1^N2^N2^SPepo-Gul'dan^N3^N1^t^^	RAID	Wubs-Nathrezim", -- [1730]
-			"<23:07:23> <Comm>		^1^Svote^T^N1^N1^N2^SMemegeburt-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1731]
-			"<23:07:37> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sdps~`zahl~`kommt~`gleich^Sresponse^N2^t^t^^	RAID	Munstar-Gul'dan", -- [1732]
-			"<23:07:38> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Sbin~`am~`simmen^Sresponse^N1^t^t^^	RAID	Rahzkek-Gul'dan", -- [1733]
-			"<23:07:41> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^b^Sresponse^N2^t^t^^	RAID	Schléx-Nathrezim", -- [1734]
-			"<23:07:42> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Snote^Ssv,~`wie~`gesagt,~`soll~`main~`specc~`werden~`(63~`dps)^Sresponse^STIMEOUT^t^t^^	RAID	Lidocain-Nathrezim", -- [1735]
-			"<23:07:42> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Hetarnia-Gul'dan", -- [1736]
-			"<23:07:46> <Comm>		^1^Shistory^T^N1^SMemegeburt-Gul'dan^N2^T^SmapID^N2481^Sdate^S27/04/22^Sclass^SDEATHKNIGHT^SgroupSize^N20^Svotes^N2^Stime^S23:07:42^SitemReplaced1^S|cffa335ee|Hitem:188863:6210:::::::60:102::5:5:7188:6652:8154:1485:6646::::::|h[Gauntlets~`of~`the~`First~`Eidolon]|h|r^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SZinghultus-Gul'dan^StypeCode^Sdefault^Sresponse^SMainspec/Need^Sid^S1651090062-4^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:191014::::::::60:102::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Dreadful~`Hand~`Module]|h|r^Snote^S94dps~`~`~`halt~`von~`hc~`auf~`mythic^SisAwardReason^b^SresponseID^N1^Sboss^SLihuvim,~`Principal~`Architect^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [1737]
-			"<23:07:46> <Comm>		^1^Sawarded^T^N1^N1^N2^SMemegeburt-Gul'dan^N3^SZinghultus-Gul'dan^t^^	RAID	Ursarus-Gul'dan", -- [1738]
-			"<23:07:55> <Comm>		^1^Strade_WrongWinner^T^N1^S|cffa335ee|Hitem:191014::::::::60:266::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Dreadful~`Hand~`Module]|h|r^N2^SRahzkek-Gul'dan^N3^SZinghultus-Gul'dan^N4^SMemegeburt-Gul'dan^t^^	RAID	Zinghultus-Gul'dan", -- [1739]
-			"<23:07:58> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SGünni^N4^N0^N5^N276.125^N6^N254^t^^	RAID	Nheemo-Gul'dan", -- [1740]
-			"<23:08:02> <Comm>		^1^SlootAck^T^N1^N254^N2^N276.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^N2^N16^t^Sgear1^T^N1^S185794:6205:::::::60:254::35:7:7786:8136:8117:7359:6652:1595:6646^N2^S189772:6168:::::::60:254::5:5:7188:6652:7579:1511:6646:1:28:2060^t^Sgear2^T^N2^S178824:6168:::::::60:254::16:6:7795:7359:6652:7578:1576:6646:1:28:1279^t^t^t^^	RAID	Nheemo-Gul'dan", -- [1741]
-			"<23:08:11> <Comm>		^1^Sresponse^T^N1^N2^N2^T^Sresponse^SPASS^t^t^^	RAID	Nheemo-Gul'dan", -- [1742]
-			"<23:08:11> <Comm>		^1^Svote^T^N1^N2^N2^SSchléx-Nathrezim^N3^N1^t^^	RAID	Ursarus-Gul'dan", -- [1743]
-			"<23:08:21> <Comm>		^1^Svote^T^N1^N2^N2^SPepo-Gul'dan^N3^N-1^t^^	RAID	Memegeburt-Gul'dan", -- [1744]
-			"<23:08:23> <Comm>		^1^Svote^T^N1^N2^N2^SSchléx-Nathrezim^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1745]
-			"<23:08:33> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1746]
-			"<23:08:33> <INFO>		UpdatePlayersData()", -- [1747]
-			"<23:08:34> <DEBUG>		GetML()", -- [1748]
-			"<23:08:44> <Comm>		^1^Svote^T^N1^N2^N2^SPepo-Gul'dan^N3^N-1^t^^	RAID	Wubs-Nathrezim", -- [1749]
-			"<23:09:37> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1750]
-			"<23:09:37> <INFO>		UpdatePlayersData()", -- [1751]
-			"<23:09:39> <DEBUG>		GetML()", -- [1752]
-			"<23:09:41> <Comm>		^1^Svote^T^N1^N2^N2^SSchléx-Nathrezim^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1753]
-			"<23:10:37> <DEBUG>		Event:	GROUP_LEFT	1	Party-1104-1-00002D36EF9B", -- [1754]
-			"<23:10:37> <DEBUG>		GetML()", -- [1755]
-			"<23:13:21> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1756]
-			"<23:13:21> <INFO>		UpdatePlayersData()", -- [1757]
-			"<23:13:23> <DEBUG>		GetML()", -- [1758]
-			"<23:14:43> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1759]
-			"<23:14:43> <INFO>		UpdatePlayersData()", -- [1760]
-			"<23:14:44> <DEBUG>		GetML()", -- [1761]
-			"04/28/22", -- [1762]
-			"<20:13:58> <INFO>		Logged In", -- [1763]
-			"<20:13:58> [ML]<INFO>		Init", -- [1764]
-			"<20:13:58> <INFO>		RCLootCouncil	TradeUI enabled", -- [1765]
-			"<20:14:10> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1766]
-			"<20:14:10> <DEBUG>		ActivateSkin	bfa", -- [1767]
-			"<20:14:13> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1768]
-			"<20:14:13> <INFO>		UpdatePlayersData()", -- [1769]
-			"<20:14:13> <INFO>		Player relog...", -- [1770]
-			"<20:14:13> <DEBUG>		GetPlayersGuildRank()", -- [1771]
-			"<20:14:13> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1772]
-			"<20:14:15> <DEBUG>		GetML()", -- [1773]
-			"<20:14:15> <DEBUG>		Storage:New	|cffa335ee|Hitem:179340::::::::60:65::33:5:7631:7359:6652:1550:6646:1:28:1279:::::|h[Teilchenbeschleuniger]|h|r	temp	restored	table: 0000022F8EB7A180", -- [1774]
-			"<20:14:15> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:179340::::::::60:65::33:5:7631:7359:6652:1550:6646:1:28:1279:::::||h[Teilchenbeschleuniger]||h||r	5", -- [1775]
-			"<20:14:15> <DEBUG>		Found item at	4	17", -- [1776]
-			"<20:14:15> <DEBUG>		Found:	4	17	0", -- [1777]
-			"<20:16:50> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1778]
-			"<20:16:50> <INFO>		UpdatePlayersData()", -- [1779]
-			"<20:16:52> <DEBUG>		GetML()", -- [1780]
-			"<20:19:17> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1781]
-			"<20:19:17> <INFO>		UpdatePlayersData()", -- [1782]
-			"<20:19:19> <DEBUG>		GetML()", -- [1783]
-			"<20:20:43> <DEBUG>		Event:	LOOT_READY	false", -- [1784]
-			"<20:20:45> <DEBUG>		Event:	LOOT_READY	true", -- [1785]
-			"<20:20:46> <DEBUG>		Event:	LOOT_READY	true", -- [1786]
-			"<20:20:53> <DEBUG>		Event:	LOOT_READY	true", -- [1787]
-			"<20:20:53> <DEBUG>		Event:	LOOT_READY	true", -- [1788]
-			"<20:20:59> <DEBUG>		Event:	LOOT_READY	true", -- [1789]
-			"<20:21:00> <DEBUG>		Event:	LOOT_READY	true", -- [1790]
-			"<20:22:09> <DEBUG>		Event:	LOOT_READY	true", -- [1791]
-			"<20:22:09> <DEBUG>		Event:	LOOT_READY	true", -- [1792]
-			"<20:22:12> <DEBUG>		Event:	LOOT_READY	true", -- [1793]
-			"<20:22:12> <DEBUG>		Event:	LOOT_READY	true", -- [1794]
-			"<20:22:21> <DEBUG>		Event:	LOOT_READY	true", -- [1795]
-			"<20:22:21> <DEBUG>		Event:	LOOT_READY	true", -- [1796]
-			"<20:23:01> <DEBUG>		Event:	LOOT_READY	true", -- [1797]
-			"<20:23:02> <DEBUG>		Event:	LOOT_READY	true", -- [1798]
-			"<20:23:08> <DEBUG>		Event:	LOOT_READY	true", -- [1799]
-			"<20:23:08> <DEBUG>		Event:	LOOT_READY	true", -- [1800]
-			"<20:24:58> <DEBUG>		Event:	LOOT_READY	true", -- [1801]
-			"<20:24:58> <DEBUG>		Event:	LOOT_READY	true", -- [1802]
-			"<20:25:01> <DEBUG>		Event:	LOOT_READY	true", -- [1803]
-			"<20:25:01> <DEBUG>		Event:	LOOT_READY	true", -- [1804]
-			"<20:25:17> <DEBUG>		Event:	LOOT_READY	true", -- [1805]
-			"<20:25:17> <DEBUG>		Event:	LOOT_READY	true", -- [1806]
-			"<20:25:22> <DEBUG>		Event:	LOOT_READY	true", -- [1807]
-			"<20:25:22> <DEBUG>		Event:	LOOT_READY	true", -- [1808]
-			"<20:26:43> <DEBUG>		Event:	LOOT_READY	true", -- [1809]
-			"<20:26:43> <DEBUG>		Event:	LOOT_READY	true", -- [1810]
-			"<20:27:02> <DEBUG>		Event:	LOOT_READY	true", -- [1811]
-			"<20:27:03> <DEBUG>		Event:	LOOT_READY	true", -- [1812]
-			"<20:27:27> <DEBUG>		Event:	LOOT_READY	false", -- [1813]
-			"<20:27:39> <DEBUG>		Event:	LOOT_READY	false", -- [1814]
-			"<20:27:48> <DEBUG>		Event:	LOOT_READY	true", -- [1815]
-			"<20:27:48> <DEBUG>		Event:	LOOT_READY	true", -- [1816]
-			"<20:28:26> <DEBUG>		Event:	LOOT_READY	false", -- [1817]
-			"<20:30:02> <DEBUG>		Event:	LOOT_READY	false", -- [1818]
-			"<20:30:16> <DEBUG>		Event:	LOOT_READY	true", -- [1819]
-			"<20:30:16> <DEBUG>		Event:	LOOT_READY	true", -- [1820]
-			"<20:31:53> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1821]
-			"<20:31:53> <INFO>		UpdatePlayersData()", -- [1822]
-			"<20:31:55> <DEBUG>		GetML()", -- [1823]
-			"<20:34:55> <DEBUG>		Event:	LOOT_READY	true", -- [1824]
-			"<20:34:55> <DEBUG>		Event:	LOOT_READY	true", -- [1825]
-			"<20:34:55> <DEBUG>		Event:	LOOT_READY	true", -- [1826]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1827]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1828]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1829]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1830]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1831]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1832]
-			"<20:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1833]
-			"<20:35:23> <DEBUG>		Event:	LOOT_READY	true", -- [1834]
-			"<20:35:23> <DEBUG>		Event:	LOOT_READY	true", -- [1835]
-			"<20:35:34> <DEBUG>		Event:	LOOT_READY	true", -- [1836]
-			"<20:35:34> <DEBUG>		Event:	LOOT_READY	true", -- [1837]
-			"<20:35:43> <DEBUG>		Event:	LOOT_READY	false", -- [1838]
-			"<20:35:50> <DEBUG>		Event:	LOOT_READY	false", -- [1839]
-			"<20:36:10> <DEBUG>		Event:	LOOT_READY	false", -- [1840]
-			"<20:36:31> <DEBUG>		Event:	LOOT_READY	false", -- [1841]
-			"<20:36:37> <DEBUG>		Event:	LOOT_READY	false", -- [1842]
-			"<20:36:57> <DEBUG>		Event:	LOOT_READY	false", -- [1843]
-			"<20:37:50> <DEBUG>		Event:	LOOT_READY	true", -- [1844]
-			"<20:37:50> <DEBUG>		Event:	LOOT_READY	true", -- [1845]
-			"<20:38:00> <DEBUG>		Event:	LOOT_READY	true", -- [1846]
-			"<20:38:00> <DEBUG>		Event:	LOOT_READY	true", -- [1847]
-			"<20:38:25> <DEBUG>		Event:	LOOT_READY	true", -- [1848]
-			"<20:38:25> <DEBUG>		Event:	LOOT_READY	true", -- [1849]
-			"<20:38:34> <DEBUG>		Event:	LOOT_READY	false", -- [1850]
-			"<20:38:34> <DEBUG>		Event:	LOOT_READY	false", -- [1851]
-			"<20:38:48> <DEBUG>		Event:	LOOT_READY	true", -- [1852]
-			"<20:38:49> <DEBUG>		Event:	LOOT_READY	true", -- [1853]
-			"<20:42:01> <DEBUG>		Event:	LOOT_READY	true", -- [1854]
-			"<20:42:02> <DEBUG>		Event:	LOOT_READY	true", -- [1855]
-			"<20:42:25> <DEBUG>		Event:	LOOT_READY	true", -- [1856]
-			"<20:42:25> <DEBUG>		Event:	LOOT_READY	true", -- [1857]
-			"<20:43:44> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1858]
-			"<20:43:44> <INFO>		UpdatePlayersData()", -- [1859]
-			"<20:43:45> <DEBUG>		GetML()", -- [1860]
-			"<20:45:36> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1861]
-			"<20:45:36> <INFO>		UpdatePlayersData()", -- [1862]
-			"<20:45:38> <DEBUG>		GetML()", -- [1863]
-			"<20:49:52> <DEBUG>		Event:	LOOT_READY	true", -- [1864]
-			"<20:49:52> <DEBUG>		Event:	LOOT_READY	true", -- [1865]
-			"<20:51:27> <DEBUG>		Event:	LOOT_READY	true", -- [1866]
-			"<20:51:28> <DEBUG>		Event:	LOOT_READY	true", -- [1867]
-			"<20:52:32> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1868]
-			"<20:52:34> <DEBUG>		GetML()", -- [1869]
-			"<20:52:34> <Data.Player>		CreatePlayer	Player-1379-0ABFA491", -- [1870]
-			"<20:52:34> <DEBUG>		Resetting council as we have a new ML!", -- [1871]
-			"<20:52:34> <INFO>		MasterLooter = 	Kesiáh-Sanguino", -- [1872]
-			"<20:52:49> <DEBUG>		Timer MLdb_check passed", -- [1873]
-			"<20:52:49> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^SMLdb_request^t^^	RAID	Adelgunde-Nathrezim", -- [1874]
-			"<20:52:49> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^Scouncil_request^t^^	RAID	Adelgunde-Nathrezim", -- [1875]
-			"<20:53:39> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^SMLdb_request^t^^	RAID	Papouch-Ysondre", -- [1876]
-			"<20:53:39> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^Scouncil_request^t^^	RAID	Papouch-Ysondre", -- [1877]
-			"<20:53:48> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^SMLdb_request^t^^	RAID	Luryk-Draenor", -- [1878]
-			"<20:53:48> <Comm>		^1^Sxrealm^T^N1^SKesiáh-Sanguino^N2^Scouncil_request^t^^	RAID	Luryk-Draenor", -- [1879]
-			"<20:56:23> <DEBUG>		Event:	GROUP_LEFT	1	Party-1379-1-00002BF1417B", -- [1880]
-			"<20:56:23> <DEBUG>		GetML()", -- [1881]
-			"<20:57:33> <DEBUG>		Event:	LOOT_READY	false", -- [1882]
-			"<20:57:41> <DEBUG>		Event:	LOOT_READY	false", -- [1883]
-			"<20:59:19> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1884]
-			"<20:59:19> <INFO>		UpdatePlayersData()", -- [1885]
-			"<20:59:20> <DEBUG>		GetML()", -- [1886]
-			"04/29/22", -- [1887]
-			"<21:09:15> <INFO>		Logged In", -- [1888]
-			"<21:09:15> [ML]<INFO>		Init", -- [1889]
-			"<21:09:15> <INFO>		RCLootCouncil	TradeUI enabled", -- [1890]
-			"<21:09:28> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1891]
-			"<21:09:28> <DEBUG>		ActivateSkin	bfa", -- [1892]
-			"<21:09:32> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1893]
-			"<21:09:32> <INFO>		UpdatePlayersData()", -- [1894]
-			"<21:09:32> <INFO>		Player relog...", -- [1895]
-			"<21:09:32> <DEBUG>		GetPlayersGuildRank()", -- [1896]
-			"<21:09:32> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1897]
-			"<21:09:33> <DEBUG>		GetML()", -- [1898]
-			"<21:09:33> <DEBUG>		Storage:New	|cffa335ee|Hitem:179340::::::::60:65::33:5:7631:7359:6652:1550:6646:1:28:1279:::::|h[Teilchenbeschleuniger]|h|r	temp	restored	table: 000001F78ED66AB0", -- [1899]
-			"<21:09:33> <DEBUG>		Storage: searching for item:	||cffa335ee||Hitem:179340::::::::60:65::33:5:7631:7359:6652:1550:6646:1:28:1279:::::||h[Teilchenbeschleuniger]||h||r	5", -- [1900]
-			"<21:09:33> <DEBUG>		Found item at	4	17", -- [1901]
-			"<21:09:33> <DEBUG>		Found:	4	17	0", -- [1902]
-			"<21:13:44> <DEBUG>		Event:	LOOT_READY	false", -- [1903]
-			"<21:13:45> <DEBUG>		Event:	LOOT_READY	false", -- [1904]
-			"<21:14:28> <DEBUG>		Event:	LOOT_READY	true", -- [1905]
-			"<21:14:29> <DEBUG>		Event:	LOOT_READY	true", -- [1906]
-			"<21:16:28> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1907]
-			"<21:16:28> <INFO>		UpdatePlayersData()", -- [1908]
-			"<21:16:30> <DEBUG>		GetML()", -- [1909]
-			"<21:16:51> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1910]
-			"<21:16:51> <INFO>		UpdatePlayersData()", -- [1911]
-			"<21:16:53> <DEBUG>		GetML()", -- [1912]
-			"<21:18:16> <DEBUG>		Event:	LOOT_READY	true", -- [1913]
-			"<21:18:16> <DEBUG>		Event:	LOOT_READY	true", -- [1914]
-			"<21:18:35> <DEBUG>		Event:	LOOT_READY	false", -- [1915]
-			"<21:18:39> <DEBUG>		Event:	LOOT_READY	true", -- [1916]
-			"<21:18:39> <DEBUG>		Event:	LOOT_READY	true", -- [1917]
-			"<21:19:13> <DEBUG>		Event:	LOOT_READY	true", -- [1918]
-			"<21:19:13> <DEBUG>		Event:	LOOT_READY	true", -- [1919]
-			"<21:19:25> <DEBUG>		Event:	LOOT_READY	false", -- [1920]
-			"<21:20:00> <DEBUG>		Event:	LOOT_READY	true", -- [1921]
-			"<21:20:00> <DEBUG>		Event:	LOOT_READY	true", -- [1922]
-			"<21:20:09> <DEBUG>		Event:	LOOT_READY	true", -- [1923]
-			"<21:20:09> <DEBUG>		Event:	LOOT_READY	true", -- [1924]
-			"<21:20:15> <DEBUG>		Event:	LOOT_READY	false", -- [1925]
-			"<21:20:29> <DEBUG>		Event:	LOOT_READY	false", -- [1926]
-			"<21:20:43> <DEBUG>		Event:	LOOT_READY	false", -- [1927]
-			"<21:21:07> <DEBUG>		Event:	LOOT_READY	true", -- [1928]
-			"<21:21:08> <DEBUG>		Event:	LOOT_READY	true", -- [1929]
-			"<21:21:21> <DEBUG>		Event:	LOOT_READY	false", -- [1930]
-			"<21:21:30> <DEBUG>		Event:	LOOT_READY	false", -- [1931]
-			"<21:21:41> <DEBUG>		Event:	LOOT_READY	false", -- [1932]
-			"<21:22:23> <DEBUG>		Event:	LOOT_READY	true", -- [1933]
-			"<21:22:23> <DEBUG>		Event:	LOOT_READY	true", -- [1934]
-			"<21:22:28> <DEBUG>		Event:	LOOT_READY	false", -- [1935]
-			"<21:22:36> <DEBUG>		Event:	LOOT_READY	false", -- [1936]
-			"<21:22:57> <DEBUG>		Event:	LOOT_READY	true", -- [1937]
-			"<21:22:57> <DEBUG>		Event:	LOOT_READY	true", -- [1938]
-			"<21:23:13> <DEBUG>		Event:	LOOT_READY	true", -- [1939]
-			"<21:23:13> <DEBUG>		Event:	LOOT_READY	true", -- [1940]
-			"<21:23:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	187703	|cff0070dd|Hitem:187703::::::::60:70:::::::::|h[Seidene Protofaser]|h|r	1	Adelgunde	PALADIN", -- [1941]
-			"<21:23:48> <DEBUG>		Event:	LOOT_READY	false", -- [1942]
-			"<21:23:59> <DEBUG>		Event:	LOOT_READY	true", -- [1943]
-			"<21:23:59> <DEBUG>		Event:	LOOT_READY	true", -- [1944]
-			"<21:24:17> <DEBUG>		Event:	LOOT_READY	true", -- [1945]
-			"<21:24:17> <DEBUG>		Event:	LOOT_READY	true", -- [1946]
-			"<21:24:26> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Wildwuchs-Gul'dan", -- [1947]
-			"<21:29:55> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1948]
-			"<21:29:55> <INFO>		UpdatePlayersData()", -- [1949]
-			"<21:29:56> <DEBUG>		GetML()", -- [1950]
-			"<21:32:33> <DEBUG>		Event:	LOOT_READY	true", -- [1951]
-			"<21:32:34> <DEBUG>		Event:	LOOT_READY	true", -- [1952]
-			"<21:32:38> <DEBUG>		Event:	LOOT_READY	true", -- [1953]
-			"<21:32:38> <DEBUG>		Event:	LOOT_READY	true", -- [1954]
-			"<21:32:47> <DEBUG>		Event:	LOOT_READY	false", -- [1955]
-			"<21:33:01> <DEBUG>		Event:	LOOT_READY	true", -- [1956]
-			"<21:33:01> <DEBUG>		Event:	LOOT_READY	true", -- [1957]
-			"<21:33:21> <DEBUG>		Event:	LOOT_READY	false", -- [1958]
-			"<21:33:29> <DEBUG>		Event:	LOOT_READY	true", -- [1959]
-			"<21:33:30> <DEBUG>		Event:	LOOT_READY	true", -- [1960]
-			"<21:33:35> <DEBUG>		Event:	LOOT_READY	false", -- [1961]
-			"<21:33:54> <DEBUG>		Event:	LOOT_READY	true", -- [1962]
-			"<21:33:54> <DEBUG>		Event:	LOOT_READY	true", -- [1963]
-			"<21:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1964]
-			"<21:35:13> <DEBUG>		Event:	LOOT_READY	true", -- [1965]
-			"<21:35:26> <DEBUG>		Event:	LOOT_READY	true", -- [1966]
-			"<21:35:27> <DEBUG>		Event:	LOOT_READY	true", -- [1967]
-			"<21:35:32> <DEBUG>		Event:	LOOT_READY	false", -- [1968]
-			"<21:35:45> <DEBUG>		Event:	LOOT_READY	true", -- [1969]
-			"<21:35:46> <DEBUG>		Event:	LOOT_READY	true", -- [1970]
-			"<21:35:59> <DEBUG>		Event:	LOOT_READY	true", -- [1971]
-			"<21:36:00> <DEBUG>		Event:	LOOT_READY	true", -- [1972]
-			"<21:36:13> <DEBUG>		Event:	LOOT_READY	false", -- [1973]
-			"<21:36:31> <DEBUG>		Event:	LOOT_READY	true", -- [1974]
-			"<21:36:31> <DEBUG>		Event:	LOOT_READY	true", -- [1975]
-			"<21:36:45> <DEBUG>		Event:	LOOT_READY	false", -- [1976]
-			"<21:36:45> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [1977]
-			"<21:36:55> <DEBUG>		Event:	LOOT_READY	false", -- [1978]
-			"<21:36:55> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [1979]
-			"<21:37:11> <DEBUG>		Event:	LOOT_READY	false", -- [1980]
-			"<21:43:08> <DEBUG>		Event:	LOOT_READY	true", -- [1981]
-			"<21:43:09> <DEBUG>		Event:	LOOT_READY	true", -- [1982]
-			"<21:43:09> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	4	Adelgunde	PALADIN", -- [1983]
-			"<21:43:57> <DEBUG>		Event:	LOOT_READY	true", -- [1984]
-			"<21:43:57> <DEBUG>		Event:	LOOT_READY	true", -- [1985]
-			"<21:44:33> <DEBUG>		Event:	LOOT_READY	true", -- [1986]
-			"<21:44:33> <DEBUG>		Event:	LOOT_READY	true", -- [1987]
-			"<21:45:47> <DEBUG>		Event:	LOOT_READY	true", -- [1988]
-			"<21:45:47> <DEBUG>		Event:	LOOT_READY	true", -- [1989]
-			"<21:46:34> <DEBUG>		Event:	LOOT_READY	true", -- [1990]
-			"<21:46:34> <DEBUG>		Event:	LOOT_READY	true", -- [1991]
-			"<21:47:05> <DEBUG>		Event:	LOOT_READY	true", -- [1992]
-			"<21:47:05> <DEBUG>		Event:	LOOT_READY	true", -- [1993]
-			"<21:47:31> <DEBUG>		Event:	LOOT_READY	false", -- [1994]
-			"<21:48:31> <DEBUG>		Event:	LOOT_READY	true", -- [1995]
-			"<21:48:31> <DEBUG>		Event:	LOOT_READY	true", -- [1996]
-			"<21:48:32> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [1997]
-			"<21:48:50> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1998]
-			"<21:48:50> <INFO>		UpdatePlayersData()", -- [1999]
-			"<21:48:52> <DEBUG>		GetML()", -- [2000]
+			"<21:27:12> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [1]
+			"<21:28:56> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [2]
+			"<21:28:56> <INFO>		UpdatePlayersData()", -- [3]
+			"<21:30:58> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [4]
+			"<21:33:02> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [5]
+			"<21:33:02> <INFO>		UpdatePlayersData()", -- [6]
+			"<21:33:38> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [7]
+			"<21:34:32> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Rodymage-Gul'dan", -- [8]
+			"<21:34:32> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.6875^N6^N64^t^^	RAID	Rodymage-Gul'dan", -- [9]
+			"<21:34:50> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [10]
+			"<21:34:50> <INFO>		UpdatePlayersData()", -- [11]
+			"<21:36:02> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [12]
+			"<21:37:32> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [13]
+			"<21:37:32> <INFO>		UpdatePlayersData()", -- [14]
+			"<21:38:49> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [15]
+			"<21:40:51> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [16]
+			"<21:40:51> <INFO>		UpdatePlayersData()", -- [17]
+			"<21:42:55> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [18]
+			"<21:44:16> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [19]
+			"<21:44:16> <INFO>		UpdatePlayersData()", -- [20]
+			"<21:45:36> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [21]
+			"<21:47:02> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [22]
+			"<21:47:02> <INFO>		UpdatePlayersData()", -- [23]
+			"<21:49:17> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [24]
+			"<21:50:37> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [25]
+			"<21:50:37> <INFO>		UpdatePlayersData()", -- [26]
+			"<21:53:15> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [27]
+			"<21:54:46> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [28]
+			"<21:54:46> <INFO>		UpdatePlayersData()", -- [29]
+			"<21:58:31> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [30]
+			"<22:00:57> <Comm>		^1^SpI^T^N1^SHEALER^N2^SMythic~`Raider^N3^B^N4^N125^N5^N277.6875^N6^N257^t^^	RAID	Thalyra-Gul'dan", -- [31]
+			"<22:01:10> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [32]
+			"<22:01:10> <INFO>		OnMLDBReceived", -- [33]
+			"<22:01:10> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [34]
+			"<22:01:10> <DEBUG>		isCouncil	false", -- [35]
+			"<22:08:12> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.3125^N6^N71^t^^	RAID	Hetarnia-Gul'dan", -- [36]
+			"<22:08:25> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [37]
+			"<22:08:25> <INFO>		OnMLDBReceived", -- [38]
+			"<22:08:25> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [39]
+			"<22:08:25> <DEBUG>		isCouncil	false", -- [40]
+			"<22:12:42> <Comm>		^1^SpI^T^N1^STANK^N2^SGuild~`Master^N4^N0^N5^N276.5^N6^N250^t^^	RAID	Pepo-Gul'dan", -- [41]
+			"<22:12:56> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Pouked-Gul'dan", -- [42]
+			"<22:12:56> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N277.375^N6^N261^t^^	RAID	Pouked-Gul'dan", -- [43]
+			"<22:13:33> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Trîâlbôdy-Anetheron", -- [44]
+			"<22:13:33> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N278.3125^N6^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [45]
+			"<22:13:33> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Sreconnect^t^^	RAID	Trîâlbôdy-Anetheron", -- [46]
+			"<22:13:33> <Comm>		^1^Sxrealm^T^N1^STrîâlbôdy-Anetheron^N2^Smldb^N3^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [47]
+			"<22:13:33> <Comm>		^1^Sxrealm^T^N1^STrîâlbôdy-Anetheron^N2^Scouncil^N3^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [48]
+			"<22:13:47> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Zinghultus-Gul'dan", -- [49]
+			"<22:13:47> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N278.125^N6^N266^t^^	RAID	Zinghultus-Gul'dan", -- [50]
+			"<22:14:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [51]
+			"<22:14:01> <INFO>		UpdatePlayersData()", -- [52]
+			"<22:15:24> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [53]
+			"<22:16:52> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [54]
+			"<22:16:52> <INFO>		UpdatePlayersData()", -- [55]
+			"<22:20:08> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [56]
+			"<22:21:52> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [57]
+			"<22:21:52> <INFO>		UpdatePlayersData()", -- [58]
+			"<22:23:09> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [59]
+			"<22:24:38> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [60]
+			"<22:24:38> <INFO>		UpdatePlayersData()", -- [61]
+			"<22:27:30> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [62]
+			"<22:30:15> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [63]
+			"<22:30:15> <INFO>		UpdatePlayersData()", -- [64]
+			"<22:31:09> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [65]
+			"<22:32:46> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [66]
+			"<22:32:46> <INFO>		UpdatePlayersData()", -- [67]
+			"<22:34:10> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [68]
+			"<22:36:04> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [69]
+			"<22:36:04> <INFO>		UpdatePlayersData()", -- [70]
+			"<22:38:40> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [71]
+			"<22:40:28> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [72]
+			"<22:40:28> <INFO>		UpdatePlayersData()", -- [73]
+			"<22:41:53> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [74]
+			"<22:43:20> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [75]
+			"<22:43:20> <INFO>		UpdatePlayersData()", -- [76]
+			"<22:44:16> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [77]
+			"<22:45:56> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [78]
+			"<22:45:56> <INFO>		UpdatePlayersData()", -- [79]
+			"<22:48:39> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [80]
+			"<22:50:17> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [81]
+			"<22:50:17> <INFO>		UpdatePlayersData()", -- [82]
+			"<22:51:11> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [83]
+			"<22:53:49> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N276.875^N6^N258^t^^	RAID	Farlandér-Gul'dan", -- [84]
+			"<22:54:04> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [85]
+			"<22:54:04> <INFO>		OnMLDBReceived", -- [86]
+			"<22:54:04> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [87]
+			"<22:54:04> <DEBUG>		isCouncil	false", -- [88]
+			"<22:54:37> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [89]
+			"<22:54:37> <INFO>		UpdatePlayersData()", -- [90]
+			"<22:58:20> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [91]
+			"<22:59:56> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [92]
+			"<22:59:56> <INFO>		UpdatePlayersData()", -- [93]
+			"<23:00:50> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [94]
+			"<23:01:40> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [95]
+			"<23:01:42> <DEBUG>		GetML()", -- [96]
+			"<23:01:42> <DEBUG>		Resetting council as we have a new ML!", -- [97]
+			"<23:01:42> <INFO>		MasterLooter = 	Pepo-Gul'dan", -- [98]
+			"<23:01:42> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	Pepo-Gul'dan", -- [99]
+			"<23:01:42> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SBIS^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N3^T^S|15^SOffspec/Greed^S|4^N3^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Pepo-Gul'dan", -- [100]
+			"<23:01:42> <INFO>		OnMLDBReceived", -- [101]
+			"<23:01:42> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N275.8125^N8^N65^t^^	RAID	Adelgunde-Nathrezim", -- [102]
+			"<23:01:42> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [103]
+			"<23:01:42> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SHEALER^N4^SCrew^N6^N0^N7^N274.5^N8^N65^t^^	RAID	Crazah-Blackrock", -- [104]
+			"<23:01:43> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N267^t^^	RAID	Schléx-Nathrezim", -- [105]
+			"<23:01:44> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N277.375^N8^N577^t^^	RAID	Endaxis-Anetheron", -- [106]
+			"<23:01:44> <Comm>		^1^Scouncil^T^N1^T^S1104-04CA295E^B^S1104-07CA0486^B^S1104-088662ED^B^S1104-0805EABC^B^t^t^^	RAID	Pepo-Gul'dan", -- [107]
+			"<23:01:44> <DEBUG>		isCouncil	false", -- [108]
+			"<23:01:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [109]
+			"<23:01:52> <INFO>		UpdatePlayersData()", -- [110]
+			"<23:01:53> <DEBUG>		GetML()", -- [111]
+			"<23:01:57> <DEBUG>		Timer MLdb_check passed", -- [112]
+			"<23:02:06> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [113]
+			"<23:02:06> <INFO>		UpdatePlayersData()", -- [114]
+			"<23:02:08> <DEBUG>		GetML()", -- [115]
+			"<23:02:10> <DEBUG>		Event:	GROUP_LEFT	1	Party-1104-1-00002D82D350", -- [116]
+			"<23:02:10> <DEBUG>		GetML()", -- [117]
+			"<23:08:54> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [118]
+			"<23:08:54> <INFO>		UpdatePlayersData()", -- [119]
+			"<23:08:56> <DEBUG>		GetML()", -- [120]
+			"<23:09:14> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [121]
+			"<23:09:14> <INFO>		UpdatePlayersData()", -- [122]
+			"<23:09:16> <DEBUG>		GetML()", -- [123]
+			"<23:09:38> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [124]
+			"<23:09:38> <INFO>		UpdatePlayersData()", -- [125]
+			"<23:09:40> <DEBUG>		GetML()", -- [126]
+			"<23:10:25> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [127]
+			"<23:10:27> <DEBUG>		GetML()", -- [128]
+			"<23:10:28> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [129]
+			"<23:10:28> <INFO>		UpdatePlayersData()", -- [130]
+			"<23:10:30> <DEBUG>		GetML()", -- [131]
+			"<23:31:56> <DEBUG>		Event:	LOOT_READY	false", -- [132]
+			"<23:31:57> <DEBUG>		Event:	LOOT_CLOSED", -- [133]
+			"<23:31:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	186189	|cff0070dd|Hitem:186189::::::::60:70:::::::::|h[Truhe mit Ausrüstung]|h|r	1	Adelgunde	PALADIN", -- [134]
+			"<23:31:57> <DEBUG>		Event:	LOOT_READY	false", -- [135]
+			"<23:31:58> <DEBUG>		Event:	LOOT_CLOSED", -- [136]
+			"<23:31:58> <DEBUG>		Event:	LOOT_CLOSED", -- [137]
+			"<23:31:58> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	187220	|cff0070dd|Hitem:187220::::::::60:70:::::::::|h[Gebündelte Macht]|h|r	1	Adelgunde	PALADIN", -- [138]
+			"<23:32:33> <DEBUG>		Event:	LOOT_READY	false", -- [139]
+			"<23:32:33> <DEBUG>		Adding to self.lootSlotInfo	1	nil	1	0	Creature-0-4237-2162-13827-159190-0000211508	50379", -- [140]
+			"<23:32:33> <DEBUG>		Ignoring	|cffff8000|Hcurrency:1828:3040|h[Seelenasche]|h|r	as it's a currency", -- [141]
+			"<23:32:33> <DEBUG>		Ignoring	|cffff8000|Hcurrency:1906:1300|h[Seelenglut]|h|r	as it's a currency", -- [142]
+			"<23:32:33> <DEBUG>		Ignoring	|cffff8000|Hcurrency:2009:90|h[Kosmischer Flux]|h|r	as it's a currency", -- [143]
+			"<23:32:34> <DEBUG>		OnLootSlotCleared()	1	nil	1", -- [144]
+			"<23:32:35> <DEBUG>		Event:	LOOT_CLOSED", -- [145]
+			"<23:32:35> <DEBUG>		Event:	LOOT_CLOSED", -- [146]
+			"<23:32:35> <Comm>		^1^Sl^T^N1^S159190^t^^	INSTANCE_CHAT	Adelgunde-Nathrezim", -- [147]
+			"<23:32:35> <Comm>		^1^Sl^T^N1^S159190^t^^	INSTANCE_CHAT	Adelgunde-Nathrezim", -- [148]
+			"<23:32:56> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [149]
+			"<23:32:56> <INFO>		UpdatePlayersData()", -- [150]
+			"<23:32:56> <DEBUG>		Event:	GROUP_LEFT	2	Party-1461-2-000060618A8B", -- [151]
+			"<23:32:56> <DEBUG>		GetML()", -- [152]
+			"<23:32:57> <DEBUG>		GetML()", -- [153]
+			"06/09/22", -- [154]
+			"<21:17:35> <INFO>		Logged In", -- [155]
+			"<21:17:35> [ML]<INFO>		Init", -- [156]
+			"<21:17:35> <INFO>		RCLootCouncil	TradeUI enabled", -- [157]
+			"<21:17:49> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [158]
+			"<21:17:49> <DEBUG>		ActivateSkin	bfa", -- [159]
+			"<21:17:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [160]
+			"<21:17:52> <INFO>		UpdatePlayersData()", -- [161]
+			"<21:17:52> <INFO>		Player relog...", -- [162]
+			"<21:17:53> <DEBUG>		GetPlayersGuildRank()", -- [163]
+			"<21:17:53> <DEBUG>		Found Guild Rank: Mythic Raider", -- [164]
+			"<21:17:55> <DEBUG>		GetML()", -- [165]
+			"<21:20:23> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [166]
+			"<21:20:23> <INFO>		UpdatePlayersData()", -- [167]
+			"<21:20:25> <DEBUG>		GetML()", -- [168]
+			"<21:21:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [169]
+			"<21:21:18> <INFO>		UpdatePlayersData()", -- [170]
+			"<21:21:20> <DEBUG>		GetML()", -- [171]
+			"<21:22:49> <DEBUG>		Event:	LOOT_READY	false", -- [172]
+			"<21:24:41> <DEBUG>		Event:	LOOT_READY	false", -- [173]
+			"<21:25:24> <DEBUG>		Event:	LOOT_READY	true", -- [174]
+			"<21:25:24> <DEBUG>		Event:	LOOT_READY	true", -- [175]
+			"<21:25:33> <DEBUG>		Event:	LOOT_READY	true", -- [176]
+			"<21:25:33> <DEBUG>		Event:	LOOT_READY	true", -- [177]
+			"<21:27:13> <DEBUG>		Event:	LOOT_READY	false", -- [178]
+			"<21:28:05> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [179]
+			"<21:28:05> <INFO>		UpdatePlayersData()", -- [180]
+			"<21:28:07> <DEBUG>		GetML()", -- [181]
+			"<21:28:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [182]
+			"<21:28:41> <INFO>		UpdatePlayersData()", -- [183]
+			"<21:28:43> <DEBUG>		GetML()", -- [184]
+			"<21:29:55> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [185]
+			"<21:29:55> <INFO>		UpdatePlayersData()", -- [186]
+			"<21:29:57> <DEBUG>		GetML()", -- [187]
+			"<21:32:29> <DEBUG>		Event:	LOOT_READY	false", -- [188]
+			"<21:32:29> <DEBUG>		Event:	LOOT_READY	false", -- [189]
+			"<21:32:54> <DEBUG>		Event:	LOOT_READY	true", -- [190]
+			"<21:32:54> <DEBUG>		Event:	LOOT_READY	true", -- [191]
+			"<21:33:06> <DEBUG>		Event:	LOOT_READY	false", -- [192]
+			"<21:34:32> <DEBUG>		Event:	LOOT_READY	false", -- [193]
+			"<21:36:08> <DEBUG>		Event:	LOOT_READY	false", -- [194]
+			"<21:36:41> <DEBUG>		Event:	LOOT_READY	false", -- [195]
+			"<21:36:55> <DEBUG>		Event:	LOOT_READY	true", -- [196]
+			"<21:36:55> <DEBUG>		Event:	LOOT_READY	true", -- [197]
+			"<21:37:18> <DEBUG>		Event:	LOOT_READY	false", -- [198]
+			"<21:39:48> <DEBUG>		Event:	LOOT_READY	false", -- [199]
+			"<21:39:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180477	|cff0070dd|Hitem:180477::::::::60:70:::::::::|h[Elysische Federn]|h|r	1	Adelgunde	PALADIN", -- [200]
+			"<21:39:58> <DEBUG>		Event:	LOOT_READY	false", -- [201]
+			"<21:40:09> <DEBUG>		Event:	LOOT_READY	false", -- [202]
+			"<21:40:10> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180477	|cff0070dd|Hitem:180477::::::::60:70:::::::::|h[Elysische Federn]|h|r	2	Adelgunde	PALADIN", -- [203]
+			"<21:40:30> <DEBUG>		Event:	LOOT_READY	false", -- [204]
+			"<21:40:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180477	|cff0070dd|Hitem:180477::::::::60:70:::::::::|h[Elysische Federn]|h|r	2	Adelgunde	PALADIN", -- [205]
+			"<21:41:01> <DEBUG>		Event:	LOOT_READY	false", -- [206]
+			"<21:41:01> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180477	|cff0070dd|Hitem:180477::::::::60:70:::::::::|h[Elysische Federn]|h|r	4	Adelgunde	PALADIN", -- [207]
+			"<21:42:07> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [208]
+			"<21:42:07> <INFO>		UpdatePlayersData()", -- [209]
+			"<21:42:09> <DEBUG>		GetML()", -- [210]
+			"06/11/22", -- [211]
+			"<23:39:50> <INFO>		Logged In", -- [212]
+			"<23:39:50> [ML]<INFO>		Init", -- [213]
+			"<23:39:50> <INFO>		RCLootCouncil	TradeUI enabled", -- [214]
+			"<23:40:02> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [215]
+			"<23:40:02> <DEBUG>		ActivateSkin	bfa", -- [216]
+			"<23:40:05> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [217]
+			"<23:40:05> <INFO>		UpdatePlayersData()", -- [218]
+			"<23:40:05> <INFO>		Player relog...", -- [219]
+			"<23:40:05> <DEBUG>		GetPlayersGuildRank()", -- [220]
+			"<23:40:05> <DEBUG>		Found Guild Rank: Mythic Raider", -- [221]
+			"<23:40:07> <DEBUG>		GetML()", -- [222]
+			"<23:42:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [223]
+			"<23:42:52> <INFO>		UpdatePlayersData()", -- [224]
+			"<23:42:54> <DEBUG>		GetML()", -- [225]
+			"<23:43:26> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [226]
+			"<23:43:26> <INFO>		UpdatePlayersData()", -- [227]
+			"<23:43:28> <DEBUG>		GetML()", -- [228]
+			"06/13/22", -- [229]
+			"<19:50:55> <INFO>		Logged In", -- [230]
+			"<19:50:55> [ML]<INFO>		Init", -- [231]
+			"<19:50:55> <INFO>		RCLootCouncil	TradeUI enabled", -- [232]
+			"<19:51:03> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [233]
+			"<19:51:03> <DEBUG>		ActivateSkin	bfa", -- [234]
+			"<19:51:06> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [235]
+			"<19:51:06> <INFO>		UpdatePlayersData()", -- [236]
+			"<19:51:06> <INFO>		Player relog...", -- [237]
+			"<19:51:06> <DEBUG>		GetPlayersGuildRank()", -- [238]
+			"<19:51:06> <DEBUG>		Found Guild Rank: Mythic Raider", -- [239]
+			"<19:51:08> <DEBUG>		GetML()", -- [240]
+			"<19:52:04> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [241]
+			"<19:52:04> <INFO>		UpdatePlayersData()", -- [242]
+			"<19:52:06> <DEBUG>		GetML()", -- [243]
+			"<19:52:30> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [244]
+			"<19:52:30> <INFO>		UpdatePlayersData()", -- [245]
+			"<19:52:31> <DEBUG>		GetML()", -- [246]
+			"<19:53:45> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [247]
+			"<19:53:45> <INFO>		UpdatePlayersData()", -- [248]
+			"<19:53:46> <DEBUG>		GetML()", -- [249]
+			"<19:54:40> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [250]
+			"<19:54:40> <INFO>		UpdatePlayersData()", -- [251]
+			"<19:54:41> <DEBUG>		GetML()", -- [252]
+			"<19:54:59> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [253]
+			"<19:54:59> <INFO>		UpdatePlayersData()", -- [254]
+			"<19:55:00> <DEBUG>		GetML()", -- [255]
+			"<19:55:22> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [256]
+			"<19:55:22> <INFO>		UpdatePlayersData()", -- [257]
+			"<19:55:24> <DEBUG>		GetML()", -- [258]
+			"<19:56:14> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [259]
+			"<19:56:14> <INFO>		UpdatePlayersData()", -- [260]
+			"<19:56:16> <DEBUG>		GetML()", -- [261]
+			"<19:56:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [262]
+			"<19:56:41> <INFO>		UpdatePlayersData()", -- [263]
+			"<19:56:43> <DEBUG>		GetML()", -- [264]
+			"<19:57:20> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [265]
+			"<19:57:22> <DEBUG>		GetML()", -- [266]
+			"<19:57:22> <DEBUG>		Resetting council as we have a new ML!", -- [267]
+			"<19:57:22> <INFO>		MasterLooter = 	Ursarus-Gul'dan", -- [268]
+			"<19:57:35> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SMLdb_request^t^^	RAID	Endaxis-Anetheron", -- [269]
+			"<19:57:35> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Scouncil_request^t^^	RAID	Endaxis-Anetheron", -- [270]
+			"<19:57:35> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [271]
+			"<19:57:35> <INFO>		OnMLDBReceived", -- [272]
+			"<19:57:35> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [273]
+			"<19:57:35> <DEBUG>		isCouncil	false", -- [274]
+			"<19:57:38> <DEBUG>		Timer MLdb_check passed", -- [275]
+			"<19:57:38> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Mausoleum der Ersten (Mythisch)	133341	1	0", -- [276]
+			"<19:57:39> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [277]
+			"<19:57:39> <INFO>		UpdatePlayersData()", -- [278]
+			"<19:57:40> <DEBUG>		GetML()", -- [279]
+			"<19:57:53> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [280]
+			"<19:57:53> <INFO>		OnMLDBReceived", -- [281]
+			"<19:57:53> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [282]
+			"<19:57:53> <DEBUG>		isCouncil	false", -- [283]
+			"<19:58:56> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [284]
+			"<19:58:56> <INFO>		OnMLDBReceived", -- [285]
+			"<19:59:02> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Cleavarious-Gul'dan", -- [286]
+			"<19:59:02> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Cleavarious-Gul'dan", -- [287]
+			"<19:59:15> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Cascadá-Gul'dan", -- [288]
+			"<19:59:17> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Farlandér-Gul'dan", -- [289]
+			"<19:59:37> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Cascadá-Gul'dan", -- [290]
+			"<19:59:37> <Comm>		^1^SpI^T^N1^SHEALER^N2^SOfficer^N3^B^N4^N115^N5^N277.5^N6^N257^t^^	RAID	Cascadá-Gul'dan", -- [291]
+			"<19:59:55> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Pouked-Gul'dan", -- [292]
+			"<19:59:55> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N277.375^N6^N261^t^^	RAID	Pouked-Gul'dan", -- [293]
+			"<20:00:14> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [294]
+			"<20:00:14> <INFO>		UpdatePlayersData()", -- [295]
+			"<20:00:20> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [296]
+			"<20:00:37> <Comm>		^1^SpI^T^N1^SHEALER^N2^SCrew^N4^N0^N5^N274.5^N6^N65^t^^	RAID	Crazah-Blackrock", -- [297]
+			"<20:00:37> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Sreconnect^t^^	RAID	Crazah-Blackrock", -- [298]
+			"<20:00:37> <Comm>		^1^Sxrealm^T^N1^SCrazah-Blackrock^N2^Smldb^N3^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [299]
+			"<20:00:37> <Comm>		^1^Sxrealm^T^N1^SCrazah-Blackrock^N2^Scouncil^N3^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [300]
+			"<20:02:21> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Womblez-Nathrezim", -- [301]
+			"<20:05:49> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [302]
+			"<20:05:49> <INFO>		UpdatePlayersData()", -- [303]
+			"<20:06:44> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [304]
+			"<20:07:54> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [305]
+			"<20:07:54> <INFO>		UpdatePlayersData()", -- [306]
+			"<20:08:48> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [307]
+			"<20:10:22> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [308]
+			"<20:10:22> <INFO>		UpdatePlayersData()", -- [309]
+			"<20:13:17> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [310]
+			"<20:15:30> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [311]
+			"<20:15:30> <INFO>		UpdatePlayersData()", -- [312]
+			"<20:16:54> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [313]
+			"<20:18:22> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [314]
+			"<20:18:22> <INFO>		UpdatePlayersData()", -- [315]
+			"<20:20:48> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [316]
+			"<20:23:02> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [317]
+			"<20:23:02> <INFO>		UpdatePlayersData()", -- [318]
+			"<20:23:44> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [319]
+			"<20:25:25> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [320]
+			"<20:25:25> <INFO>		UpdatePlayersData()", -- [321]
+			"<20:26:47> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [322]
+			"<20:28:07> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [323]
+			"<20:28:07> <INFO>		UpdatePlayersData()", -- [324]
+			"<20:29:27> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [325]
+			"<20:30:48> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [326]
+			"<20:30:48> <INFO>		UpdatePlayersData()", -- [327]
+			"<20:32:43> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [328]
+			"<20:34:13> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [329]
+			"<20:34:13> <INFO>		UpdatePlayersData()", -- [330]
+			"<20:38:32> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [331]
+			"<20:41:16> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [332]
+			"<20:41:16> <INFO>		UpdatePlayersData()", -- [333]
+			"<20:43:19> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [334]
+			"<20:44:53> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [335]
+			"<20:44:53> <INFO>		UpdatePlayersData()", -- [336]
+			"<20:48:03> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [337]
+			"<20:49:52> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [338]
+			"<20:49:52> <INFO>		UpdatePlayersData()", -- [339]
+			"<20:50:47> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [340]
+			"<20:52:21> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [341]
+			"<20:52:21> <INFO>		UpdatePlayersData()", -- [342]
+			"<20:53:16> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [343]
+			"<20:55:13> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [344]
+			"<20:55:13> <INFO>		UpdatePlayersData()", -- [345]
+			"<20:56:13> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [346]
+			"<20:58:17> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [347]
+			"<20:58:17> <INFO>		UpdatePlayersData()", -- [348]
+			"<21:01:03> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [349]
+			"<21:03:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [350]
+			"<21:03:01> <INFO>		UpdatePlayersData()", -- [351]
+			"<21:05:28> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [352]
+			"<21:08:17> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [353]
+			"<21:08:17> <INFO>		UpdatePlayersData()", -- [354]
+			"<21:11:06> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [355]
+			"<21:13:07> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [356]
+			"<21:13:07> <INFO>		UpdatePlayersData()", -- [357]
+			"<21:15:54> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [358]
+			"<21:17:32> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [359]
+			"<21:17:32> <INFO>		UpdatePlayersData()", -- [360]
+			"<21:21:33> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [361]
+			"<21:23:00> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [362]
+			"<21:23:00> <INFO>		OnMLDBReceived", -- [363]
+			"<21:23:00> <Comm>		^1^Scouncil^T^N1^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [364]
+			"<21:23:00> <DEBUG>		isCouncil	false", -- [365]
+			"<21:23:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [366]
+			"<21:23:01> <INFO>		UpdatePlayersData()", -- [367]
+			"<21:23:43> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [368]
+			"<21:26:03> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [369]
+			"<21:26:03> <INFO>		UpdatePlayersData()", -- [370]
+			"<21:30:18> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [371]
+			"<21:31:57> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [372]
+			"<21:31:57> <INFO>		UpdatePlayersData()", -- [373]
+			"<21:33:28> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [374]
+			"<21:34:56> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [375]
+			"<21:34:56> <INFO>		UpdatePlayersData()", -- [376]
+			"<21:35:50> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [377]
+			"<21:37:07> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [378]
+			"<21:37:07> <INFO>		UpdatePlayersData()", -- [379]
+			"<21:40:21> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [380]
+			"<21:41:17> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Trîâlbôdy-Anetheron", -- [381]
+			"<21:41:17> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N278.3125^N6^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [382]
+			"<21:41:17> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Sreconnect^t^^	RAID	Trîâlbôdy-Anetheron", -- [383]
+			"<21:41:17> <Comm>		^1^Sxrealm^T^N1^STrîâlbôdy-Anetheron^N2^Smldb^N3^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [384]
+			"<21:41:17> <Comm>		^1^Sxrealm^T^N1^STrîâlbôdy-Anetheron^N2^Scouncil^N3^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [385]
+			"<21:42:17> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [386]
+			"<21:42:17> <INFO>		UpdatePlayersData()", -- [387]
+			"<21:47:00> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [388]
+			"<21:49:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [389]
+			"<21:49:01> <INFO>		UpdatePlayersData()", -- [390]
+			"<21:49:59> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [391]
+			"<21:50:44> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [392]
+			"<21:50:44> <INFO>		UpdatePlayersData()", -- [393]
+			"<21:50:52> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [394]
+			"<21:51:37> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [395]
+			"<21:51:37> <INFO>		UpdatePlayersData()", -- [396]
+			"<21:54:46> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [397]
+			"<22:04:31> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Cascadá-Gul'dan", -- [398]
+			"<22:04:31> <Comm>		^1^SpI^T^N1^SHEALER^N2^SOfficer^N3^B^N4^N115^N5^N277.6875^N6^N257^t^^	RAID	Cascadá-Gul'dan", -- [399]
+			"<22:06:36> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [400]
+			"<22:06:36> <INFO>		UpdatePlayersData()", -- [401]
+			"<22:09:24> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [402]
+			"<22:11:14> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [403]
+			"<22:11:14> <INFO>		UpdatePlayersData()", -- [404]
+			"<22:13:37> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [405]
+			"<22:14:59> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SOfficer^N4^N0^N5^N278.25^N6^N102^t^^	RAID	Ursarus-Gul'dan", -- [406]
+			"<22:14:59> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	Ursarus-Gul'dan", -- [407]
+			"<22:14:59> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [408]
+			"<22:14:59> <INFO>		OnMLDBReceived", -- [409]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N277.375^N8^N577^t^^	RAID	Endaxis-Anetheron", -- [410]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N278.4375^N8^N65^t^^	RAID	Adelgunde-Nathrezim", -- [411]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N277.3125^N8^N105^t^^	RAID	Womblez-Nathrezim", -- [412]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [413]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N267^t^^	RAID	Schléx-Nathrezim", -- [414]
+			"<22:14:59> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SpI^N3^SHEALER^N4^SCrew^N6^N0^N7^N274.5^N8^N65^t^^	RAID	Crazah-Blackrock", -- [415]
+			"<22:15:01> <Comm>		^1^Scouncil^T^N1^T^S1104-0A106E85^B^S1104-058C8575^B^S1104-0805EABC^B^S1104-07CA0486^B^S1104-06E8C179^B^S1104-0A106E9D^B^S1104-084D21C8^B^t^t^^	RAID	Ursarus-Gul'dan", -- [416]
+			"<22:15:01> <DEBUG>		isCouncil	false", -- [417]
+			"<22:15:01> <Comm>		^1^SStartHandleLoot^T^t^^	RAID	Ursarus-Gul'dan", -- [418]
+			"<22:15:37> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [419]
+			"<22:15:37> <INFO>		UpdatePlayersData()", -- [420]
+			"<22:18:55> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [421]
+			"<22:21:27> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [422]
+			"<22:21:27> <INFO>		UpdatePlayersData()", -- [423]
+			"<22:22:44> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [424]
+			"<22:23:57> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [425]
+			"<22:23:57> <INFO>		UpdatePlayersData()", -- [426]
+			"<22:24:57> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [427]
+			"<22:26:20> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [428]
+			"<22:26:20> <INFO>		UpdatePlayersData()", -- [429]
+			"<22:29:08> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [430]
+			"<22:30:59> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [431]
+			"<22:30:59> <INFO>		UpdatePlayersData()", -- [432]
+			"<22:35:21> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [433]
+			"<22:37:29> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [434]
+			"<22:37:29> <INFO>		UpdatePlayersData()", -- [435]
+			"<22:38:50> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [436]
+			"<22:40:16> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [437]
+			"<22:40:16> <INFO>		UpdatePlayersData()", -- [438]
+			"<22:41:11> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [439]
+			"<22:42:33> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [440]
+			"<22:42:33> <INFO>		UpdatePlayersData()", -- [441]
+			"<22:45:12> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [442]
+			"<22:46:57> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [443]
+			"<22:46:57> <INFO>		UpdatePlayersData()", -- [444]
+			"<22:48:03> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [445]
+			"<22:49:46> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [446]
+			"<22:49:46> <INFO>		UpdatePlayersData()", -- [447]
+			"<22:50:41> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [448]
+			"<22:51:53> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [449]
+			"<22:51:53> <INFO>		UpdatePlayersData()", -- [450]
+			"<22:55:02> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [451]
+			"<22:56:42> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [452]
+			"<22:56:42> <INFO>		UpdatePlayersData()", -- [453]
+			"<23:00:57> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [454]
+			"<23:01:12> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [455]
+			"<23:01:14> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	Pepo-Gul'dan", -- [456]
+			"<23:01:14> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SBIS^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N3^T^S|15^SOffspec/Greed^S|4^N3^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Pepo-Gul'dan", -- [457]
+			"<23:01:14> <WARNING>		Non-ML:	Pepo-Gul'dan	sent Mldb!", -- [458]
+			"<23:01:14> <DEBUG>		GetML()", -- [459]
+			"<23:01:14> <DEBUG>		Resetting council as we have a new ML!", -- [460]
+			"<23:01:14> <INFO>		MasterLooter = 	Pepo-Gul'dan", -- [461]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SHEALER^N4^SCrew^N6^N0^N7^N274.5^N8^N65^t^^	RAID	Crazah-Blackrock", -- [462]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N278.4375^N8^N65^t^^	RAID	Adelgunde-Nathrezim", -- [463]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N277.3125^N8^N105^t^^	RAID	Womblez-Nathrezim", -- [464]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N63^t^^	RAID	Trîâlbôdy-Anetheron", -- [465]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N6^N0^N7^N277.375^N8^N577^t^^	RAID	Endaxis-Anetheron", -- [466]
+			"<23:01:14> <Comm>		^1^Sxrealm^T^N1^SPepo-Gul'dan^N2^SpI^N3^SDAMAGER^N4^SMythic~`Raider^N5^B^N6^N115^N7^N278.3125^N8^N267^t^^	RAID	Schléx-Nathrezim", -- [467]
+			"<23:01:16> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-04CA295E^B^S1104-0805EABC^B^t^t^^	RAID	Pepo-Gul'dan", -- [468]
+			"<23:01:16> <DEBUG>		isCouncil	false", -- [469]
+			"<23:01:29> <DEBUG>		Timer MLdb_check passed", -- [470]
+			"<23:01:59> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [471]
+			"<23:01:59> <INFO>		UpdatePlayersData()", -- [472]
+			"<23:02:01> <DEBUG>		GetML()", -- [473]
+			"<23:02:09> <DEBUG>		Event:	GROUP_LEFT	1	Party-1104-1-00002D8AD057", -- [474]
+			"<23:02:09> <DEBUG>		GetML()", -- [475]
+			"<23:02:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [476]
+			"<23:02:31> <INFO>		UpdatePlayersData()", -- [477]
+			"<23:02:33> <DEBUG>		GetML()", -- [478]
+			"<23:07:56> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [479]
+			"<23:07:56> <INFO>		UpdatePlayersData()", -- [480]
+			"<23:07:58> <DEBUG>		GetML()", -- [481]
+			"<23:10:26> <DEBUG>		Event:	LOOT_READY	false", -- [482]
+			"<23:10:38> <DEBUG>		Event:	LOOT_READY	true", -- [483]
+			"<23:10:38> <DEBUG>		Event:	LOOT_READY	true", -- [484]
+			"<23:10:57> <DEBUG>		Event:	LOOT_READY	true", -- [485]
+			"<23:10:57> <DEBUG>		Event:	LOOT_READY	true", -- [486]
+			"<23:11:01> <DEBUG>		Event:	LOOT_READY	true", -- [487]
+			"<23:11:01> <DEBUG>		Event:	LOOT_READY	true", -- [488]
+			"<23:11:08> <DEBUG>		Event:	LOOT_READY	true", -- [489]
+			"<23:11:08> <DEBUG>		Event:	LOOT_READY	true", -- [490]
+			"<23:11:23> <DEBUG>		Event:	LOOT_READY	true", -- [491]
+			"<23:11:24> <DEBUG>		Event:	LOOT_READY	true", -- [492]
+			"<23:11:31> <DEBUG>		Event:	LOOT_READY	true", -- [493]
+			"<23:11:32> <DEBUG>		Event:	LOOT_READY	true", -- [494]
+			"<23:11:41> <DEBUG>		Event:	LOOT_READY	true", -- [495]
+			"<23:11:41> <DEBUG>		Event:	LOOT_READY	true", -- [496]
+			"<23:11:52> <DEBUG>		Event:	LOOT_READY	true", -- [497]
+			"<23:11:52> <DEBUG>		Event:	LOOT_READY	true", -- [498]
+			"<23:12:07> <DEBUG>		Event:	LOOT_READY	true", -- [499]
+			"<23:12:08> <DEBUG>		Event:	LOOT_READY	true", -- [500]
+			"<23:23:54> <DEBUG>		Event:	LOOT_READY	false", -- [501]
+			"<23:23:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [502]
+			"<23:25:08> <DEBUG>		Event:	LOOT_READY	true", -- [503]
+			"<23:25:08> <DEBUG>		Event:	LOOT_READY	true", -- [504]
+			"<23:25:09> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	3	Adelgunde	PALADIN", -- [505]
+			"<23:25:59> <DEBUG>		Event:	LOOT_READY	true", -- [506]
+			"<23:25:59> <DEBUG>		Event:	LOOT_READY	true", -- [507]
+			"<23:26:00> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [508]
+			"<23:26:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [509]
+			"<23:26:18> <INFO>		UpdatePlayersData()", -- [510]
+			"<23:26:20> <DEBUG>		GetML()", -- [511]
+			"<23:26:26> <DEBUG>		Event:	LOOT_READY	false", -- [512]
+			"<23:27:33> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [513]
+			"<23:27:33> <INFO>		UpdatePlayersData()", -- [514]
+			"<23:27:35> <DEBUG>		GetML()", -- [515]
+			"<23:29:19> <DEBUG>		Event:	LOOT_READY	false", -- [516]
+			"<23:29:37> <DEBUG>		Event:	LOOT_READY	false", -- [517]
+			"<23:31:17> <DEBUG>		Event:	LOOT_READY	false", -- [518]
+			"<23:31:38> <DEBUG>		Event:	LOOT_READY	false", -- [519]
+			"<23:32:45> <DEBUG>		Event:	LOOT_READY	false", -- [520]
+			"<23:32:53> <DEBUG>		Event:	LOOT_READY	false", -- [521]
+			"<23:33:12> <DEBUG>		Event:	LOOT_READY	false", -- [522]
+			"<23:33:25> <DEBUG>		Event:	LOOT_READY	false", -- [523]
+			"<23:33:43> <DEBUG>		Event:	LOOT_READY	false", -- [524]
+			"<23:33:56> <DEBUG>		Event:	LOOT_READY	false", -- [525]
+			"06/14/22", -- [526]
+			"<20:41:50> <INFO>		Logged In", -- [527]
+			"<20:41:50> [ML]<INFO>		Init", -- [528]
+			"<20:41:50> <INFO>		RCLootCouncil	TradeUI enabled", -- [529]
+			"<20:42:04> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [530]
+			"<20:42:04> <DEBUG>		ActivateSkin	bfa", -- [531]
+			"<20:42:07> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [532]
+			"<20:42:07> <INFO>		UpdatePlayersData()", -- [533]
+			"<20:42:07> <INFO>		Player relog...", -- [534]
+			"<20:42:08> <DEBUG>		GetPlayersGuildRank()", -- [535]
+			"<20:42:08> <DEBUG>		GetPlayersGuildRank()", -- [536]
+			"<20:42:08> <DEBUG>		Found Guild Rank: Mythic Raider", -- [537]
+			"<20:42:09> <DEBUG>		GetML()", -- [538]
+			"<20:46:45> <DEBUG>		Event:	LOOT_READY	false", -- [539]
+			"<20:46:48> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [540]
+			"<20:46:51> <DEBUG>		Event:	LOOT_READY	false", -- [541]
+			"<20:47:09> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [542]
+			"<20:47:09> <INFO>		UpdatePlayersData()", -- [543]
+			"<20:47:11> <DEBUG>		GetML()", -- [544]
+			"<20:50:43> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [545]
+			"<20:50:43> <INFO>		UpdatePlayersData()", -- [546]
+			"<20:50:44> <DEBUG>		GetML()", -- [547]
+			"<20:51:02> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [548]
+			"<20:51:02> <INFO>		UpdatePlayersData()", -- [549]
+			"<20:51:04> <DEBUG>		GetML()", -- [550]
+			"<20:52:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [551]
+			"<20:52:58> <INFO>		UpdatePlayersData()", -- [552]
+			"<20:53:00> <DEBUG>		GetML()", -- [553]
+			"<20:57:03> <DEBUG>		Event:	LOOT_READY	false", -- [554]
+			"<20:57:15> <DEBUG>		Event:	LOOT_READY	false", -- [555]
+			"<20:57:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [556]
+			"<20:57:48> <DEBUG>		Event:	LOOT_READY	true", -- [557]
+			"<20:57:48> <DEBUG>		Event:	LOOT_READY	true", -- [558]
+			"<20:57:53> <DEBUG>		Event:	LOOT_READY	true", -- [559]
+			"<20:57:53> <DEBUG>		Event:	LOOT_READY	true", -- [560]
+			"<20:57:57> <DEBUG>		Event:	LOOT_READY	true", -- [561]
+			"<20:57:57> <DEBUG>		Event:	LOOT_READY	true", -- [562]
+			"<20:58:14> <DEBUG>		Event:	LOOT_READY	true", -- [563]
+			"<20:58:14> <DEBUG>		Event:	LOOT_READY	true", -- [564]
+			"<20:58:26> <DEBUG>		Event:	LOOT_READY	true", -- [565]
+			"<20:58:27> <DEBUG>		Event:	LOOT_READY	true", -- [566]
+			"<20:58:39> <DEBUG>		Event:	LOOT_READY	false", -- [567]
+			"<21:00:50> <DEBUG>		Event:	LOOT_READY	true", -- [568]
+			"<21:00:51> <DEBUG>		Event:	LOOT_READY	true", -- [569]
+			"<21:01:09> <DEBUG>		Event:	LOOT_READY	false", -- [570]
+			"<21:01:09> <DEBUG>		Event:	LOOT_READY	false", -- [571]
+			"<21:01:09> <DEBUG>		Event:	LOOT_READY	false", -- [572]
+			"<21:03:21> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [573]
+			"<21:03:21> <INFO>		UpdatePlayersData()", -- [574]
+			"<21:03:23> <DEBUG>		GetML()", -- [575]
+			"<21:04:33> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [576]
+			"<21:04:33> <INFO>		UpdatePlayersData()", -- [577]
+			"<21:04:35> <DEBUG>		GetML()", -- [578]
+			"06/15/22", -- [579]
+			"<11:59:12> <INFO>		Logged In", -- [580]
+			"<11:59:12> [ML]<INFO>		Init", -- [581]
+			"<11:59:12> <INFO>		RCLootCouncil	TradeUI enabled", -- [582]
+			"<11:59:24> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Adelgunde-Nathrezim	Player-1104-0599AC6F", -- [583]
+			"<11:59:24> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [584]
+			"<11:59:24> <DEBUG>		ActivateSkin	bfa", -- [585]
+			"<11:59:27> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [586]
+			"<11:59:27> <INFO>		UpdatePlayersData()", -- [587]
+			"<11:59:27> <INFO>		Player relog...", -- [588]
+			"<11:59:28> <DEBUG>		GetPlayersGuildRank()", -- [589]
+			"<11:59:28> <DEBUG>		Found Guild Rank: Mythic Raider", -- [590]
+			"<11:59:29> <DEBUG>		GetML()", -- [591]
+			"<12:00:17> <DEBUG>		Event:	LOOT_READY	false", -- [592]
+			"<12:02:51> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [593]
+			"<12:02:51> <INFO>		UpdatePlayersData()", -- [594]
+			"<12:02:53> <DEBUG>		GetML()", -- [595]
+			"<12:03:22> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [596]
+			"<12:03:24> <DEBUG>		GetML()", -- [597]
+			"<12:03:24> <Data.Player>		CreatePlayer	Player-1615-0AF216A4", -- [598]
+			"<12:03:24> <DEBUG>		Resetting council as we have a new ML!", -- [599]
+			"<12:03:24> <INFO>		MasterLooter = 	монгоруш-Ревущийфьорд", -- [600]
+			"<12:03:39> <DEBUG>		Timer MLdb_check passed", -- [601]
+			"<12:03:40> <Comm>		^1^Sxrealm^T^N1^Sмонгоруш-Ревущийфьорд^N2^SMLdb_request^t^^	PARTY	Adelgunde-Nathrezim", -- [602]
+			"<12:03:40> <Comm>		^1^Sxrealm^T^N1^Sмонгоруш-Ревущийфьорд^N2^Scouncil_request^t^^	PARTY	Adelgunde-Nathrezim", -- [603]
+			"<12:04:04> <DEBUG>		Event:	GROUP_LEFT	1	Party-1615-1-000034C4E37F", -- [604]
+			"<12:04:04> <DEBUG>		GetML()", -- [605]
+			"<12:04:13> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [606]
+			"<12:04:15> <DEBUG>		GetML()", -- [607]
+			"<12:04:15> <Data.Player>		CreatePlayer	Player-581-04596D71", -- [608]
+			"<12:04:15> <DEBUG>		Resetting council as we have a new ML!", -- [609]
+			"<12:04:15> <INFO>		MasterLooter = 	Ràziel-Blackrock", -- [610]
+			"<12:04:30> <DEBUG>		Timer MLdb_check passed", -- [611]
+			"<12:04:30> <Comm>		^1^Sxrealm^T^N1^SRàziel-Blackrock^N2^SMLdb_request^t^^	PARTY	Adelgunde-Nathrezim", -- [612]
+			"<12:04:30> <Comm>		^1^Sxrealm^T^N1^SRàziel-Blackrock^N2^Scouncil_request^t^^	PARTY	Adelgunde-Nathrezim", -- [613]
+			"<12:07:18> <DEBUG>		Event:	LOOT_READY	false", -- [614]
+			"<12:07:21> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [615]
+			"<12:07:35> <DEBUG>		Event:	LOOT_READY	false", -- [616]
+			"<12:07:40> <DEBUG>		Event:	GROUP_LEFT	1	Party-581-1-00002D8D0ED8", -- [617]
+			"<12:07:40> <DEBUG>		GetML()", -- [618]
+			"<12:08:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [619]
+			"<12:08:18> <INFO>		UpdatePlayersData()", -- [620]
+			"<12:08:19> <DEBUG>		GetML()", -- [621]
+			"<12:08:30> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [622]
+			"<12:08:30> <INFO>		UpdatePlayersData()", -- [623]
+			"<12:08:32> <DEBUG>		GetML()", -- [624]
+			"<12:13:13> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [625]
+			"<12:13:13> <INFO>		UpdatePlayersData()", -- [626]
+			"<12:13:15> <DEBUG>		GetML()", -- [627]
+			"<12:13:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [628]
+			"<12:13:58> <INFO>		UpdatePlayersData()", -- [629]
+			"<12:14:00> <DEBUG>		GetML()", -- [630]
+			"<12:14:17> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [631]
+			"<12:14:17> <INFO>		UpdatePlayersData()", -- [632]
+			"<12:14:19> <DEBUG>		GetML()", -- [633]
+			"<12:17:03> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [634]
+			"<12:17:05> <DEBUG>		GetML()", -- [635]
+			"<12:17:05> <Data.Player>		CreatePlayer	Player-3713-08730DEB", -- [636]
+			"<12:17:05> <DEBUG>		Resetting council as we have a new ML!", -- [637]
+			"<12:17:05> <INFO>		MasterLooter = 	Yáno-BurningLegion", -- [638]
+			"<12:17:20> <DEBUG>		Timer MLdb_check passed", -- [639]
+			"<12:17:20> <Comm>		^1^Sxrealm^T^N1^SYáno-BurningLegion^N2^SMLdb_request^t^^	RAID	Adelgunde-Nathrezim", -- [640]
+			"<12:17:20> <Comm>		^1^Sxrealm^T^N1^SYáno-BurningLegion^N2^Scouncil_request^t^^	RAID	Adelgunde-Nathrezim", -- [641]
+			"<12:17:37> <Comm>		^1^Sxrealm^T^N1^SYáno-BurningLegion^N2^SMLdb_request^t^^	RAID	Abbi-Drak'thul", -- [642]
+			"<12:17:37> <Comm>		^1^Sxrealm^T^N1^SYáno-BurningLegion^N2^Scouncil_request^t^^	RAID	Abbi-Drak'thul", -- [643]
+			"<12:18:37> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [644]
+			"<12:18:39> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [645]
+			"<12:18:39> <DEBUG>		GetML()", -- [646]
+			"<12:18:39> <Data.Player>		CreatePlayer	Player-580-0823C38F", -- [647]
+			"<12:18:39> <DEBUG>		Resetting council as we have a new ML!", -- [648]
+			"<12:18:39> <INFO>		MasterLooter = 	Marleeya-Blackmoore", -- [649]
+			"<12:18:39> <Comm>		^1^SplayerInfoRequest^T^t^^	RAID	Marleeya-Blackmoore", -- [650]
+			"<12:18:39> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^	RAID	Marleeya-Blackmoore", -- [651]
+			"<12:18:39> <INFO>		OnMLDBReceived", -- [652]
+			"<12:18:39> <Comm>		^1^Sxrealm^T^N1^SMarleeya-Blackmoore^N2^SpI^N3^SHEALER^N4^SMythic~`Raider^N6^N0^N7^N275.8125^N8^N70^t^^	RAID	Adelgunde-Nathrezim", -- [653]
+			"<12:18:39> <DEBUG>		Event:	GROUP_LEFT	1	Party-3713-1-00002C3622C6", -- [654]
+			"<12:18:39> <DEBUG>		GetML()", -- [655]
+			"<12:18:39> <Comm>		^1^Sxrealm^T^N1^SMarleeya-Blackmoore^N2^SpI^N3^SDAMAGER^N4^SRookie^N5^B^N6^N125^N7^N272.1875^N8^N64^t^^	RAID	Kaczorex-BurningLegion", -- [656]
+			"<12:18:41> <DEBUG>		GetML()", -- [657]
+			"<12:18:54> <DEBUG>		Timer MLdb_check passed", -- [658]
+			"<12:19:32> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [659]
+			"<12:19:32> <INFO>		UpdatePlayersData()", -- [660]
+			"<12:19:34> <DEBUG>		GetML()", -- [661]
+			"<12:19:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [662]
+			"<12:19:52> <INFO>		UpdatePlayersData()", -- [663]
+			"<12:19:54> <DEBUG>		GetML()", -- [664]
+			"<12:23:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [665]
+			"<12:23:10> <INFO>		UpdatePlayersData()", -- [666]
+			"<12:23:12> <DEBUG>		GetML()", -- [667]
+			"06/15/22", -- [668]
+			"<19:57:21> <INFO>		Logged In", -- [669]
+			"<19:57:21> [ML]<INFO>		Init", -- [670]
+			"<19:57:21> <INFO>		RCLootCouncil	TradeUI enabled", -- [671]
+			"<19:57:35> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Adelgunde-Nathrezim	Player-1104-0599AC6F", -- [672]
+			"<19:57:35> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [673]
+			"<19:57:35> <DEBUG>		ActivateSkin	bfa", -- [674]
+			"<19:57:38> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [675]
+			"<19:57:38> <INFO>		UpdatePlayersData()", -- [676]
+			"<19:57:38> <INFO>		Player relog...", -- [677]
+			"<19:57:39> <DEBUG>		GetPlayersGuildRank()", -- [678]
+			"<19:57:39> <DEBUG>		GetPlayersGuildRank()", -- [679]
+			"<19:57:39> <DEBUG>		Found Guild Rank: Mythic Raider", -- [680]
+			"<19:57:40> <DEBUG>		GetML()", -- [681]
+			"<19:58:04> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [682]
+			"<19:58:04> <INFO>		UpdatePlayersData()", -- [683]
+			"<19:58:06> <DEBUG>		GetML()", -- [684]
+			"<19:58:16> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [685]
+			"<19:58:18> <DEBUG>		GetML()", -- [686]
+			"<19:58:18> <DEBUG>		Resetting council as we have a new ML!", -- [687]
+			"<19:58:18> <INFO>		MasterLooter = 	Ursarus-Gul'dan", -- [688]
+			"<19:58:33> <DEBUG>		Timer MLdb_check passed", -- [689]
+			"<19:58:33> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SMLdb_request^t^^	RAID	Adelgunde-Nathrezim", -- [690]
+			"<19:58:33> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Scouncil_request^t^^	RAID	Adelgunde-Nathrezim", -- [691]
+			"<19:58:34> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [692]
+			"<19:58:34> <INFO>		OnMLDBReceived", -- [693]
+			"<19:58:34> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [694]
+			"<19:58:34> <DEBUG>		isCouncil	false", -- [695]
+			"<19:58:36> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Trîâlbôdy-Anetheron", -- [696]
+			"<19:58:36> <Comm>		^1^Sl^T^N1^S185268^t^^	RAID	Trîâlbôdy-Anetheron", -- [697]
+			"<19:58:59> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [698]
+			"<19:58:59> <INFO>		UpdatePlayersData()", -- [699]
+			"<19:59:01> <DEBUG>		GetML()", -- [700]
+			"<19:59:58> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Mausoleum der Ersten (Mythisch)	565201	0	0", -- [701]
+			"<19:59:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [702]
+			"<19:59:58> <INFO>		UpdatePlayersData()", -- [703]
+			"<20:00:00> <DEBUG>		GetML()", -- [704]
+			"<20:04:26> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SMLdb_request^t^^	RAID	Lidocain-Nathrezim", -- [705]
+			"<20:04:26> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Scouncil_request^t^^	RAID	Lidocain-Nathrezim", -- [706]
+			"<20:04:26> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [707]
+			"<20:04:26> <INFO>		OnMLDBReceived", -- [708]
+			"<20:04:26> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [709]
+			"<20:04:26> <DEBUG>		isCouncil	false", -- [710]
+			"<20:07:51> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [711]
+			"<20:07:51> <INFO>		UpdatePlayersData()", -- [712]
+			"<20:11:00> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [713]
+			"<20:13:15> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [714]
+			"<20:13:15> <INFO>		UpdatePlayersData()", -- [715]
+			"<20:14:33> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [716]
+			"<20:15:32> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Rodymage-Gul'dan", -- [717]
+			"<20:15:32> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.6875^N6^N64^t^^	RAID	Rodymage-Gul'dan", -- [718]
+			"<20:15:34> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [719]
+			"<20:15:34> <INFO>		UpdatePlayersData()", -- [720]
+			"<20:15:40> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [721]
+			"<20:19:52> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [722]
+			"<20:19:52> <INFO>		UpdatePlayersData()", -- [723]
+			"<20:20:27> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [724]
+			"<20:21:39> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [725]
+			"<20:21:39> <INFO>		UpdatePlayersData()", -- [726]
+			"<20:22:29> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [727]
+			"<20:23:47> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [728]
+			"<20:23:47> <INFO>		UpdatePlayersData()", -- [729]
+			"<20:25:04> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [730]
+			"<20:26:34> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [731]
+			"<20:26:34> <INFO>		UpdatePlayersData()", -- [732]
+			"<20:27:08> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [733]
+			"<20:28:44> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [734]
+			"<20:28:44> <INFO>		UpdatePlayersData()", -- [735]
+			"<20:29:37> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [736]
+			"<20:30:51> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [737]
+			"<20:30:51> <INFO>		UpdatePlayersData()", -- [738]
+			"<20:35:51> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [739]
+			"<20:37:25> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [740]
+			"<20:37:25> <INFO>		UpdatePlayersData()", -- [741]
+			"<20:37:58> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [742]
+			"<20:39:08> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [743]
+			"<20:39:08> <INFO>		UpdatePlayersData()", -- [744]
+			"<20:40:26> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [745]
+			"<20:41:40> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [746]
+			"<20:41:40> <INFO>		UpdatePlayersData()", -- [747]
+			"<20:44:33> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [748]
+			"<20:46:58> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [749]
+			"<20:46:58> <INFO>		UpdatePlayersData()", -- [750]
+			"<20:47:32> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [751]
+			"<20:48:47> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [752]
+			"<20:48:47> <INFO>		UpdatePlayersData()", -- [753]
+			"<20:51:37> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [754]
+			"<20:53:11> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [755]
+			"<20:53:11> <INFO>		UpdatePlayersData()", -- [756]
+			"<20:55:51> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [757]
+			"<20:58:52> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [758]
+			"<20:58:52> <INFO>		UpdatePlayersData()", -- [759]
+			"<20:59:27> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [760]
+			"<21:00:41> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [761]
+			"<21:00:41> <INFO>		UpdatePlayersData()", -- [762]
+			"<21:03:25> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [763]
+			"<21:04:44> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [764]
+			"<21:04:44> <INFO>		UpdatePlayersData()", -- [765]
+			"<21:04:50> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [766]
+			"<21:05:32> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [767]
+			"<21:05:32> <INFO>		UpdatePlayersData()", -- [768]
+			"<21:08:54> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^SMLdb_request^t^^	RAID	Endaxis-Anetheron", -- [769]
+			"<21:08:54> <Comm>		^1^Sxrealm^T^N1^SUrsarus-Gul'dan^N2^Scouncil_request^t^^	RAID	Endaxis-Anetheron", -- [770]
+			"<21:08:54> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [771]
+			"<21:08:54> <INFO>		OnMLDBReceived", -- [772]
+			"<21:08:54> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [773]
+			"<21:08:54> <DEBUG>		isCouncil	false", -- [774]
+			"<21:10:09> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [775]
+			"<21:13:28> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [776]
+			"<21:13:28> <INFO>		UpdatePlayersData()", -- [777]
+			"<21:16:37> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [778]
+			"<21:18:19> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [779]
+			"<21:18:19> <INFO>		UpdatePlayersData()", -- [780]
+			"<21:21:28> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [781]
+			"<21:22:55> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [782]
+			"<21:22:55> <INFO>		UpdatePlayersData()", -- [783]
+			"<21:23:29> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [784]
+			"<21:24:47> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [785]
+			"<21:24:47> <INFO>		UpdatePlayersData()", -- [786]
+			"<21:26:08> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [787]
+			"<21:27:21> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [788]
+			"<21:27:21> <INFO>		UpdatePlayersData()", -- [789]
+			"<21:27:54> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [790]
+			"<21:29:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [791]
+			"<21:29:01> <INFO>		UpdatePlayersData()", -- [792]
+			"<21:35:06> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [793]
+			"<21:38:03> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [794]
+			"<21:38:03> <INFO>		UpdatePlayersData()", -- [795]
+			"<21:38:54> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [796]
+			"<21:40:39> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [797]
+			"<21:40:39> <INFO>		UpdatePlayersData()", -- [798]
+			"<21:45:23> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [799]
+			"<21:47:56> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [800]
+			"<21:47:56> <INFO>		UpdatePlayersData()", -- [801]
+			"<21:49:13> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [802]
+			"<21:50:44> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [803]
+			"<21:50:44> <INFO>		UpdatePlayersData()", -- [804]
+			"<21:51:46> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [805]
+			"<21:53:29> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [806]
+			"<21:53:29> <INFO>		UpdatePlayersData()", -- [807]
+			"<21:56:45> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [808]
+			"<22:04:09> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [809]
+			"<22:04:09> <INFO>		UpdatePlayersData()", -- [810]
+			"<22:04:15> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [811]
+			"<22:09:24> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [812]
+			"<22:09:24> <INFO>		UpdatePlayersData()", -- [813]
+			"<22:13:41> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [814]
+			"<22:14:56> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N120^S|11^T^S|14^T^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0.7^N2^N0.66^N3^N0.15^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Ursarus-Gul'dan", -- [815]
+			"<22:14:56> <INFO>		OnMLDBReceived", -- [816]
+			"<22:14:56> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-0805EABC^B^S1104-0A106E9D^B^S1104-06E8C179^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Ursarus-Gul'dan", -- [817]
+			"<22:14:56> <DEBUG>		isCouncil	false", -- [818]
+			"<22:15:25> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [819]
+			"<22:15:25> <INFO>		UpdatePlayersData()", -- [820]
+			"<22:15:59> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [821]
+			"<22:19:41> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [822]
+			"<22:19:41> <INFO>		UpdatePlayersData()", -- [823]
+			"<22:21:43> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [824]
+			"<22:23:05> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [825]
+			"<22:23:05> <INFO>		UpdatePlayersData()", -- [826]
+			"<22:25:27> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [827]
+			"<22:26:50> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [828]
+			"<22:26:50> <INFO>		UpdatePlayersData()", -- [829]
+			"<22:31:06> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [830]
+			"<22:32:30> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [831]
+			"<22:32:30> <INFO>		UpdatePlayersData()", -- [832]
+			"<22:33:22> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [833]
+			"<22:34:26> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [834]
+			"<22:34:26> <INFO>		UpdatePlayersData()", -- [835]
+			"<22:37:04> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [836]
+			"<22:38:13> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [837]
+			"<22:38:13> <INFO>		UpdatePlayersData()", -- [838]
+			"<22:39:05> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [839]
+			"<22:41:01> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [840]
+			"<22:41:01> <INFO>		UpdatePlayersData()", -- [841]
+			"<22:43:24> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [842]
+			"<22:44:47> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [843]
+			"<22:44:47> <INFO>		UpdatePlayersData()", -- [844]
+			"<22:49:20> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [845]
+			"<22:50:35> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [846]
+			"<22:50:35> <INFO>		UpdatePlayersData()", -- [847]
+			"<22:51:26> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	0", -- [848]
+			"<22:52:25> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Pouked-Gul'dan", -- [849]
+			"<22:52:25> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N3^B^N4^N115^N5^N277.375^N6^N261^t^^	RAID	Pouked-Gul'dan", -- [850]
+			"<22:52:44> <DEBUG>		Event:	ENCOUNTER_START	2549	Rygelon	16	20", -- [851]
+			"<22:52:44> <INFO>		UpdatePlayersData()", -- [852]
+			"<22:59:27> <DEBUG>		Event:	ENCOUNTER_END	2549	Rygelon	16	20	1", -- [853]
+			"<22:59:30> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Pepo-Gul'dan", -- [854]
+			"<22:59:30> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Pepo-Gul'dan", -- [855]
+			"<22:59:30> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Hetarnia-Gul'dan", -- [856]
+			"<22:59:31> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	180943	|cffa335ee|Hitem:180943::::::::60:65::92:2:1605:7245:2:28:2167:37:11:::::|h[Ohrenbetäubendes Gebrüll]|h|r	1	Hetarnia-Gul'dan	WARRIOR", -- [857]
+			"<22:59:31> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Ursarus-Gul'dan", -- [858]
+			"<22:59:31> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Ursarus-Gul'dan", -- [859]
+			"<22:59:32> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Zinghultus-Gul'dan", -- [860]
+			"<22:59:32> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Zinghultus-Gul'dan", -- [861]
+			"<22:59:33> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	187707	|cffff8000|Hitem:187707::::::::60:65:::::::::|h[Progenitoressentia]|h|r	1	Crazah-Blackrock	PALADIN", -- [862]
+			"<22:59:33> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Farlandér-Gul'dan", -- [863]
+			"<22:59:34> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Crazah-Blackrock", -- [864]
+			"<22:59:34> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Crazah-Blackrock", -- [865]
+			"<22:59:35> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Memegeburt-Gul'dan", -- [866]
+			"<22:59:35> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Memegeburt-Gul'dan", -- [867]
+			"<22:59:35> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Endaxis-Anetheron", -- [868]
+			"<22:59:35> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Endaxis-Anetheron", -- [869]
+			"<22:59:35> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	191011	|cffa335ee|Hitem:191011::::::::60:65::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Mystisches Brustmodul]|h|r	1	Trîâlbôdy-Anetheron	MAGE", -- [870]
+			"<22:59:36> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Trîâlbôdy-Anetheron", -- [871]
+			"<22:59:36> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Trîâlbôdy-Anetheron", -- [872]
+			"<22:59:36> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Pouked-Gul'dan", -- [873]
+			"<22:59:36> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Pouked-Gul'dan", -- [874]
+			"<22:59:38> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Cleavarious-Gul'dan", -- [875]
+			"<22:59:38> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Cleavarious-Gul'dan", -- [876]
+			"<22:59:38> <DEBUG>		Event:	LOOT_READY	false", -- [877]
+			"<22:59:38> <DEBUG>		Adding to self.lootSlotInfo	1	nil	1	0	Creature-0-3151-2481-11469-182777-00002A466C	742368", -- [878]
+			"<22:59:38> <DEBUG>		Ignoring	|cffff8000|Hcurrency:2009:150|h[Kosmischer Flux]|h|r	as it's a currency", -- [879]
+			"<22:59:38> <DEBUG>		Ignoring	|cff0070dd|Hcurrency:1982:5000|h[Belobigung der Erleuchteten]|h|r	as it's a currency", -- [880]
+			"<22:59:39> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:191011::::::::60:63::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Mystic~`Chest~`Module]|h|r^N2^S182777^t^^	RAID	Trîâlbôdy-Anetheron", -- [881]
+			"<22:59:39> <Comm>		^1^Shistory^T^N1^STrîâlbôdy-Anetheron^N2^T^SmapID^N2481^Sowner^STrîâlbôdy-Anetheron^Sid^S1655323178-0^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SMAGE^Sdate^S15/06/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:191011::::::::60:63::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Mystic~`Chest~`Module]|h|r^SdifficultyID^N16^Sboss^SRygelon^SresponseID^SPL^Stime^S22:59:38^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [882]
+			"<22:59:39> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Liádrin-Gul'dan", -- [883]
+			"<22:59:39> <DEBUG>		OnLootSlotCleared()	1	nil	1", -- [884]
+			"<22:59:40> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	189544	|cff0070dd|Hitem:189544::::::::60:65:::::::::|h[Animagewebe]|h|r	5	Adelgunde	PALADIN", -- [885]
+			"<22:59:40> <DEBUG>		Event:	LOOT_CLOSED", -- [886]
+			"<22:59:40> <DEBUG>		Event:	LOOT_CLOSED", -- [887]
+			"<22:59:40> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Adelgunde-Nathrezim", -- [888]
+			"<22:59:40> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Adelgunde-Nathrezim", -- [889]
+			"<22:59:41> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Rodymage-Gul'dan", -- [890]
+			"<22:59:41> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Rodymage-Gul'dan", -- [891]
+			"<22:59:41> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Thalyra-Gul'dan", -- [892]
+			"<22:59:41> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Thalyra-Gul'dan", -- [893]
+			"<22:59:42> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	189852	|cffa335ee|Hitem:189852::::::::60:65::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Antumbra, Schatten des Kosmos]|h|r	1	Cascadá-Gul'dan	PRIEST", -- [894]
+			"<22:59:42> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	189854	|cffa335ee|Hitem:189854::::::::60:65::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Rygelons heraldischer Ring]|h|r	1	Tankposi-Gul'dan	MONK", -- [895]
+			"<22:59:42> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Cascadá-Gul'dan", -- [896]
+			"<22:59:42> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Cascadá-Gul'dan", -- [897]
+			"<22:59:43> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Tankposi-Gul'dan", -- [898]
+			"<22:59:43> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Tankposi-Gul'dan", -- [899]
+			"<22:59:45> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:189852::::::::60:257::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Antumbra,~`Shadow~`of~`the~`Cosmos]|h|r^N2^S182777^t^^	RAID	Cascadá-Gul'dan", -- [900]
+			"<22:59:45> <Comm>		^1^Shistory^T^N1^SCascadá-Gul'dan^N2^T^SmapID^N2481^Sowner^SCascadá-Gul'dan^Sid^S1655323185-1^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SPRIEST^Sdate^S15/06/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:189852::::::::60:257::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Antumbra,~`Shadow~`of~`the~`Cosmos]|h|r^SdifficultyID^N16^Sboss^SRygelon^SresponseID^SPL^Stime^S22:59:45^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [901]
+			"<22:59:45> <Comm>		^1^Sn_t^T^N1^S|cffa335ee|Hitem:189854::::::::60:268::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Rygelon's~`Heraldric~`Ring]|h|r^N2^S182777^t^^	RAID	Tankposi-Gul'dan", -- [902]
+			"<22:59:45> <Comm>		^1^Shistory^T^N1^STankposi-Gul'dan^N2^T^SmapID^N2481^Sowner^STankposi-Gul'dan^Sid^S1655323185-2^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sclass^SMONK^Sdate^S15/06/22^Sresponse^SPersonal~`Loot~`-~`Non~`tradeable^SgroupSize^N20^SisAwardReason^b^SlootWon^S|cffa335ee|Hitem:189854::::::::60:268::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Rygelon's~`Heraldric~`Ring]|h|r^SdifficultyID^N16^Sboss^SRygelon^SresponseID^SPL^Stime^S22:59:45^Scolor^T^N1^N1^N2^N0.6^N3^N0^N4^N1^t^t^t^^	RAID	Ursarus-Gul'dan", -- [903]
+			"<22:59:47> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Rahzkek-Gul'dan", -- [904]
+			"<22:59:47> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Rahzkek-Gul'dan", -- [905]
+			"<22:59:48> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Womblez-Nathrezim", -- [906]
+			"<22:59:48> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Womblez-Nathrezim", -- [907]
+			"<22:59:56> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2549	191010	|cffa335ee|Hitem:191010::::::::60:65::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Schreckliches Brustmodul]|h|r	1	Schléx	WARLOCK", -- [908]
+			"<22:59:56> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Schléx-Nathrezim", -- [909]
+			"<22:59:56> <Comm>		^1^Sl^T^N1^S182777^t^^	RAID	Schléx-Nathrezim", -- [910]
+			"<22:59:59> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:191010::::::::60:267::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Dreadful~`Chest~`Module]|h|r^N2^S182777^t^^	RAID	Schléx-Nathrezim", -- [911]
+			"<23:00:01> <Comm>		^1^SlootTable^T^N1^T^N1^T^Sstring^S191010:::::::::::6:4:7187:8153:1524:6646:1:28:2167^StypeCode^Sdefault^Sowner^SSchléx-Nathrezim^Sboss^SRygelon^t^t^t^^	RAID	Ursarus-Gul'dan", -- [912]
+			"<23:00:01> <INFO>		Autopassed on: 	|cffa335ee|Hitem:191010::::::::60:65::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Schreckliches Brustmodul]|h|r", -- [913]
+			"<23:00:01> <INFO>		GetPlayersGear	|cffa335ee|Hitem:191010::::::::60:65::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Schreckliches Brustmodul]|h|r	INVTYPE_ROBE", -- [914]
+			"<23:00:01> <DEBUG>		LootFrame	GetFrame()", -- [915]
+			"<23:00:01> <INFO>		LootFrame:Start	1	nil", -- [916]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N577^N2^N277.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188894:6214:::::::60:577::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Cleavarious-Gul'dan", -- [917]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N65^N2^N278.4375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188929:6217:::::::60:65::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Adelgunde-Nathrezim", -- [918]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N63^N2^N278.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188839:6230:::::::60:63::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Trîâlbôdy-Anetheron", -- [919]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N70^N2^N276.9375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188929:6230:::::::60:70::33:6:8116:7770:6652:7359:8153:1492^t^Sgear2^T^t^t^t^^	RAID	Liádrin-Gul'dan", -- [920]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N266^N2^N278.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188884::::::::60:266::35:6:7772:8116:6652:7359:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Zinghultus-Gul'dan", -- [921]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N261^N2^N277.375^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S189774:6214:::::::60:261::6:6:7187:8132:8116:6652:1524:6646:1:28:2167^t^Sgear2^T^t^t^t^^	RAID	Pouked-Gul'dan", -- [922]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N71^N2^N277.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S188938:6214:::::::60:71::6:5:7187:6652:8153:1505:6646^t^Sgear2^T^t^t^t^^	RAID	Hetarnia-Gul'dan", -- [923]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N257^N2^N277.6875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S188875:6230:::::::60:257::6:5:7187:40:8153:1505:6646^t^Sgear2^T^t^t^t^^	RAID	Cascadá-Gul'dan", -- [924]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N258^N2^N277.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188875:6230:::::::60:258::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Farlandér-Gul'dan", -- [925]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N577^N2^N277.375^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188894:6214:::::::60:577::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Endaxis-Anetheron", -- [926]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [927]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [928]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [929]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [930]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [931]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [932]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [933]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [934]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [935]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [936]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [937]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [938]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [939]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [940]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [941]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [942]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [943]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [944]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N250^N2^N276.125^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188864:6214:::::::60:250::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Pepo-Gul'dan", -- [945]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [946]
+			"<23:00:02> <Comm>		^1^SgetCov^T^t^^	RAID	Endaxis-Anetheron", -- [947]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N105^N2^N277.3125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188849:6230:::::::60:105::5:5:7188:6652:8153:1492:6646:1:28:1040^t^Sgear2^T^t^t^t^^	RAID	Womblez-Nathrezim", -- [948]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N64^N2^N277.6875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188839:6265:::::::60:64::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Rodymage-Gul'dan", -- [949]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N65^N2^N274.5^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N-6^t^Sgear1^T^N1^S171412:6217:::::::60:65::69:6:7128:7882:8156:6649:6650:1588:1:28:2142^t^Sgear2^T^t^t^t^^	RAID	Crazah-Blackrock", -- [950]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N268^N2^N276.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188912:6230:::::::60:268::35:6:7359:6652:8153:7772:1498:6646^t^Sgear2^T^t^t^t^^	RAID	Tankposi-Gul'dan", -- [951]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N251^N2^N277.75^N3^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188864:6230:::::::60:251::35:6:7772:8116:6652:7359:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Memegeburt-Gul'dan", -- [952]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N257^N2^N277.6875^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N13^t^Sgear1^T^N1^S188875:6230:::::::60:257::5:5:7188:6652:8153:1492:6646:1:28:1040^t^Sgear2^T^t^t^t^^	RAID	Thalyra-Gul'dan", -- [953]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N267^N2^N278.3125^N3^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^S188884:6230:::::::60:267::6:5:7187:6652:8153:1505:6646^t^Sgear2^T^t^t^t^^	RAID	Schléx-Nathrezim", -- [954]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N102^N2^N278.25^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188849:6230:::::::60:102::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Ursarus-Gul'dan", -- [955]
+			"<23:00:02> <Comm>		^1^SlootAck^T^N1^N263^N2^N278.125^N3^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^S188922:6214:::::::60:263::6:6:8116:6652:7187:8095:8153:1498^t^Sgear2^T^t^t^t^^	RAID	Rahzkek-Gul'dan", -- [956]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [957]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [958]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [959]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [960]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [961]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [962]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [963]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [964]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [965]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [966]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [967]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [968]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [969]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [970]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [971]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [972]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [973]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [974]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [975]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [976]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [977]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [978]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [979]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [980]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [981]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [982]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [983]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [984]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [985]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [986]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [987]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [988]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [989]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [990]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [991]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [992]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [993]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [994]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [995]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [996]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [997]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [998]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [999]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1000]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1001]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1002]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1003]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1004]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1005]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1006]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1007]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1008]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1009]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1010]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1011]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1012]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1013]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1014]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1015]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1016]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1017]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1018]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1019]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1020]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1021]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1022]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1023]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Cleavarious-Gul'dan", -- [1024]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Adelgunde-Nathrezim", -- [1025]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1026]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1027]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1028]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1029]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1030]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1031]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1032]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1033]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1034]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1035]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1036]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1037]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1038]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1039]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1040]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1041]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1042]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1043]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1044]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1045]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1046]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1047]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1048]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1049]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1050]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1051]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1052]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1053]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1054]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1055]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1056]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1057]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1058]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1059]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1060]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1061]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1062]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1063]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1064]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1065]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1066]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1067]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1068]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1069]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1070]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1071]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1072]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1073]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1074]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1075]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1076]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1077]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1078]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1079]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1080]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1081]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1082]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1083]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1084]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1085]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1086]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1087]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1088]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1089]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Hetarnia-Gul'dan", -- [1090]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1091]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1092]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1093]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1094]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1095]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1096]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1097]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1098]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1099]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1100]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1101]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1102]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1103]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1104]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1105]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1106]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1107]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1108]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1109]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1110]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Zinghultus-Gul'dan", -- [1111]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1112]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1113]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1114]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1115]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1116]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1117]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1118]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1119]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1120]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1121]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1122]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1123]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1124]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1125]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1126]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1127]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1128]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1129]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1130]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1131]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1132]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1133]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1134]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1135]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1136]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1137]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1138]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1139]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1140]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1141]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1142]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1143]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1144]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1145]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1146]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1147]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1148]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1149]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1150]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1151]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1152]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1153]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1154]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1155]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1156]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1157]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1158]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1159]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1160]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1161]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Pouked-Gul'dan", -- [1162]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Memegeburt-Gul'dan", -- [1163]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1164]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1165]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1166]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1167]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1168]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1169]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1170]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1171]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1172]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1173]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1174]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1175]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Liádrin-Gul'dan", -- [1176]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1177]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1178]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1179]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1180]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1181]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1182]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1183]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1184]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1185]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Tankposi-Gul'dan", -- [1186]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1187]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1188]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1189]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1190]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1191]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1192]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1193]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1194]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1195]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1196]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1197]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1198]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1199]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1200]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1201]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1202]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1203]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1204]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1205]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1206]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1207]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1208]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1209]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1210]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1211]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1212]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1213]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1214]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1215]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1216]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1217]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1218]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1219]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1220]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1221]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1222]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1223]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1224]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1225]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1226]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1227]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1228]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1229]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1230]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1231]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1232]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1233]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1234]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1235]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1236]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1237]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1238]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1239]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1240]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1241]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1242]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1243]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1244]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1245]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1246]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1247]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1248]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1249]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Cascadá-Gul'dan", -- [1250]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1251]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1252]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1253]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N2^t^^	RAID	Ursarus-Gul'dan", -- [1254]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1255]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1256]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1257]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1258]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1259]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1260]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1261]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1262]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1263]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Rodymage-Gul'dan", -- [1264]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1265]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Thalyra-Gul'dan", -- [1266]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1267]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1268]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1269]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1270]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1271]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1272]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1273]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1274]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1275]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1276]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1277]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1278]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1279]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1280]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1281]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1282]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1283]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1284]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1285]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1286]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1287]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1288]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1289]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1290]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1291]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1292]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1293]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1294]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Rahzkek-Gul'dan", -- [1295]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1296]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1297]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Crazah-Blackrock", -- [1298]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1299]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1300]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1301]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1302]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1303]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N3^t^^	RAID	Womblez-Nathrezim", -- [1304]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1305]
+			"<23:00:02> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1306]
+			"<23:00:03> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1307]
+			"<23:00:03> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1308]
+			"<23:00:03> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1309]
+			"<23:00:03> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1310]
+			"<23:00:03> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1311]
+			"<23:00:04> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1312]
+			"<23:00:04> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1313]
+			"<23:00:04> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1314]
+			"<23:00:04> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1315]
+			"<23:00:05> <Comm>		^1^Sxrealm^T^N1^SEndaxis-Anetheron^N2^Scov^N3^N4^t^^	RAID	Farlandér-Gul'dan", -- [1316]
+			"<23:00:11> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^SPASS^t^t^^	RAID	Schléx-Nathrezim", -- [1317]
+			"<23:00:13> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	Zinghultus-Gul'dan", -- [1318]
+			"<23:00:13> <Comm>		^1^Soffline_timer^T^t^^	RAID	Ursarus-Gul'dan", -- [1319]
+			"<23:00:14> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	Memegeburt-Gul'dan", -- [1320]
+			"<23:00:17> <Comm>		^1^Svote^T^N1^N1^N2^SZinghultus-Gul'dan^N3^N1^t^^	RAID	Schléx-Nathrezim", -- [1321]
+			"<23:00:28> <Comm>		^1^Svote^T^N1^N1^N2^SPepo-Gul'dan^N3^N1^t^^	RAID	Pepo-Gul'dan", -- [1322]
+			"<23:00:29> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^N1^t^t^^	RAID	Pepo-Gul'dan", -- [1323]
+			"<23:00:47> <Comm>		^1^Svote^T^N1^N1^N2^SMemegeburt-Gul'dan^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [1324]
+			"<23:01:16> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1325]
+			"<23:01:16> <INFO>		UpdatePlayersData()", -- [1326]
+			"<23:01:17> <DEBUG>		GetML()", -- [1327]
+			"<23:01:29> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Snote^S+64~`kms^Sresponse^N1^t^t^^	RAID	Cleavarious-Gul'dan", -- [1328]
+			"<23:01:42> <Comm>		^1^Svote^T^N1^N1^N2^SMemegeburt-Gul'dan^N3^N-1^t^^	RAID	Rahzkek-Gul'dan", -- [1329]
+			"<23:01:43> <Comm>		^1^Svote^T^N1^N1^N2^SZinghultus-Gul'dan^N3^N1^t^^	RAID	Rahzkek-Gul'dan", -- [1330]
+			"<23:01:47> <Comm>		^1^Svote^T^N1^N1^N2^SZinghultus-Gul'dan^N3^N1^t^^	RAID	Memegeburt-Gul'dan", -- [1331]
+			"<23:02:02> <Comm>		^1^Sresponse^T^N1^N1^N2^T^Sresponse^STIMEOUT^t^t^^	RAID	Endaxis-Anetheron", -- [1332]
+			"<23:02:37> <Comm>		^1^Shistory^T^N1^SZinghultus-Gul'dan^N2^T^SmapID^N2481^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SWARLOCK^SgroupSize^N20^Sboss^SRygelon^Stime^S23:02:36^SitemReplaced1^S|cffa335ee|Hitem:188884::::::::60:102::35:6:7772:8116:6652:7359:8153:1498::::::|h[Robes~`of~`the~`Demon~`Star]|h|r^Sinstance^SSepulcher~`of~`the~`First~`Ones-Mythic^Sowner^SSchléx-Nathrezim^Sresponse^SMainspec/Need^StypeCode^Sdefault^SdifficultyID^N16^SlootWon^S|cffa335ee|Hitem:191010::::::::60:102::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Dreadful~`Chest~`Module]|h|r^Sid^S1655323356-3^Sdate^S15/06/22^SresponseID^N1^Svotes^N3^SisAwardReason^b^t^t^^	RAID	Ursarus-Gul'dan", -- [1333]
+			"<23:02:37> <Comm>		^1^Sawarded^T^N1^N1^N2^SZinghultus-Gul'dan^N3^SSchléx-Nathrezim^t^^	RAID	Ursarus-Gul'dan", -- [1334]
+			"<23:02:38> <Comm>		^1^Ssession_end^T^t^^	RAID	Ursarus-Gul'dan", -- [1335]
+			"<23:03:00> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1336]
+			"<23:03:00> <INFO>		UpdatePlayersData()", -- [1337]
+			"<23:03:02> <DEBUG>		GetML()", -- [1338]
+			"<23:03:15> <DEBUG>		Event:	GROUP_LEFT	1	Party-1104-1-00002D8DA705", -- [1339]
+			"<23:03:15> <DEBUG>		GetML()", -- [1340]
+			"<23:05:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1341]
+			"<23:05:18> <INFO>		UpdatePlayersData()", -- [1342]
+			"<23:05:20> <DEBUG>		GetML()", -- [1343]
+			"<23:10:46> <DEBUG>		Event:	LOOT_READY	false", -- [1344]
+			"<23:10:56> <DEBUG>		Event:	LOOT_READY	false", -- [1345]
+			"<23:10:57> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180008	|cff0070dd|Hitem:180008::::::::60:70:::::::::|h[Resonierender Animakern]|h|r	3	Adelgunde	PALADIN", -- [1346]
+			"<23:11:49> <DEBUG>		Event:	LOOT_READY	false", -- [1347]
+			"<23:11:49> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180008	|cff0070dd|Hitem:180008::::::::60:70:::::::::|h[Resonierender Animakern]|h|r	4	Adelgunde	PALADIN", -- [1348]
+			"<23:12:28> <DEBUG>		Event:	LOOT_READY	false", -- [1349]
+			"<23:12:29> <DEBUG>		Event:	LOOT_READY	false", -- [1350]
+			"<23:12:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180008	|cff0070dd|Hitem:180008::::::::60:70:::::::::|h[Resonierender Animakern]|h|r	2	Adelgunde	PALADIN", -- [1351]
+			"<23:14:17> <DEBUG>		Event:	LOOT_READY	true", -- [1352]
+			"<23:14:17> <DEBUG>		Event:	LOOT_READY	true", -- [1353]
+			"06/16/22", -- [1354]
+			"<21:42:24> <INFO>		Logged In", -- [1355]
+			"<21:42:24> [ML]<INFO>		Init", -- [1356]
+			"<21:42:24> <INFO>		RCLootCouncil	TradeUI enabled", -- [1357]
+			"<21:42:38> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1358]
+			"<21:42:38> <DEBUG>		ActivateSkin	bfa", -- [1359]
+			"<21:42:41> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1360]
+			"<21:42:41> <INFO>		UpdatePlayersData()", -- [1361]
+			"<21:42:41> <INFO>		Player relog...", -- [1362]
+			"<21:42:42> <DEBUG>		GetPlayersGuildRank()", -- [1363]
+			"<21:42:42> <DEBUG>		GetPlayersGuildRank()", -- [1364]
+			"<21:42:42> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1365]
+			"<21:42:43> <DEBUG>		GetML()", -- [1366]
+			"<21:47:53> <DEBUG>		Event:	LOOT_READY	true", -- [1367]
+			"<21:47:54> <DEBUG>		Event:	LOOT_READY	true", -- [1368]
+			"<21:48:04> <DEBUG>		Event:	LOOT_READY	true", -- [1369]
+			"<21:48:04> <DEBUG>		Event:	LOOT_READY	true", -- [1370]
+			"<21:48:04> <DEBUG>		Event:	LOOT_READY	true", -- [1371]
+			"<21:48:15> <DEBUG>		Event:	LOOT_READY	true", -- [1372]
+			"<21:48:15> <DEBUG>		Event:	LOOT_READY	true", -- [1373]
+			"<21:48:26> <DEBUG>		Event:	LOOT_READY	false", -- [1374]
+			"<21:48:46> <DEBUG>		Event:	LOOT_READY	false", -- [1375]
+			"<21:49:05> <DEBUG>		Event:	LOOT_READY	false", -- [1376]
+			"<21:51:20> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1377]
+			"<21:51:20> <INFO>		UpdatePlayersData()", -- [1378]
+			"<21:51:21> <DEBUG>		GetML()", -- [1379]
+			"<21:52:43> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1380]
+			"<21:52:43> <INFO>		UpdatePlayersData()", -- [1381]
+			"<21:52:45> <DEBUG>		GetML()", -- [1382]
+			"<21:59:12> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1383]
+			"<21:59:12> <INFO>		UpdatePlayersData()", -- [1384]
+			"<21:59:14> <DEBUG>		GetML()", -- [1385]
+			"<21:59:53> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1386]
+			"<21:59:53> <INFO>		UpdatePlayersData()", -- [1387]
+			"<21:59:55> <DEBUG>		GetML()", -- [1388]
+			"<22:00:43> <DEBUG>		Event:	LOOT_READY	false", -- [1389]
+			"<22:01:24> <DEBUG>		Event:	LOOT_READY	false", -- [1390]
+			"<22:01:24> <DEBUG>		Event:	LOOT_READY	false", -- [1391]
+			"<22:02:27> <DEBUG>		Event:	LOOT_READY	false", -- [1392]
+			"<22:02:27> <DEBUG>		Event:	LOOT_READY	false", -- [1393]
+			"<22:02:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	184395	|cff0070dd|Hitem:184395::::::::60:70::::1:28:2098:::::|h[Truhe eines gefallenen Abenteurers]|h|r	1	Adelgunde	PALADIN", -- [1394]
+			"<22:02:30> <DEBUG>		Event:	LOOT_READY	false", -- [1395]
+			"<22:05:15> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1396]
+			"<22:05:15> <INFO>		UpdatePlayersData()", -- [1397]
+			"<22:05:17> <DEBUG>		GetML()", -- [1398]
+			"06/17/22", -- [1399]
+			"<20:58:02> <INFO>		Logged In", -- [1400]
+			"<20:58:02> [ML]<INFO>		Init", -- [1401]
+			"<20:58:02> <INFO>		RCLootCouncil	TradeUI enabled", -- [1402]
+			"<20:58:14> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Adelgunde-Nathrezim	Player-1104-0599AC6F", -- [1403]
+			"<20:58:14> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1404]
+			"<20:58:14> <DEBUG>		ActivateSkin	bfa", -- [1405]
+			"<20:58:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1406]
+			"<20:58:18> <INFO>		UpdatePlayersData()", -- [1407]
+			"<20:58:18> <INFO>		Player relog...", -- [1408]
+			"<20:58:18> <DEBUG>		GetPlayersGuildRank()", -- [1409]
+			"<20:58:18> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1410]
+			"<20:58:20> <DEBUG>		GetML()", -- [1411]
+			"<20:58:58> <DEBUG>		Event:	LOOT_READY	false", -- [1412]
+			"<21:01:06> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1413]
+			"<21:01:06> <INFO>		UpdatePlayersData()", -- [1414]
+			"<21:01:08> <DEBUG>		GetML()", -- [1415]
+			"<21:01:33> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1416]
+			"<21:01:33> <INFO>		UpdatePlayersData()", -- [1417]
+			"<21:01:35> <DEBUG>		GetML()", -- [1418]
+			"<21:02:00> <DEBUG>		Event:	LOOT_READY	true", -- [1419]
+			"<21:02:00> <DEBUG>		Event:	LOOT_READY	true", -- [1420]
+			"<21:02:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1421]
+			"<21:02:52> <INFO>		UpdatePlayersData()", -- [1422]
+			"<21:02:54> <DEBUG>		GetML()", -- [1423]
+			"<21:05:20> <DEBUG>		Event:	LOOT_READY	false", -- [1424]
+			"<21:05:40> <DEBUG>		Event:	LOOT_READY	false", -- [1425]
+			"<21:06:05> <DEBUG>		Event:	LOOT_READY	true", -- [1426]
+			"<21:06:06> <DEBUG>		Event:	LOOT_READY	true", -- [1427]
+			"<21:06:21> <DEBUG>		Event:	LOOT_READY	true", -- [1428]
+			"<21:06:21> <DEBUG>		Event:	LOOT_READY	true", -- [1429]
+			"<21:06:30> <DEBUG>		Event:	LOOT_READY	true", -- [1430]
+			"<21:06:30> <DEBUG>		Event:	LOOT_READY	true", -- [1431]
+			"<21:06:50> <DEBUG>		Event:	LOOT_READY	true", -- [1432]
+			"<21:06:51> <DEBUG>		Event:	LOOT_READY	true", -- [1433]
+			"<21:06:56> <DEBUG>		Event:	LOOT_READY	false", -- [1434]
+			"<21:07:01> <DEBUG>		Event:	LOOT_READY	false", -- [1435]
+			"<21:11:42> <DEBUG>		Event:	LOOT_READY	true", -- [1436]
+			"<21:11:42> <DEBUG>		Event:	LOOT_READY	true", -- [1437]
+			"<21:11:57> <DEBUG>		Event:	LOOT_READY	true", -- [1438]
+			"<21:11:57> <DEBUG>		Event:	LOOT_READY	true", -- [1439]
+			"<21:12:06> <DEBUG>		Event:	LOOT_READY	false", -- [1440]
+			"<21:12:15> <DEBUG>		Event:	LOOT_READY	true", -- [1441]
+			"<21:12:15> <DEBUG>		Event:	LOOT_READY	true", -- [1442]
+			"<21:12:31> <DEBUG>		Event:	LOOT_READY	true", -- [1443]
+			"<21:12:31> <DEBUG>		Event:	LOOT_READY	true", -- [1444]
+			"<21:12:31> <DEBUG>		Event:	LOOT_READY	true", -- [1445]
+			"<21:12:45> <DEBUG>		Event:	LOOT_READY	true", -- [1446]
+			"<21:12:46> <DEBUG>		Event:	LOOT_READY	true", -- [1447]
+			"<21:13:22> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1448]
+			"<21:13:22> <INFO>		UpdatePlayersData()", -- [1449]
+			"<21:13:24> <DEBUG>		GetML()", -- [1450]
+			"06/18/22", -- [1451]
+			"<20:45:58> <INFO>		Logged In", -- [1452]
+			"<20:45:58> [ML]<INFO>		Init", -- [1453]
+			"<20:45:58> <INFO>		RCLootCouncil	TradeUI enabled", -- [1454]
+			"<20:46:10> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1455]
+			"<20:46:10> <DEBUG>		ActivateSkin	bfa", -- [1456]
+			"<20:46:13> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1457]
+			"<20:46:13> <INFO>		UpdatePlayersData()", -- [1458]
+			"<20:46:13> <INFO>		Player relog...", -- [1459]
+			"<20:46:13> <DEBUG>		GetPlayersGuildRank()", -- [1460]
+			"<20:46:13> <DEBUG>		GetPlayersGuildRank()", -- [1461]
+			"<20:46:13> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1462]
+			"<20:46:15> <DEBUG>		GetML()", -- [1463]
+			"<20:49:42> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1464]
+			"<20:49:42> <INFO>		UpdatePlayersData()", -- [1465]
+			"<20:49:44> <DEBUG>		GetML()", -- [1466]
+			"<20:50:03> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1467]
+			"<20:50:03> <INFO>		UpdatePlayersData()", -- [1468]
+			"<20:50:05> <DEBUG>		GetML()", -- [1469]
+			"<20:52:36> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1470]
+			"<20:52:36> <INFO>		UpdatePlayersData()", -- [1471]
+			"<20:52:38> <DEBUG>		GetML()", -- [1472]
+			"<20:54:47> <DEBUG>		Event:	LOOT_READY	false", -- [1473]
+			"<20:55:06> <DEBUG>		Event:	LOOT_READY	false", -- [1474]
+			"<20:55:08> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [1475]
+			"<20:55:26> <DEBUG>		Event:	LOOT_READY	false", -- [1476]
+			"<20:55:27> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [1477]
+			"<20:55:39> <DEBUG>		Event:	LOOT_READY	false", -- [1478]
+			"<20:56:18> <DEBUG>		Event:	LOOT_READY	false", -- [1479]
+			"<20:56:23> <DEBUG>		Event:	LOOT_READY	false", -- [1480]
+			"<20:56:24> <DEBUG>		Event:	LOOT_READY	false", -- [1481]
+			"<20:56:35> <DEBUG>		Event:	LOOT_READY	false", -- [1482]
+			"<20:57:03> <DEBUG>		Event:	LOOT_READY	false", -- [1483]
+			"<20:57:15> <DEBUG>		Event:	LOOT_READY	true", -- [1484]
+			"<20:57:15> <DEBUG>		Event:	LOOT_READY	true", -- [1485]
+			"<20:57:28> <DEBUG>		Event:	LOOT_READY	false", -- [1486]
+			"<20:57:37> <DEBUG>		Event:	LOOT_READY	true", -- [1487]
+			"<20:57:37> <DEBUG>		Event:	LOOT_READY	true", -- [1488]
+			"<20:57:38> <DEBUG>		Event:	LOOT_READY	true", -- [1489]
+			"<20:57:54> <DEBUG>		Event:	LOOT_READY	false", -- [1490]
+			"<20:58:04> <DEBUG>		Event:	LOOT_READY	false", -- [1491]
+			"<20:58:18> <DEBUG>		Event:	LOOT_READY	false", -- [1492]
+			"<20:58:26> <DEBUG>		Event:	LOOT_READY	false", -- [1493]
+			"<21:01:35> <DEBUG>		Event:	LOOT_READY	false", -- [1494]
+			"<21:03:24> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1495]
+			"<21:03:24> <INFO>		UpdatePlayersData()", -- [1496]
+			"<21:03:25> <DEBUG>		GetML()", -- [1497]
+			"06/19/22", -- [1498]
+			"<13:01:52> <INFO>		Logged In", -- [1499]
+			"<13:01:52> [ML]<INFO>		Init", -- [1500]
+			"<13:01:52> <INFO>		RCLootCouncil	TradeUI enabled", -- [1501]
+			"<13:02:04> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1502]
+			"<13:02:04> <DEBUG>		ActivateSkin	bfa", -- [1503]
+			"<13:02:07> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1504]
+			"<13:02:07> <INFO>		UpdatePlayersData()", -- [1505]
+			"<13:02:07> <INFO>		Player relog...", -- [1506]
+			"<13:02:08> <DEBUG>		GetPlayersGuildRank()", -- [1507]
+			"<13:02:08> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1508]
+			"<13:02:10> <DEBUG>		GetML()", -- [1509]
+			"<13:05:28> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1510]
+			"<13:05:28> <INFO>		UpdatePlayersData()", -- [1511]
+			"<13:05:30> <DEBUG>		GetML()", -- [1512]
+			"<13:05:48> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1513]
+			"<13:05:48> <INFO>		UpdatePlayersData()", -- [1514]
+			"<13:05:49> <DEBUG>		GetML()", -- [1515]
+			"<13:06:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1516]
+			"<13:06:58> <INFO>		UpdatePlayersData()", -- [1517]
+			"<13:06:59> <DEBUG>		GetML()", -- [1518]
+			"<13:09:50> <DEBUG>		Event:	LOOT_READY	false", -- [1519]
+			"<13:11:34> <DEBUG>		Event:	LOOT_READY	false", -- [1520]
+			"<13:13:18> <DEBUG>		Event:	LOOT_READY	false", -- [1521]
+			"<13:14:45> <DEBUG>		Event:	LOOT_READY	false", -- [1522]
+			"<13:14:45> <DEBUG>		Event:	LOOT_READY	false", -- [1523]
+			"<13:15:14> <DEBUG>		Event:	LOOT_READY	false", -- [1524]
+			"<13:15:46> <DEBUG>		Event:	LOOT_READY	false", -- [1525]
+			"<13:15:46> <DEBUG>		Event:	LOOT_READY	false", -- [1526]
+			"<13:17:03> <DEBUG>		Event:	LOOT_READY	true", -- [1527]
+			"<13:17:03> <DEBUG>		Event:	LOOT_READY	true", -- [1528]
+			"<13:17:46> <DEBUG>		Event:	LOOT_READY	true", -- [1529]
+			"<13:17:47> <DEBUG>		Event:	LOOT_READY	true", -- [1530]
+			"<13:18:15> <DEBUG>		Event:	LOOT_READY	true", -- [1531]
+			"<13:18:16> <DEBUG>		Event:	LOOT_READY	true", -- [1532]
+			"<13:18:16> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	1	Adelgunde	PALADIN", -- [1533]
+			"<13:18:31> <DEBUG>		Event:	LOOT_READY	true", -- [1534]
+			"<13:18:31> <DEBUG>		Event:	LOOT_READY	true", -- [1535]
+			"<13:19:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1536]
+			"<13:19:10> <INFO>		UpdatePlayersData()", -- [1537]
+			"<13:19:12> <DEBUG>		GetML()", -- [1538]
+			"<13:20:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1539]
+			"<13:20:58> <INFO>		UpdatePlayersData()", -- [1540]
+			"<13:21:00> <DEBUG>		GetML()", -- [1541]
+			"<13:21:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1542]
+			"<13:21:18> <INFO>		UpdatePlayersData()", -- [1543]
+			"<13:21:19> <DEBUG>		GetML()", -- [1544]
+			"06/20/22", -- [1545]
+			"<21:05:53> <INFO>		Logged In", -- [1546]
+			"<21:05:53> [ML]<INFO>		Init", -- [1547]
+			"<21:05:53> <INFO>		RCLootCouncil	TradeUI enabled", -- [1548]
+			"<21:06:08> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1549]
+			"<21:06:08> <DEBUG>		ActivateSkin	bfa", -- [1550]
+			"<21:06:12> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1551]
+			"<21:06:12> <INFO>		UpdatePlayersData()", -- [1552]
+			"<21:06:12> <INFO>		Player relog...", -- [1553]
+			"<21:06:12> <DEBUG>		GetPlayersGuildRank()", -- [1554]
+			"<21:06:12> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1555]
+			"<21:06:14> <DEBUG>		GetML()", -- [1556]
+			"<21:06:39> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1557]
+			"<21:06:39> <INFO>		UpdatePlayersData()", -- [1558]
+			"<21:06:41> <DEBUG>		GetML()", -- [1559]
+			"<21:13:17> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1560]
+			"<21:13:19> <DEBUG>		GetML()", -- [1561]
+			"<21:13:19> <Data.Player>		CreatePlayer	Player-581-068721B7", -- [1562]
+			"<21:13:19> <DEBUG>		Resetting council as we have a new ML!", -- [1563]
+			"<21:13:19> <INFO>		MasterLooter = 	Letsroll-Blackrock", -- [1564]
+			"<21:13:29> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1565]
+			"<21:13:29> <INFO>		UpdatePlayersData()", -- [1566]
+			"<21:13:31> <DEBUG>		GetML()", -- [1567]
+			"<21:13:34> <DEBUG>		Timer MLdb_check passed", -- [1568]
+			"<21:13:34> <Comm>		^1^Sxrealm^T^N1^SLetsroll-Blackrock^N2^SMLdb_request^t^^	PARTY	Adelgunde-Nathrezim", -- [1569]
+			"<21:13:35> <Comm>		^1^Sxrealm^T^N1^SLetsroll-Blackrock^N2^Scouncil_request^t^^	PARTY	Adelgunde-Nathrezim", -- [1570]
+			"<21:14:48> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Tazavesh, der Verhüllte Markt (Mythisch)	128711	0	0", -- [1571]
+			"<21:14:48> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1572]
+			"<21:14:48> <INFO>		UpdatePlayersData()", -- [1573]
+			"<21:14:50> <DEBUG>		GetML()", -- [1574]
+			"<21:15:45> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1575]
+			"<21:15:45> <INFO>		UpdatePlayersData()", -- [1576]
+			"<21:15:46> <DEBUG>		GetML()", -- [1577]
+			"<21:15:52> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1578]
+			"<21:15:52> <INFO>		UpdatePlayersData()", -- [1579]
+			"<21:15:52> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Tazavesh, der Verhüllte Markt (Mythisch)	128647	0	0", -- [1580]
+			"<21:15:54> <DEBUG>		GetML()", -- [1581]
+			"<21:17:21> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SSosiaali^N4^N0^N5^N276.3125^N6^N266^t^^	PARTY	Hakkizz-Stormreaver", -- [1582]
+			"<21:17:21> <Data.Player>		CreatePlayer	Player-3656-0A657B55", -- [1583]
+			"<21:17:21> <Comm>		^1^Sxrealm^T^N1^SLetsroll-Blackrock^N2^Sreconnect^t^^	PARTY	Hakkizz-Stormreaver", -- [1584]
+			"<21:17:36> <Comm>		^1^Sxrealm^T^N1^SLetsroll-Blackrock^N2^SMLdb_request^t^^	PARTY	Hakkizz-Stormreaver", -- [1585]
+			"<21:17:36> <Comm>		^1^Sxrealm^T^N1^SLetsroll-Blackrock^N2^Scouncil_request^t^^	PARTY	Hakkizz-Stormreaver", -- [1586]
+			"<21:26:01> <DEBUG>		Event:	ENCOUNTER_START	2426	Hylbrand	8	5", -- [1587]
+			"<21:26:01> <INFO>		UpdatePlayersData()", -- [1588]
+			"<21:27:53> <DEBUG>		Event:	ENCOUNTER_END	2426	Hylbrand	8	5	1", -- [1589]
+			"<21:31:34> <DEBUG>		Event:	ENCOUNTER_START	2419	Zeitkäpt'n Hakenschwanz	8	5", -- [1590]
+			"<21:31:34> <INFO>		UpdatePlayersData()", -- [1591]
+			"<21:33:15> <DEBUG>		Event:	ENCOUNTER_END	2419	Zeitkäpt'n Hakenschwanz	8	5	1", -- [1592]
+			"<21:37:24> <DEBUG>		Event:	ENCOUNTER_START	2442	So'leah	8	5", -- [1593]
+			"<21:37:24> <INFO>		UpdatePlayersData()", -- [1594]
+			"<21:40:04> <DEBUG>		Event:	ENCOUNTER_END	2442	So'leah	8	5	1", -- [1595]
+			"<21:40:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2442	181498	|cffa335ee|Hitem:181498::::::::60:65::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Erdende Woge]|h|r	1	Janeyo-Blackrock	MAGE", -- [1596]
+			"<21:40:13> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2442	185795	|cffa335ee|Hitem:185795::::::::60:65::16:8:7767:8136:8116:7359:6652:7578:1579:6646:1:28:1279:::::|h[Gugel der schicksalhaften Möglichkeiten]|h|r	1	Janeyo-Blackrock	MAGE", -- [1597]
+			"<21:40:15> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2442	185795	|cffa335ee|Hitem:185795::::::::60:65::33:8:7767:8136:8116:7359:6652:7578:1579:6646:1:28:1279:::::|h[Gugel der schicksalhaften Möglichkeiten]|h|r	1	Hakkizz-Stormreaver	WARLOCK", -- [1598]
+			"<21:40:15> <Comm>		^1^Sl^T^N1^S373484^t^^	PARTY	Hakkizz-Stormreaver", -- [1599]
+			"<21:40:18> <Comm>		^1^Stradable^T^N1^S|cffa335ee|Hitem:185795::::::::60:266::33:8:7767:8136:8116:7359:6652:7578:1579:6646:1:28:1279:::::|h[Cowl~`of~`Branching~`Fate]|h|r^N2^S373484^t^^	PARTY	Hakkizz-Stormreaver", -- [1600]
+			"<21:40:24> <DEBUG>		Event:	LOOT_READY	false", -- [1601]
+			"<21:40:24> <DEBUG>		Adding to self.lootSlotInfo	1	nil	1	0	GameObject-0-4238-2441-18324-373484-000030CD11	529212", -- [1602]
+			"<21:40:24> <DEBUG>		Ignoring	|cffff8000|Hcurrency:2009:100|h[Kosmischer Flux]|h|r	as it's a currency", -- [1603]
+			"<21:40:25> <DEBUG>		OnLootSlotCleared()	1	nil	1", -- [1604]
+			"<21:40:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2442	184374	|cff0070dd|Hitem:184374::::::::60:65:::::::::|h[Kartellaustauschgefäß]|h|r	6	Adelgunde	PALADIN", -- [1605]
+			"<21:40:26> <DEBUG>		Event:	LOOT_CLOSED", -- [1606]
+			"<21:40:26> <DEBUG>		Event:	LOOT_CLOSED", -- [1607]
+			"<21:40:26> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	2442	180653	|cffa335ee|Hitem:180653::::::::60:65::::6:17:392:18:14:19:10:20:122:21:12:22:130:::::|h[Mythischer Schlüsselstein]|h|r	1	Adelgunde	PALADIN", -- [1608]
+			"<21:40:26> <Comm>		^1^Sl^T^N1^S373484^t^^	PARTY	Adelgunde-Nathrezim", -- [1609]
+			"<21:40:27> <Comm>		^1^Sl^T^N1^S373484^t^^	PARTY	Adelgunde-Nathrezim", -- [1610]
+			"<21:40:56> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1611]
+			"<21:40:56> <INFO>		UpdatePlayersData()", -- [1612]
+			"<21:40:58> <DEBUG>		GetML()", -- [1613]
+			"<21:41:00> <DEBUG>		Event:	GROUP_LEFT	1	Party-581-1-00002D9600D3", -- [1614]
+			"<21:41:00> <DEBUG>		GetML()", -- [1615]
+			"<21:41:36> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1616]
+			"<21:41:36> <INFO>		UpdatePlayersData()", -- [1617]
+			"<21:41:38> <DEBUG>		GetML()", -- [1618]
+			"<21:44:44> <DEBUG>		Event:	LOOT_READY	false", -- [1619]
+			"<21:44:44> <DEBUG>		Event:	LOOT_READY	false", -- [1620]
+			"<21:45:28> <DEBUG>		Event:	LOOT_READY	false", -- [1621]
+			"<21:45:28> <DEBUG>		Event:	LOOT_READY	false", -- [1622]
+			"<21:45:28> <DEBUG>		Event:	LOOT_READY	false", -- [1623]
+			"<21:45:28> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180594	|cff0070dd|Hitem:180594::::::::60:70:::::::::|h[Verhärteter Knochen]|h|r	3	Adelgunde	PALADIN", -- [1624]
+			"<21:45:56> <DEBUG>		Event:	LOOT_READY	false", -- [1625]
+			"<21:46:04> <DEBUG>		Event:	LOOT_READY	false", -- [1626]
+			"<21:46:14> <DEBUG>		Event:	LOOT_READY	false", -- [1627]
+			"<21:46:28> <DEBUG>		Event:	LOOT_READY	false", -- [1628]
+			"<21:46:37> <DEBUG>		Event:	LOOT_READY	false", -- [1629]
+			"<21:47:47> <DEBUG>		Event:	LOOT_READY	false", -- [1630]
+			"<21:47:47> <DEBUG>		Event:	LOOT_READY	false", -- [1631]
+			"<21:47:47> <DEBUG>		Event:	LOOT_READY	false", -- [1632]
+			"<21:47:47> <DEBUG>		Event:	LOOT_READY	false", -- [1633]
+			"<21:47:47> <DEBUG>		Event:	LOOT_READY	false", -- [1634]
+			"<21:48:12> <DEBUG>		Event:	LOOT_READY	false", -- [1635]
+			"<21:48:40> <DEBUG>		Event:	LOOT_READY	false", -- [1636]
+			"<21:49:20> <DEBUG>		Event:	LOOT_READY	false", -- [1637]
+			"<21:49:21> <DEBUG>		Event:	LOOT_READY	false", -- [1638]
+			"<21:50:24> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1639]
+			"<21:50:24> <INFO>		UpdatePlayersData()", -- [1640]
+			"<21:50:26> <DEBUG>		GetML()", -- [1641]
+			"06/21/22", -- [1642]
+			"<20:14:40> <INFO>		Logged In", -- [1643]
+			"<20:14:40> [ML]<INFO>		Init", -- [1644]
+			"<20:14:40> <INFO>		RCLootCouncil	TradeUI enabled", -- [1645]
+			"<20:14:51> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Adelgunde-Nathrezim	Player-1104-0599AC6F", -- [1646]
+			"<20:14:51> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1647]
+			"<20:14:51> <DEBUG>		ActivateSkin	bfa", -- [1648]
+			"<20:14:54> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1649]
+			"<20:14:54> <INFO>		UpdatePlayersData()", -- [1650]
+			"<20:14:54> <INFO>		Player relog...", -- [1651]
+			"<20:14:55> <DEBUG>		GetPlayersGuildRank()", -- [1652]
+			"<20:14:55> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1653]
+			"<20:14:56> <DEBUG>		GetML()", -- [1654]
+			"<20:22:54> <DEBUG>		Event:	LOOT_READY	true", -- [1655]
+			"<20:22:54> <DEBUG>		Event:	LOOT_READY	true", -- [1656]
+			"<20:23:00> <DEBUG>		Event:	LOOT_READY	true", -- [1657]
+			"<20:23:01> <DEBUG>		Event:	LOOT_READY	true", -- [1658]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1659]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1660]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1661]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1662]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1663]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1664]
+			"<20:23:40> <DEBUG>		Event:	LOOT_READY	false", -- [1665]
+			"<20:24:01> <DEBUG>		Event:	LOOT_READY	true", -- [1666]
+			"<20:24:01> <DEBUG>		Event:	LOOT_READY	true", -- [1667]
+			"<20:24:12> <DEBUG>		Event:	LOOT_READY	true", -- [1668]
+			"<20:24:12> <DEBUG>		Event:	LOOT_READY	true", -- [1669]
+			"<20:24:19> <DEBUG>		Event:	LOOT_READY	false", -- [1670]
+			"<20:24:52> <DEBUG>		Event:	LOOT_READY	true", -- [1671]
+			"<20:24:52> <DEBUG>		Event:	LOOT_READY	true", -- [1672]
+			"<20:24:59> <DEBUG>		Event:	LOOT_READY	false", -- [1673]
+			"<20:27:00> <DEBUG>		Event:	LOOT_READY	false", -- [1674]
+			"<20:27:17> <DEBUG>		Event:	LOOT_READY	false", -- [1675]
+			"<20:28:50> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1676]
+			"<20:28:50> <INFO>		UpdatePlayersData()", -- [1677]
+			"<20:28:52> <DEBUG>		GetML()", -- [1678]
+			"06/22/22", -- [1679]
+			"<12:42:02> <INFO>		Logged In", -- [1680]
+			"<12:42:02> [ML]<INFO>		Init", -- [1681]
+			"<12:42:02> <INFO>		RCLootCouncil	TradeUI enabled", -- [1682]
+			"<12:42:16> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1683]
+			"<12:42:16> <DEBUG>		ActivateSkin	bfa", -- [1684]
+			"<12:42:21> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1685]
+			"<12:42:21> <INFO>		UpdatePlayersData()", -- [1686]
+			"<12:42:21> <INFO>		Player relog...", -- [1687]
+			"<12:42:22> <DEBUG>		GetPlayersGuildRank()", -- [1688]
+			"<12:42:22> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1689]
+			"<12:42:23> <DEBUG>		GetML()", -- [1690]
+			"<12:44:42> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1691]
+			"<12:44:42> <INFO>		UpdatePlayersData()", -- [1692]
+			"<12:44:43> <DEBUG>		GetML()", -- [1693]
+			"<12:46:15> <DEBUG>		Event:	LOOT_READY	false", -- [1694]
+			"<12:46:18> <DEBUG>		Event:	LOOT_READY	false", -- [1695]
+			"<12:46:20> <DEBUG>		Event:	LOOT_READY	false", -- [1696]
+			"06/22/22", -- [1697]
+			"<19:54:22> <INFO>		Logged In", -- [1698]
+			"<19:54:22> [ML]<INFO>		Init", -- [1699]
+			"<19:54:22> <INFO>		RCLootCouncil	TradeUI enabled", -- [1700]
+			"<19:54:35> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1701]
+			"<19:54:35> <DEBUG>		ActivateSkin	bfa", -- [1702]
+			"<19:54:38> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1703]
+			"<19:54:38> <INFO>		UpdatePlayersData()", -- [1704]
+			"<19:54:38> <INFO>		Player relog...", -- [1705]
+			"<19:54:39> <DEBUG>		GetPlayersGuildRank()", -- [1706]
+			"<19:54:39> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1707]
+			"<19:54:40> <DEBUG>		GetML()", -- [1708]
+			"<19:55:16> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1709]
+			"<19:55:16> <INFO>		UpdatePlayersData()", -- [1710]
+			"<19:55:18> <DEBUG>		GetML()", -- [1711]
+			"<19:56:03> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1712]
+			"<19:56:03> <INFO>		UpdatePlayersData()", -- [1713]
+			"<19:56:05> <DEBUG>		GetML()", -- [1714]
+			"<19:56:31> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1715]
+			"<19:56:33> <DEBUG>		GetML()", -- [1716]
+			"<19:56:33> <DEBUG>		Resetting council as we have a new ML!", -- [1717]
+			"<19:56:33> <INFO>		MasterLooter = 	Rahzkek-Gul'dan", -- [1718]
+			"<19:56:48> <DEBUG>		Timer MLdb_check passed", -- [1719]
+			"<19:56:48> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^SMLdb_request^t^^	RAID	Adelgunde-Nathrezim", -- [1720]
+			"<19:56:48> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^Scouncil_request^t^^	RAID	Adelgunde-Nathrezim", -- [1721]
+			"<19:56:48> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^S|4^N1^S|16^T^N1^N1^N2^N0^N3^N0.28^N4^N1^t^t^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0^N2^N0.7^N3^N0.12^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1722]
+			"<19:56:48> <INFO>		OnMLDBReceived", -- [1723]
+			"<19:56:48> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-0805EABC^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1724]
+			"<19:56:48> <DEBUG>		isCouncil	false", -- [1725]
+			"<19:57:10> <DEBUG>		Event:	RAID_INSTANCE_WELCOME	Mausoleum der Ersten (Mythisch)	565369	0	0", -- [1726]
+			"<19:57:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1727]
+			"<19:57:10> <INFO>		UpdatePlayersData()", -- [1728]
+			"<19:57:12> <DEBUG>		GetML()", -- [1729]
+			"<19:58:01> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Rodymage-Gul'dan", -- [1730]
+			"<19:58:01> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.6875^N6^N63^t^^	RAID	Rodymage-Gul'dan", -- [1731]
+			"<20:01:32> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^SMLdb_request^t^^	RAID	Endaxis-Anetheron", -- [1732]
+			"<20:01:32> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^Scouncil_request^t^^	RAID	Endaxis-Anetheron", -- [1733]
+			"<20:01:32> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^S|4^N1^S|16^T^N1^N1^N2^N0^N3^N0.28^N4^N1^t^t^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0^N2^N0.7^N3^N0.12^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1734]
+			"<20:01:32> <INFO>		OnMLDBReceived", -- [1735]
+			"<20:01:32> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-0805EABC^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1736]
+			"<20:01:32> <DEBUG>		isCouncil	false", -- [1737]
+			"<20:02:29> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^S|4^N1^S|16^T^N1^N1^N2^N0^N3^N0.28^N4^N1^t^t^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0^N2^N0.7^N3^N0.12^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1738]
+			"<20:02:29> <INFO>		OnMLDBReceived", -- [1739]
+			"<20:02:29> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-0805EABC^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1740]
+			"<20:02:29> <DEBUG>		isCouncil	false", -- [1741]
+			"<20:12:37> <Comm>		^1^Sv^T^N1^S3.3.0^t^^	GUILD	Farlandér-Gul'dan", -- [1742]
+			"<20:12:37> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.25^N6^N258^t^^	RAID	Farlandér-Gul'dan", -- [1743]
+			"<20:13:23> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1744]
+			"<20:13:23> <INFO>		UpdatePlayersData()", -- [1745]
+			"<20:14:39> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1746]
+			"<20:16:09> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1747]
+			"<20:16:09> <INFO>		UpdatePlayersData()", -- [1748]
+			"<20:17:32> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1749]
+			"<20:22:08> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1750]
+			"<20:22:08> <INFO>		UpdatePlayersData()", -- [1751]
+			"<20:23:22> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1752]
+			"<20:25:05> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1753]
+			"<20:25:05> <INFO>		UpdatePlayersData()", -- [1754]
+			"<20:26:59> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1755]
+			"<20:29:34> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1756]
+			"<20:29:34> <INFO>		UpdatePlayersData()", -- [1757]
+			"<20:31:28> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1758]
+			"<20:33:41> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1759]
+			"<20:33:41> <INFO>		UpdatePlayersData()", -- [1760]
+			"<20:34:18> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1761]
+			"<20:37:55> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1762]
+			"<20:37:55> <INFO>		UpdatePlayersData()", -- [1763]
+			"<20:39:51> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1764]
+			"<20:42:45> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1765]
+			"<20:42:45> <INFO>		UpdatePlayersData()", -- [1766]
+			"<20:44:37> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1767]
+			"<20:45:36> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1768]
+			"<20:45:36> <INFO>		UpdatePlayersData()", -- [1769]
+			"<20:45:37> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1770]
+			"<20:46:56> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1771]
+			"<20:46:56> <INFO>		UpdatePlayersData()", -- [1772]
+			"<20:48:20> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1773]
+			"<20:50:00> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1774]
+			"<20:50:00> <INFO>		UpdatePlayersData()", -- [1775]
+			"<20:50:42> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1776]
+			"<20:52:52> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1777]
+			"<20:52:52> <INFO>		UpdatePlayersData()", -- [1778]
+			"<20:54:05> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1779]
+			"<20:56:05> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1780]
+			"<20:56:05> <INFO>		UpdatePlayersData()", -- [1781]
+			"<20:57:28> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1782]
+			"<20:58:54> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1783]
+			"<20:58:54> <INFO>		UpdatePlayersData()", -- [1784]
+			"<21:00:50> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1785]
+			"<21:03:05> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1786]
+			"<21:03:05> <INFO>		UpdatePlayersData()", -- [1787]
+			"<21:04:30> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1788]
+			"<21:06:18> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1789]
+			"<21:06:18> <INFO>		UpdatePlayersData()", -- [1790]
+			"<21:08:18> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1791]
+			"<21:10:30> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1792]
+			"<21:10:30> <INFO>		UpdatePlayersData()", -- [1793]
+			"<21:12:29> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1794]
+			"<21:17:13> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1795]
+			"<21:17:13> <INFO>		UpdatePlayersData()", -- [1796]
+			"<21:18:37> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1797]
+			"<21:20:03> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1798]
+			"<21:20:03> <INFO>		UpdatePlayersData()", -- [1799]
+			"<21:21:29> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1800]
+			"<21:24:06> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1801]
+			"<21:24:06> <INFO>		UpdatePlayersData()", -- [1802]
+			"<21:25:59> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1803]
+			"<21:28:41> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1804]
+			"<21:28:41> <INFO>		UpdatePlayersData()", -- [1805]
+			"<21:30:33> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1806]
+			"<21:32:27> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1807]
+			"<21:32:27> <INFO>		UpdatePlayersData()", -- [1808]
+			"<21:34:33> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1809]
+			"<21:38:58> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1810]
+			"<21:38:58> <INFO>		UpdatePlayersData()", -- [1811]
+			"<21:40:51> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1812]
+			"<21:44:39> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1813]
+			"<21:44:39> <INFO>		UpdatePlayersData()", -- [1814]
+			"<21:46:37> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1815]
+			"<21:49:33> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1816]
+			"<21:49:33> <INFO>		UpdatePlayersData()", -- [1817]
+			"<21:51:38> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1818]
+			"<21:53:34> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1819]
+			"<21:53:34> <INFO>		UpdatePlayersData()", -- [1820]
+			"<21:55:52> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1821]
+			"<21:59:26> <Comm>		^1^SpI^T^N1^SDAMAGER^N2^SMythic~`Raider^N4^N0^N5^N277.75^N6^N577^t^^	RAID	Endaxis-Anetheron", -- [1822]
+			"<21:59:40> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^SMLdb_request^t^^	RAID	Endaxis-Anetheron", -- [1823]
+			"<21:59:40> <Comm>		^1^Sxrealm^T^N1^SRahzkek-Gul'dan^N2^Scouncil_request^t^^	RAID	Endaxis-Anetheron", -- [1824]
+			"<21:59:41> <Comm>		^1^Smldb^T^N1^T^S|8^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^t^N2^T^S|15^SMinor~`Upgrade^t^N3^T^S|15^SOffspec^t^N4^T^S|15^STransmog^t^S|5^N4^t^t^S|12^N60^S|11^T^S|14^T^N1^T^S|15^SMajor~`Upgrade^S|4^N1^S|16^T^N1^N1^N2^N0^N3^N0.28^N4^N1^t^t^N2^T^S|15^SMinor~`Upgrade^S|4^N2^S|16^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^t^N3^T^S|15^SOffspec^S|4^N3^S|16^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^t^N4^T^S|15^STransmog^S|4^N4^S|16^T^N1^N0^N2^N0.7^N3^N0.12^N4^N1^t^t^t^t^S|1^B^S|5^N4^S|2^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1825]
+			"<21:59:41> <INFO>		OnMLDBReceived", -- [1826]
+			"<21:59:41> <Comm>		^1^Scouncil^T^N1^T^S1104-07CA0486^B^S1104-058C8575^B^S1104-0A106E9D^B^S1104-0805EABC^B^S1104-084D21C8^B^S1104-0A106E85^B^t^t^^	RAID	Rahzkek-Gul'dan", -- [1827]
+			"<21:59:41> <DEBUG>		isCouncil	false", -- [1828]
+			"<22:06:08> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1829]
+			"<22:06:08> <INFO>		UpdatePlayersData()", -- [1830]
+			"<22:08:28> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1831]
+			"<22:09:56> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1832]
+			"<22:09:56> <INFO>		UpdatePlayersData()", -- [1833]
+			"<22:11:49> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1834]
+			"<22:14:20> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1835]
+			"<22:14:20> <INFO>		UpdatePlayersData()", -- [1836]
+			"<22:15:45> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1837]
+			"<22:17:32> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1838]
+			"<22:17:32> <INFO>		UpdatePlayersData()", -- [1839]
+			"<22:19:34> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1840]
+			"<22:22:49> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1841]
+			"<22:22:49> <INFO>		UpdatePlayersData()", -- [1842]
+			"<22:24:45> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1843]
+			"<22:26:02> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1844]
+			"<22:26:02> <INFO>		UpdatePlayersData()", -- [1845]
+			"<22:27:24> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1846]
+			"<22:28:53> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1847]
+			"<22:28:53> <INFO>		UpdatePlayersData()", -- [1848]
+			"<22:30:49> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1849]
+			"<22:34:22> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1850]
+			"<22:34:22> <INFO>		UpdatePlayersData()", -- [1851]
+			"<22:35:43> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1852]
+			"<22:36:44> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1853]
+			"<22:36:44> <INFO>		UpdatePlayersData()", -- [1854]
+			"<22:38:13> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1855]
+			"<22:39:21> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1856]
+			"<22:39:21> <INFO>		UpdatePlayersData()", -- [1857]
+			"<22:41:16> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1858]
+			"<22:42:36> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1859]
+			"<22:42:36> <INFO>		UpdatePlayersData()", -- [1860]
+			"<22:45:12> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1861]
+			"<22:46:58> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1862]
+			"<22:46:58> <INFO>		UpdatePlayersData()", -- [1863]
+			"<22:49:34> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1864]
+			"<22:52:38> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1865]
+			"<22:52:38> <INFO>		UpdatePlayersData()", -- [1866]
+			"<22:54:37> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1867]
+			"<22:55:58> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1868]
+			"<22:55:58> <INFO>		UpdatePlayersData()", -- [1869]
+			"<22:57:23> <DEBUG>		Event:	ENCOUNTER_END	2537	Der Kerkermeister	16	20	0", -- [1870]
+			"<22:58:34> <DEBUG>		Event:	ENCOUNTER_START	2537	Der Kerkermeister	16	20", -- [1871]
+			"<22:58:34> <INFO>		UpdatePlayersData()", -- [1872]
+			"<22:59:47> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1873]
+			"<22:59:47> <INFO>		UpdatePlayersData()", -- [1874]
+			"<22:59:49> <DEBUG>		GetML()", -- [1875]
+			"<23:00:18> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1876]
+			"<23:00:18> <INFO>		UpdatePlayersData()", -- [1877]
+			"<23:00:20> <DEBUG>		GetML()", -- [1878]
+			"<23:00:23> <DEBUG>		Event:	GROUP_LEFT	1	Party-1104-1-00002D98C2A8", -- [1879]
+			"<23:00:23> <DEBUG>		GetML()", -- [1880]
+			"<23:06:58> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1881]
+			"<23:06:58> <INFO>		UpdatePlayersData()", -- [1882]
+			"<23:07:00> <DEBUG>		GetML()", -- [1883]
+			"<23:07:34> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1884]
+			"<23:07:34> <INFO>		UpdatePlayersData()", -- [1885]
+			"<23:07:35> <DEBUG>		GetML()", -- [1886]
+			"<23:10:01> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1887]
+			"<23:10:03> <DEBUG>		GetML()", -- [1888]
+			"<23:10:03> <Data.Player>		CreatePlayer	Player-1097-07281B70", -- [1889]
+			"<23:10:03> <DEBUG>		Resetting council as we have a new ML!", -- [1890]
+			"<23:10:03> <INFO>		MasterLooter = 	Senes-Malorne", -- [1891]
+			"<23:10:13> <DEBUG>		Event:	GROUP_LEFT	1	Party-633-1-00002C3FD804", -- [1892]
+			"<23:10:13> <DEBUG>		GetML()", -- [1893]
+			"<23:10:18> <DEBUG>		Timer MLdb_check passed", -- [1894]
+			"<23:11:06> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1895]
+			"<23:11:08> <DEBUG>		GetML()", -- [1896]
+			"<23:11:08> <Data.Player>		CreatePlayer	Player-3713-071C217E", -- [1897]
+			"<23:11:08> <DEBUG>		Resetting council as we have a new ML!", -- [1898]
+			"<23:11:08> <INFO>		MasterLooter = 	Rangar-BurningLegion", -- [1899]
+			"<23:11:16> <DEBUG>		Event:	GROUP_LEFT	1	Party-3713-1-00002C3FDAEB", -- [1900]
+			"<23:11:16> <DEBUG>		GetML()", -- [1901]
+			"<23:11:23> <DEBUG>		Timer MLdb_check passed", -- [1902]
+			"<23:11:27> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1903]
+			"<23:11:29> <DEBUG>		GetML()", -- [1904]
+			"<23:11:29> <DEBUG>		Resetting council as we have a new ML!", -- [1905]
+			"<23:11:29> <INFO>		MasterLooter = 	Senes-Malorne", -- [1906]
+			"<23:11:44> <DEBUG>		Timer MLdb_check passed", -- [1907]
+			"<23:12:04> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1908]
+			"<23:12:06> <DEBUG>		GetML()", -- [1909]
+			"<23:12:06> <Data.Player>		CreatePlayer	Player-1305-0925176D", -- [1910]
+			"<23:12:06> <DEBUG>		Resetting council as we have a new ML!", -- [1911]
+			"<23:12:06> <INFO>		MasterLooter = 	Gambos-Kazzak", -- [1912]
+			"<23:12:21> <DEBUG>		Event:	LOOT_READY	false", -- [1913]
+			"<23:12:21> <DEBUG>		Timer MLdb_check passed", -- [1914]
+			"<23:12:24> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	189161	|cff0070dd|Hitem:189161::::::::60:70:::::::::|h[Schimmer der Arglist]|h|r	1	Huntil-Zuluhed	HUNTER", -- [1915]
+			"<23:14:48> <DEBUG>		Event:	GROUP_LEFT	1	Party-633-1-00002C3FD804", -- [1916]
+			"<23:14:48> <DEBUG>		GetML()", -- [1917]
+			"<23:15:36> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1918]
+			"<23:15:38> <DEBUG>		GetML()", -- [1919]
+			"<23:15:38> <Data.Player>		CreatePlayer	Player-1402-09B18943", -- [1920]
+			"<23:15:38> <DEBUG>		Resetting council as we have a new ML!", -- [1921]
+			"<23:15:38> <INFO>		MasterLooter = 	Dantezz-Turalyon", -- [1922]
+			"<23:15:53> <DEBUG>		Timer MLdb_check passed", -- [1923]
+			"<23:16:39> <DEBUG>		Event:	GROUP_LEFT	1	Party-1402-1-000028511F97", -- [1924]
+			"<23:16:39> <DEBUG>		GetML()", -- [1925]
+			"<23:17:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1926]
+			"<23:17:10> <INFO>		UpdatePlayersData()", -- [1927]
+			"<23:17:12> <DEBUG>		GetML()", -- [1928]
+			"<23:17:25> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1929]
+			"<23:17:25> <INFO>		UpdatePlayersData()", -- [1930]
+			"<23:17:27> <DEBUG>		GetML()", -- [1931]
+			"<23:20:48> <DEBUG>		Event:	LOOT_READY	true", -- [1932]
+			"<23:20:48> <DEBUG>		Event:	LOOT_READY	true", -- [1933]
+			"<23:20:48> <DEBUG>		Event:	LOOT_READY	true", -- [1934]
+			"<23:21:10> <DEBUG>		Event:	LOOT_READY	true", -- [1935]
+			"<23:21:10> <DEBUG>		Event:	LOOT_READY	true", -- [1936]
+			"<23:21:48> <DEBUG>		Event:	LOOT_READY	false", -- [1937]
+			"06/23/22", -- [1938]
+			"<17:46:20> <INFO>		Logged In", -- [1939]
+			"<17:46:20> [ML]<INFO>		Init", -- [1940]
+			"<17:46:20> <INFO>		RCLootCouncil	TradeUI enabled", -- [1941]
+			"<17:46:33> <INFO>		Adelgunde-Nathrezim	3.3.0	nil", -- [1942]
+			"<17:46:33> <DEBUG>		ActivateSkin	bfa", -- [1943]
+			"<17:46:36> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1944]
+			"<17:46:36> <INFO>		UpdatePlayersData()", -- [1945]
+			"<17:46:36> <INFO>		Player relog...", -- [1946]
+			"<17:46:37> <DEBUG>		GetPlayersGuildRank()", -- [1947]
+			"<17:46:37> <DEBUG>		Found Guild Rank: Mythic Raider", -- [1948]
+			"<17:46:39> <DEBUG>		GetML()", -- [1949]
+			"<17:47:11> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1950]
+			"<17:47:11> <INFO>		UpdatePlayersData()", -- [1951]
+			"<17:47:13> <DEBUG>		GetML()", -- [1952]
+			"<17:51:12> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1953]
+			"<17:51:12> <INFO>		UpdatePlayersData()", -- [1954]
+			"<17:51:13> <DEBUG>		GetML()", -- [1955]
+			"<17:51:38> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1956]
+			"<17:51:38> <INFO>		UpdatePlayersData()", -- [1957]
+			"<17:51:40> <DEBUG>		GetML()", -- [1958]
+			"<17:55:42> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1959]
+			"<17:55:42> <INFO>		UpdatePlayersData()", -- [1960]
+			"<17:55:44> <DEBUG>		GetML()", -- [1961]
+			"<18:02:29> <DEBUG>		Event:	LOOT_READY	true", -- [1962]
+			"<18:02:29> <DEBUG>		Event:	LOOT_READY	true", -- [1963]
+			"<18:02:29> <DEBUG>		Event:	LOOT_READY	true", -- [1964]
+			"<18:02:30> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [1965]
+			"<18:02:38> <DEBUG>		Event:	LOOT_READY	false", -- [1966]
+			"<18:02:39> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [1967]
+			"<18:02:44> <DEBUG>		Event:	LOOT_READY	false", -- [1968]
+			"<18:03:03> <DEBUG>		Event:	LOOT_READY	true", -- [1969]
+			"<18:03:04> <DEBUG>		Event:	LOOT_READY	true", -- [1970]
+			"<18:03:27> <DEBUG>		Event:	LOOT_READY	true", -- [1971]
+			"<18:03:27> <DEBUG>		Event:	LOOT_READY	true", -- [1972]
+			"<18:03:33> <DEBUG>		Event:	LOOT_READY	false", -- [1973]
+			"<18:03:56> <DEBUG>		Event:	LOOT_READY	true", -- [1974]
+			"<18:03:56> <DEBUG>		Event:	LOOT_READY	true", -- [1975]
+			"<18:04:13> <DEBUG>		Event:	LOOT_READY	true", -- [1976]
+			"<18:04:14> <DEBUG>		Event:	LOOT_READY	true", -- [1977]
+			"<18:04:42> <DEBUG>		Event:	LOOT_READY	false", -- [1978]
+			"<18:04:44> <DEBUG>		Event:	ENCOUNTER_LOOT_RECEIVED	0	180595	|cff0070dd|Hitem:180595::::::::60:70:::::::::|h[Nachtgeschmiedeter Stahl]|h|r	1	Adelgunde	PALADIN", -- [1979]
+			"<18:05:35> <DEBUG>		Event:	LOOT_READY	true", -- [1980]
+			"<18:05:35> <DEBUG>		Event:	LOOT_READY	true", -- [1981]
+			"<18:05:35> <DEBUG>		Event:	LOOT_READY	true", -- [1982]
+			"<18:05:35> <DEBUG>		Event:	LOOT_READY	true", -- [1983]
+			"<18:05:41> <DEBUG>		Event:	LOOT_READY	false", -- [1984]
+			"<18:05:49> <DEBUG>		Event:	LOOT_READY	false", -- [1985]
+			"<18:05:56> <DEBUG>		Event:	LOOT_READY	false", -- [1986]
+			"<18:06:09> <DEBUG>		Event:	LOOT_READY	true", -- [1987]
+			"<18:06:09> <DEBUG>		Event:	LOOT_READY	true", -- [1988]
+			"<18:06:15> <DEBUG>		Event:	LOOT_READY	false", -- [1989]
+			"<18:06:30> <DEBUG>		Event:	LOOT_READY	false", -- [1990]
+			"<18:07:03> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1991]
+			"<18:07:03> <INFO>		UpdatePlayersData()", -- [1992]
+			"<18:07:05> <DEBUG>		GetML()", -- [1993]
+			"<18:09:35> <DEBUG>		Event:	LOOT_READY	false", -- [1994]
+			"<18:09:59> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1995]
+			"<18:09:59> <INFO>		UpdatePlayersData()", -- [1996]
+			"<18:10:01> <DEBUG>		GetML()", -- [1997]
+			"<18:10:17> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1998]
+			"<18:10:17> <INFO>		UpdatePlayersData()", -- [1999]
+			"<18:10:19> <DEBUG>		GetML()", -- [2000]
 		},
 		["cache"] = {
 			["player"] = {
@@ -2095,11 +2095,11 @@ RCLootCouncilDB = {
 					["realm"] = "ArgentDawn",
 				},
 				["Player-1104-07CBE60B"] = {
-					["ilvl"] = 274.6875,
+					["ilvl"] = 277.75,
 					["guid"] = "Player-1104-07CBE60B",
 					["class"] = "DEMONHUNTER",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651086792,
+					["cache_time"] = 1655927960,
 					["rank"] = "Mythic Raider",
 					["name"] = "Endaxis-Anetheron",
 					["specID"] = 577,
@@ -2138,6 +2138,18 @@ RCLootCouncilDB = {
 					["cache_time"] = 1620911959,
 					["realm"] = "Thrall",
 				},
+				["Player-1403-0A09AFC3"] = {
+					["ilvl"] = 267.5,
+					["guid"] = "Player-1403-0A09AFC3",
+					["class"] = "PALADIN",
+					["role"] = "DAMAGER",
+					["name"] = "Alyritha-Draenor",
+					["realm"] = "Draenor",
+					["cache_time"] = 1654021215,
+					["specID"] = 70,
+					["enchantingLvl"] = 0,
+					["rank"] = "Unguilded",
+				},
 				["Player-1092-09CD8967"] = {
 					["name"] = "Mørtex-Drak'thul",
 					["guid"] = "Player-1092-09CD8967",
@@ -2160,12 +2172,12 @@ RCLootCouncilDB = {
 					["realm"] = "Gul'dan",
 				},
 				["Player-1104-04BE114F"] = {
-					["ilvl"] = 276.625,
+					["ilvl"] = 277.375,
 					["guid"] = "Player-1104-04BE114F",
 					["class"] = "ROGUE",
 					["rank"] = "Mythic Raider",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651086603,
+					["cache_time"] = 1655326345,
 					["name"] = "Pouked-Gul'dan",
 					["enchanter"] = true,
 					["specID"] = 261,
@@ -2210,23 +2222,23 @@ RCLootCouncilDB = {
 					["realm"] = "Blackmoore",
 				},
 				["Player-1104-04266770"] = {
-					["ilvl"] = 252.375,
+					["ilvl"] = 274,
 					["guid"] = "Player-1104-04266770",
 					["class"] = "MONK",
-					["role"] = "DAMAGER",
+					["role"] = "HEALER",
 					["name"] = "Yum-Anetheron",
 					["realm"] = "Anetheron",
-					["cache_time"] = 1643225004,
-					["specID"] = 269,
+					["cache_time"] = 1653328501,
+					["specID"] = 270,
 					["enchantingLvl"] = 0,
-					["rank"] = "Mythic Raider",
+					["rank"] = "Member",
 				},
 				["Player-1104-06E8C179"] = {
-					["ilvl"] = 276.6875,
+					["ilvl"] = 278.25,
 					["guid"] = "Player-1104-06E8C179",
 					["class"] = "DRUID",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651093773,
+					["cache_time"] = 1655326981,
 					["realm"] = "Gul'dan",
 					["name"] = "Ursarus-Gul'dan",
 					["specID"] = 102,
@@ -2306,6 +2318,13 @@ RCLootCouncilDB = {
 					["cache_time"] = 1611057425,
 					["realm"] = "СвежевательДуш",
 				},
+				["Player-1929-0994C2C9"] = {
+					["name"] = "шликшлик-ЧерныйШрам",
+					["guid"] = "Player-1929-0994C2C9",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1654192422,
+					["realm"] = "ЧерныйШрам",
+				},
 				["Player-1092-0894680C"] = {
 					["name"] = "Hanzul-Drak'thul",
 					["guid"] = "Player-1092-0894680C",
@@ -2361,6 +2380,13 @@ RCLootCouncilDB = {
 					["class"] = "SHAMAN",
 					["cache_time"] = 1648675153,
 					["realm"] = "Frostwolf",
+				},
+				["Player-1378-0AC1099A"] = {
+					["name"] = "Esbens-DunModr",
+					["guid"] = "Player-1378-0AC1099A",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1654625242,
+					["realm"] = "DunModr",
 				},
 				["Player-1403-09E515FD"] = {
 					["name"] = "Rneec-Draenor",
@@ -2551,6 +2577,13 @@ RCLootCouncilDB = {
 					["cache_time"] = 1614533620,
 					["realm"] = "Blackmoore",
 				},
+				["Player-1084-0823906D"] = {
+					["name"] = "Barracudae-TarrenMill",
+					["guid"] = "Player-1084-0823906D",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1654017757,
+					["realm"] = "TarrenMill",
+				},
 				["Player-1403-077A930A"] = {
 					["name"] = "Ruptous-Draenor",
 					["guid"] = "Player-1403-077A930A",
@@ -2571,6 +2604,13 @@ RCLootCouncilDB = {
 					["class"] = "SHAMAN",
 					["cache_time"] = 1616863892,
 					["realm"] = "DieAldor",
+				},
+				["Player-581-09DFB9C5"] = {
+					["name"] = "Freshfredy-Blackrock",
+					["guid"] = "Player-581-09DFB9C5",
+					["class"] = "ROGUE",
+					["cache_time"] = 1654625670,
+					["realm"] = "Blackrock",
 				},
 				["Player-1305-0C1B8BA9"] = {
 					["name"] = "Omesta-Kazzak",
@@ -2607,6 +2647,13 @@ RCLootCouncilDB = {
 					["cache_time"] = 1629278590,
 					["realm"] = "Zul'jin",
 				},
+				["Player-1335-0937579B"] = {
+					["name"] = "Lullita-Ysondre",
+					["guid"] = "Player-1335-0937579B",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1652819203,
+					["realm"] = "Ysondre",
+				},
 				["Player-580-09D7E51E"] = {
 					["name"] = "Shrêkt-Blackmoore",
 					["guid"] = "Player-580-09D7E51E",
@@ -2629,13 +2676,13 @@ RCLootCouncilDB = {
 					["realm"] = "Ревущийфьорд",
 				},
 				["Player-1104-0584F87E"] = {
-					["ilvl"] = 274.0625,
+					["ilvl"] = 275.6875,
 					["guid"] = "Player-1104-0584F87E",
 					["class"] = "DRUID",
 					["role"] = "HEALER",
 					["name"] = "Womblez-Nathrezim",
 					["rank"] = "Mythic Raider",
-					["cache_time"] = 1651084894,
+					["cache_time"] = 1654111867,
 					["specID"] = 105,
 					["enchantingLvl"] = 0,
 					["realm"] = "Nathrezim",
@@ -2646,6 +2693,18 @@ RCLootCouncilDB = {
 					["class"] = "MONK",
 					["cache_time"] = 1618923179,
 					["realm"] = "Nemesis",
+				},
+				["Player-581-09EEA185"] = {
+					["ilvl"] = 274.5,
+					["guid"] = "Player-581-09EEA185",
+					["class"] = "PALADIN",
+					["role"] = "HEALER",
+					["name"] = "Crazah-Blackrock",
+					["realm"] = "Blackrock",
+					["cache_time"] = 1655143237,
+					["specID"] = 65,
+					["enchantingLvl"] = 0,
+					["rank"] = "Crew",
 				},
 				["Player-1390-0BF1F0ED"] = {
 					["name"] = "Dodoss-Hyjal",
@@ -2688,15 +2747,15 @@ RCLootCouncilDB = {
 					["realm"] = "TarrenMill",
 				},
 				["Player-1104-04B93C22"] = {
-					["ilvl"] = 276.4375,
+					["ilvl"] = 277.3125,
 					["guid"] = "Player-1104-04B93C22",
 					["class"] = "WARRIOR",
 					["realm"] = "Gul'dan",
 					["role"] = "DAMAGER",
 					["name"] = "Hetarnia-Gul'dan",
-					["cache_time"] = 1651092255,
+					["cache_time"] = 1654718890,
 					["enchanter"] = true,
-					["specID"] = 72,
+					["specID"] = 71,
 					["enchantingLvl"] = 0,
 					["rank"] = "Mythic Raider",
 				},
@@ -2872,14 +2931,14 @@ RCLootCouncilDB = {
 					["realm"] = "Mannoroth",
 				},
 				["Player-1104-0A293EE1"] = {
-					["ilvl"] = 275.6875,
+					["ilvl"] = 274.9375,
 					["guid"] = "Player-1104-0A293EE1",
 					["class"] = "WARRIOR",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651081925,
+					["cache_time"] = 1654111866,
 					["rank"] = "Mythic Raider",
 					["name"] = "Munstar-Gul'dan",
-					["specID"] = 72,
+					["specID"] = 71,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
 				},
@@ -2889,6 +2948,13 @@ RCLootCouncilDB = {
 					["class"] = "MONK",
 					["cache_time"] = 1625055220,
 					["realm"] = "Draenor",
+				},
+				["Player-3691-09CDD397"] = {
+					["name"] = "Tarokus-Blackhand",
+					["guid"] = "Player-3691-09CDD397",
+					["class"] = "DRUID",
+					["cache_time"] = 1651996496,
+					["realm"] = "Blackhand",
 				},
 				["Player-1923-0B5E0FF7"] = {
 					["name"] = "фурриоза-Ясеневыйлес",
@@ -2933,16 +2999,23 @@ RCLootCouncilDB = {
 					["realm"] = "TarrenMill",
 				},
 				["Player-1104-0805EABC"] = {
-					["ilvl"] = 264,
+					["ilvl"] = 276.5,
 					["guid"] = "Player-1104-0805EABC",
 					["class"] = "DEATHKNIGHT",
 					["role"] = "TANK",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655927975,
 					["rank"] = "Guild Master",
 					["name"] = "Pepo-Gul'dan",
 					["specID"] = 250,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
+				},
+				["Player-3666-08C5DD87"] = {
+					["name"] = "Angelik-Shadowsong",
+					["guid"] = "Player-3666-08C5DD87",
+					["class"] = "PRIEST",
+					["cache_time"] = 1634234359,
+					["realm"] = "Shadowsong",
 				},
 				["Player-1624-05769116"] = {
 					["name"] = "Malyko-Naxxramas",
@@ -2950,6 +3023,13 @@ RCLootCouncilDB = {
 					["class"] = "PRIEST",
 					["cache_time"] = 1612369376,
 					["realm"] = "Naxxramas",
+				},
+				["Player-581-04596D71"] = {
+					["name"] = "Ràziel-Blackrock",
+					["guid"] = "Player-581-04596D71",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1655287453,
+					["realm"] = "Blackrock",
 				},
 				["Player-580-07A89A80"] = {
 					["name"] = "Joreon-Blackmoore",
@@ -2986,12 +3066,52 @@ RCLootCouncilDB = {
 					["cache_time"] = 1637506200,
 					["realm"] = "Garrosh",
 				},
+				["Player-1104-088662ED"] = {
+					["ilvl"] = 277.6875,
+					["guid"] = "Player-1104-088662ED",
+					["class"] = "HUNTER",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1654722102,
+					["realm"] = "Nathrezim",
+					["name"] = "Lidocain-Nathrezim",
+					["specID"] = 253,
+					["enchantingLvl"] = 0,
+					["rank"] = "Officer",
+				},
 				["Player-3679-0B7005C9"] = {
 					["name"] = "Unscøped-Aegwynn",
 					["guid"] = "Player-3679-0B7005C9",
 					["class"] = "HUNTER",
 					["cache_time"] = 1649960882,
 					["realm"] = "Aegwynn",
+				},
+				["Player-3692-09AFCDF8"] = {
+					["name"] = "Missleopold-Eredar",
+					["guid"] = "Player-3692-09AFCDF8",
+					["class"] = "PALADIN",
+					["cache_time"] = 1654022473,
+					["realm"] = "Eredar",
+				},
+				["Player-604-0728DB00"] = {
+					["name"] = "Røxa-Thrall",
+					["guid"] = "Player-604-0728DB00",
+					["class"] = "ROGUE",
+					["cache_time"] = 1611145158,
+					["realm"] = "Thrall",
+				},
+				["Player-1121-05256FEE"] = {
+					["name"] = "Dacâ-DieTodeskrallen",
+					["guid"] = "Player-1121-05256FEE",
+					["class"] = "PRIEST",
+					["cache_time"] = 1613477375,
+					["realm"] = "DieTodeskrallen",
+				},
+				["Player-1403-082A29F2"] = {
+					["name"] = "Deadheartx-Draenor",
+					["guid"] = "Player-1403-082A29F2",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1618501415,
+					["realm"] = "Draenor",
 				},
 				["Player-1104-0755F1D8"] = {
 					["name"] = "Strago-Gul'dan",
@@ -3000,12 +3120,40 @@ RCLootCouncilDB = {
 					["cache_time"] = 1647466107,
 					["realm"] = "Gul'dan",
 				},
+				["Player-1084-0A14E028"] = {
+					["name"] = "Simsillia-TarrenMill",
+					["guid"] = "Player-1084-0A14E028",
+					["class"] = "PRIEST",
+					["cache_time"] = 1652865214,
+					["realm"] = "TarrenMill",
+				},
+				["Player-581-084FD8CC"] = {
+					["name"] = "Abstecha-Blackrock",
+					["guid"] = "Player-581-084FD8CC",
+					["class"] = "HUNTER",
+					["cache_time"] = 1613557829,
+					["realm"] = "Blackrock",
+				},
+				["Player-1084-0A2D0327"] = {
+					["name"] = "Bulrorc-TarrenMill",
+					["guid"] = "Player-1084-0A2D0327",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1652380191,
+					["realm"] = "TarrenMill",
+				},
 				["Player-612-057EDB29"] = {
 					["name"] = "Cruzander-Destromath",
 					["guid"] = "Player-612-057EDB29",
 					["class"] = "PALADIN",
 					["cache_time"] = 1629030428,
 					["realm"] = "Destromath",
+				},
+				["Player-1403-09E66099"] = {
+					["name"] = "Kodrac-Draenor",
+					["guid"] = "Player-1403-09E66099",
+					["class"] = "MAGE",
+					["cache_time"] = 1638372272,
+					["realm"] = "Draenor",
 				},
 				["Player-1928-03CC758E"] = {
 					["name"] = "скордж-Голдринн",
@@ -3020,6 +3168,27 @@ RCLootCouncilDB = {
 					["class"] = "DEATHKNIGHT",
 					["cache_time"] = 1612369738,
 					["realm"] = "Ner'zhul",
+				},
+				["Player-1408-08DB602C"] = {
+					["name"] = "Timberjac-DunMorogh",
+					["guid"] = "Player-1408-08DB602C",
+					["class"] = "DRUID",
+					["cache_time"] = 1607367410,
+					["realm"] = "DunMorogh",
+				},
+				["Player-580-0A443EBC"] = {
+					["name"] = "Arisade-Blackmoore",
+					["guid"] = "Player-580-0A443EBC",
+					["class"] = "ROGUE",
+					["cache_time"] = 1651080741,
+					["realm"] = "Blackmoore",
+				},
+				["Player-1403-07E15E3F"] = {
+					["name"] = "Zeddrine-Draenor",
+					["guid"] = "Player-1403-07E15E3F",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1620161650,
+					["realm"] = "Draenor",
 				},
 				["Player-1923-0E5E36EB"] = {
 					["name"] = "черняховск-Ясеневыйлес",
@@ -3063,18 +3232,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1608500543,
 					["realm"] = "TarrenMill",
 				},
-				["Player-1104-0A3E88AC"] = {
-					["ilvl"] = 270.875,
-					["guid"] = "Player-1104-0A3E88AC",
-					["class"] = "PRIEST",
-					["rank"] = "Mythic Raider",
-					["role"] = "DAMAGER",
-					["cache_time"] = 1649879586,
-					["name"] = "Farlandér-Gul'dan",
-					["enchanter"] = true,
-					["specID"] = 258,
-					["enchantingLvl"] = 0,
-					["realm"] = "Gul'dan",
+				["Player-1402-09B18943"] = {
+					["name"] = "Dantezz-Turalyon",
+					["guid"] = "Player-1402-09B18943",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1655932532,
+					["realm"] = "Turalyon",
 				},
 				["Player-1092-09F33FD1"] = {
 					["name"] = "Trazistor-Drak'thul",
@@ -3090,12 +3253,33 @@ RCLootCouncilDB = {
 					["cache_time"] = 1628673701,
 					["realm"] = "TarrenMill",
 				},
-				["Player-1302-0BB9DEAD"] = {
-					["name"] = "Natz-Archimonde",
-					["guid"] = "Player-1302-0BB9DEAD",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1612644220,
-					["realm"] = "Archimonde",
+				["Player-1615-0AD0B851"] = {
+					["name"] = "дрэймп-Ревущийфьорд",
+					["guid"] = "Player-1615-0AD0B851",
+					["class"] = "DRUID",
+					["cache_time"] = 1652380166,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-3674-09D639CB"] = {
+					["name"] = "Virggaall-TwistingNether",
+					["guid"] = "Player-3674-09D639CB",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1649961014,
+					["realm"] = "TwistingNether",
+				},
+				["Player-1305-0925176D"] = {
+					["name"] = "Gambos-Kazzak",
+					["guid"] = "Player-1305-0925176D",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1655932320,
+					["realm"] = "Kazzak",
+				},
+				["Player-612-08D40592"] = {
+					["name"] = "Monkymon-Gorgonnash",
+					["guid"] = "Player-612-08D40592",
+					["class"] = "MONK",
+					["cache_time"] = 1637440854,
+					["realm"] = "Gorgonnash",
 				},
 				["Player-1104-0A42064A"] = {
 					["ilvl"] = 264.5,
@@ -3128,12 +3312,53 @@ RCLootCouncilDB = {
 					["cache_time"] = 1647453883,
 					["realm"] = "Голдринн",
 				},
+				["Player-581-06E916AA"] = {
+					["name"] = "Actron-Blackrock",
+					["guid"] = "Player-581-06E916AA",
+					["class"] = "DRUID",
+					["cache_time"] = 1649435893,
+					["realm"] = "Blackrock",
+				},
 				["Player-1305-096E8CE3"] = {
 					["name"] = "Darreny-Kazzak",
 					["guid"] = "Player-1305-096E8CE3",
 					["class"] = "DRUID",
 					["cache_time"] = 1615893318,
 					["realm"] = "Kazzak",
+				},
+				["Player-1098-07ACAA1D"] = {
+					["name"] = "Nêow-Malfurion",
+					["guid"] = "Player-1098-07ACAA1D",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1636745108,
+					["realm"] = "Malfurion",
+				},
+				["Player-1604-0BEEB492"] = {
+					["name"] = "лещенко-СвежевательДуш",
+					["guid"] = "Player-1604-0BEEB492",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1642174609,
+					["realm"] = "СвежевательДуш",
+				},
+				["Player-1092-0979E0F1"] = {
+					["name"] = "Shalu-Drak'thul",
+					["guid"] = "Player-1092-0979E0F1",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1650725813,
+					["realm"] = "Drak'thul",
+				},
+				["Player-3691-09BC36DC"] = {
+					["ilvl"] = 253.125,
+					["guid"] = "Player-3691-09BC36DC",
+					["class"] = "PRIEST",
+					["rank"] = "Unguilded",
+					["role"] = "DAMAGER",
+					["name"] = "Farlandér-Blackhand",
+					["cache_time"] = 1642446240,
+					["enchanter"] = true,
+					["specID"] = 258,
+					["enchantingLvl"] = 125,
+					["realm"] = "Blackhand",
 				},
 				["Player-1396-090AF4E7"] = {
 					["name"] = "Herðubreið-Quel'Thalas",
@@ -3148,6 +3373,20 @@ RCLootCouncilDB = {
 					["class"] = "DEATHKNIGHT",
 					["cache_time"] = 1650726869,
 					["realm"] = "Kazzak",
+				},
+				["Player-1096-09D25890"] = {
+					["name"] = "Carvyn-DefiasBrotherhood",
+					["guid"] = "Player-1096-09D25890",
+					["class"] = "ROGUE",
+					["cache_time"] = 1649960821,
+					["realm"] = "DefiasBrotherhood",
+				},
+				["Player-580-09FD0366"] = {
+					["name"] = "Lockhurd-Blackmoore",
+					["guid"] = "Player-580-09FD0366",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1614191983,
+					["realm"] = "Blackmoore",
 				},
 				["Player-581-0A2CE6E6"] = {
 					["name"] = "Ayyubi-Blackrock",
@@ -3181,6 +3420,40 @@ RCLootCouncilDB = {
 					["cache_time"] = 1636745633,
 					["realm"] = "Malfurion",
 				},
+				["Player-3713-09F7D6DB"] = {
+					["name"] = "Galex-Al'Akir",
+					["guid"] = "Player-3713-09F7D6DB",
+					["class"] = "PALADIN",
+					["cache_time"] = 1635337219,
+					["realm"] = "Al'Akir",
+				},
+				["Player-1104-00B1703F"] = {
+					["ilvl"] = 278.3125,
+					["guid"] = "Player-1104-00B1703F",
+					["class"] = "MAGE",
+					["rank"] = "Mythic Raider",
+					["role"] = "DAMAGER",
+					["name"] = "Trîâlbôdy-Anetheron",
+					["cache_time"] = 1655149277,
+					["specID"] = 63,
+					["enchanter"] = true,
+					["enchantingLvl"] = 115,
+					["realm"] = "Anetheron",
+				},
+				["Player-581-068721B7"] = {
+					["name"] = "Letsroll-Blackrock",
+					["guid"] = "Player-581-068721B7",
+					["class"] = "MONK",
+					["cache_time"] = 1655754053,
+					["realm"] = "Blackrock",
+				},
+				["Player-1305-059AC4BF"] = {
+					["name"] = "Aritmia-Kazzak",
+					["guid"] = "Player-1305-059AC4BF",
+					["class"] = "PRIEST",
+					["cache_time"] = 1650726847,
+					["realm"] = "Kazzak",
+				},
 				["Player-1604-063C05FA"] = {
 					["name"] = "амберлок-СвежевательДуш",
 					["guid"] = "Player-1604-063C05FA",
@@ -3188,12 +3461,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1611841469,
 					["realm"] = "СвежевательДуш",
 				},
-				["Player-580-0A443EBC"] = {
-					["name"] = "Arisade-Blackmoore",
-					["guid"] = "Player-580-0A443EBC",
-					["class"] = "ROGUE",
-					["cache_time"] = 1651080741,
-					["realm"] = "Blackmoore",
+				["Player-3656-0A2A2EE4"] = {
+					["name"] = "Bravenn-Stormreaver",
+					["guid"] = "Player-3656-0A2A2EE4",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1636659018,
+					["realm"] = "Stormreaver",
 				},
 				["Player-1379-0A73DE92"] = {
 					["name"] = "Kukemba-Sanguino",
@@ -3202,19 +3475,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1623344843,
 					["realm"] = "Sanguino",
 				},
-				["Player-3674-09D639CB"] = {
-					["name"] = "Virggaall-TwistingNether",
-					["guid"] = "Player-3674-09D639CB",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1649961014,
-					["realm"] = "TwistingNether",
+				["Player-1080-0873DBC0"] = {
+					["name"] = "Monrovia-Bloodhoof",
+					["guid"] = "Player-1080-0873DBC0",
+					["class"] = "MONK",
+					["cache_time"] = 1637505852,
+					["realm"] = "Bloodhoof",
 				},
-				["Player-1092-0979E0F1"] = {
-					["name"] = "Shalu-Drak'thul",
-					["guid"] = "Player-1092-0979E0F1",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1650725813,
-					["realm"] = "Drak'thul",
+				["Player-3703-05C3A05A"] = {
+					["name"] = "Siintos-Frostwolf",
+					["guid"] = "Player-3703-05C3A05A",
+					["class"] = "ROGUE",
+					["cache_time"] = 1620390114,
+					["realm"] = "Frostwolf",
 				},
 				["Player-581-0A0F2ED1"] = {
 					["name"] = "Magienaut-Blackrock",
@@ -3230,32 +3503,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1611841501,
 					["realm"] = "Zenedar",
 				},
-				["Player-1096-09D25890"] = {
-					["name"] = "Carvyn-DefiasBrotherhood",
-					["guid"] = "Player-1096-09D25890",
-					["class"] = "ROGUE",
-					["cache_time"] = 1649960821,
-					["realm"] = "DefiasBrotherhood",
-				},
-				["Player-1104-00B1703F"] = {
-					["ilvl"] = 270.4375,
-					["guid"] = "Player-1104-00B1703F",
-					["class"] = "MAGE",
-					["rank"] = "Mythic Raider",
-					["role"] = "DAMAGER",
-					["name"] = "Trîâlbôdy-Anetheron",
-					["cache_time"] = 1649274605,
-					["specID"] = 63,
-					["enchanter"] = true,
-					["enchantingLvl"] = 115,
-					["realm"] = "Anetheron",
-				},
-				["Player-604-08F7F64A"] = {
-					["name"] = "Gabansham-Thrall",
-					["guid"] = "Player-604-08F7F64A",
-					["class"] = "MAGE",
-					["cache_time"] = 1650998928,
-					["realm"] = "Thrall",
+				["Player-1408-07FC48B0"] = {
+					["name"] = "Monkmax-Norgannon",
+					["guid"] = "Player-1408-07FC48B0",
+					["class"] = "MONK",
+					["cache_time"] = 1623584173,
+					["realm"] = "Norgannon",
 				},
 				["Player-3682-0930EFD1"] = {
 					["role"] = "DAMAGER",
@@ -3265,6 +3518,20 @@ RCLootCouncilDB = {
 					["class"] = "DEATHKNIGHT",
 					["cache_time"] = 1649186444,
 					["rank"] = "RajtaütőCsapat2",
+				},
+				["Player-604-08F7F64A"] = {
+					["name"] = "Gabansham-Thrall",
+					["guid"] = "Player-604-08F7F64A",
+					["class"] = "MAGE",
+					["cache_time"] = 1650998928,
+					["realm"] = "Thrall",
+				},
+				["Player-1305-07CA7545"] = {
+					["name"] = "Chrömen-Kazzak",
+					["guid"] = "Player-1305-07CA7545",
+					["class"] = "PALADIN",
+					["cache_time"] = 1619279753,
+					["realm"] = "Kazzak",
 				},
 				["Player-1379-0AB629D7"] = {
 					["name"] = "Striïng-Sanguino",
@@ -3280,12 +3547,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1612112380,
 					["realm"] = "Thrall",
 				},
-				["Player-3674-074A9C47"] = {
-					["name"] = "Milathel-TwistingNether",
-					["guid"] = "Player-3674-074A9C47",
+				["Player-580-02D71F05"] = {
+					["name"] = "Chaosblack-Blackmoore",
+					["guid"] = "Player-580-02D71F05",
 					["class"] = "PALADIN",
-					["cache_time"] = 1649184205,
-					["realm"] = "TwistingNether",
+					["cache_time"] = 1610556246,
+					["realm"] = "Blackmoore",
 				},
 				["Player-1335-0946AAA2"] = {
 					["name"] = "Fullnels-Ysondre",
@@ -3301,12 +3568,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1637870042,
 					["realm"] = "Blackrock",
 				},
-				["Player-2073-05EED802"] = {
-					["name"] = "Juyhg-Stormscale",
-					["guid"] = "Player-2073-05EED802",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1642171980,
-					["realm"] = "Stormscale",
+				["Player-1084-097290FD"] = {
+					["name"] = "Melby-TarrenMill",
+					["guid"] = "Player-1084-097290FD",
+					["class"] = "DRUID",
+					["cache_time"] = 1631698116,
+					["realm"] = "TarrenMill",
 				},
 				["Player-1127-09B3FBAF"] = {
 					["name"] = "Vakile-LesClairvoyants",
@@ -3315,42 +3582,37 @@ RCLootCouncilDB = {
 					["cache_time"] = 1608405633,
 					["realm"] = "LesClairvoyants",
 				},
-				["Player-1104-0A3ED3AF"] = {
-					["ilvl"] = 276.25,
-					["guid"] = "Player-1104-0A3ED3AF",
-					["class"] = "MONK",
-					["role"] = "TANK",
-					["name"] = "Tankposi-Gul'dan",
-					["realm"] = "Gul'dan",
-					["cache_time"] = 1651087907,
-					["specID"] = 268,
-					["enchantingLvl"] = 0,
-					["rank"] = "Mythic Raider",
+				["Player-1104-07CE3AF5"] = {
+					["name"] = "Dankrun-Nathrezim",
+					["guid"] = "Player-1104-07CE3AF5",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1606408919,
+					["realm"] = "Nathrezim",
 				},
-				["Player-581-084FD8CC"] = {
-					["name"] = "Abstecha-Blackrock",
-					["guid"] = "Player-581-084FD8CC",
-					["class"] = "HUNTER",
-					["cache_time"] = 1613557829,
-					["realm"] = "Blackrock",
+				["Player-3692-05A5CEC5"] = {
+					["name"] = "Icèy-Eredar",
+					["guid"] = "Player-3692-05A5CEC5",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1618495634,
+					["realm"] = "Eredar",
 				},
 				["Player-1104-0A450EDE"] = {
-					["ilvl"] = 276.125,
+					["ilvl"] = 277.9375,
 					["guid"] = "Player-1104-0A450EDE",
 					["class"] = "HUNTER",
 					["role"] = "DAMAGER",
 					["name"] = "Nheemo-Gul'dan",
-					["rank"] = "Günni",
-					["cache_time"] = 1651093672,
+					["rank"] = "Mythic Raider",
+					["cache_time"] = 1654547156,
 					["specID"] = 254,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
 				},
-				["Player-1305-059AC4BF"] = {
-					["name"] = "Aritmia-Kazzak",
-					["guid"] = "Player-1305-059AC4BF",
-					["class"] = "PRIEST",
-					["cache_time"] = 1650726847,
+				["Player-1305-0B0011C4"] = {
+					["name"] = "Stingler-Kazzak",
+					["guid"] = "Player-1305-0B0011C4",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1618495446,
 					["realm"] = "Kazzak",
 				},
 				["Player-581-083EB164"] = {
@@ -3430,26 +3692,33 @@ RCLootCouncilDB = {
 					["cache_time"] = 1644440360,
 					["realm"] = "Anetheron",
 				},
-				["Player-1305-07CA7545"] = {
-					["name"] = "Chrömen-Kazzak",
-					["guid"] = "Player-1305-07CA7545",
-					["class"] = "PALADIN",
-					["cache_time"] = 1619279753,
-					["realm"] = "Kazzak",
-				},
-				["Player-1604-0BEEB492"] = {
-					["name"] = "лещенко-СвежевательДуш",
-					["guid"] = "Player-1604-0BEEB492",
+				["Player-580-08CCC078"] = {
+					["name"] = "Suqmadiqt-Blackmoore",
+					["guid"] = "Player-580-08CCC078",
 					["class"] = "WARLOCK",
-					["cache_time"] = 1642174609,
-					["realm"] = "СвежевательДуш",
+					["cache_time"] = 1609609625,
+					["realm"] = "Blackmoore",
 				},
-				["Player-1408-08DB602C"] = {
-					["name"] = "Timberjac-DunMorogh",
-					["guid"] = "Player-1408-08DB602C",
-					["class"] = "DRUID",
-					["cache_time"] = 1607367410,
+				["Player-1084-0A1FA2EE"] = {
+					["name"] = "Nightglaive-TarrenMill",
+					["guid"] = "Player-1084-0A1FA2EE",
+					["class"] = "ROGUE",
+					["cache_time"] = 1638371372,
+					["realm"] = "TarrenMill",
+				},
+				["Player-1408-06A16E45"] = {
+					["name"] = "Sorzan-DunMorogh",
+					["guid"] = "Player-1408-06A16E45",
+					["class"] = "PALADIN",
+					["cache_time"] = 1616863270,
 					["realm"] = "DunMorogh",
+				},
+				["Player-1301-0C03FCBD"] = {
+					["name"] = "Jkilla-Outland",
+					["guid"] = "Player-1301-0C03FCBD",
+					["class"] = "PALADIN",
+					["cache_time"] = 1627486819,
+					["realm"] = "Outland",
 				},
 				["Player-581-09FF46A5"] = {
 					["name"] = "Paschtunwali-Blackrock",
@@ -3458,38 +3727,31 @@ RCLootCouncilDB = {
 					["cache_time"] = 1647469037,
 					["realm"] = "Blackrock",
 				},
-				["Player-1403-07E15E3F"] = {
-					["name"] = "Zeddrine-Draenor",
-					["guid"] = "Player-1403-07E15E3F",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1620161650,
-					["realm"] = "Draenor",
-				},
 				["Player-1104-09F857C7"] = {
-					["ilvl"] = 270.625,
+					["ilvl"] = 277.6875,
 					["guid"] = "Player-1104-09F857C7",
 					["class"] = "MAGE",
 					["role"] = "DAMAGER",
 					["name"] = "Rodymage-Gul'dan",
 					["rank"] = "Mythic Raider",
-					["cache_time"] = 1650314908,
+					["cache_time"] = 1655920675,
 					["specID"] = 63,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
 				},
-				["Player-1335-0931647D"] = {
-					["name"] = "Leïshan-Ysondre",
-					["guid"] = "Player-1335-0931647D",
-					["class"] = "MONK",
-					["cache_time"] = 1642963340,
-					["realm"] = "Ysondre",
+				["Player-580-0A42717D"] = {
+					["name"] = "Garrøsh-Blackmoore",
+					["guid"] = "Player-580-0A42717D",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1651603853,
+					["realm"] = "Blackmoore",
 				},
-				["Player-1080-0873DBC0"] = {
-					["name"] = "Monrovia-Bloodhoof",
-					["guid"] = "Player-1080-0873DBC0",
-					["class"] = "MONK",
-					["cache_time"] = 1637505852,
-					["realm"] = "Bloodhoof",
+				["Player-3713-0A9562EC"] = {
+					["name"] = "Belladonna-BurningLegion",
+					["guid"] = "Player-3713-0A9562EC",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1634235002,
+					["realm"] = "BurningLegion",
 				},
 				["Player-1403-06DEC59F"] = {
 					["name"] = "Necrochan-Draenor",
@@ -3498,12 +3760,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1646217011,
 					["realm"] = "Draenor",
 				},
-				["Player-1408-07DECE77"] = {
-					["name"] = "Geislkrieger-Norgannon",
-					["guid"] = "Player-1408-07DECE77",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1610556345,
-					["realm"] = "Norgannon",
+				["Player-581-096CB5AA"] = {
+					["name"] = "Jenkìns-Blackrock",
+					["guid"] = "Player-581-096CB5AA",
+					["class"] = "PRIEST",
+					["cache_time"] = 1625235652,
+					["realm"] = "Blackrock",
 				},
 				["Player-612-091702E0"] = {
 					["name"] = "Raphael-Gilneas",
@@ -3512,19 +3774,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1643382027,
 					["realm"] = "Gilneas",
 				},
-				["Player-1598-0608C7CB"] = {
-					["name"] = "Rûs-Chromaggus",
-					["guid"] = "Player-1598-0608C7CB",
-					["class"] = "PALADIN",
-					["cache_time"] = 1635449768,
-					["realm"] = "Chromaggus",
+				["Player-578-05A6A342"] = {
+					["name"] = "Mushussu-Wrathbringer",
+					["guid"] = "Player-578-05A6A342",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1612297707,
+					["realm"] = "Wrathbringer",
 				},
-				["Player-3713-09F7D6DB"] = {
-					["name"] = "Galex-Al'Akir",
-					["guid"] = "Player-3713-09F7D6DB",
-					["class"] = "PALADIN",
-					["cache_time"] = 1635337219,
-					["realm"] = "Al'Akir",
+				["Player-1615-0A71BEFB"] = {
+					["name"] = "венхейм-Ревущийфьорд",
+					["guid"] = "Player-1615-0A71BEFB",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1610726428,
+					["realm"] = "Ревущийфьорд",
 				},
 				["Player-1403-054569C4"] = {
 					["name"] = "Jomfrumaria-Draenor",
@@ -3533,26 +3795,26 @@ RCLootCouncilDB = {
 					["cache_time"] = 1608118182,
 					["realm"] = "Draenor",
 				},
-				["Player-580-08CCC078"] = {
-					["name"] = "Suqmadiqt-Blackmoore",
-					["guid"] = "Player-580-08CCC078",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1609609625,
-					["realm"] = "Blackmoore",
+				["Player-1597-0E8F9A1C"] = {
+					["name"] = "Shadeen-Sylvanas",
+					["guid"] = "Player-1597-0E8F9A1C",
+					["class"] = "MAGE",
+					["cache_time"] = 1612872466,
+					["realm"] = "Sylvanas",
 				},
-				["Player-3666-095CDF3C"] = {
-					["name"] = "Meerkat-Shadowsong",
-					["guid"] = "Player-3666-095CDF3C",
+				["Player-1104-079F4A57"] = {
+					["name"] = "Wenzelaus-Nathrezim",
+					["guid"] = "Player-1104-079F4A57",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1606408843,
+					["realm"] = "Nathrezim",
+				},
+				["Player-1335-05668FBD"] = {
+					["name"] = "Imperatorzz-Ysondre",
+					["guid"] = "Player-1335-05668FBD",
 					["class"] = "HUNTER",
-					["cache_time"] = 1635449298,
-					["realm"] = "Shadowsong",
-				},
-				["Player-3713-0A9562EC"] = {
-					["name"] = "Belladonna-BurningLegion",
-					["guid"] = "Player-3713-0A9562EC",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1634235002,
-					["realm"] = "BurningLegion",
+					["cache_time"] = 1618501010,
+					["realm"] = "Ysondre",
 				},
 				["Player-1104-09F30D62"] = {
 					["ilvl"] = 250.75,
@@ -3573,38 +3835,33 @@ RCLootCouncilDB = {
 					["cache_time"] = 1639076094,
 					["realm"] = "Eredar",
 				},
-				["Player-1104-01E6516A"] = {
-					["name"] = "Lìchtkìng-Anetheron",
-					["guid"] = "Player-1104-01E6516A",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1625235497,
-					["realm"] = "Anetheron",
+				["Player-1305-0C26D358"] = {
+					["name"] = "Gáchisláyer-Kazzak",
+					["guid"] = "Player-1305-0C26D358",
+					["class"] = "MONK",
+					["cache_time"] = 1646217013,
+					["realm"] = "Kazzak",
 				},
-				["Player-1104-07CE3AF5"] = {
-					["name"] = "Dankrun-Nathrezim",
-					["guid"] = "Player-1104-07CE3AF5",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1606408919,
-					["realm"] = "Nathrezim",
+				["Player-1105-088DFF39"] = {
+					["name"] = "Hylasch-Frostmourne",
+					["guid"] = "Player-1105-088DFF39",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1616866203,
+					["realm"] = "Frostmourne",
 				},
-				["Player-1104-0A3C84DB"] = {
-					["ilvl"] = 266,
-					["guid"] = "Player-1104-0A3C84DB",
+				["Player-1084-08180FFC"] = {
+					["name"] = "Doxter-TarrenMill",
+					["guid"] = "Player-1084-08180FFC",
 					["class"] = "PALADIN",
-					["role"] = "DAMAGER",
-					["name"] = "Liádrin-Gul'dan",
-					["realm"] = "Gul'dan",
-					["cache_time"] = 1649708175,
-					["specID"] = 70,
-					["enchantingLvl"] = 0,
-					["rank"] = "Mythic Raider",
+					["cache_time"] = 1654191060,
+					["realm"] = "TarrenMill",
 				},
-				["Player-3666-08C5DD87"] = {
-					["name"] = "Angelik-Shadowsong",
-					["guid"] = "Player-3666-08C5DD87",
-					["class"] = "PRIEST",
-					["cache_time"] = 1634234359,
-					["realm"] = "Shadowsong",
+				["Player-3691-0934B232"] = {
+					["name"] = "Ivøire-Blackhand",
+					["guid"] = "Player-3691-0934B232",
+					["class"] = "PALADIN",
+					["cache_time"] = 1653513932,
+					["realm"] = "Blackhand",
 				},
 				["Player-3713-0A782B03"] = {
 					["name"] = "Tellmewhen-BurningLegion",
@@ -3613,22 +3870,22 @@ RCLootCouncilDB = {
 					["cache_time"] = 1635979848,
 					["realm"] = "BurningLegion",
 				},
-				["Player-1084-097290FD"] = {
-					["name"] = "Melby-TarrenMill",
-					["guid"] = "Player-1084-097290FD",
-					["class"] = "DRUID",
-					["cache_time"] = 1631698116,
-					["realm"] = "TarrenMill",
+				["Player-581-09E6F801"] = {
+					["name"] = "Nalez-Blackrock",
+					["guid"] = "Player-581-09E6F801",
+					["class"] = "ROGUE",
+					["cache_time"] = 1629278594,
+					["realm"] = "Blackrock",
 				},
 				["Player-1104-081D92DB"] = {
-					["ilvl"] = 276.5625,
+					["ilvl"] = 278.125,
 					["guid"] = "Player-1104-081D92DB",
 					["class"] = "WARLOCK",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651085516,
+					["cache_time"] = 1654719225,
 					["rank"] = "Officer",
 					["name"] = "Zinghultus-Gul'dan",
-					["specID"] = 267,
+					["specID"] = 266,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
 				},
@@ -3639,12 +3896,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1620042612,
 					["realm"] = "СвежевательДуш",
 				},
-				["Player-1305-0C26D358"] = {
-					["name"] = "Gáchisláyer-Kazzak",
-					["guid"] = "Player-1305-0C26D358",
-					["class"] = "MONK",
-					["cache_time"] = 1646217013,
-					["realm"] = "Kazzak",
+				["Player-1104-075CD60C"] = {
+					["name"] = "Revidar-Gul'dan",
+					["guid"] = "Player-1104-075CD60C",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1618264089,
+					["realm"] = "Gul'dan",
 				},
 				["Player-1104-07DBD41D"] = {
 					["name"] = "Càius-Gul'dan",
@@ -3660,12 +3917,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1606408801,
 					["realm"] = "Nathrezim",
 				},
-				["Player-1403-082A29F2"] = {
-					["name"] = "Deadheartx-Draenor",
-					["guid"] = "Player-1403-082A29F2",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1618501415,
-					["realm"] = "Draenor",
+				["Player-580-078A68A9"] = {
+					["name"] = "Snoos-Blackmoore",
+					["guid"] = "Player-580-078A68A9",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1609755808,
+					["realm"] = "Blackmoore",
 				},
 				["Player-3696-0751DABB"] = {
 					["name"] = "Arijon-Nethersturm",
@@ -3674,19 +3931,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1612217623,
 					["realm"] = "Nethersturm",
 				},
-				["Player-1615-0A71BEFB"] = {
-					["name"] = "венхейм-Ревущийфьорд",
-					["guid"] = "Player-1615-0A71BEFB",
+				["Player-604-082C632B"] = {
+					["name"] = "Slòóth-Thrall",
+					["guid"] = "Player-604-082C632B",
 					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1610726428,
-					["realm"] = "Ревущийфьорд",
+					["cache_time"] = 1624962517,
+					["realm"] = "Thrall",
 				},
-				["Player-3674-08C6E790"] = {
-					["name"] = "Gamisteros-TwistingNether",
-					["guid"] = "Player-3674-08C6E790",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1612275468,
-					["realm"] = "TwistingNether",
+				["Player-1597-079E5B3A"] = {
+					["name"] = "Nriac-Auchindoun",
+					["guid"] = "Player-1597-079E5B3A",
+					["class"] = "PALADIN",
+					["cache_time"] = 1652381008,
+					["realm"] = "Auchindoun",
 				},
 				["Player-1302-0B0EC3BD"] = {
 					["name"] = "Kévinlemage-Archimonde",
@@ -3709,12 +3966,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1620491854,
 					["realm"] = "Blackmoore",
 				},
-				["Player-1408-06A16E45"] = {
-					["name"] = "Sorzan-DunMorogh",
-					["guid"] = "Player-1408-06A16E45",
-					["class"] = "PALADIN",
-					["cache_time"] = 1616863270,
-					["realm"] = "DunMorogh",
+				["Player-3674-0AF45F3E"] = {
+					["name"] = "Feyizli-TwistingNether",
+					["guid"] = "Player-3674-0AF45F3E",
+					["class"] = "HUNTER",
+					["cache_time"] = 1652817462,
+					["realm"] = "TwistingNether",
 				},
 				["Player-1092-074E6D75"] = {
 					["name"] = "Archameez-Drak'thul",
@@ -3723,54 +3980,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1605090173,
 					["realm"] = "Drak'thul",
 				},
-				["Player-1408-07FC48B0"] = {
-					["name"] = "Monkmax-Norgannon",
-					["guid"] = "Player-1408-07FC48B0",
-					["class"] = "MONK",
-					["cache_time"] = 1623584173,
-					["realm"] = "Norgannon",
-				},
-				["Player-1301-0C03FCBD"] = {
-					["name"] = "Jkilla-Outland",
-					["guid"] = "Player-1301-0C03FCBD",
-					["class"] = "PALADIN",
-					["cache_time"] = 1627486819,
-					["realm"] = "Outland",
-				},
-				["Player-580-02D71F05"] = {
-					["name"] = "Chaosblack-Blackmoore",
-					["guid"] = "Player-580-02D71F05",
-					["class"] = "PALADIN",
-					["cache_time"] = 1610556246,
-					["realm"] = "Blackmoore",
-				},
-				["Player-578-05A6A342"] = {
-					["name"] = "Mushussu-Wrathbringer",
-					["guid"] = "Player-578-05A6A342",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1612297707,
-					["realm"] = "Wrathbringer",
-				},
-				["Player-1305-07D31644"] = {
-					["name"] = "Reventton-Kazzak",
-					["guid"] = "Player-1305-07D31644",
+				["Player-1307-0BD326E2"] = {
+					["name"] = "Masmulu-ChamberofAspects",
+					["guid"] = "Player-1307-0BD326E2",
 					["class"] = "DRUID",
-					["cache_time"] = 1633630914,
-					["realm"] = "Kazzak",
+					["cache_time"] = 1614873240,
+					["realm"] = "ChamberofAspects",
 				},
-				["Player-581-09FE0899"] = {
-					["name"] = "Mórgán-Blackrock",
-					["guid"] = "Player-581-09FE0899",
-					["class"] = "MAGE",
-					["cache_time"] = 1612113084,
-					["realm"] = "Blackrock",
-				},
-				["Player-1092-0975F27F"] = {
-					["name"] = "Falkyrka-Drak'thul",
-					["guid"] = "Player-1092-0975F27F",
-					["class"] = "DRUID",
-					["cache_time"] = 1627148037,
-					["realm"] = "Drak'thul",
+				["Player-1403-09A63906"] = {
+					["name"] = "Umir-Draenor",
+					["guid"] = "Player-1403-09A63906",
+					["class"] = "PRIEST",
+					["cache_time"] = 1654705858,
+					["realm"] = "Draenor",
 				},
 				["Player-1305-098A5091"] = {
 					["name"] = "Souperted-Kazzak",
@@ -3779,12 +4001,33 @@ RCLootCouncilDB = {
 					["cache_time"] = 1635947538,
 					["realm"] = "Kazzak",
 				},
-				["Player-1098-0864A067"] = {
-					["name"] = "Holymodee-Malygos",
-					["guid"] = "Player-1098-0864A067",
-					["class"] = "PALADIN",
-					["cache_time"] = 1626370571,
-					["realm"] = "Malygos",
+				["Player-578-05A4D052"] = {
+					["name"] = "Vîa-Kel'Thuzad",
+					["guid"] = "Player-578-05A4D052",
+					["class"] = "ROGUE",
+					["cache_time"] = 1617307742,
+					["realm"] = "Kel'Thuzad",
+				},
+				["Player-1305-07D31644"] = {
+					["name"] = "Reventton-Kazzak",
+					["guid"] = "Player-1305-07D31644",
+					["class"] = "DRUID",
+					["cache_time"] = 1633630914,
+					["realm"] = "Kazzak",
+				},
+				["Player-1615-0AF216A4"] = {
+					["name"] = "монгоруш-Ревущийфьорд",
+					["guid"] = "Player-1615-0AF216A4",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1655287402,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1092-0975F27F"] = {
+					["name"] = "Falkyrka-Drak'thul",
+					["guid"] = "Player-1092-0975F27F",
+					["class"] = "DRUID",
+					["cache_time"] = 1627148037,
+					["realm"] = "Drak'thul",
 				},
 				["Player-1104-0A0E7606"] = {
 					["name"] = "Rodywar-Gul'dan",
@@ -3792,6 +4035,26 @@ RCLootCouncilDB = {
 					["class"] = "WARRIOR",
 					["cache_time"] = 1624305161,
 					["realm"] = "Gul'dan",
+				},
+				["Player-1098-0864A067"] = {
+					["name"] = "Holymodee-Malygos",
+					["guid"] = "Player-1098-0864A067",
+					["class"] = "PALADIN",
+					["cache_time"] = 1626370571,
+					["realm"] = "Malygos",
+				},
+				["Player-3691-09AEEA40"] = {
+					["ilvl"] = 253.625,
+					["guid"] = "Player-3691-09AEEA40",
+					["class"] = "HUNTER",
+					["realm"] = "Blackhand",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1644443528,
+					["name"] = "Tàylorswift-Blackhand",
+					["specID"] = 254,
+					["enchanter"] = true,
+					["enchantingLvl"] = 115,
+					["rank"] = "Gildenlos",
 				},
 				["Player-580-0A3AF921"] = {
 					["ilvl"] = 266.5625,
@@ -3824,13 +4087,13 @@ RCLootCouncilDB = {
 					["realm"] = "Sunstrider",
 				},
 				["Player-1104-084D21C8"] = {
-					["ilvl"] = 275.9375,
+					["ilvl"] = 278.6875,
 					["guid"] = "Player-1104-084D21C8",
 					["class"] = "WARLOCK",
 					["rank"] = "Mythic Raider",
 					["role"] = "DAMAGER",
 					["name"] = "Schléx-Nathrezim",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655927975,
 					["specID"] = 267,
 					["enchanter"] = true,
 					["enchantingLvl"] = 115,
@@ -3843,12 +4106,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1608408935,
 					["realm"] = "Archimonde",
 				},
-				["Player-1084-0A1FA2EE"] = {
-					["name"] = "Nightglaive-TarrenMill",
-					["guid"] = "Player-1084-0A1FA2EE",
-					["class"] = "ROGUE",
-					["cache_time"] = 1638371372,
-					["realm"] = "TarrenMill",
+				["Player-1302-06688908"] = {
+					["name"] = "Zulado-Archimonde",
+					["guid"] = "Player-1302-06688908",
+					["class"] = "DRUID",
+					["cache_time"] = 1630850481,
+					["realm"] = "Archimonde",
 				},
 				["Player-1104-09164799"] = {
 					["ilvl"] = 249.5,
@@ -3864,31 +4127,17 @@ RCLootCouncilDB = {
 					["rank"] = "Mythic Raider",
 				},
 				["Player-1104-07CA0486"] = {
-					["ilvl"] = 277.75,
+					["ilvl"] = 278.125,
 					["guid"] = "Player-1104-07CA0486",
 					["class"] = "SHAMAN",
 					["rank"] = "Officer",
 					["role"] = "DAMAGER",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655931614,
 					["name"] = "Rahzkek-Gul'dan",
 					["specID"] = 263,
 					["enchanter"] = true,
 					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
-				},
-				["Player-1597-0E8F9A1C"] = {
-					["name"] = "Shadeen-Sylvanas",
-					["guid"] = "Player-1597-0E8F9A1C",
-					["class"] = "MAGE",
-					["cache_time"] = 1612872466,
-					["realm"] = "Sylvanas",
-				},
-				["Player-1105-088DFF39"] = {
-					["name"] = "Hylasch-Frostmourne",
-					["guid"] = "Player-1105-088DFF39",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1616866203,
-					["realm"] = "Frostmourne",
 				},
 				["Player-1379-0AA55F2D"] = {
 					["name"] = "Vhenger-Sanguino",
@@ -3896,6 +4145,20 @@ RCLootCouncilDB = {
 					["class"] = "DEATHKNIGHT",
 					["cache_time"] = 1621967909,
 					["realm"] = "Sanguino",
+				},
+				["Player-1615-0A743D01"] = {
+					["name"] = "лордварвар-Ревущийфьорд",
+					["guid"] = "Player-1615-0A743D01",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1616863743,
+					["realm"] = "Ревущийфьорд",
+				},
+				["Player-1402-07E36AAF"] = {
+					["name"] = "Tortolian-Doomhammer",
+					["guid"] = "Player-1402-07E36AAF",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1654119331,
+					["realm"] = "Doomhammer",
 				},
 				["Player-1104-08E0ADF5"] = {
 					["ilvl"] = 214.3125,
@@ -3909,19 +4172,19 @@ RCLootCouncilDB = {
 					["enchantingLvl"] = 125,
 					["realm"] = "Gul'dan",
 				},
-				["Player-1096-0976CCC5"] = {
-					["name"] = "Terinna-EarthenRing",
-					["guid"] = "Player-1096-0976CCC5",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1608500531,
-					["realm"] = "EarthenRing",
+				["Player-1084-09120DB2"] = {
+					["name"] = "Ogion-Dentarg",
+					["guid"] = "Player-1084-09120DB2",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1607883013,
+					["realm"] = "Dentarg",
 				},
-				["Player-3690-0AB34189"] = {
-					["name"] = "Genoziis-KhazModan",
-					["guid"] = "Player-3690-0AB34189",
-					["class"] = "ROGUE",
-					["cache_time"] = 1619280035,
-					["realm"] = "KhazModan",
+				["Player-3692-094C8999"] = {
+					["name"] = "Alroan-Eredar",
+					["guid"] = "Player-3692-094C8999",
+					["class"] = "HUNTER",
+					["cache_time"] = 1616864601,
+					["realm"] = "Eredar",
 				},
 				["Player-578-094ACD71"] = {
 					["name"] = "Xrato-Tirion",
@@ -3930,24 +4193,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1606678120,
 					["realm"] = "Tirion",
 				},
-				["Player-1104-0A280FC4"] = {
-					["ilvl"] = 274.6875,
-					["guid"] = "Player-1104-0A280FC4",
-					["class"] = "DEMONHUNTER",
-					["role"] = "DAMAGER",
-					["name"] = "Cleavarious-Gul'dan",
-					["realm"] = "Gul'dan",
-					["cache_time"] = 1651085282,
-					["specID"] = 577,
-					["enchantingLvl"] = 0,
-					["rank"] = "Mythic Raider",
+				["Player-3713-08730DEB"] = {
+					["name"] = "Yáno-BurningLegion",
+					["guid"] = "Player-3713-08730DEB",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1655288223,
+					["realm"] = "BurningLegion",
 				},
-				["Player-578-05A4D052"] = {
-					["name"] = "Vîa-Kel'Thuzad",
-					["guid"] = "Player-578-05A4D052",
-					["class"] = "ROGUE",
-					["cache_time"] = 1617307742,
-					["realm"] = "Kel'Thuzad",
+				["Player-581-08715A24"] = {
+					["name"] = "Thovac-Blackrock",
+					["guid"] = "Player-581-08715A24",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1611785070,
+					["realm"] = "Blackrock",
 				},
 				["Player-1104-0A28E71D"] = {
 					["ilvl"] = 254.8125,
@@ -3969,33 +4227,38 @@ RCLootCouncilDB = {
 					["cache_time"] = 1633878721,
 					["realm"] = "Drak'thul",
 				},
-				["Player-1097-079CBCD2"] = {
-					["name"] = "Demorom-Malorne",
-					["guid"] = "Player-1097-079CBCD2",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1621012706,
-					["realm"] = "Malorne",
-				},
-				["Player-581-09E6F801"] = {
-					["name"] = "Nalez-Blackrock",
-					["guid"] = "Player-581-09E6F801",
-					["class"] = "ROGUE",
-					["cache_time"] = 1629278594,
-					["realm"] = "Blackrock",
-				},
-				["Player-1104-079F4A57"] = {
-					["name"] = "Wenzelaus-Nathrezim",
-					["guid"] = "Player-1104-079F4A57",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1606408843,
-					["realm"] = "Nathrezim",
-				},
-				["Player-1307-0BD326E2"] = {
-					["name"] = "Masmulu-ChamberofAspects",
-					["guid"] = "Player-1307-0BD326E2",
+				["Player-3703-05D0301D"] = {
+					["name"] = "Snippelritis-Frostwolf",
+					["guid"] = "Player-3703-05D0301D",
 					["class"] = "DRUID",
-					["cache_time"] = 1614873240,
-					["realm"] = "ChamberofAspects",
+					["cache_time"] = 1617307790,
+					["realm"] = "Frostwolf",
+				},
+				["Player-3682-0AF554F0"] = {
+					["name"] = "Femgem-Ragnaros",
+					["guid"] = "Player-3682-0AF554F0",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1654017755,
+					["realm"] = "Ragnaros",
+				},
+				["Player-1604-0EC56312"] = {
+					["name"] = "резачка-СвежевательДуш",
+					["guid"] = "Player-1604-0EC56312",
+					["class"] = "ROGUE",
+					["cache_time"] = 1616866194,
+					["realm"] = "СвежевательДуш",
+				},
+				["Player-1104-07822EBB"] = {
+					["ilvl"] = 210.875,
+					["guid"] = "Player-1104-07822EBB",
+					["class"] = "SHAMAN",
+					["role"] = "DAMAGER",
+					["name"] = "Aurosh-Gul'dan",
+					["rank"] = "Mythic Raider",
+					["cache_time"] = 1609968065,
+					["enchanter"] = true,
+					["enchantingLvl"] = 0,
+					["realm"] = "Gul'dan",
 				},
 				["Player-1403-078A01FC"] = {
 					["name"] = "Calsonas-Draenor",
@@ -4004,28 +4267,23 @@ RCLootCouncilDB = {
 					["cache_time"] = 1639076037,
 					["realm"] = "Draenor",
 				},
-				["Player-604-07CB010E"] = {
-					["ilvl"] = 251.125,
-					["guid"] = "Player-604-07CB010E",
-					["class"] = "PALADIN",
-					["role"] = "DAMAGER",
-					["name"] = "Liádrin-Thrall",
-					["rank"] = "Raider",
-					["cache_time"] = 1639000662,
-					["specID"] = 70,
-					["enchantingLvl"] = 0,
-					["realm"] = "Thrall",
+				["Player-3656-07F44063"] = {
+					["name"] = "Skillster-Stormreaver",
+					["guid"] = "Player-3656-07F44063",
+					["class"] = "DRUID",
+					["cache_time"] = 1628674750,
+					["realm"] = "Stormreaver",
 				},
 				["Player-1104-058C8575"] = {
-					["ilvl"] = 273.75,
+					["ilvl"] = 274.0625,
 					["guid"] = "Player-1104-058C8575",
 					["class"] = "SHAMAN",
 					["rank"] = "Mythic Raider",
-					["role"] = "DAMAGER",
+					["role"] = "HEALER",
 					["name"] = "Wubs-Nathrezim",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655927975,
 					["enchanter"] = true,
-					["specID"] = 262,
+					["specID"] = 264,
 					["enchantingLvl"] = 115,
 					["realm"] = "Nathrezim",
 				},
@@ -4034,7 +4292,7 @@ RCLootCouncilDB = {
 					["guid"] = "Player-1104-0599AC6F",
 					["class"] = "PALADIN",
 					["role"] = "HEALER",
-					["cache_time"] = 1651259361,
+					["cache_time"] = 1655999187,
 					["rank"] = "Mythic Raider",
 					["name"] = "Adelgunde-Nathrezim",
 					["specID"] = 65,
@@ -4068,45 +4326,50 @@ RCLootCouncilDB = {
 					["realm"] = "Vek'lor",
 				},
 				["Player-1104-04CA295E"] = {
-					["ilvl"] = 276.9375,
+					["ilvl"] = 277.6875,
 					["guid"] = "Player-1104-04CA295E",
 					["class"] = "PRIEST",
 					["realm"] = "Gul'dan",
 					["role"] = "HEALER",
 					["name"] = "Cascadá-Gul'dan",
-					["cache_time"] = 1651090199,
+					["cache_time"] = 1655154076,
 					["specID"] = 257,
 					["enchanter"] = true,
 					["enchantingLvl"] = 115,
 					["rank"] = "Officer",
 				},
-				["Player-1104-05818B9A"] = {
-					["name"] = "Rigobert-Nathrezim",
-					["guid"] = "Player-1104-05818B9A",
-					["class"] = "DRUID",
-					["cache_time"] = 1606932530,
-					["realm"] = "Nathrezim",
-				},
-				["Player-581-08715A24"] = {
-					["name"] = "Thovac-Blackrock",
-					["guid"] = "Player-581-08715A24",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1611785070,
-					["realm"] = "Blackrock",
-				},
-				["Player-1929-0ECBF38B"] = {
-					["name"] = "заройся-Борейскаятундра",
-					["guid"] = "Player-1929-0ECBF38B",
-					["class"] = "ROGUE",
-					["cache_time"] = 1629278364,
-					["realm"] = "Борейскаятундра",
-				},
-				["Player-3692-094C8999"] = {
-					["name"] = "Alroan-Eredar",
-					["guid"] = "Player-3692-094C8999",
+				["Player-1379-0AA542C4"] = {
+					["name"] = "Tridiator-Sanguino",
+					["guid"] = "Player-1379-0AA542C4",
 					["class"] = "HUNTER",
-					["cache_time"] = 1616864601,
-					["realm"] = "Eredar",
+					["cache_time"] = 1621966309,
+					["realm"] = "Sanguino",
+				},
+				["Player-1084-0A40F9E0"] = {
+					["name"] = "Imagocharge-TarrenMill",
+					["guid"] = "Player-1084-0A40F9E0",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624962500,
+					["realm"] = "TarrenMill",
+				},
+				["Player-3656-0A657B55"] = {
+					["ilvl"] = 276.3125,
+					["guid"] = "Player-3656-0A657B55",
+					["class"] = "WARLOCK",
+					["role"] = "DAMAGER",
+					["name"] = "Hakkizz-Stormreaver",
+					["realm"] = "Stormreaver",
+					["cache_time"] = 1655752636,
+					["specID"] = 266,
+					["enchantingLvl"] = 0,
+					["rank"] = "Sosiaali",
+				},
+				["Player-1417-0A11D315"] = {
+					["name"] = "Kunjö-Stormrage",
+					["guid"] = "Player-1417-0A11D315",
+					["class"] = "HUNTER",
+					["cache_time"] = 1614355580,
+					["realm"] = "Stormrage",
 				},
 				["Player-1604-0ED2970A"] = {
 					["name"] = "нефариусх-СвежевательДуш",
@@ -4115,19 +4378,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1648582793,
 					["realm"] = "СвежевательДуш",
 				},
-				["Player-580-078A68A9"] = {
-					["name"] = "Snoos-Blackmoore",
-					["guid"] = "Player-580-078A68A9",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1609755808,
-					["realm"] = "Blackmoore",
+				["Player-1302-0BCC7F7E"] = {
+					["name"] = "Næxz-Archimonde",
+					["guid"] = "Player-1302-0BCC7F7E",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1611057542,
+					["realm"] = "Archimonde",
 				},
-				["Player-604-082C632B"] = {
-					["name"] = "Slòóth-Thrall",
-					["guid"] = "Player-604-082C632B",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1624962517,
-					["realm"] = "Thrall",
+				["Player-1104-058AFF43"] = {
+					["name"] = "Wendelbert-Nathrezim",
+					["guid"] = "Player-1104-058AFF43",
+					["class"] = "HUNTER",
+					["cache_time"] = 1605550998,
+					["realm"] = "Nathrezim",
 				},
 				["Player-570-09B9CD72"] = {
 					["name"] = "Bulku-Baelgun",
@@ -4143,6 +4406,20 @@ RCLootCouncilDB = {
 					["cache_time"] = 1609609636,
 					["realm"] = "Draenor",
 				},
+				["Player-1929-0ECBF38B"] = {
+					["name"] = "заройся-Борейскаятундра",
+					["guid"] = "Player-1929-0ECBF38B",
+					["class"] = "ROGUE",
+					["cache_time"] = 1629278364,
+					["realm"] = "Борейскаятундра",
+				},
+				["Player-3682-0A9C4FC4"] = {
+					["name"] = "Gunzpewpew-Ragnaros",
+					["guid"] = "Player-3682-0A9C4FC4",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1611145211,
+					["realm"] = "Ragnaros",
+				},
 				["Player-1104-058A1E12"] = {
 					["ilvl"] = 247.375,
 					["guid"] = "Player-1104-058A1E12",
@@ -4155,20 +4432,6 @@ RCLootCouncilDB = {
 					["enchantingLvl"] = 0,
 					["realm"] = "Nathrezim",
 				},
-				["Player-3682-0A9C4FC4"] = {
-					["name"] = "Gunzpewpew-Ragnaros",
-					["guid"] = "Player-3682-0A9C4FC4",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1611145211,
-					["realm"] = "Ragnaros",
-				},
-				["Player-1104-058AFF43"] = {
-					["name"] = "Wendelbert-Nathrezim",
-					["guid"] = "Player-1104-058AFF43",
-					["class"] = "HUNTER",
-					["cache_time"] = 1605550998,
-					["realm"] = "Nathrezim",
-				},
 				["Player-1096-07A23EC3"] = {
 					["name"] = "Niceplyte-DefiasBrotherhood",
 					["guid"] = "Player-1096-07A23EC3",
@@ -4176,19 +4439,24 @@ RCLootCouncilDB = {
 					["cache_time"] = 1613073479,
 					["realm"] = "DefiasBrotherhood",
 				},
-				["Player-1417-0A11D315"] = {
-					["name"] = "Kunjö-Stormrage",
-					["guid"] = "Player-1417-0A11D315",
-					["class"] = "HUNTER",
-					["cache_time"] = 1614355580,
-					["realm"] = "Stormrage",
+				["Player-1615-09039D3E"] = {
+					["name"] = "саэрас-Ревущийфьорд",
+					["guid"] = "Player-1615-09039D3E",
+					["class"] = "ROGUE",
+					["cache_time"] = 1632312673,
+					["realm"] = "Ревущийфьорд",
 				},
-				["Player-1379-0AA542C4"] = {
-					["name"] = "Tridiator-Sanguino",
-					["guid"] = "Player-1379-0AA542C4",
-					["class"] = "HUNTER",
-					["cache_time"] = 1621966309,
-					["realm"] = "Sanguino",
+				["Player-604-07CB010E"] = {
+					["ilvl"] = 251.125,
+					["guid"] = "Player-604-07CB010E",
+					["class"] = "PALADIN",
+					["role"] = "DAMAGER",
+					["name"] = "Liádrin-Thrall",
+					["rank"] = "Raider",
+					["cache_time"] = 1639000662,
+					["specID"] = 70,
+					["enchantingLvl"] = 0,
+					["realm"] = "Thrall",
 				},
 				["Player-3713-09AAA087"] = {
 					["name"] = "Bloobiqt-BurningLegion",
@@ -4204,17 +4472,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1627485964,
 					["realm"] = "Blackmoore",
 				},
-				["Player-1104-07822EBB"] = {
-					["ilvl"] = 210.875,
-					["guid"] = "Player-1104-07822EBB",
+				["Player-1305-0BD565A5"] = {
+					["name"] = "Ragodx-Kazzak",
+					["guid"] = "Player-1305-0BD565A5",
 					["class"] = "SHAMAN",
-					["role"] = "DAMAGER",
-					["name"] = "Aurosh-Gul'dan",
-					["rank"] = "Mythic Raider",
-					["cache_time"] = 1609968065,
-					["enchanter"] = true,
-					["enchantingLvl"] = 0,
-					["realm"] = "Gul'dan",
+					["cache_time"] = 1631040599,
+					["realm"] = "Kazzak",
 				},
 				["Player-581-09FBDE6D"] = {
 					["name"] = "Mørshac-Blackrock",
@@ -4251,12 +4514,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1605090215,
 					["realm"] = "Sanguino",
 				},
-				["Player-1615-09039D3E"] = {
-					["name"] = "саэрас-Ревущийфьорд",
-					["guid"] = "Player-1615-09039D3E",
-					["class"] = "ROGUE",
-					["cache_time"] = 1632312673,
-					["realm"] = "Ревущийфьорд",
+				["Player-604-08E2144C"] = {
+					["name"] = "Cristalvox-Thrall",
+					["guid"] = "Player-604-08E2144C",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1622058775,
+					["realm"] = "Thrall",
 				},
 				["Player-1408-078C5186"] = {
 					["name"] = "Sixtyseven-Norgannon",
@@ -4290,12 +4553,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1638308257,
 					["realm"] = "Nathrezim",
 				},
-				["Player-1604-0EC56312"] = {
-					["name"] = "резачка-СвежевательДуш",
-					["guid"] = "Player-1604-0EC56312",
-					["class"] = "ROGUE",
-					["cache_time"] = 1616866194,
-					["realm"] = "СвежевательДуш",
+				["Player-1104-05818B9A"] = {
+					["name"] = "Rigobert-Nathrezim",
+					["guid"] = "Player-1104-05818B9A",
+					["class"] = "DRUID",
+					["cache_time"] = 1606932530,
+					["realm"] = "Nathrezim",
 				},
 				["Player-3666-05839703"] = {
 					["name"] = "Bubitz-Shadowsong",
@@ -4305,44 +4568,16 @@ RCLootCouncilDB = {
 					["realm"] = "Shadowsong",
 				},
 				["Player-1104-0A106E85"] = {
-					["ilvl"] = 267.25,
+					["ilvl"] = 276.9375,
 					["guid"] = "Player-1104-0A106E85",
 					["class"] = "DEATHKNIGHT",
 					["role"] = "DAMAGER",
 					["name"] = "Memegeburt-Gul'dan",
 					["realm"] = "Gul'dan",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655927975,
 					["specID"] = 251,
 					["enchantingLvl"] = 0,
 					["rank"] = "Mythic Raider",
-				},
-				["Player-3703-05D0301D"] = {
-					["name"] = "Snippelritis-Frostwolf",
-					["guid"] = "Player-3703-05D0301D",
-					["class"] = "DRUID",
-					["cache_time"] = 1617307790,
-					["realm"] = "Frostwolf",
-				},
-				["Player-1084-0A40F9E0"] = {
-					["name"] = "Imagocharge-TarrenMill",
-					["guid"] = "Player-1084-0A40F9E0",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1624962500,
-					["realm"] = "TarrenMill",
-				},
-				["Player-3656-07F44063"] = {
-					["name"] = "Skillster-Stormreaver",
-					["guid"] = "Player-3656-07F44063",
-					["class"] = "DRUID",
-					["cache_time"] = 1628674750,
-					["realm"] = "Stormreaver",
-				},
-				["Player-1302-0BCC7F7E"] = {
-					["name"] = "Næxz-Archimonde",
-					["guid"] = "Player-1302-0BCC7F7E",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1611057542,
-					["realm"] = "Archimonde",
 				},
 				["Player-612-0776C5B7"] = {
 					["name"] = "Fossegrim-Nera'thor",
@@ -4350,6 +4585,39 @@ RCLootCouncilDB = {
 					["class"] = "WARRIOR",
 					["cache_time"] = 1621173054,
 					["realm"] = "Nera'thor",
+				},
+				["Player-633-0632E169"] = {
+					["name"] = "Nondra-ShatteredHand",
+					["guid"] = "Player-633-0632E169",
+					["class"] = "MAGE",
+					["cache_time"] = 1632906046,
+					["realm"] = "ShatteredHand",
+				},
+				["Player-1104-0A280FC4"] = {
+					["ilvl"] = 277.75,
+					["guid"] = "Player-1104-0A280FC4",
+					["class"] = "DEMONHUNTER",
+					["role"] = "DAMAGER",
+					["name"] = "Cleavarious-Gul'dan",
+					["realm"] = "Gul'dan",
+					["cache_time"] = 1653940584,
+					["specID"] = 577,
+					["enchantingLvl"] = 0,
+					["rank"] = "Mythic Raider",
+				},
+				["Player-1929-0C147428"] = {
+					["name"] = "финтифлюшка-ЧерныйШрам",
+					["guid"] = "Player-1929-0C147428",
+					["class"] = "DRUID",
+					["cache_time"] = 1632313949,
+					["realm"] = "ЧерныйШрам",
+				},
+				["Player-1097-079CBCD2"] = {
+					["name"] = "Demorom-Malorne",
+					["guid"] = "Player-1097-079CBCD2",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1621012706,
+					["realm"] = "Malorne",
 				},
 				["Player-3702-0951B66D"] = {
 					["name"] = "Fira-ArgentDawn",
@@ -4365,40 +4633,45 @@ RCLootCouncilDB = {
 					["cache_time"] = 1632779666,
 					["realm"] = "Gul'dan",
 				},
-				["Player-1929-0C147428"] = {
-					["name"] = "финтифлюшка-ЧерныйШрам",
-					["guid"] = "Player-1929-0C147428",
-					["class"] = "DRUID",
-					["cache_time"] = 1632313949,
-					["realm"] = "ЧерныйШрам",
+				["Player-1098-056B5718"] = {
+					["name"] = "Furionix-Malfurion",
+					["guid"] = "Player-1098-056B5718",
+					["class"] = "HUNTER",
+					["cache_time"] = 1651781613,
+					["realm"] = "Malfurion",
 				},
-				["Player-1615-0A743D01"] = {
-					["name"] = "лордварвар-Ревущийфьорд",
-					["guid"] = "Player-1615-0A743D01",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1616863743,
-					["realm"] = "Ревущийфьорд",
+				["Player-1084-0A63C725"] = {
+					["name"] = "Pilshrimp-TarrenMill",
+					["guid"] = "Player-1084-0A63C725",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1653421137,
+					["realm"] = "TarrenMill",
 				},
-				["Player-633-0632E169"] = {
-					["name"] = "Nondra-ShatteredHand",
-					["guid"] = "Player-633-0632E169",
-					["class"] = "MAGE",
-					["cache_time"] = 1632906046,
-					["realm"] = "ShatteredHand",
+				["Player-1104-0A3C84DB"] = {
+					["ilvl"] = 276.9375,
+					["guid"] = "Player-1104-0A3C84DB",
+					["class"] = "PALADIN",
+					["role"] = "DAMAGER",
+					["name"] = "Liádrin-Gul'dan",
+					["realm"] = "Gul'dan",
+					["cache_time"] = 1652129047,
+					["specID"] = 70,
+					["enchantingLvl"] = 0,
+					["rank"] = "Mythic Raider",
 				},
-				["Player-1084-09120DB2"] = {
-					["name"] = "Ogion-Dentarg",
-					["guid"] = "Player-1084-09120DB2",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1607883013,
-					["realm"] = "Dentarg",
+				["Player-3690-0AB34189"] = {
+					["name"] = "Genoziis-KhazModan",
+					["guid"] = "Player-3690-0AB34189",
+					["class"] = "ROGUE",
+					["cache_time"] = 1619280035,
+					["realm"] = "KhazModan",
 				},
-				["Player-1305-0BD565A5"] = {
-					["name"] = "Ragodx-Kazzak",
-					["guid"] = "Player-1305-0BD565A5",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1631040599,
-					["realm"] = "Kazzak",
+				["Player-1096-0976CCC5"] = {
+					["name"] = "Terinna-EarthenRing",
+					["guid"] = "Player-1096-0976CCC5",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1608500531,
+					["realm"] = "EarthenRing",
 				},
 				["Player-3691-09BC83E1"] = {
 					["name"] = "Heaðshot-Blackhand",
@@ -4414,12 +4687,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1634999869,
 					["realm"] = "Durotan",
 				},
-				["Player-604-08E2144C"] = {
-					["name"] = "Cristalvox-Thrall",
-					["guid"] = "Player-604-08E2144C",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1622058775,
-					["realm"] = "Thrall",
+				["Player-3674-08C6E790"] = {
+					["name"] = "Gamisteros-TwistingNether",
+					["guid"] = "Player-3674-08C6E790",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1612275468,
+					["realm"] = "TwistingNether",
 				},
 				["Player-1104-04BDF2D1"] = {
 					["role"] = "DAMAGER",
@@ -4437,12 +4710,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1612904925,
 					["realm"] = "",
 				},
-				["Player-1302-06688908"] = {
-					["name"] = "Zulado-Archimonde",
-					["guid"] = "Player-1302-06688908",
-					["class"] = "DRUID",
-					["cache_time"] = 1630850481,
-					["realm"] = "Archimonde",
+				["Player-1401-09C841BA"] = {
+					["name"] = "Emphy-Teldrassil",
+					["guid"] = "Player-1401-09C841BA",
+					["class"] = "MAGE",
+					["cache_time"] = 1613559365,
+					["realm"] = "Teldrassil",
 				},
 				["Player-3674-08DBCAAE"] = {
 					["name"] = "Craktash-TwistingNether",
@@ -4452,31 +4725,31 @@ RCLootCouncilDB = {
 					["realm"] = "TwistingNether",
 				},
 				["Player-1104-0A106E9D"] = {
-					["ilvl"] = 271.875,
+					["ilvl"] = 277.6875,
 					["guid"] = "Player-1104-0A106E9D",
 					["class"] = "PRIEST",
 					["realm"] = "Gul'dan",
 					["role"] = "HEALER",
-					["cache_time"] = 1651093541,
+					["cache_time"] = 1655927975,
 					["name"] = "Thalyra-Gul'dan",
 					["specID"] = 257,
 					["enchanter"] = true,
 					["enchantingLvl"] = 125,
 					["rank"] = "Mythic Raider",
 				},
-				["Player-1335-05668FBD"] = {
-					["name"] = "Imperatorzz-Ysondre",
-					["guid"] = "Player-1335-05668FBD",
-					["class"] = "HUNTER",
-					["cache_time"] = 1618501010,
-					["realm"] = "Ysondre",
-				},
-				["Player-1401-09C841BA"] = {
-					["name"] = "Emphy-Teldrassil",
-					["guid"] = "Player-1401-09C841BA",
+				["Player-581-09FE0899"] = {
+					["name"] = "Mórgán-Blackrock",
+					["guid"] = "Player-581-09FE0899",
 					["class"] = "MAGE",
-					["cache_time"] = 1613559365,
-					["realm"] = "Teldrassil",
+					["cache_time"] = 1612113084,
+					["realm"] = "Blackrock",
+				},
+				["Player-1104-01E6516A"] = {
+					["name"] = "Lìchtkìng-Anetheron",
+					["guid"] = "Player-1104-01E6516A",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1625235497,
+					["realm"] = "Anetheron",
 				},
 				["Player-1923-0B06533D"] = {
 					["name"] = "холикамч-Ясеневыйлес",
@@ -4492,18 +4765,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1614258943,
 					["realm"] = "Blackrock",
 				},
-				["Player-3691-09AEEA40"] = {
-					["ilvl"] = 253.625,
-					["guid"] = "Player-3691-09AEEA40",
-					["class"] = "HUNTER",
-					["realm"] = "Blackhand",
-					["role"] = "DAMAGER",
-					["cache_time"] = 1644443528,
-					["name"] = "Tàylorswift-Blackhand",
-					["specID"] = 254,
-					["enchanter"] = true,
-					["enchantingLvl"] = 115,
-					["rank"] = "Gildenlos",
+				["Player-3713-071C217E"] = {
+					["name"] = "Rangar-BurningLegion",
+					["guid"] = "Player-3713-071C217E",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1655932262,
+					["realm"] = "BurningLegion",
 				},
 				["Player-3703-096C79A1"] = {
 					["name"] = "Krizzle-Frostwolf",
@@ -4526,12 +4793,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1606339498,
 					["realm"] = "TarrenMill",
 				},
-				["Player-581-096CB5AA"] = {
-					["name"] = "Jenkìns-Blackrock",
-					["guid"] = "Player-581-096CB5AA",
-					["class"] = "PRIEST",
-					["cache_time"] = 1625235652,
-					["realm"] = "Blackrock",
+				["Player-3666-095CDF3C"] = {
+					["name"] = "Meerkat-Shadowsong",
+					["guid"] = "Player-3666-095CDF3C",
+					["class"] = "HUNTER",
+					["cache_time"] = 1635449298,
+					["realm"] = "Shadowsong",
 				},
 				["Player-3682-0AE60BA0"] = {
 					["name"] = "Jobbho-Ragnaros",
@@ -4547,33 +4814,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1632312941,
 					["realm"] = "Blackhand",
 				},
-				["Player-1396-0AA49688"] = {
-					["name"] = "Tullemann-AzjolNerub",
-					["guid"] = "Player-1396-0AA49688",
-					["class"] = "PRIEST",
-					["cache_time"] = 1633631790,
-					["realm"] = "AzjolNerub",
-				},
-				["Player-3703-05C3A05A"] = {
-					["name"] = "Siintos-Frostwolf",
-					["guid"] = "Player-3703-05C3A05A",
-					["class"] = "ROGUE",
-					["cache_time"] = 1620390114,
-					["realm"] = "Frostwolf",
-				},
 				["Player-581-0860A393"] = {
 					["name"] = "Chain-Blackrock",
 					["guid"] = "Player-581-0860A393",
 					["class"] = "SHAMAN",
 					["cache_time"] = 1627148162,
 					["realm"] = "Blackrock",
-				},
-				["Player-1104-075CD60C"] = {
-					["name"] = "Revidar-Gul'dan",
-					["guid"] = "Player-1104-075CD60C",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1618264089,
-					["realm"] = "Gul'dan",
 				},
 				["Player-1301-0BF42F6A"] = {
 					["name"] = "Alwayslowcr-Outland",
@@ -4582,31 +4828,52 @@ RCLootCouncilDB = {
 					["cache_time"] = 1626345318,
 					["realm"] = "Outland",
 				},
-				["Player-1104-088662ED"] = {
-					["ilvl"] = 274.0625,
-					["guid"] = "Player-1104-088662ED",
-					["class"] = "HUNTER",
-					["role"] = "DAMAGER",
-					["cache_time"] = 1650482360,
-					["realm"] = "Nathrezim",
-					["name"] = "Lidocain-Nathrezim",
-					["specID"] = 254,
-					["enchantingLvl"] = 0,
-					["rank"] = "Officer",
-				},
-				["Player-580-09FD0366"] = {
-					["name"] = "Lockhurd-Blackmoore",
-					["guid"] = "Player-580-09FD0366",
-					["class"] = "WARLOCK",
-					["cache_time"] = 1614191983,
-					["realm"] = "Blackmoore",
-				},
-				["Player-612-08D40592"] = {
-					["name"] = "Monkymon-Gorgonnash",
-					["guid"] = "Player-612-08D40592",
+				["Player-1335-0931647D"] = {
+					["name"] = "Leïshan-Ysondre",
+					["guid"] = "Player-1335-0931647D",
 					["class"] = "MONK",
-					["cache_time"] = 1637440854,
-					["realm"] = "Gorgonnash",
+					["cache_time"] = 1642963340,
+					["realm"] = "Ysondre",
+				},
+				["Player-1408-07DECE77"] = {
+					["name"] = "Geislkrieger-Norgannon",
+					["guid"] = "Player-1408-07DECE77",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1610556345,
+					["realm"] = "Norgannon",
+				},
+				["Player-1104-0A3ED3AF"] = {
+					["ilvl"] = 274.1875,
+					["guid"] = "Player-1104-0A3ED3AF",
+					["class"] = "MONK",
+					["role"] = "TANK",
+					["name"] = "Tankposi-Gul'dan",
+					["realm"] = "Gul'dan",
+					["cache_time"] = 1651692019,
+					["specID"] = 268,
+					["enchantingLvl"] = 0,
+					["rank"] = "Mythic Raider",
+				},
+				["Player-1598-0608C7CB"] = {
+					["name"] = "Rûs-Chromaggus",
+					["guid"] = "Player-1598-0608C7CB",
+					["class"] = "PALADIN",
+					["cache_time"] = 1635449768,
+					["realm"] = "Chromaggus",
+				},
+				["Player-531-0985BCAD"] = {
+					["name"] = "Raphaell-Dethecus",
+					["guid"] = "Player-531-0985BCAD",
+					["class"] = "HUNTER",
+					["cache_time"] = 1653513257,
+					["realm"] = "Dethecus",
+				},
+				["Player-1084-0A661BB0"] = {
+					["name"] = "Diagrix-TarrenMill",
+					["guid"] = "Player-1084-0A661BB0",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1654706491,
+					["realm"] = "TarrenMill",
 				},
 				["Player-3674-07BCBC5D"] = {
 					["name"] = "Barbarsus-TwistingNether",
@@ -4643,32 +4910,26 @@ RCLootCouncilDB = {
 					["cache_time"] = 1611785843,
 					["realm"] = "Blackmoore",
 				},
-				["Player-3656-0A2A2EE4"] = {
-					["name"] = "Bravenn-Stormreaver",
-					["guid"] = "Player-3656-0A2A2EE4",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1636659018,
-					["realm"] = "Stormreaver",
+				["Player-2073-05EED802"] = {
+					["name"] = "Juyhg-Stormscale",
+					["guid"] = "Player-2073-05EED802",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1642171980,
+					["realm"] = "Stormscale",
 				},
-				["Player-1098-07ACAA1D"] = {
-					["name"] = "Nêow-Malfurion",
-					["guid"] = "Player-1098-07ACAA1D",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1636745108,
-					["realm"] = "Malfurion",
+				["Player-1302-0BB9DEAD"] = {
+					["name"] = "Natz-Archimonde",
+					["guid"] = "Player-1302-0BB9DEAD",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1612644220,
+					["realm"] = "Archimonde",
 				},
-				["Player-3691-09BC36DC"] = {
-					["ilvl"] = 253.125,
-					["guid"] = "Player-3691-09BC36DC",
+				["Player-1396-0AA49688"] = {
+					["name"] = "Tullemann-AzjolNerub",
+					["guid"] = "Player-1396-0AA49688",
 					["class"] = "PRIEST",
-					["rank"] = "Unguilded",
-					["role"] = "DAMAGER",
-					["name"] = "Farlandér-Blackhand",
-					["cache_time"] = 1642446240,
-					["enchanter"] = true,
-					["specID"] = 258,
-					["enchantingLvl"] = 125,
-					["realm"] = "Blackhand",
+					["cache_time"] = 1633631790,
+					["realm"] = "AzjolNerub",
 				},
 				["Player-1084-05D244F5"] = {
 					["name"] = "Freezybubleh-TarrenMill",
@@ -4677,11 +4938,17 @@ RCLootCouncilDB = {
 					["cache_time"] = 1634234987,
 					["realm"] = "TarrenMill",
 				},
-				["Player-1104-06D136D3"] = {
-					["name"] = "Knorke-Gul'dan",
-					["guid"] = "Player-1104-06D136D3",
-					["class"] = "PALADIN",
-					["cache_time"] = 1638308305,
+				["Player-1104-0A3E88AC"] = {
+					["ilvl"] = 277.25,
+					["guid"] = "Player-1104-0A3E88AC",
+					["class"] = "PRIEST",
+					["rank"] = "Mythic Raider",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1655921551,
+					["name"] = "Farlandér-Gul'dan",
+					["enchanter"] = true,
+					["specID"] = 258,
+					["enchantingLvl"] = 0,
 					["realm"] = "Gul'dan",
 				},
 				["Player-1379-0ABFA491"] = {
@@ -4698,12 +4965,12 @@ RCLootCouncilDB = {
 					["cache_time"] = 1625235623,
 					["realm"] = "Blackrock",
 				},
-				["Player-1403-09E66099"] = {
-					["name"] = "Kodrac-Draenor",
-					["guid"] = "Player-1403-09E66099",
-					["class"] = "MAGE",
-					["cache_time"] = 1638372272,
-					["realm"] = "Draenor",
+				["Player-1104-06D136D3"] = {
+					["name"] = "Knorke-Gul'dan",
+					["guid"] = "Player-1104-06D136D3",
+					["class"] = "PALADIN",
+					["cache_time"] = 1638308305,
+					["realm"] = "Gul'dan",
 				},
 				["Player-580-088F2026"] = {
 					["name"] = "Axod-Blackmoore",
@@ -4712,19 +4979,19 @@ RCLootCouncilDB = {
 					["cache_time"] = 1607893610,
 					["realm"] = "Blackmoore",
 				},
-				["Player-3692-05A5CEC5"] = {
-					["name"] = "Icèy-Eredar",
-					["guid"] = "Player-3692-05A5CEC5",
-					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1618495634,
-					["realm"] = "Eredar",
+				["Player-1084-07F2FF3B"] = {
+					["name"] = "Coldon-TarrenMill",
+					["guid"] = "Player-1084-07F2FF3B",
+					["class"] = "MAGE",
+					["cache_time"] = 1653418840,
+					["realm"] = "TarrenMill",
 				},
-				["Player-1305-0B0011C4"] = {
-					["name"] = "Stingler-Kazzak",
-					["guid"] = "Player-1305-0B0011C4",
-					["class"] = "SHAMAN",
-					["cache_time"] = 1618495446,
-					["realm"] = "Kazzak",
+				["Player-3674-074A9C47"] = {
+					["name"] = "Milathel-TwistingNether",
+					["guid"] = "Player-3674-074A9C47",
+					["class"] = "PALADIN",
+					["cache_time"] = 1649184205,
+					["realm"] = "TwistingNether",
 				},
 				["Player-1104-05E0866A"] = {
 					["name"] = "Thygore-Kil'jaeden",
@@ -4746,20 +5013,6 @@ RCLootCouncilDB = {
 					["enchantingLvl"] = 115,
 					["realm"] = "Gul'dan",
 				},
-				["Player-1121-05256FEE"] = {
-					["name"] = "Dacâ-DieTodeskrallen",
-					["guid"] = "Player-1121-05256FEE",
-					["class"] = "PRIEST",
-					["cache_time"] = 1613477375,
-					["realm"] = "DieTodeskrallen",
-				},
-				["Player-604-0728DB00"] = {
-					["name"] = "Røxa-Thrall",
-					["guid"] = "Player-604-0728DB00",
-					["class"] = "ROGUE",
-					["cache_time"] = 1611145158,
-					["realm"] = "Thrall",
-				},
 				["Player-1604-0E9658A6"] = {
 					["name"] = "маестра-СвежевательДуш",
 					["guid"] = "Player-1604-0E9658A6",
@@ -4767,51 +5020,40 @@ RCLootCouncilDB = {
 					["cache_time"] = 1646826019,
 					["realm"] = "СвежевательДуш",
 				},
-				["Player-581-06E916AA"] = {
-					["name"] = "Actron-Blackrock",
-					["guid"] = "Player-581-06E916AA",
-					["class"] = "DRUID",
-					["cache_time"] = 1649435893,
-					["realm"] = "Blackrock",
+				["Player-580-0823C38F"] = {
+					["name"] = "Marleeya-Blackmoore",
+					["guid"] = "Player-580-0823C38F",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1655288317,
+					["realm"] = "Blackmoore",
+				},
+				["Player-1097-07281B70"] = {
+					["name"] = "Senes-Malorne",
+					["guid"] = "Player-1097-07281B70",
+					["class"] = "PALADIN",
+					["cache_time"] = 1655932283,
+					["realm"] = "Malorne",
+				},
+				["Player-1091-0A24E54A"] = {
+					["name"] = "Swartwilebee-Twilight'sHammer",
+					["guid"] = "Player-1091-0A24E54A",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1652380462,
+					["realm"] = "Twilight'sHammer",
 				},
 			},
 		},
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Pouked-Gul'dan"] = {
+			["Rodymage-Gul'dan"] = {
 				"3.3.0", -- [1]
 				nil, -- [2]
-				1650909082, -- [3]
-			},
-			["Rahzkek-Gul'dan"] = {
-				"3.3.0", -- [1]
-				nil, -- [2]
-				1651085763, -- [3]
-			},
-			["Wildwuchs-Gul'dan"] = {
-				"3.3.0", -- [1]
-				nil, -- [2]
-				1651260266, -- [3]
-			},
-			["Zinghultus-Gul'dan"] = {
-				"3.3.0", -- [1]
-				nil, -- [2]
-				1651085522, -- [3]
+				1655920681, -- [3]
 			},
 			["Farlandér-Gul'dan"] = {
 				"3.3.0", -- [1]
 				nil, -- [2]
-				1651081528, -- [3]
-			},
-			["Schléx-Nathrezim"] = {
-				"3.3.0", -- [1]
-				nil, -- [2]
-				1651086090, -- [3]
-			},
-			["Munstar-Gul'dan"] = {
-				"3.3.0", -- [1]
-				nil, -- [2]
-				1650910342, -- [3]
+				1655921557, -- [3]
 			},
 		},
 		["regionID"] = 3,
@@ -4850,17 +5092,6 @@ RCLootCouncilDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["itemStorage"] = {
-				{
-					["inBags"] = true,
-					["type"] = "temp",
-					["link"] = "|cffa335ee|Hitem:179340::::::::60:65::33:5:7631:7359:6652:1550:6646:1:28:1279:::::|h[Teilchenbeschleuniger]|h|r",
-					["time_remaining"] = 7140,
-					["args"] = {
-					},
-					["time_added"] = 1629323570,
-				}, -- [1]
-			},
 			["UI"] = {
 				["tradeui"] = {
 					["bgColor"] = {
@@ -8737,6 +8968,30 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:178754:6228:::::::60:102::33:5:7359:6652:7634:1560:6646:1:28:1279:::::|h[Poxstorm, Longsword of Pestilence]|h|r",
 					["votes"] = 0,
 				}, -- [85]
+				{
+					["mapID"] = 2481,
+					["date"] = "06/06/22",
+					["class"] = "MONK",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:10:38",
+					["iClass"] = 15,
+					["id"] = "1654542638-1",
+					["owner"] = "Yum-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191009::::::::60:270::6:4:7187:8152:1524:6646:1:28:2167:::::|h[Zenitschultermodul]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lords of Dread",
+				}, -- [86]
 			},
 			["Marilu-Nathrezim"] = {
 				{
@@ -10653,6 +10908,58 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [25]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:10:50",
+					["iClass"] = 15,
+					["id"] = "1651684250-2",
+					["owner"] = "Liádrin-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cff0070dd|Hitem:189173::::::::60:70:::::::::|h[Ewige Wutperle]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Vigilant Guardian",
+				}, -- [26]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["votes"] = 5,
+					["time"] = "23:03:49",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:189825::::::::60:102::6:7:7187:6652:7578:8132:8138:1524:6646:1:28:2167:::::|h[Veiled Auctioneer's Vambraces]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Memegeburt-Gul'dan",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Minor Upgrade",
+					["boss"] = "Lihuvim, Principal Architect",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189805::::::::60:102::6:7:7187:8132:8138:6652:7579:1524:6646:1:28:2167:::::|h[Bracers of the Inscrutable Inventor]|h|r",
+					["note"] = "stat swap iwann vl mal",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
+					["id"] = "1652126629-14",
+					["typeCode"] = "default",
+				}, -- [27]
 			},
 			["Ezforence-Gul'dan"] = {
 				{
@@ -14704,6 +15011,30 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Vigilant Guardian",
 				}, -- [63]
+				{
+					["mapID"] = 2481,
+					["date"] = "06/06/22",
+					["class"] = "WARRIOR",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:10:49",
+					["iClass"] = 4,
+					["id"] = "1654542649-3",
+					["owner"] = "Munstar-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189847::::::::60:71::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Schleier der Auserwählten des Grafen]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lords of Dread",
+				}, -- [64]
 			},
 			["Ursarus-Gul'dan"] = {
 				{
@@ -16974,6 +17305,54 @@ RCLootCouncilLootDB = {
 					["id"] = "1650475115-8",
 					["typeCode"] = "default",
 				}, -- [88]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "DRUID",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:15:09",
+					["iClass"] = 15,
+					["id"] = "1652120109-0",
+					["owner"] = "Ursarus-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191019::::::::60:102::6:4:7187:8155:1524:6646:1:28:2167:::::|h[Mystic Leg Module]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Halondrus the Reclaimer",
+				}, -- [89]
+				{
+					["mapID"] = 2481,
+					["date"] = "01/06/22",
+					["class"] = "DRUID",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:42:54",
+					["iClass"] = 15,
+					["id"] = "1654105374-0",
+					["owner"] = "Ursarus-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cff0070dd|Hitem:189157::::::::60:102:::::::::|h[Glimmer of Animation]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lords of Dread",
+				}, -- [90]
 			},
 			["Sômêwârri-Anetheron"] = {
 				{
@@ -19244,6 +19623,30 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [79]
+				{
+					["mapID"] = 2481,
+					["date"] = "02/05/22",
+					["class"] = "WARLOCK",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:39:14",
+					["iClass"] = 4,
+					["id"] = "1651513154-4",
+					["owner"] = "Schléx-Nathrezim",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189815::::::::60:266::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Lurking Predator's Camouflage]|h|r",
+					["boss"] = "Skolex, the Insatiable Ravener",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [80]
 			},
 			["Luapdk-Gul'dan"] = {
 				{
@@ -23239,6 +23642,85 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Dausegne, the Fallen Oracle",
 				}, -- [108]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:39:28",
+					["iClass"] = 4,
+					["id"] = "1652125168-10",
+					["owner"] = "Adelgunde-Nathrezim",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189796::::::::60:65::6:6:7187:6652:8132:8116:1524:6646:1:28:2167:::::|h[Aszendentenbrustplatte der Pflicht]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Prototype Pantheon",
+				}, -- [109]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Prototype Pantheon",
+					["time"] = "22:47:06",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188270::::::::60:102::5:4:7188:6652:1511:6646:1:28:2166:::::|h[Elegy of the Eternals]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Schléx-Nathrezim",
+					["votes"] = 3,
+					["response"] = "Mainspec/Need",
+					["id"] = "1652125626-11",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188270::::::::60:102::6:4:7187:40:1524:6646:1:28:2167:::::|h[Elegy of the Eternals]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:178708::::::::60:102::33:6:7359:6652:6917:7782:1579:6646:1:28:1279:::::|h[Unbound Changeling]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+				}, -- [110]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Lihuvim, Principal Architect",
+					["time"] = "23:04:08",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188928:6210:::::::60:102::5:5:7188:6652:8154:1485:6646:1:28:1040:::::|h[Luminous Chevalier's Gauntlets]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Farlandér-Gul'dan",
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191016::::::::60:102::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Venerated Hand Module]|h|r",
+					["votes"] = 2,
+					["date"] = "09/05/22",
+					["responseID"] = 1,
+					["id"] = "1652126648-15",
+					["typeCode"] = "default",
+				}, -- [111]
 			},
 			["Satela-Blackrock"] = {
 				{
@@ -28800,6 +29282,30 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:189779:6229:::::::60:102::6:4:7187:6652:1524:6646::::::|h[Key to the Immortal Hearth]|h|r",
 					["typeCode"] = "default",
 				}, -- [11]
+				{
+					["mapID"] = 2481,
+					["date"] = "02/05/22",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:26:41",
+					["iClass"] = 4,
+					["id"] = "1651512401-0",
+					["owner"] = "Rahzkek-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188265::::::::60:263::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Cache of Acquired Treasures]|h|r",
+					["boss"] = "Artificer Xy'mox",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [12]
 			},
 			["Bestie-Nathrezim"] = {
 				{
@@ -29684,6 +30190,54 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Artificer Xy'mox",
 				}, -- [17]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "MONK",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:39:24",
+					["iClass"] = 4,
+					["id"] = "1652125164-8",
+					["owner"] = "Tankposi-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189783::::::::60:268::6:7:7187:42:7579:8132:8116:1524:6646:1:28:2167:::::|h[Sin-Steeped Coronet]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Prototype Pantheon",
+				}, -- [18]
+				{
+					["mapID"] = 2481,
+					["date"] = "15/06/22",
+					["class"] = "MONK",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:59:45",
+					["iClass"] = 4,
+					["id"] = "1655323185-2",
+					["owner"] = "Tankposi-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189854::::::::60:268::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Rygelon's Heraldric Ring]|h|r",
+					["boss"] = "Rygelon",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [19]
 			},
 			["Rûmpêl-Nathrezim"] = {
 				{
@@ -34873,6 +35427,187 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Dausegne, the Fallen Oracle",
 				}, -- [106]
+				{
+					["mapID"] = 2481,
+					["date"] = "02/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:39:15",
+					["iClass"] = 4,
+					["id"] = "1651513155-5",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188267::::::::60:250::6:4:6652:7187:1524:6646:1:28:2167:::::|h[Bells of the Endless Feast]|h|r",
+					["boss"] = "Skolex, the Insatiable Ravener",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [107]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						0.7, -- [1]
+						0.66, -- [2]
+						0.15, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Artificer Xy'mox",
+					["time"] = "20:31:44",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:185815::173128::::::60:102::35:8:7800:8136:8138:7359:6652:7580:1595:6646::::::|h[Vambraces of Verification]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Munstar-Gul'dan",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189825::::::::60:102::6:7:7187:6652:7579:8132:8138:1524:6646:1:28:2167:::::|h[Veiled Auctioneer's Vambraces]|h|r",
+					["votes"] = 1,
+					["date"] = "04/05/22",
+					["responseID"] = 4,
+					["id"] = "1651685504-7",
+					["typeCode"] = "default",
+				}, -- [108]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Halondrus the Reclaimer",
+					["time"] = "21:17:44",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186438::::::::60:102::6:4:7187:6652:1498:6646::::::|h[Old Warrior's Soul]|h|r",
+					["votes"] = 0,
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Rahzkek-Gul'dan",
+					["id"] = "1652120264-3",
+					["response"] = "Offspec",
+					["note"] = "trinket collection",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188264::::::::60:102::6:4:6652:7187:1524:6646:1:28:2167:::::|h[Earthbreaker's Impact]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:185836::::::::60:102::33:5:7359:6652:7784:1589:6646:1:28:1279:::::|h[Codex of the First Technique]|h|r",
+					["typeCode"] = "default",
+				}, -- [109]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "23:01:07",
+					["iClass"] = 15,
+					["id"] = "1652126467-13",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cff0070dd|Hitem:189178::::::::60:250:::::::::|h[Tools of Incomprehensible Experimentation]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lihuvim, Principal Architect",
+				}, -- [110]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Lihuvim, Principal Architect",
+					["time"] = "23:04:41",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:189802:6166:::::::60:102::5:5:7188:6652:7579:1511:6646:1:28:2166:::::|h[Loquacious Keeper's Peridot]|h|r",
+					["votes"] = 2,
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Thalyra-Gul'dan",
+					["id"] = "1652126681-16",
+					["response"] = "Mainspec/Need",
+					["note"] = "73",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189802::::::::60:102::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Loquacious Keeper's Peridot]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:178736:6166:173128::::::60:102::35:6:7800:7359:6652:7580:1592:6646::::::|h[Stitchflesh's Misplaced Signet]|h|r",
+					["typeCode"] = "default",
+				}, -- [111]
+				{
+					["mapID"] = 2481,
+					["date"] = "06/06/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:01:10",
+					["iClass"] = 15,
+					["id"] = "1654534870-0",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cff0070dd|Hitem:189176::::::::60:250:::::::::|h[Protoform Sentience Crown]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Unknown",
+				}, -- [112]
+				{
+					["mapID"] = 2481,
+					["date"] = "06/06/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:10:42",
+					["iClass"] = 4,
+					["id"] = "1654542642-2",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188255::::::::60:250::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Heart of the Swarm]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lords of Dread",
+				}, -- [113]
 			},
 			["Rodymage-Gul'dan"] = {
 				{
@@ -35775,6 +36510,87 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffff8000|Hitem:178926:6164:173127::::::60:102::69:7:8123:7882:8156:6649:6650:1588:6935:1:28:2142:::::|h[Unity]|h|r",
 					["typeCode"] = "default",
 				}, -- [34]
+				{
+					["mapID"] = 2481,
+					["date"] = "02/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 7,
+					["groupSize"] = 20,
+					["boss"] = "Artificer Xy'mox",
+					["time"] = "20:29:54",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178856:6229:::::::60:102::35:5:7856:7359:6652:1592:6646::::::|h[Kaal's Gloomblade]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["typeCode"] = "default",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["id"] = "1651512594-1",
+					["response"] = "Mainspec/Need",
+					["note"] = "+48 frost",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189830::::::::60:102::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Replicated Relic Blade]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:185812::::::::60:102::33:5:7359:6652:7840:1589:6646:1:28:1279:::::|h[Acoustically Alluring Censer]|h|r",
+					["votes"] = 3,
+				}, -- [35]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["votes"] = 3,
+					["time"] = "20:45:15",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffff8000|Hitem:173249:6220:173128::::::60:102::69:7:6934:7882:8156:6649:6648:1588:6935:1:28:2142:::::|h[Sun King's Blessing]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Cascadá-Gul'dan",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Mainspec/Need",
+					["boss"] = "Skolex, the Insatiable Ravener",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189809::::::::60:102::6:7:7187:6652:7579:8132:8138:1524:6646:1:28:2167:::::|h[Skolex's Ravenous Skinguards]|h|r",
+					["note"] = "frost +32 dps",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1651686315-12",
+					["typeCode"] = "default",
+				}, -- [36]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:49:14",
+					["iClass"] = 4,
+					["id"] = "1652122154-5",
+					["owner"] = "Rodymage-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189782::::::::60:63::6:6:7187:8132:8116:6652:1524:6646:1:28:2167:::::|h[Haunting Hymnal Robes]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Dausegne, the Fallen Oracle",
+				}, -- [37]
 			},
 			["Rodypew-Gul'dan"] = {
 				{
@@ -37335,6 +38151,33 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "The Jailer",
 				}, -- [44]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						0.7, -- [1]
+						0.66, -- [2]
+						0.15, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEMONHUNTER",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["boss"] = "Dausegne, the Fallen Oracle",
+					["time"] = "21:51:37",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178699::173128::::::60:102::35:8:7786:8136:8137:7359:6652:1592:6646:7580::::::|h[Sapgorger Belt]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Pouked-Gul'dan",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189773::::::::60:102::6:7:7187:6652:7579:8132:8137:1524:6646:1:28:2167:::::|h[Clasp of Crooked Crescendos]|h|r",
+					["votes"] = 0,
+					["date"] = "09/05/22",
+					["responseID"] = 4,
+					["id"] = "1652122297-7",
+					["typeCode"] = "default",
+				}, -- [45]
 			},
 			["Gamatatsu-Eredar"] = {
 				{
@@ -39477,6 +40320,35 @@ RCLootCouncilLootDB = {
 					["id"] = "1651081916-8",
 					["typeCode"] = "default",
 				}, -- [29]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "ROGUE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Halondrus the Reclaimer",
+					["time"] = "21:16:47",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178771::::::::60:102::16:5:7359:6652:7784:1586:6646:1:28:1279:::::|h[Phial of Putrefaction]|h|r",
+					["votes"] = 1,
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Cleavarious-Gul'dan",
+					["id"] = "1652120207-2",
+					["response"] = "Mainspec/Need",
+					["note"] = "+176 dps, best in slot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:188264::::::::60:102::6:4:6652:7187:1524:6646:1:28:2167:::::|h[Earthbreaker's Impact]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:179356::::::::60:102::35:5:7786:7359:6652:1592:6646::::::|h[Shadowgrasp Totem]|h|r",
+					["typeCode"] = "default",
+				}, -- [30]
 			},
 			["Zeiloth-Gul'dan"] = {
 				{
@@ -42401,6 +43273,86 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Lihuvim, Principal Architect",
 				}, -- [73]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:28:59",
+					["iClass"] = 4,
+					["id"] = "1651685339-5",
+					["owner"] = "Wubs-Nathrezim",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189827::::::::60:262::6:5:7187:6652:7580:1524:6646:1:28:2167:::::|h[Cartel Xy's Proof of Initiation]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Artificer Xy'mox",
+				}, -- [74]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["votes"] = 3,
+					["time"] = "20:44:35",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188920::::::::60:102::5:5:7188:6652:8152:1492:6646:1:28:1040:::::|h[Theurgic Starspeaker's Adornment]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Lidocain-Nathrezim",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Mainspec/Need",
+					["boss"] = "Skolex, the Insatiable Ravener",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189813::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Mantle of the Broken Beast]|h|r",
+					["note"] = "Catalyst +6ilvl aufs set",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1651686275-10",
+					["typeCode"] = "default",
+				}, -- [75]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["votes"] = 1,
+					["time"] = "21:16:17",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188924::::::::60:102::5:6:8116:6652:7188:8094:8155:1492::::::|h[Theurgic Starspeaker's Tassets]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Adelgunde-Nathrezim",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Mainspec/Need",
+					["boss"] = "Halondrus the Reclaimer",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191020::::::::60:102::6:4:7187:8155:1524:6646:1:28:2167:::::|h[Venerated Leg Module]|h|r",
+					["note"] = "57dps +6ilvl",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1652120177-1",
+					["typeCode"] = "default",
+				}, -- [76]
 			},
 			["Rahzs-Gul'dan"] = {
 				{
@@ -45860,737 +46812,128 @@ RCLootCouncilLootDB = {
 					["typeCode"] = "default",
 				}, -- [23]
 			},
-			["Incarnia-Gul'dan"] = {
+			["Liádrin-Thrall"] = {
 				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Maut",
-					["time"] = "20:28:54",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Transmog",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174124::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Mana-Infused Sash]|h|r",
-					["votes"] = 0,
-					["date"] = "15/07/20",
-					["responseID"] = 5,
-					["id"] = "1594834134-10",
-					["typeCode"] = "default",
-				}, -- [1]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.07, -- [1]
-						0.7, -- [2]
-						0.61, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Dark Inquisitor Xanesh",
-					["time"] = "20:47:17",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Xednara-Gul'dan",
-					["response"] = "Offspecc",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174126::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Binding of Dark Heresies]|h|r",
-					["votes"] = 0,
-					["date"] = "15/07/20",
-					["responseID"] = 4,
-					["id"] = "1594835237-15",
-					["typeCode"] = "default",
-				}, -- [2]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Vexiona",
-					["time"] = "20:57:14",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Trîâlbôdy-Anetheron",
-					["response"] = "Transmog",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174120::::::::120:63::6:4:4824:1517:4786:6512:::|h[Void Ascendant's Mantle]|h|r",
-					["votes"] = 0,
-					["date"] = "15/07/20",
-					["responseID"] = 5,
-					["id"] = "1594835834-19",
-					["typeCode"] = "default",
-				}, -- [3]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "The Hivemind",
-					["time"] = "21:10:33",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:168989::::::::120:63::16:6:6534:6513:1522:4786:6473:6470:::|h[Hyperthread Wristwraps]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Stormtech-Destromath",
-					["response"] = "Transmog",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174122::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Void-Drenched Wristwraps]|h|r",
-					["votes"] = 0,
-					["date"] = "20/07/20",
-					["responseID"] = 5,
-					["id"] = "1595268633-1",
-					["typeCode"] = "default",
-				}, -- [4]
-				{
-					["mapID"] = 2217,
-					["date"] = "20/07/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "Shad'har the Insatiable",
-					["time"] = "21:39:12",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:169159:6110:::::::120:63::16:6:6534:6515:1522:4786:6473:6470:::|h[Overclocking Bit Band]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Tiá-Nathrezim",
-					["votes"] = 0,
-					["response"] = "Minor Upgrade",
-					["id"] = "1595270352-19",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174531::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Void-Etched Band]|h|r",
-					["isAwardReason"] = false,
+					["mapID"] = 2450,
 					["color"] = {
 						0.16, -- [1]
 						0.7, -- [2]
 						0.07, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 3,
-					["itemReplaced2"] = "|cffa335ee|Hitem:159463:6110:::::::120:63::16:6:6534:6513:1637:4786:6473:6470:::|h[Loop of Pulsing Veins]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-				}, -- [5]
-				{
-					["mapID"] = 1642,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 0,
-					["boss"] = "Il'gynoth, Corruption Reborn",
-					["time"] = "21:58:27",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:159279::::::::120:63::35:5:5448:1647:4786:6511:4775:::|h[Soulfuel Headdress]|h|r",
-					["instance"] = "Zandalar-",
-					["owner"] = "Stormtech-Destromath",
-					["response"] = "Best in Slot",
-					["isAwardReason"] = false,
-					["difficultyID"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:174116::::::::120:63::6:4:4824:1517:4786:6511:::|h[Cowl of Unspeakable Horrors]|h|r",
-					["votes"] = 0,
-					["date"] = "20/07/20",
-					["responseID"] = 1,
-					["id"] = "1595271507-22",
-					["typeCode"] = "default",
-				}, -- [6]
-				{
-					["mapID"] = 2217,
-					["date"] = "22/07/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "Prophet Skitra",
-					["time"] = "20:18:56",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:169314::::::::120:63::5:3:4799:1502:4786:::|h[Azshara's Font of Power]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Incarnia-Gul'dan",
-					["votes"] = 0,
-					["response"] = "Offspecc",
-					["id"] = "1595438336-1",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174060::::::::120:63::6:4:4824:6515:1517:4786:::|h[Psyche Shredder]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0.07, -- [1]
-						0.7, -- [2]
-						0.61, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 4,
-					["itemReplaced2"] = "|cffa335ee|Hitem:172669::::::::120:63::25:5:6515:6389:6371:1572:4786:::|h[Corrupted Gladiator's Badge]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-				}, -- [7]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Vexiona",
-					["time"] = "21:31:08",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Pass",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174120::::::::120:63::6:4:4824:1517:4786:6512:::|h[Void Ascendant's Mantle]|h|r",
-					["votes"] = 0,
-					["date"] = "22/07/20",
-					["responseID"] = "PASS",
-					["id"] = "1595442668-13",
-					["typeCode"] = "default",
-				}, -- [8]
-				{
-					["mapID"] = 2217,
-					["date"] = "27/07/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:14:07",
-					["iClass"] = 4,
-					["id"] = "1595870047-5",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Bonus Loot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174500::::::::120:63::6:4:4824:6513:1517:4786:::|h[Vita-Charged Titanshard]|h|r",
-					["boss"] = "Ra-den the Despoiled",
-					["responseID"] = "BONUSROLL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [9]
-				{
-					["mapID"] = 2217,
-					["date"] = "27/07/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "Shad'har the Insatiable",
-					["time"] = "20:37:23",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:169159:6110:::::::120:63::16:6:6534:6515:1522:4786:6473:6470:::|h[Overclocking Bit Band]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Incarnia-Gul'dan",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["response"] = "Disenchant",
-					["id"] = "1595871443-19",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174531::::::::120:63::6:6:4824:40:6516:6515:1517:4786:::|h[Void-Etched Band]|h|r",
-					["isAwardReason"] = true,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:159463:6110:::::::120:63::16:6:6534:6513:1637:4786:6473:6470:::|h[Loop of Pulsing Veins]|h|r",
-					["votes"] = 0,
-				}, -- [10]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
+					["class"] = "PALADIN",
 					["iSubClass"] = 4,
 					["groupSize"] = 20,
-					["boss"] = "Wrathion",
-					["time"] = "20:10:49",
+					["boss"] = "Guardian of the First Ones",
+					["time"] = "20:15:00",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:168989::::::::120:63::16:6:6534:6513:1522:4786:6473:6470:::|h[Hyperthread Wristwraps]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Adelgunde-Nathrezim",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174170::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Dragonbone Vambraces]|h|r",
-					["id"] = "1596042649-3",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [11]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 3,
-					["groupSize"] = 20,
-					["boss"] = "Wrathion",
-					["time"] = "20:10:55",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:169061::168640::::::120:63::35:8:6536:6578:6579:6473:6470:1532:4786:6514:::|h[Insulating Threaded Gloves]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Sitrap-Nathrezim",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174153::::::::120:63::6:6:4824:1808:6516:6513:1517:4786:::|h[Ebony Scaled Gauntlets]|h|r",
-					["id"] = "1596042655-4",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [12]
-				{
-					["mapID"] = 2217,
-					["date"] = "29/07/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 15,
-					["groupSize"] = 20,
-					["boss"] = "Prophet Skitra",
-					["time"] = "20:17:13",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:158321:5949:::::::120:63::35:7:6536:6578:6515:1647:4786:6473:6470:::|h[Wand of Zealous Purification]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Perama-Gul'dan",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["response"] = "Upgrade",
-					["id"] = "1596043033-6",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:172201::::::::120:63::6:6:4824:1808:6516:6515:1517:4786:::|h[Bloodstained Ritual Athame]|h|r",
+					["itemReplaced1"] = "|cffff8000|Hitem:171418::173128::::::60:102::66:6:7679:6649:6648:6935:7451:1559:1:28:2142:::::|h[Waistguard of Divine Resonance]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Liádrin-Thrall",
+					["response"] = "Minor Upgrade",
 					["isAwardReason"] = false,
-					["color"] = {
-						0.88, -- [1]
-						0.51, -- [2]
-						0.25, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:159667::::::::120:63::16:7:6536:41:6513:1637:4786:6473:6470:::|h[Vessel of Last Rites]|h|r",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186317::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Disintegration-Proof Waistband]|h|r",
 					["votes"] = 0,
-				}, -- [13]
+					["date"] = "22/11/21",
+					["responseID"] = 3,
+					["id"] = "1637604900-0",
+					["typeCode"] = "default",
+				}, -- [1]
 				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
+					["mapID"] = 2450,
+					["date"] = "24/11/21",
+					["class"] = "PALADIN",
 					["iSubClass"] = 2,
 					["groupSize"] = 20,
-					["boss"] = "Prophet Skitra",
-					["time"] = "20:17:28",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174127::::::::120:63::5:6:4823:6513:1502:4786:6471:6455:::|h[Corporeal Supplicant's Trousers]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Rumpèl-Nathrezim",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174143::::::::120:63::6:8:4824:6578:6579:6484:6457:6515:1517:4786:::|h[Macabre Ritual Pants]|h|r",
-					["id"] = "1596043048-7",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [14]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 3,
-					["groupSize"] = 20,
-					["boss"] = "Prophet Skitra",
-					["time"] = "20:17:39",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Lamestrike-Nathrezim",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174157::::::::120:63::6:6:4824:42:6516:6513:1517:4786:::|h[Talons of Grim Revelations]|h|r",
-					["id"] = "1596043059-8",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [15]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 3,
-					["groupSize"] = 20,
-					["boss"] = "Prophet Skitra",
-					["time"] = "20:17:43",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Rahzs-Gul'dan",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174157::::::::120:63::6:7:4824:6578:6579:6544:6513:1517:4786:::|h[Talons of Grim Revelations]|h|r",
-					["id"] = "1596043063-9",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [16]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Maut",
-					["time"] = "20:32:48",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Disenchant",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174124::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Mana-Infused Sash]|h|r",
-					["id"] = "1596043968-13",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = true,
-				}, -- [17]
-				{
-					["mapID"] = 1,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 0,
-					["boss"] = "Carapace of N'Zoth",
-					["time"] = "21:38:01",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174127::::::::120:63::5:6:4823:6513:1502:4786:6471:6455:::|h[Corporeal Supplicant's Trousers]|h|r",
-					["instance"] = "Kalimdor-",
-					["owner"] = "Zinghultus-Gul'dan",
-					["response"] = "Best in Slot",
-					["typeCode"] = "default",
-					["difficultyID"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:174127::::::::120:63::6:7:4824:6578:6579:6545:6515:1517:4786:::|h[Corporeal Supplicant's Trousers]|h|r",
-					["id"] = "1596047881-28",
-					["date"] = "29/07/20",
-					["responseID"] = 1,
-					["votes"] = 2,
 					["isAwardReason"] = false,
-				}, -- [18]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Ra-den the Despoiled",
-					["time"] = "22:00:14",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Magetyp-Nathrezim",
-					["response"] = "Best in Slot",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174128::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Boots of Wrought Shadow]|h|r",
-					["id"] = "1596654014-1",
-					["date"] = "05/08/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [19]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Carapace of N'Zoth",
-					["time"] = "21:35:03",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Xednara-Gul'dan",
-					["response"] = "Best in Slot",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174117::::::::120:63::6:4:4824:1517:4786:6512:::|h[Spaulders of Miasmic Mycelia]|h|r",
-					["id"] = "1597257303-23",
-					["date"] = "12/08/20",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [20]
-				{
-					["mapID"] = 2217,
-					["date"] = "12/08/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:52:59",
-					["iClass"] = 4,
-					["id"] = "1597261979-28",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174103::::::::120:63::6:4:4824:6515:1517:4786:::|h[Manifesto of Madness]|h|r",
-					["boss"] = "N'Zoth the Corruptor",
-					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [21]
-				{
-					["mapID"] = 2217,
-					["date"] = "24/08/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:55:52",
+					["time"] = "22:13:58",
 					["iClass"] = 15,
-					["id"] = "1598291752-0",
-					["owner"] = "Incarnia-Gul'dan",
+					["id"] = "1637784838-7",
+					["owner"] = "Liádrin-Thrall",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
-					["boss"] = "N'Zoth the Corruptor",
-					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["lootWon"] = "|cff1eff00|Hitem:186554::::::::60:70::6::1:28:373:::::|h[Auge der Allsicht]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-				}, -- [22]
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "The Eye of the Jailer",
+				}, -- [2]
 				{
-					["mapID"] = 2217,
-					["date"] = "24/08/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:56:29",
-					["iClass"] = 4,
-					["id"] = "1598291789-20",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Bonus Loot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174118::::::::120:63::6:4:4824:1517:4786:6511:::|h[Visage of Nightmarish Machinations]|h|r",
-					["boss"] = "N'Zoth the Corruptor",
-					["responseID"] = "BONUSROLL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.8, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [23]
-				{
-					["mapID"] = 2217,
-					["date"] = "26/08/20",
-					["class"] = "MAGE",
+					["mapID"] = 2450,
+					["date"] = "24/11/21",
+					["class"] = "PALADIN",
 					["iSubClass"] = 0,
 					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:37:31",
-					["iClass"] = 15,
-					["id"] = "1598470651-16",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["boss"] = "N'Zoth the Corruptor",
-				}, -- [24]
-				{
-					["mapID"] = 2217,
-					["date"] = "26/08/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:37:31",
+					["boss"] = "The Eye of the Jailer",
+					["time"] = "22:17:18",
 					["iClass"] = 4,
-					["id"] = "1598470651-17",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
+					["itemReplaced1"] = "|cffa335ee|Hitem:185197::::::::60:102::14:3:7314:1511:6646:1:28:807:::::|h[Unchained Gladiator's Badge of Ferocity]|h|r",
+					["votes"] = 0,
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Kyoouu-Gul'dan",
+					["id"] = "1637785038-10",
+					["response"] = "Minor Upgrade",
+					["note"] = "würde es ausprobieren für nf pally buff",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:174533::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Ring of Cosmic Potential]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186423::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Titanic Ocular Gland]|h|r",
 					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["boss"] = "N'Zoth the Corruptor",
-				}, -- [25]
-				{
-					["mapID"] = 2217,
-					["color"] = {
-						0.67, -- [1]
+						0.16, -- [1]
 						0.7, -- [2]
-						0, -- [3]
+						0.07, -- [3]
 						1, -- [4]
 					},
-					["class"] = "MAGE",
-					["iSubClass"] = 19,
-					["groupSize"] = 20,
-					["boss"] = "Il'gynoth, Corruption Reborn",
-					["time"] = "21:26:51",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:174108:5949:168640::::::120:63::6:7:4824:6578:1517:4786:6473:6470:6514:::|h[Shgla'yos, Astral Malignity]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["owner"] = "Schléx-Nathrezim",
-					["response"] = "Transmog",
 					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:172189::::::::120:63::6:6:4824:6548:6578:6579:1517:4786:::|h[Eyestalk of Il'gynoth]|h|r",
-					["votes"] = 0,
-					["date"] = "31/08/20",
-					["responseID"] = 5,
-					["id"] = "1598898411-22",
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:186438::::::::60:102::5:4:7188:6652:1485:6646:1:28:2044:::::|h[Old Warrior's Soul]|h|r",
 					["typeCode"] = "default",
-				}, -- [26]
+				}, -- [3]
 				{
-					["mapID"] = 2217,
-					["date"] = "02/09/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "Maut",
-					["time"] = "20:28:12",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:169314::::::::120:63::5:3:4799:1502:4786:::|h[Azshara's Font of Power]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Incarnia-Gul'dan",
-					["votes"] = 0,
-					["response"] = "Offspecc",
-					["id"] = "1599067692-11",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:173944::::::::120:63::6:5:4824:1808:6513:1517:4786:::|h[Forbidden Obsidian Claw]|h|r",
-					["isAwardReason"] = false,
+					["mapID"] = 2450,
 					["color"] = {
-						0.07, -- [1]
+						0.16, -- [1]
 						0.7, -- [2]
-						0.61, -- [3]
+						0.07, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 4,
-					["itemReplaced2"] = "|cffa335ee|Hitem:172669::::::::120:63::25:5:6515:6389:6371:1572:4786:::|h[Corrupted Gladiator's Badge]|h|r",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-				}, -- [27]
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Remnant of Ner'zhul",
+					["time"] = "22:20:33",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186350::187318::::::60:102::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Valorous Visage of Krexus]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Minor Upgrade",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186315::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Dark Tormentor's Gaze]|h|r",
+					["id"] = "1639599633-11",
+					["date"] = "15/12/21",
+					["responseID"] = 3,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [4]
 				{
-					["mapID"] = 2217,
-					["date"] = "02/09/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
+					["mapID"] = 2450,
+					["date"] = "20/12/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "23:04:32",
-					["iClass"] = 15,
-					["id"] = "1599077072-41",
-					["owner"] = "Incarnia-Gul'dan",
+					["time"] = "22:29:10",
+					["iClass"] = 4,
+					["id"] = "1640032150-8",
+					["owner"] = "Liádrin-Thrall",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186351::::::::60:70::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Vyraz' Parademanschetten]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -46598,33 +46941,9 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["boss"] = "N'Zoth the Corruptor",
-				}, -- [28]
-				{
-					["mapID"] = 2217,
-					["date"] = "09/09/20",
-					["class"] = "MAGE",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:41:28",
-					["iClass"] = 15,
-					["id"] = "1599676888-24",
-					["owner"] = "Incarnia-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
-					["boss"] = "N'Zoth the Corruptor",
-					["responseID"] = "PL",
-					["instance"] = "Ny'alotha, the Waking City-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [29]
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "Kel'Thuzad",
+				}, -- [5]
 			},
 			["Trassi-Gul'dan"] = {
 				{
@@ -49012,6 +49331,86 @@ RCLootCouncilLootDB = {
 					["id"] = "1651090062-4",
 					["typeCode"] = "default",
 				}, -- [60]
+				{
+					["mapID"] = 2481,
+					["date"] = "02/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["votes"] = 2,
+					["time"] = "20:34:05",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffff8000|Hitem:171418::173130::::::60:102::69:7:6945:7882:8156:6647:6648:1588:6935:1:28:2142:::::|h[Biting Cold]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Munstar-Gul'dan",
+					["typeCode"] = "default",
+					["response"] = "Mainspec/Need",
+					["id"] = "1651512845-3",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189826::::::::60:102::6:7:7187:6652:7578:8132:8137:1524:6646:1:28:2167:::::|h[Enforcer's Containment Cinch]|h|r",
+					["note"] = "bis gürtel für den ganzen raid als frost. 91dps",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Artificer Xy'mox",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [61]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["votes"] = 3,
+					["time"] = "20:11:23",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:189825::173128::::::60:102::6:7:7187:6652:8132:8138:1524:6646:7580:1:28:2167:::::|h[Veiled Auctioneer's Vambraces]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Liádrin-Gul'dan",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Offspec",
+					["boss"] = "Vigilant Guardian",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189777::::::::60:102::6:7:7187:6652:7579:8132:8138:1524:6646:1:28:2167:::::|h[Unstable Giant's Cuffs]|h|r",
+					["note"] = "für blut KEKW",
+					["isAwardReason"] = false,
+					["responseID"] = 3,
+					["id"] = "1651684283-4",
+					["typeCode"] = "default",
+				}, -- [62]
+				{
+					["mapID"] = 2481,
+					["date"] = "30/05/22",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "23:07:08",
+					["iClass"] = 15,
+					["id"] = "1653941228-0",
+					["owner"] = "Memegeburt-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191005::::::::60:251::6:4:7187:8151:1524:6646:1:28:2167:::::|h[Dreadful Helm Module]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Anduin Wrynn",
+				}, -- [63]
 			},
 			["Endaxis-Anetheron"] = {
 				{
@@ -51413,25 +51812,73 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Skolex, the Insatiable Ravener",
 				}, -- [93]
-			},
-			["Farlandér-Blackhand"] = {
 				{
-					["mapID"] = 2450,
-					["date"] = "13/12/21",
-					["class"] = "PRIEST",
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "DEMONHUNTER",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:42:27",
+					["iClass"] = 4,
+					["id"] = "1651686147-9",
+					["owner"] = "Endaxis-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189815::::::::60:577::6:6:7187:8132:8138:6652:1524:6646:1:28:2167:::::|h[Tarnung des lauernden Raubtiers]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Skolex, the Insatiable Ravener",
+				}, -- [94]
+				{
+					["mapID"] = 2481,
+					["date"] = "06/06/22",
+					["class"] = "DEMONHUNTER",
 					["iSubClass"] = 0,
 					["groupSize"] = 20,
-					["boss"] = "Painsmith Raznal",
-					["time"] = "20:33:55",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178824:6168:173130::::::60:102::35:6:7622:7359:6652:1566:6646:7576::::::|h[Signet of the False Accuser]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Adelgunde-Nathrezim",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["response"] = "Offspecc",
-					["id"] = "1639420435-11",
+					["isAwardReason"] = false,
+					["time"] = "22:10:37",
+					["iClass"] = 15,
+					["id"] = "1654542637-0",
+					["owner"] = "Endaxis-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186375::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Miniature Breaking Wheel]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:191006::::::::60:577::6:4:7187:8152:1524:6646:1:28:2167:::::|h[Schreckliches Schultermodul]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lords of Dread",
+				}, -- [95]
+			},
+			["Praiolynna-Gul'dan"] = {
+				{
+					["mapID"] = 2296,
+					["date"] = "28/06/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["boss"] = "Hungering Destroyer",
+					["time"] = "22:43:14",
+					["iClass"] = 5,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178737:6229:::::::60:102::35:5:7214:6652:1501:5884:6646::::|h[Amarth's Spellblade]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Thalyra-Gul'dan",
+					["instance"] = "Castle Nathria-Mythic",
+					["response"] = "Offspecc",
+					["id"] = "1624909394-14",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:183891::::::::60:102::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r",
 					["isAwardReason"] = false,
 					["color"] = {
 						0.07, -- [1]
@@ -51440,23 +51887,23 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = 4,
-					["itemReplaced2"] = "|cffa335ee|Hitem:186290:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
+					["itemReplaced2"] = "|cffa335ee|Hitem:174315::::::::60:102::85:4:7187:6652:1531:6646:1:28:807:::|h[Chyrus's Crest of Hope]|h|r",
 					["votes"] = 0,
 				}, -- [1]
 				{
 					["mapID"] = 2450,
-					["date"] = "20/12/21",
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
+					["date"] = "08/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 21,
 					["isAwardReason"] = false,
-					["time"] = "21:04:16",
-					["iClass"] = 4,
-					["id"] = "1640027056-0",
-					["owner"] = "Farlandér-Blackhand",
+					["time"] = "21:11:28",
+					["iClass"] = 3,
+					["id"] = "1625767888-4",
+					["owner"] = "Praiolynna-Gul'dan",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186282::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Sacrificer's Sacramental Cassock]|h|r",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187073::::::::60:65::5::1:28:2105:::::|h[Shard of Dyz]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -51464,80 +51911,74 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
+					["instance"] = "Sanctum of Domination-Heroic",
 					["boss"] = "Painsmith Raznal",
 				}, -- [2]
 				{
 					["mapID"] = 2450,
+					["date"] = "12/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "20:38:29",
+					["iClass"] = 4,
+					["id"] = "1626111509-6",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:186435::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Carved Ivory Keepsake]|h|r",
 					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
+						1, -- [1]
+						0.6, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
 					["boss"] = "Fatescribe Roh-Kalo",
-					["time"] = "22:17:24",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178705:6205:::::::60:102::35:5:7608:7359:6652:1566:6646::::::|h[Tricksprite Gloves]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Farlandér-Blackhand",
-					["response"] = "Transmog",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186326::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Gloves of Forsaken Purpose]|h|r",
-					["votes"] = 0,
-					["date"] = "20/12/21",
-					["responseID"] = 5,
-					["id"] = "1640031444-6",
-					["typeCode"] = "default",
 				}, -- [3]
 				{
 					["mapID"] = 2450,
+					["date"] = "12/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "20:38:30",
+					["iClass"] = 3,
+					["id"] = "1626111510-7",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187079::::::::60:65::5::1:28:2105:::::|h[Shard of Zed]|h|r",
 					["color"] = {
-						0.16, -- [1]
-						0.7, -- [2]
-						0.07, -- [3]
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "The Tarragrue",
-					["time"] = "20:18:04",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186291::173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Memegeburt-Gul'dan",
-					["response"] = "Minor Upgrade",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186291::::::::60:102::6:5:7187:42:7574:1498:6646:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
-					["id"] = "1641233884-2",
-					["date"] = "03/01/22",
-					["responseID"] = 3,
-					["votes"] = 0,
-					["isAwardReason"] = false,
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Fatescribe Roh-Kalo",
 				}, -- [4]
 				{
 					["mapID"] = 2450,
-					["date"] = "03/01/22",
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
+					["date"] = "13/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "21:12:05",
-					["iClass"] = 4,
-					["id"] = "1641237125-8",
-					["owner"] = "Farlandér-Blackhand",
+					["time"] = "22:32:18",
+					["iClass"] = 3,
+					["id"] = "1626204738-17",
+					["owner"] = "Praiolynna-Gul'dan",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186322::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Sash of Duplicitous Magics]|h|r",
-					["boss"] = "Kel'Thuzad",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:187071::::::::60:65::3::1:28:2044:::::|h[Shard of Tel]|h|r",
+					["boss"] = "Sylvannas Windrunner",
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
+					["instance"] = "Sanctum of Domination-Normal",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -51547,18 +51988,386 @@ RCLootCouncilLootDB = {
 				}, -- [5]
 				{
 					["mapID"] = 2450,
-					["date"] = "05/01/22",
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
+					["date"] = "14/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "21:01:38",
+					["iClass"] = 3,
+					["id"] = "1626285698-1",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187057::::::::60:65::5::1:28:2105:::::|h[Shard of Bek]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "The Tarragrue",
+				}, -- [6]
+				{
+					["mapID"] = 2450,
+					["date"] = "14/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "21:27:46",
+					["iClass"] = 4,
+					["id"] = "1626287266-33",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:186313::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Agatha's Gothic Greaves]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "The Nine",
+				}, -- [7]
+				{
+					["mapID"] = 2450,
+					["date"] = "15/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 21,
+					["isAwardReason"] = false,
+					["time"] = "20:47:06",
+					["iClass"] = 3,
+					["id"] = "1626371226-9",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187059::::::::60:65::5::1:28:2105:::::|h[Shard of Jas]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Fatescribe Roh-Kalo",
+				}, -- [8]
+				{
+					["mapID"] = 2450,
+					["date"] = "15/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 2,
+					["groupSize"] = 21,
+					["isAwardReason"] = false,
+					["time"] = "21:02:36",
+					["iClass"] = 15,
+					["id"] = "1626372156-19",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cff1eff00|Hitem:186550::::::::60:65::5::1:28:373:::::|h[Mawsworn Minion]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Kel'Thuzad",
+				}, -- [9]
+				{
+					["mapID"] = 2450,
+					["date"] = "21/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "23:00:20",
+					["iClass"] = 4,
+					["id"] = "1626897620-83",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:186436::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Resonant Silver Bell]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Kel'Thuzad",
+				}, -- [10]
+				{
+					["mapID"] = 2450,
+					["date"] = "21/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 26,
+					["isAwardReason"] = false,
+					["time"] = "23:00:21",
+					["iClass"] = 3,
+					["id"] = "1626897621-85",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187063::::::::60:65::5::1:28:2105:::::|h[Shard of Cor]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Kel'Thuzad",
+				}, -- [11]
+				{
+					["mapID"] = 2450,
+					["date"] = "28/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 24,
+					["isAwardReason"] = false,
+					["time"] = "21:17:04",
+					["iClass"] = 4,
+					["id"] = "1627496224-37",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:186312::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Cuirass of the Lonely Citadel]|h|r",
+					["boss"] = "Remnant of Ner'zhul",
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [12]
+				{
+					["mapID"] = 2450,
+					["date"] = "28/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 24,
+					["isAwardReason"] = false,
+					["time"] = "22:26:32",
+					["iClass"] = 3,
+					["id"] = "1627500392-56",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187065::::::::60:65::5::1:28:2105:::::|h[Shard of Kyr]|h|r",
+					["boss"] = "Fatescribe Roh-Kalo",
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [13]
+				{
+					["mapID"] = 2450,
+					["date"] = "28/07/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 9,
+					["groupSize"] = 24,
+					["isAwardReason"] = false,
+					["time"] = "23:03:20",
+					["iClass"] = 3,
+					["id"] = "1627502600-75",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:187076::::::::60:65::5::1:28:2044:::::|h[Shard of Oth]|h|r",
+					["boss"] = "Sylvanas Windrunner",
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [14]
+				{
+					["mapID"] = 2450,
+					["date"] = "02/08/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "21:29:51",
+					["time"] = "20:10:54",
 					["iClass"] = 4,
-					["id"] = "1641410991-12",
-					["owner"] = "Farlandér-Blackhand",
+					["id"] = "1627924254-3",
+					["owner"] = "Praiolynna-Gul'dan",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186324::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Frame of the False Margrave]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186316::::::::60:65::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Airborne Abductor's Vambraces]|h|r",
+					["boss"] = "The Eye of the Jailer",
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [15]
+				{
+					["mapID"] = 2450,
+					["date"] = "04/08/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:05:54",
+					["iClass"] = 4,
+					["id"] = "1628103954-32",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186290::::::::60:65::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "The Nine",
+				}, -- [16]
+				{
+					["mapID"] = 2450,
+					["date"] = "11/08/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Remnant of Ner'zhul",
+					["time"] = "21:56:46",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:187447::::::::60:102::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Magetyp-Nathrezim",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["response"] = "Best in Slot",
+					["id"] = "1628708206-25",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186428::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Shadowed Orb of Torment]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:186435::::::::60:102::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Carved Ivory Keepsake]|h|r",
+					["votes"] = 0,
+				}, -- [17]
+				{
+					["mapID"] = 2450,
+					["date"] = "18/08/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 2,
+					["groupSize"] = 24,
+					["isAwardReason"] = false,
+					["time"] = "20:23:00",
+					["iClass"] = 15,
+					["id"] = "1629307380-10",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cff1eff00|Hitem:186550::::::::60:65::5::1:28:373:::::|h[Mawsworn Minion]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Heroic",
+					["boss"] = "Kel'Thuzad",
+				}, -- [18]
+				{
+					["mapID"] = 2450,
+					["date"] = "18/08/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:01:57",
+					["iClass"] = 4,
+					["id"] = "1629309717-21",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186291::::::::60:65::6:5:7187:41:7575:1498:6646:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "The Tarragrue",
+				}, -- [19]
+				{
+					["mapID"] = 2450,
+					["date"] = "01/11/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 7,
+					["groupSize"] = 20,
+					["boss"] = "Painsmith Raznal",
+					["time"] = "22:35:27",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178737:6229:::::::60:102::35:5:7678:7359:6652:1566:6646::::::|h[Amarth's Spellblade]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Praiolynna-Gul'dan",
+					["votes"] = 0,
+					["response"] = "Best in Slot",
+					["id"] = "1635798927-1",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186392::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Exacting Mindslicer]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:178867::::::::60:102::35:5:7664:7359:6652:1566:6646::::::|h[Barricade of the Endless Empire]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+				}, -- [20]
+				{
+					["mapID"] = 2450,
+					["date"] = "03/11/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:29:13",
+					["iClass"] = 4,
+					["id"] = "1635967753-3",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186379::::::::60:65::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Interplanar Keystone]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -51568,62 +52377,273 @@ RCLootCouncilLootDB = {
 					["responseID"] = "PL",
 					["instance"] = "Sanctum of Domination-Mythic",
 					["boss"] = "Kel'Thuzad",
-				}, -- [6]
+				}, -- [21]
 				{
 					["mapID"] = 2450,
 					["color"] = {
-						0.07, -- [1]
+						0.67, -- [1]
 						0.7, -- [2]
-						0.61, -- [3]
+						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
+					["class"] = "PALADIN",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Soulrender Dormazain",
+					["time"] = "20:32:16",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:180123:6204:::::::60:102::35:5:7622:7359:6652:1566:6646::::::|h[Drape of Twisted Loyalties]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186289::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Cloak of Scarred Honor]|h|r",
+					["votes"] = 0,
+					["date"] = "15/11/21",
+					["responseID"] = 5,
+					["id"] = "1637001136-6",
+					["typeCode"] = "default",
+				}, -- [22]
+				{
+					["mapID"] = 2450,
+					["color"] = {
+						0.67, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "The Tarragrue",
+					["time"] = "20:11:03",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:179338:6207:::::::60:102::35:5:7608:7359:6652:1566:6646::::::|h[Dynamo Doomstompers]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Transmog",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186318::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Champion's Gruesome Greaves]|h|r",
+					["id"] = "1637172663-1",
+					["date"] = "17/11/21",
+					["responseID"] = 5,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [23]
+				{
+					["mapID"] = 2450,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Painsmith Raznal",
+					["time"] = "22:54:23",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186311:6210:187318::::::60:102::6:4:7187:6652:1498:6646::::::|h[Cavalier Oathbreaker's Grasps]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Pepo-Gul'dan",
+					["response"] = "Best in Slot",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186369::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Guillotine Gauntlets]|h|r",
+					["id"] = "1637182463-24",
+					["date"] = "17/11/21",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [24]
+				{
+					["mapID"] = 2450,
+					["date"] = "24/11/21",
+					["class"] = "PALADIN",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:42:09",
+					["iClass"] = 4,
+					["id"] = "1637779329-10",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186436::::::::60:65::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Resonant Silver Bell]|h|r",
+					["boss"] = "Kel'Thuzad",
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [25]
+				{
+					["mapID"] = 2450,
+					["date"] = "12/01/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 6,
+					["groupSize"] = 20,
+					["boss"] = "The Eye of the Jailer",
+					["time"] = "20:34:09",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186392:6229:::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Exacting Mindslicer]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Praiolynna-Gul'dan",
+					["votes"] = 1,
+					["response"] = "Transmog",
+					["id"] = "1642012449-6",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186403::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Stygian Lance of Passage]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0.67, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 5,
+					["itemReplaced2"] = "|cffa335ee|Hitem:178867::::::::60:102::35:5:7664:7359:6652:1566:6646::::::|h[Barricade of the Endless Empire]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+				}, -- [26]
+				{
+					["mapID"] = 2450,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Guardian of the First Ones",
+					["time"] = "21:55:31",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178931::173129::::::60:102::35:6:7608:7359:6652:1566:6646:7576::::::|h[Scarred Bloodbound Girdle]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Best in Slot",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186317::::::::60:102::6:5:7187:41:7574:1498:6646:1:28:2106:::::|h[Disintegration-Proof Waistband]|h|r",
+					["id"] = "1642017331-25",
+					["date"] = "12/01/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [27]
+				{
+					["mapID"] = 2450,
+					["color"] = {
+						0.16, -- [1]
+						0.7, -- [2]
+						0.07, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
 					["iSubClass"] = 1,
 					["groupSize"] = 20,
 					["boss"] = "Guardian of the First Ones",
-					["time"] = "21:45:52",
+					["time"] = "20:25:46",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186289:6204:::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Cloak of Scarred Honor]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:180123:6204:::::::60:102::35:5:7622:7359:6652:1566:6646::::::|h[Drape of Twisted Loyalties]|h|r",
 					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Schléx-Nathrezim",
-					["response"] = "Offspecc",
-					["isAwardReason"] = false,
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Minor Upgrade",
+					["typeCode"] = "default",
 					["difficultyID"] = 16,
 					["lootWon"] = "|cffa335ee|Hitem:186374::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Self-Replicating Tissue]|h|r",
+					["id"] = "1642616746-5",
+					["date"] = "19/01/22",
+					["responseID"] = 3,
 					["votes"] = 0,
-					["date"] = "05/01/22",
-					["responseID"] = 4,
-					["id"] = "1641411952-17",
-					["typeCode"] = "default",
-				}, -- [7]
+					["isAwardReason"] = false,
+				}, -- [28]
 				{
 					["mapID"] = 2450,
-					["date"] = "17/01/22",
-					["class"] = "PRIEST",
+					["date"] = "26/01/22",
+					["class"] = "PALADIN",
+					["iSubClass"] = 6,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:49:19",
+					["iClass"] = 4,
+					["id"] = "1643230159-13",
+					["owner"] = "Praiolynna-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186417::::::::60:65::6:4:7187:6652:1498:6646:1:28:2044:::::|h[Guard of the Sundered Defender]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "Sylvanas Windrunner",
+				}, -- [29]
+				{
+					["mapID"] = 2450,
+					["date"] = "09/02/22",
+					["class"] = "PALADIN",
 					["iSubClass"] = 0,
 					["groupSize"] = 20,
 					["boss"] = "Sylvanas Windrunner",
-					["time"] = "22:16:03",
+					["time"] = "21:34:27",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186375:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Miniature Breaking Wheel]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:186290:6170:173129::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
 					["typeCode"] = "default",
 					["owner"] = "Rahzk-Gul'dan",
-					["votes"] = 0,
-					["response"] = "Offspecc",
-					["id"] = "1642450563-4",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["response"] = "Pass",
+					["id"] = "1644435267-9",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186377::::::::60:102::6:5:7187:6652:7575:1498:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186377::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
 					["isAwardReason"] = false,
 					["color"] = {
-						0.07, -- [1]
+						0.7, -- [1]
 						0.7, -- [2]
-						0.61, -- [3]
+						0.7, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 4,
-					["itemReplaced2"] = "|cffa335ee|Hitem:186290:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
+					["responseID"] = "PASS",
+					["itemReplaced2"] = "|cffff8000|Hitem:178926:6170:173129::::::60:102::66:6:7128:6649:6648:6935:7451:1559:1:28:2142:::::|h[Maraad's Dying Breath]|h|r",
+					["votes"] = 0,
+				}, -- [30]
+				{
+					["mapID"] = 2450,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["iSubClass"] = 4,
+					["groupSize"] = 20,
+					["boss"] = "Kel'Thuzad",
+					["time"] = "20:53:23",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186316:6220:187319::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Airborne Abductor's Vambraces]|h|r",
 					["instance"] = "Sanctum of Domination-Mythic",
-				}, -- [8]
+					["owner"] = "Munstar-Gul'dan",
+					["response"] = "Mainspec/Need",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186351::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Vyraz's Parade Cuffs]|h|r",
+					["id"] = "1645642403-5",
+					["date"] = "23/02/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [31]
 			},
 			["Rumpèl-Nathrezim"] = {
 				{
@@ -53376,128 +54396,634 @@ RCLootCouncilLootDB = {
 					["typeCode"] = "default",
 				}, -- [5]
 			},
-			["Liádrin-Thrall"] = {
+			["Incarnia-Gul'dan"] = {
 				{
-					["mapID"] = 2450,
+					["mapID"] = 2217,
 					["color"] = {
-						0.16, -- [1]
+						0.67, -- [1]
 						0.7, -- [2]
-						0.07, -- [3]
+						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
 					["groupSize"] = 20,
-					["boss"] = "Guardian of the First Ones",
-					["time"] = "20:15:00",
+					["boss"] = "Maut",
+					["time"] = "20:28:54",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffff8000|Hitem:171418::173128::::::60:102::66:6:7679:6649:6648:6935:7451:1559:1:28:2142:::::|h[Waistguard of Divine Resonance]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Liádrin-Thrall",
-					["response"] = "Minor Upgrade",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Transmog",
 					["isAwardReason"] = false,
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186317::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Disintegration-Proof Waistband]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:174124::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Mana-Infused Sash]|h|r",
 					["votes"] = 0,
-					["date"] = "22/11/21",
-					["responseID"] = 3,
-					["id"] = "1637604900-0",
+					["date"] = "15/07/20",
+					["responseID"] = 5,
+					["id"] = "1594834134-10",
 					["typeCode"] = "default",
 				}, -- [1]
 				{
-					["mapID"] = 2450,
-					["date"] = "24/11/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 2,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:13:58",
-					["iClass"] = 15,
-					["id"] = "1637784838-7",
-					["owner"] = "Liádrin-Thrall",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cff1eff00|Hitem:186554::::::::60:70::6::1:28:373:::::|h[Auge der Allsicht]|h|r",
+					["mapID"] = 2217,
 					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
+						0.07, -- [1]
+						0.7, -- [2]
+						0.61, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Dark Inquisitor Xanesh",
+					["time"] = "20:47:17",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Xednara-Gul'dan",
+					["response"] = "Offspecc",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174126::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Binding of Dark Heresies]|h|r",
+					["votes"] = 0,
+					["date"] = "15/07/20",
+					["responseID"] = 4,
+					["id"] = "1594835237-15",
+					["typeCode"] = "default",
+				}, -- [2]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						0.67, -- [1]
+						0.7, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "The Eye of the Jailer",
-				}, -- [2]
-				{
-					["mapID"] = 2450,
-					["date"] = "24/11/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
 					["groupSize"] = 20,
-					["boss"] = "The Eye of the Jailer",
-					["time"] = "22:17:18",
+					["boss"] = "Vexiona",
+					["time"] = "20:57:14",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:185197::::::::60:102::14:3:7314:1511:6646:1:28:807:::::|h[Unchained Gladiator's Badge of Ferocity]|h|r",
-					["votes"] = 0,
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Kyoouu-Gul'dan",
-					["id"] = "1637785038-10",
-					["response"] = "Minor Upgrade",
-					["note"] = "würde es ausprobieren für nf pally buff",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186423::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Titanic Ocular Gland]|h|r",
-					["color"] = {
-						0.16, -- [1]
-						0.7, -- [2]
-						0.07, -- [3]
-						1, -- [4]
-					},
+					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["response"] = "Transmog",
 					["isAwardReason"] = false,
-					["responseID"] = 3,
-					["itemReplaced2"] = "|cffa335ee|Hitem:186438::::::::60:102::5:4:7188:6652:1485:6646:1:28:2044:::::|h[Old Warrior's Soul]|h|r",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174120::::::::120:63::6:4:4824:1517:4786:6512:::|h[Void Ascendant's Mantle]|h|r",
+					["votes"] = 0,
+					["date"] = "15/07/20",
+					["responseID"] = 5,
+					["id"] = "1594835834-19",
 					["typeCode"] = "default",
 				}, -- [3]
 				{
-					["mapID"] = 2450,
+					["mapID"] = 2217,
+					["color"] = {
+						0.67, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "The Hivemind",
+					["time"] = "21:10:33",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:168989::::::::120:63::16:6:6534:6513:1522:4786:6473:6470:::|h[Hyperthread Wristwraps]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Stormtech-Destromath",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174122::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Void-Drenched Wristwraps]|h|r",
+					["votes"] = 0,
+					["date"] = "20/07/20",
+					["responseID"] = 5,
+					["id"] = "1595268633-1",
+					["typeCode"] = "default",
+				}, -- [4]
+				{
+					["mapID"] = 2217,
+					["date"] = "20/07/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Shad'har the Insatiable",
+					["time"] = "21:39:12",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:169159:6110:::::::120:63::16:6:6534:6515:1522:4786:6473:6470:::|h[Overclocking Bit Band]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Tiá-Nathrezim",
+					["votes"] = 0,
+					["response"] = "Minor Upgrade",
+					["id"] = "1595270352-19",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174531::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Void-Etched Band]|h|r",
+					["isAwardReason"] = false,
 					["color"] = {
 						0.16, -- [1]
 						0.7, -- [2]
 						0.07, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PALADIN",
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159463:6110:::::::120:63::16:6:6534:6513:1637:4786:6473:6470:::|h[Loop of Pulsing Veins]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+				}, -- [5]
+				{
+					["mapID"] = 1642,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 0,
+					["boss"] = "Il'gynoth, Corruption Reborn",
+					["time"] = "21:58:27",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:159279::::::::120:63::35:5:5448:1647:4786:6511:4775:::|h[Soulfuel Headdress]|h|r",
+					["instance"] = "Zandalar-",
+					["owner"] = "Stormtech-Destromath",
+					["response"] = "Best in Slot",
+					["isAwardReason"] = false,
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:174116::::::::120:63::6:4:4824:1517:4786:6511:::|h[Cowl of Unspeakable Horrors]|h|r",
+					["votes"] = 0,
+					["date"] = "20/07/20",
+					["responseID"] = 1,
+					["id"] = "1595271507-22",
+					["typeCode"] = "default",
+				}, -- [6]
+				{
+					["mapID"] = 2217,
+					["date"] = "22/07/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Prophet Skitra",
+					["time"] = "20:18:56",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:169314::::::::120:63::5:3:4799:1502:4786:::|h[Azshara's Font of Power]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Incarnia-Gul'dan",
+					["votes"] = 0,
+					["response"] = "Offspecc",
+					["id"] = "1595438336-1",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174060::::::::120:63::6:4:4824:6515:1517:4786:::|h[Psyche Shredder]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0.07, -- [1]
+						0.7, -- [2]
+						0.61, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 4,
+					["itemReplaced2"] = "|cffa335ee|Hitem:172669::::::::120:63::25:5:6515:6389:6371:1572:4786:::|h[Corrupted Gladiator's Badge]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+				}, -- [7]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Vexiona",
+					["time"] = "21:31:08",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Pass",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174120::::::::120:63::6:4:4824:1517:4786:6512:::|h[Void Ascendant's Mantle]|h|r",
+					["votes"] = 0,
+					["date"] = "22/07/20",
+					["responseID"] = "PASS",
+					["id"] = "1595442668-13",
+					["typeCode"] = "default",
+				}, -- [8]
+				{
+					["mapID"] = 2217,
+					["date"] = "27/07/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:14:07",
+					["iClass"] = 4,
+					["id"] = "1595870047-5",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Bonus Loot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174500::::::::120:63::6:4:4824:6513:1517:4786:::|h[Vita-Charged Titanshard]|h|r",
+					["boss"] = "Ra-den the Despoiled",
+					["responseID"] = "BONUSROLL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [9]
+				{
+					["mapID"] = 2217,
+					["date"] = "27/07/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Shad'har the Insatiable",
+					["time"] = "20:37:23",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:169159:6110:::::::120:63::16:6:6534:6515:1522:4786:6473:6470:::|h[Overclocking Bit Band]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Incarnia-Gul'dan",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["response"] = "Disenchant",
+					["id"] = "1595871443-19",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174531::::::::120:63::6:6:4824:40:6516:6515:1517:4786:::|h[Void-Etched Band]|h|r",
+					["isAwardReason"] = true,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159463:6110:::::::120:63::16:6:6534:6513:1637:4786:6473:6470:::|h[Loop of Pulsing Veins]|h|r",
+					["votes"] = 0,
+				}, -- [10]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
 					["iSubClass"] = 4,
 					["groupSize"] = 20,
-					["boss"] = "Remnant of Ner'zhul",
-					["time"] = "22:20:33",
+					["boss"] = "Wrathion",
+					["time"] = "20:10:49",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186350::187318::::::60:102::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Valorous Visage of Krexus]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Pepo-Gul'dan",
-					["response"] = "Minor Upgrade",
+					["itemReplaced1"] = "|cffa335ee|Hitem:168989::::::::120:63::16:6:6534:6513:1522:4786:6473:6470:::|h[Hyperthread Wristwraps]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Adelgunde-Nathrezim",
+					["response"] = "Disenchant",
 					["typeCode"] = "default",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186315::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Dark Tormentor's Gaze]|h|r",
-					["id"] = "1639599633-11",
-					["date"] = "15/12/21",
-					["responseID"] = 3,
+					["lootWon"] = "|cffa335ee|Hitem:174170::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Dragonbone Vambraces]|h|r",
+					["id"] = "1596042649-3",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [11]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["boss"] = "Wrathion",
+					["time"] = "20:10:55",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:169061::168640::::::120:63::35:8:6536:6578:6579:6473:6470:1532:4786:6514:::|h[Insulating Threaded Gloves]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Sitrap-Nathrezim",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174153::::::::120:63::6:6:4824:1808:6516:6513:1517:4786:::|h[Ebony Scaled Gauntlets]|h|r",
+					["id"] = "1596042655-4",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [12]
+				{
+					["mapID"] = 2217,
+					["date"] = "29/07/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 15,
+					["groupSize"] = 20,
+					["boss"] = "Prophet Skitra",
+					["time"] = "20:17:13",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:158321:5949:::::::120:63::35:7:6536:6578:6515:1647:4786:6473:6470:::|h[Wand of Zealous Purification]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Perama-Gul'dan",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["response"] = "Upgrade",
+					["id"] = "1596043033-6",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:172201::::::::120:63::6:6:4824:1808:6516:6515:1517:4786:::|h[Bloodstained Ritual Athame]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0.88, -- [1]
+						0.51, -- [2]
+						0.25, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159667::::::::120:63::16:7:6536:41:6513:1637:4786:6473:6470:::|h[Vessel of Last Rites]|h|r",
+					["votes"] = 0,
+				}, -- [13]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["boss"] = "Prophet Skitra",
+					["time"] = "20:17:28",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174127::::::::120:63::5:6:4823:6513:1502:4786:6471:6455:::|h[Corporeal Supplicant's Trousers]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Rumpèl-Nathrezim",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174143::::::::120:63::6:8:4824:6578:6579:6484:6457:6515:1517:4786:::|h[Macabre Ritual Pants]|h|r",
+					["id"] = "1596043048-7",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [14]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["boss"] = "Prophet Skitra",
+					["time"] = "20:17:39",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Lamestrike-Nathrezim",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174157::::::::120:63::6:6:4824:42:6516:6513:1517:4786:::|h[Talons of Grim Revelations]|h|r",
+					["id"] = "1596043059-8",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [15]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["boss"] = "Prophet Skitra",
+					["time"] = "20:17:43",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Rahzs-Gul'dan",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174157::::::::120:63::6:7:4824:6578:6579:6544:6513:1517:4786:::|h[Talons of Grim Revelations]|h|r",
+					["id"] = "1596043063-9",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [16]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Maut",
+					["time"] = "20:32:48",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:159255::::::::120:63::35:7:6536:6578:6513:1647:4786:6473:6470:::|h[Ouroborial Sash]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174124::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Mana-Infused Sash]|h|r",
+					["id"] = "1596043968-13",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [17]
+				{
+					["mapID"] = 1,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 0,
+					["boss"] = "Carapace of N'Zoth",
+					["time"] = "21:38:01",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174127::::::::120:63::5:6:4823:6513:1502:4786:6471:6455:::|h[Corporeal Supplicant's Trousers]|h|r",
+					["instance"] = "Kalimdor-",
+					["owner"] = "Zinghultus-Gul'dan",
+					["response"] = "Best in Slot",
+					["typeCode"] = "default",
+					["difficultyID"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:174127::::::::120:63::6:7:4824:6578:6579:6545:6515:1517:4786:::|h[Corporeal Supplicant's Trousers]|h|r",
+					["id"] = "1596047881-28",
+					["date"] = "29/07/20",
+					["responseID"] = 1,
+					["votes"] = 2,
+					["isAwardReason"] = false,
+				}, -- [18]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Ra-den the Despoiled",
+					["time"] = "22:00:14",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174123::168640::::::120:63::6:8:4824:1808:41:6515:1517:4786:6473:6470:::|h[Psychic's Subtle Slippers]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Magetyp-Nathrezim",
+					["response"] = "Best in Slot",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174128::::::::120:63::6:5:4824:6516:6513:1517:4786:::|h[Boots of Wrought Shadow]|h|r",
+					["id"] = "1596654014-1",
+					["date"] = "05/08/20",
+					["responseID"] = 1,
 					["votes"] = 0,
 					["isAwardReason"] = false,
-				}, -- [4]
+				}, -- [19]
 				{
-					["mapID"] = 2450,
-					["date"] = "20/12/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
+					["mapID"] = 2217,
+					["color"] = {
+						1, -- [1]
+						0.08, -- [2]
+						0.34, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Carapace of N'Zoth",
+					["time"] = "21:35:03",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174117::::::::120:63::5:5:4823:1502:4786:6509:4775:::|h[Spaulders of Miasmic Mycelia]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Xednara-Gul'dan",
+					["response"] = "Best in Slot",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174117::::::::120:63::6:4:4824:1517:4786:6512:::|h[Spaulders of Miasmic Mycelia]|h|r",
+					["id"] = "1597257303-23",
+					["date"] = "12/08/20",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [20]
+				{
+					["mapID"] = 2217,
+					["date"] = "12/08/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "22:29:10",
+					["time"] = "22:52:59",
 					["iClass"] = 4,
-					["id"] = "1640032150-8",
-					["owner"] = "Liádrin-Thrall",
+					["id"] = "1597261979-28",
+					["owner"] = "Incarnia-Gul'dan",
 					["response"] = "Personal Loot - Non tradeable",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186351::::::::60:70::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Vyraz' Parademanschetten]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:174103::::::::120:63::6:4:4824:6515:1517:4786:::|h[Manifesto of Madness]|h|r",
+					["boss"] = "N'Zoth the Corruptor",
+					["responseID"] = "PL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [21]
+				{
+					["mapID"] = 2217,
+					["date"] = "24/08/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:55:52",
+					["iClass"] = 15,
+					["id"] = "1598291752-0",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
+					["boss"] = "N'Zoth the Corruptor",
+					["responseID"] = "PL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [22]
+				{
+					["mapID"] = 2217,
+					["date"] = "24/08/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:56:29",
+					["iClass"] = 4,
+					["id"] = "1598291789-20",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Bonus Loot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174118::::::::120:63::6:4:4824:1517:4786:6511:::|h[Visage of Nightmarish Machinations]|h|r",
+					["boss"] = "N'Zoth the Corruptor",
+					["responseID"] = "BONUSROLL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.8, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [23]
+				{
+					["mapID"] = 2217,
+					["date"] = "26/08/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:37:31",
+					["iClass"] = 15,
+					["id"] = "1598470651-16",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -53505,9 +55031,136 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [5]
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["boss"] = "N'Zoth the Corruptor",
+				}, -- [24]
+				{
+					["mapID"] = 2217,
+					["date"] = "26/08/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:37:31",
+					["iClass"] = 4,
+					["id"] = "1598470651-17",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:174533::::::::120:63::6:5:4824:6516:6515:1517:4786:::|h[Ring of Cosmic Potential]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["boss"] = "N'Zoth the Corruptor",
+				}, -- [25]
+				{
+					["mapID"] = 2217,
+					["color"] = {
+						0.67, -- [1]
+						0.7, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 19,
+					["groupSize"] = 20,
+					["boss"] = "Il'gynoth, Corruption Reborn",
+					["time"] = "21:26:51",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:174108:5949:168640::::::120:63::6:7:4824:6578:1517:4786:6473:6470:6514:::|h[Shgla'yos, Astral Malignity]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["owner"] = "Schléx-Nathrezim",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:172189::::::::120:63::6:6:4824:6548:6578:6579:1517:4786:::|h[Eyestalk of Il'gynoth]|h|r",
+					["votes"] = 0,
+					["date"] = "31/08/20",
+					["responseID"] = 5,
+					["id"] = "1598898411-22",
+					["typeCode"] = "default",
+				}, -- [26]
+				{
+					["mapID"] = 2217,
+					["date"] = "02/09/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Maut",
+					["time"] = "20:28:12",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:169314::::::::120:63::5:3:4799:1502:4786:::|h[Azshara's Font of Power]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Incarnia-Gul'dan",
+					["votes"] = 0,
+					["response"] = "Offspecc",
+					["id"] = "1599067692-11",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:173944::::::::120:63::6:5:4824:1808:6513:1517:4786:::|h[Forbidden Obsidian Claw]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0.07, -- [1]
+						0.7, -- [2]
+						0.61, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 4,
+					["itemReplaced2"] = "|cffa335ee|Hitem:172669::::::::120:63::25:5:6515:6389:6371:1572:4786:::|h[Corrupted Gladiator's Badge]|h|r",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+				}, -- [27]
+				{
+					["mapID"] = 2217,
+					["date"] = "02/09/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "23:04:32",
+					["iClass"] = 15,
+					["id"] = "1599077072-41",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["boss"] = "N'Zoth the Corruptor",
+				}, -- [28]
+				{
+					["mapID"] = 2217,
+					["date"] = "09/09/20",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:41:28",
+					["iClass"] = 15,
+					["id"] = "1599676888-24",
+					["owner"] = "Incarnia-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffff8000|Hitem:175062::::::::120:63::6::::|h[Malefic Core]|h|r",
+					["boss"] = "N'Zoth the Corruptor",
+					["responseID"] = "PL",
+					["instance"] = "Ny'alotha, the Waking City-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [29]
 			},
 			["Raiserikx-Gul'dan"] = {
 				{
@@ -64115,6 +65768,188 @@ RCLootCouncilLootDB = {
 					["id"] = "1651081922-9",
 					["typeCode"] = "default",
 				}, -- [383]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["boss"] = "Artificer Xy'mox",
+					["time"] = "20:34:01",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:189810::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Ephemera-Softened Exoskeleton]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Endaxis-Anetheron",
+					["response"] = "Disenchant",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189822::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Imported Illidari Spaulders]|h|r",
+					["id"] = "1651512841-2",
+					["date"] = "02/05/22",
+					["responseID"] = 1,
+					["votes"] = 0,
+					["isAwardReason"] = true,
+				}, -- [384]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["boss"] = "Artificer Xy'mox",
+					["time"] = "20:31:59",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188843::::::::60:102::5:5:7188:6652:8152:1492:6646::::::|h[Erudite Occultist's Mantle]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Womblez-Nathrezim",
+					["response"] = "Disenchant",
+					["isAwardReason"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189822::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Imported Illidari Spaulders]|h|r",
+					["votes"] = 0,
+					["date"] = "04/05/22",
+					["responseID"] = 1,
+					["id"] = "1651685519-8",
+					["typeCode"] = "default",
+				}, -- [385]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["votes"] = 3,
+					["time"] = "20:45:07",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188843::::::::60:102::5:5:7188:6652:8152:1492:6646::::::|h[Erudite Occultist's Mantle]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Mainspec/Need",
+					["boss"] = "Skolex, the Insatiable Ravener",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189810::::::::60:102::6:6:7187:8132:8117:6652:1524:6646:1:28:2167:::::|h[Ephemera-Softened Exoskeleton]|h|r",
+					["note"] = "102 auf fire",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1651686307-11",
+					["typeCode"] = "default",
+				}, -- [386]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:49:01",
+					["iClass"] = 4,
+					["id"] = "1652122141-4",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189782::::::::60:63::6:6:7187:8132:8116:6652:1524:6646:1:28:2167:::::|h[Haunting Hymnal Robes]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Dausegne, the Fallen Oracle",
+				}, -- [387]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "23:01:01",
+					["iClass"] = 15,
+					["id"] = "1652126461-12",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191015::::::::60:63::6:4:7187:8154:1524:6646:1:28:2167:::::|h[Mystic Hand Module]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Lihuvim, Principal Architect",
+				}, -- [388]
+				{
+					["mapID"] = 2481,
+					["date"] = "30/05/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["votes"] = 1,
+					["time"] = "23:09:45",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188844::173128::::::60:102::5:6:7188:6652:7580:8151:1485:6646::::::|h[Erudite Occultist's Hood]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Lidocain-Nathrezim",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Mainspec/Need",
+					["boss"] = "Anduin Wrynn",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191002::::::::60:102::6:4:7187:8151:1524:6646:1:28:2167:::::|h[Mystic Helm Module]|h|r",
+					["note"] = "119 udn mehr",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1653941385-2",
+					["typeCode"] = "default",
+				}, -- [389]
+				{
+					["mapID"] = 2481,
+					["date"] = "15/06/22",
+					["class"] = "MAGE",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:59:38",
+					["iClass"] = 15,
+					["id"] = "1655323178-0",
+					["owner"] = "Trîâlbôdy-Anetheron",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191011::::::::60:63::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Mystic Chest Module]|h|r",
+					["boss"] = "Rygelon",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [390]
 			},
 			["Zinghultus-Gul'dan"] = {
 				{
@@ -66133,6 +67968,57 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:178769::::::::60:102::33:5:7359:6652:7784:1586:6646:1:28:1279:::::|h[Infinitely Divisible Ooze]|h|r",
 					["typeCode"] = "default",
 				}, -- [78]
+				{
+					["mapID"] = 2481,
+					["date"] = "30/05/22",
+					["class"] = "WARLOCK",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "23:07:13",
+					["iClass"] = 4,
+					["id"] = "1653941233-1",
+					["owner"] = "Zinghultus-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189838::::::::60:267::6:5:7187:6652:7579:1524:6646:1:28:2167:::::|h[Beacon of Stormwind]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Anduin Wrynn",
+				}, -- [79]
+				{
+					["mapID"] = 2481,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARLOCK",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "Rygelon",
+					["time"] = "23:02:36",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188884::::::::60:102::35:6:7772:8116:6652:7359:8153:1498::::::|h[Robes of the Demon Star]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Schléx-Nathrezim",
+					["response"] = "Mainspec/Need",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:191010::::::::60:102::6:4:7187:8153:1524:6646:1:28:2167:::::|h[Dreadful Chest Module]|h|r",
+					["id"] = "1655323356-3",
+					["date"] = "15/06/22",
+					["responseID"] = 1,
+					["votes"] = 3,
+					["isAwardReason"] = false,
+				}, -- [80]
 			},
 			["Akenias-Nathrezim"] = {
 				{
@@ -67780,24 +69666,24 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 			},
-			["Praiolynna-Gul'dan"] = {
+			["Farlandér-Blackhand"] = {
 				{
-					["mapID"] = 2296,
-					["date"] = "28/06/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 2,
+					["mapID"] = 2450,
+					["date"] = "13/12/21",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
 					["groupSize"] = 20,
-					["boss"] = "Hungering Destroyer",
-					["time"] = "22:43:14",
-					["iClass"] = 5,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178737:6229:::::::60:102::35:5:7214:6652:1501:5884:6646::::|h[Amarth's Spellblade]|h|r",
+					["boss"] = "Painsmith Raznal",
+					["time"] = "20:33:55",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178824:6168:173130::::::60:102::35:6:7622:7359:6652:1566:6646:7576::::::|h[Signet of the False Accuser]|h|r",
 					["typeCode"] = "default",
-					["owner"] = "Thalyra-Gul'dan",
-					["instance"] = "Castle Nathria-Mythic",
+					["owner"] = "Adelgunde-Nathrezim",
+					["instance"] = "Sanctum of Domination-Mythic",
 					["response"] = "Offspecc",
-					["id"] = "1624909394-14",
+					["id"] = "1639420435-11",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:183891::::::::60:102::6:3:7187:1498:6646:1:28:753:::|h[Venerated Anima Spherule]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186375::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Miniature Breaking Wheel]|h|r",
 					["isAwardReason"] = false,
 					["color"] = {
 						0.07, -- [1]
@@ -67806,23 +69692,23 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = 4,
-					["itemReplaced2"] = "|cffa335ee|Hitem:174315::::::::60:102::85:4:7187:6652:1531:6646:1:28:807:::|h[Chyrus's Crest of Hope]|h|r",
+					["itemReplaced2"] = "|cffa335ee|Hitem:186290:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
 					["votes"] = 0,
 				}, -- [1]
 				{
 					["mapID"] = 2450,
-					["date"] = "08/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 21,
+					["date"] = "20/12/21",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "21:11:28",
-					["iClass"] = 3,
-					["id"] = "1625767888-4",
-					["owner"] = "Praiolynna-Gul'dan",
+					["time"] = "21:04:16",
+					["iClass"] = 4,
+					["id"] = "1640027056-0",
+					["owner"] = "Farlandér-Blackhand",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187073::::::::60:65::5::1:28:2105:::::|h[Shard of Dyz]|h|r",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186282::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Sacrificer's Sacramental Cassock]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -67830,74 +69716,80 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
+					["instance"] = "Sanctum of Domination-Mythic",
 					["boss"] = "Painsmith Raznal",
 				}, -- [2]
 				{
 					["mapID"] = 2450,
-					["date"] = "12/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 26,
-					["isAwardReason"] = false,
-					["time"] = "20:38:29",
-					["iClass"] = 4,
-					["id"] = "1626111509-6",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:186435::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Carved Ivory Keepsake]|h|r",
 					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
+						0.67, -- [1]
+						0.7, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
 					["boss"] = "Fatescribe Roh-Kalo",
+					["time"] = "22:17:24",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:178705:6205:::::::60:102::35:5:7608:7359:6652:1566:6646::::::|h[Tricksprite Gloves]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Farlandér-Blackhand",
+					["response"] = "Transmog",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186326::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Gloves of Forsaken Purpose]|h|r",
+					["votes"] = 0,
+					["date"] = "20/12/21",
+					["responseID"] = 5,
+					["id"] = "1640031444-6",
+					["typeCode"] = "default",
 				}, -- [3]
 				{
 					["mapID"] = 2450,
-					["date"] = "12/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 26,
-					["isAwardReason"] = false,
-					["time"] = "20:38:30",
-					["iClass"] = 3,
-					["id"] = "1626111510-7",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187079::::::::60:65::5::1:28:2105:::::|h[Shard of Zed]|h|r",
 					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
+						0.16, -- [1]
+						0.7, -- [2]
+						0.07, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Fatescribe Roh-Kalo",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["boss"] = "The Tarragrue",
+					["time"] = "20:18:04",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186291::173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Memegeburt-Gul'dan",
+					["response"] = "Minor Upgrade",
+					["typeCode"] = "default",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186291::::::::60:102::6:5:7187:42:7574:1498:6646:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
+					["id"] = "1641233884-2",
+					["date"] = "03/01/22",
+					["responseID"] = 3,
+					["votes"] = 0,
+					["isAwardReason"] = false,
 				}, -- [4]
 				{
 					["mapID"] = 2450,
-					["date"] = "13/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
+					["date"] = "03/01/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
 					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "22:32:18",
-					["iClass"] = 3,
-					["id"] = "1626204738-17",
-					["owner"] = "Praiolynna-Gul'dan",
+					["time"] = "21:12:05",
+					["iClass"] = 4,
+					["id"] = "1641237125-8",
+					["owner"] = "Farlandér-Blackhand",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 14,
-					["lootWon"] = "|cffa335ee|Hitem:187071::::::::60:65::3::1:28:2044:::::|h[Shard of Tel]|h|r",
-					["boss"] = "Sylvannas Windrunner",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186322::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Sash of Duplicitous Magics]|h|r",
+					["boss"] = "Kel'Thuzad",
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Normal",
+					["instance"] = "Sanctum of Domination-Mythic",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -67907,18 +69799,18 @@ RCLootCouncilLootDB = {
 				}, -- [5]
 				{
 					["mapID"] = 2450,
-					["date"] = "14/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 26,
+					["date"] = "05/01/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
 					["isAwardReason"] = false,
-					["time"] = "21:01:38",
-					["iClass"] = 3,
-					["id"] = "1626285698-1",
-					["owner"] = "Praiolynna-Gul'dan",
+					["time"] = "21:29:51",
+					["iClass"] = 4,
+					["id"] = "1641410991-12",
+					["owner"] = "Farlandér-Blackhand",
 					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187057::::::::60:65::5::1:28:2105:::::|h[Shard of Bek]|h|r",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186324::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Frame of the False Margrave]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.6, -- [2]
@@ -67926,643 +69818,64 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "The Tarragrue",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["boss"] = "Kel'Thuzad",
 				}, -- [6]
 				{
 					["mapID"] = 2450,
-					["date"] = "14/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 26,
-					["isAwardReason"] = false,
-					["time"] = "21:27:46",
-					["iClass"] = 4,
-					["id"] = "1626287266-33",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:186313::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Agatha's Gothic Greaves]|h|r",
 					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
+						0.07, -- [1]
+						0.7, -- [2]
+						0.61, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "The Nine",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["boss"] = "Guardian of the First Ones",
+					["time"] = "21:45:52",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:186289:6204:::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Cloak of Scarred Honor]|h|r",
+					["instance"] = "Sanctum of Domination-Mythic",
+					["owner"] = "Schléx-Nathrezim",
+					["response"] = "Offspecc",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:186374::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Self-Replicating Tissue]|h|r",
+					["votes"] = 0,
+					["date"] = "05/01/22",
+					["responseID"] = 4,
+					["id"] = "1641411952-17",
+					["typeCode"] = "default",
 				}, -- [7]
 				{
 					["mapID"] = 2450,
-					["date"] = "15/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 21,
-					["isAwardReason"] = false,
-					["time"] = "20:47:06",
-					["iClass"] = 3,
-					["id"] = "1626371226-9",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187059::::::::60:65::5::1:28:2105:::::|h[Shard of Jas]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Fatescribe Roh-Kalo",
-				}, -- [8]
-				{
-					["mapID"] = 2450,
-					["date"] = "15/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 2,
-					["groupSize"] = 21,
-					["isAwardReason"] = false,
-					["time"] = "21:02:36",
-					["iClass"] = 15,
-					["id"] = "1626372156-19",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cff1eff00|Hitem:186550::::::::60:65::5::1:28:373:::::|h[Mawsworn Minion]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [9]
-				{
-					["mapID"] = 2450,
-					["date"] = "21/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 26,
-					["isAwardReason"] = false,
-					["time"] = "23:00:20",
-					["iClass"] = 4,
-					["id"] = "1626897620-83",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:186436::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Resonant Silver Bell]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [10]
-				{
-					["mapID"] = 2450,
-					["date"] = "21/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 26,
-					["isAwardReason"] = false,
-					["time"] = "23:00:21",
-					["iClass"] = 3,
-					["id"] = "1626897621-85",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187063::::::::60:65::5::1:28:2105:::::|h[Shard of Cor]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [11]
-				{
-					["mapID"] = 2450,
-					["date"] = "28/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 24,
-					["isAwardReason"] = false,
-					["time"] = "21:17:04",
-					["iClass"] = 4,
-					["id"] = "1627496224-37",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:186312::::::::60:65::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Cuirass of the Lonely Citadel]|h|r",
-					["boss"] = "Remnant of Ner'zhul",
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [12]
-				{
-					["mapID"] = 2450,
-					["date"] = "28/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 24,
-					["isAwardReason"] = false,
-					["time"] = "22:26:32",
-					["iClass"] = 3,
-					["id"] = "1627500392-56",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187065::::::::60:65::5::1:28:2105:::::|h[Shard of Kyr]|h|r",
-					["boss"] = "Fatescribe Roh-Kalo",
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [13]
-				{
-					["mapID"] = 2450,
-					["date"] = "28/07/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 9,
-					["groupSize"] = 24,
-					["isAwardReason"] = false,
-					["time"] = "23:03:20",
-					["iClass"] = 3,
-					["id"] = "1627502600-75",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:187076::::::::60:65::5::1:28:2044:::::|h[Shard of Oth]|h|r",
-					["boss"] = "Sylvanas Windrunner",
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [14]
-				{
-					["mapID"] = 2450,
-					["date"] = "02/08/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:10:54",
-					["iClass"] = 4,
-					["id"] = "1627924254-3",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186316::::::::60:65::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Airborne Abductor's Vambraces]|h|r",
-					["boss"] = "The Eye of the Jailer",
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [15]
-				{
-					["mapID"] = 2450,
-					["date"] = "04/08/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:05:54",
-					["iClass"] = 4,
-					["id"] = "1628103954-32",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186290::::::::60:65::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "The Nine",
-				}, -- [16]
-				{
-					["mapID"] = 2450,
-					["date"] = "11/08/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["boss"] = "Remnant of Ner'zhul",
-					["time"] = "21:56:46",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:187447::::::::60:102::81:3:6652:1479:6646:1:28:2043:::::|h[Soul Cage Fragment]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Magetyp-Nathrezim",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["response"] = "Best in Slot",
-					["id"] = "1628708206-25",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186428::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Shadowed Orb of Torment]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:186435::::::::60:102::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Carved Ivory Keepsake]|h|r",
-					["votes"] = 0,
-				}, -- [17]
-				{
-					["mapID"] = 2450,
-					["date"] = "18/08/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 2,
-					["groupSize"] = 24,
-					["isAwardReason"] = false,
-					["time"] = "20:23:00",
-					["iClass"] = 15,
-					["id"] = "1629307380-10",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cff1eff00|Hitem:186550::::::::60:65::5::1:28:373:::::|h[Mawsworn Minion]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Heroic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [18]
-				{
-					["mapID"] = 2450,
-					["date"] = "18/08/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:01:57",
-					["iClass"] = 4,
-					["id"] = "1629309717-21",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186291::::::::60:65::6:5:7187:41:7575:1498:6646:1:28:2106:::::|h[Periapt of Pristine Preservation]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "The Tarragrue",
-				}, -- [19]
-				{
-					["mapID"] = 2450,
-					["date"] = "01/11/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 7,
-					["groupSize"] = 20,
-					["boss"] = "Painsmith Raznal",
-					["time"] = "22:35:27",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178737:6229:::::::60:102::35:5:7678:7359:6652:1566:6646::::::|h[Amarth's Spellblade]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Praiolynna-Gul'dan",
-					["votes"] = 0,
-					["response"] = "Best in Slot",
-					["id"] = "1635798927-1",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186392::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Exacting Mindslicer]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:178867::::::::60:102::35:5:7664:7359:6652:1566:6646::::::|h[Barricade of the Endless Empire]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-				}, -- [20]
-				{
-					["mapID"] = 2450,
-					["date"] = "03/11/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:29:13",
-					["iClass"] = 4,
-					["id"] = "1635967753-3",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186379::::::::60:65::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Interplanar Keystone]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "Kel'Thuzad",
-				}, -- [21]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Soulrender Dormazain",
-					["time"] = "20:32:16",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:180123:6204:::::::60:102::35:5:7622:7359:6652:1566:6646::::::|h[Drape of Twisted Loyalties]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Transmog",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186289::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Cloak of Scarred Honor]|h|r",
-					["votes"] = 0,
-					["date"] = "15/11/21",
-					["responseID"] = 5,
-					["id"] = "1637001136-6",
-					["typeCode"] = "default",
-				}, -- [22]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 20,
-					["boss"] = "The Tarragrue",
-					["time"] = "20:11:03",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:179338:6207:::::::60:102::35:5:7608:7359:6652:1566:6646::::::|h[Dynamo Doomstompers]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Transmog",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186318::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Champion's Gruesome Greaves]|h|r",
-					["id"] = "1637172663-1",
-					["date"] = "17/11/21",
-					["responseID"] = 5,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [23]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 20,
-					["boss"] = "Painsmith Raznal",
-					["time"] = "22:54:23",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186311:6210:187318::::::60:102::6:4:7187:6652:1498:6646::::::|h[Cavalier Oathbreaker's Grasps]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Pepo-Gul'dan",
-					["response"] = "Best in Slot",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186369::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Guillotine Gauntlets]|h|r",
-					["id"] = "1637182463-24",
-					["date"] = "17/11/21",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [24]
-				{
-					["mapID"] = 2450,
-					["date"] = "24/11/21",
-					["class"] = "PALADIN",
-					["iSubClass"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:42:09",
-					["iClass"] = 4,
-					["id"] = "1637779329-10",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186436::::::::60:65::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Resonant Silver Bell]|h|r",
-					["boss"] = "Kel'Thuzad",
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [25]
-				{
-					["mapID"] = 2450,
-					["date"] = "12/01/22",
-					["class"] = "PALADIN",
-					["iSubClass"] = 6,
-					["groupSize"] = 20,
-					["boss"] = "The Eye of the Jailer",
-					["time"] = "20:34:09",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186392:6229:::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Exacting Mindslicer]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Praiolynna-Gul'dan",
-					["votes"] = 1,
-					["response"] = "Transmog",
-					["id"] = "1642012449-6",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186403::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Stygian Lance of Passage]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0.67, -- [1]
-						0.7, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 5,
-					["itemReplaced2"] = "|cffa335ee|Hitem:178867::::::::60:102::35:5:7664:7359:6652:1566:6646::::::|h[Barricade of the Endless Empire]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-				}, -- [26]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						1, -- [1]
-						0.08, -- [2]
-						0.34, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 20,
-					["boss"] = "Guardian of the First Ones",
-					["time"] = "21:55:31",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:178931::173129::::::60:102::35:6:7608:7359:6652:1566:6646:7576::::::|h[Scarred Bloodbound Girdle]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Best in Slot",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186317::::::::60:102::6:5:7187:41:7574:1498:6646:1:28:2106:::::|h[Disintegration-Proof Waistband]|h|r",
-					["id"] = "1642017331-25",
-					["date"] = "12/01/22",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [27]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						0.16, -- [1]
-						0.7, -- [2]
-						0.07, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 1,
-					["groupSize"] = 20,
-					["boss"] = "Guardian of the First Ones",
-					["time"] = "20:25:46",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:180123:6204:::::::60:102::35:5:7622:7359:6652:1566:6646::::::|h[Drape of Twisted Loyalties]|h|r",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Minor Upgrade",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186374::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Self-Replicating Tissue]|h|r",
-					["id"] = "1642616746-5",
-					["date"] = "19/01/22",
-					["responseID"] = 3,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [28]
-				{
-					["mapID"] = 2450,
-					["date"] = "26/01/22",
-					["class"] = "PALADIN",
-					["iSubClass"] = 6,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:49:19",
-					["iClass"] = 4,
-					["id"] = "1643230159-13",
-					["owner"] = "Praiolynna-Gul'dan",
-					["response"] = "Personal Loot - Non tradeable",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186417::::::::60:65::6:4:7187:6652:1498:6646:1:28:2044:::::|h[Guard of the Sundered Defender]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.6, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = "PL",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["boss"] = "Sylvanas Windrunner",
-				}, -- [29]
-				{
-					["mapID"] = 2450,
-					["date"] = "09/02/22",
-					["class"] = "PALADIN",
+					["date"] = "17/01/22",
+					["class"] = "PRIEST",
 					["iSubClass"] = 0,
 					["groupSize"] = 20,
 					["boss"] = "Sylvanas Windrunner",
-					["time"] = "21:34:27",
+					["time"] = "22:16:03",
 					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186290:6170:173129::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:186375:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Miniature Breaking Wheel]|h|r",
 					["typeCode"] = "default",
 					["owner"] = "Rahzk-Gul'dan",
-					["instance"] = "Sanctum of Domination-Mythic",
-					["response"] = "Pass",
-					["id"] = "1644435267-9",
+					["votes"] = 0,
+					["response"] = "Offspecc",
+					["id"] = "1642450563-4",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186377::::::::60:102::6:5:7187:6652:7574:1498:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
+					["lootWon"] = "|cffa335ee|Hitem:186377::::::::60:102::6:5:7187:6652:7575:1498:6646:1:28:2044:::::|h[Tarnished Insignia of Quel'Thalas]|h|r",
 					["isAwardReason"] = false,
 					["color"] = {
-						0.7, -- [1]
+						0.07, -- [1]
 						0.7, -- [2]
-						0.7, -- [3]
+						0.61, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = "PASS",
-					["itemReplaced2"] = "|cffff8000|Hitem:178926:6170:173129::::::60:102::66:6:7128:6649:6648:6935:7451:1559:1:28:2142:::::|h[Maraad's Dying Breath]|h|r",
-					["votes"] = 0,
-				}, -- [30]
-				{
-					["mapID"] = 2450,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["iSubClass"] = 4,
-					["groupSize"] = 20,
-					["boss"] = "Kel'Thuzad",
-					["time"] = "20:53:23",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:186316:6220:187319::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Airborne Abductor's Vambraces]|h|r",
+					["responseID"] = 4,
+					["itemReplaced2"] = "|cffa335ee|Hitem:186290:6166:173130::::::60:102::6:5:7187:6652:1498:6646:7576:1:28:2106:::::|h[Sworn Oath of the Nine]|h|r",
 					["instance"] = "Sanctum of Domination-Mythic",
-					["owner"] = "Munstar-Gul'dan",
-					["response"] = "Mainspec/Need",
-					["typeCode"] = "default",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:186351::::::::60:102::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Vyraz's Parade Cuffs]|h|r",
-					["id"] = "1645642403-5",
-					["date"] = "23/02/22",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [31]
+				}, -- [8]
 			},
 			["Zaranija-Gul'dan"] = {
 				{
@@ -73913,6 +75226,30 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Lihuvim, Principal Architect",
 				}, -- [86]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:09:24",
+					["iClass"] = 4,
+					["id"] = "1651684164-1",
+					["owner"] = "Womblez-Nathrezim",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189774::::::::60:105::6:6:7187:8132:8116:6652:1524:6646:1:28:2167:::::|h[Gebrochener Kolosskern]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Vigilant Guardian",
+				}, -- [87]
 			},
 			["Hotstack-Gul'dan"] = {
 				{
@@ -76282,6 +77619,34 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Vigilant Guardian",
 				}, -- [53]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["votes"] = 3,
+					["time"] = "20:11:19",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:179322:6207:::::::60:102::35:7:7786:8136:8137:7359:6652:1592:6646::::::|h[Windscale Moccasins]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Zinghultus-Gul'dan",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Minor Upgrade",
+					["boss"] = "Vigilant Guardian",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189770::::::::60:102::6:6:7187:8132:8137:6652:1524:6646:1:28:2167:::::|h[Pre-Fabricated Footpads]|h|r",
+					["note"] = "holy stat upgrade",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
+					["id"] = "1651684279-3",
+					["typeCode"] = "default",
+				}, -- [54]
 			},
 			["Farlandér-Gul'dan"] = {
 				{
@@ -76892,6 +78257,34 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [24]
+				{
+					["mapID"] = 2481,
+					["date"] = "30/05/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "23:09:50",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:188875:6230:::::::60:102::5:5:7188:6652:8153:1492:6646:1:28:1040:::::|h[Habit of the Empyrean]|h|r",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["owner"] = "Rodymage-Gul'dan",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Minor Upgrade",
+					["boss"] = "Anduin Wrynn",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189835::::::::60:102::6:6:7187:8132:8116:6652:1524:6646:1:28:2167:::::|h[Anduin's Princely Vestments]|h|r",
+					["note"] = "+6 ilvl hab keinen ssim atm",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
+					["id"] = "1653941390-3",
+					["typeCode"] = "default",
+				}, -- [25]
 			},
 			["Nheemo-Gul'dan"] = {
 				{
@@ -76970,6 +78363,54 @@ RCLootCouncilLootDB = {
 					["instance"] = "Sepulcher of the First Ones-Mythic",
 					["boss"] = "Dausegne, the Fallen Oracle",
 				}, -- [3]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "HUNTER",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:08:59",
+					["iClass"] = 4,
+					["id"] = "1651684139-0",
+					["owner"] = "Nheemo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189776::::::::60:254::6:7:7187:6652:7578:8132:8137:1524:6646:1:28:2167:::::|h[Girdle of the First Gate]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Vigilant Guardian",
+				}, -- [4]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "HUNTER",
+					["iSubClass"] = 3,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:39:26",
+					["iClass"] = 4,
+					["id"] = "1652125166-9",
+					["owner"] = "Nheemo-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189797::::::::60:254::6:7:7187:6652:7579:8132:8138:1524:6646:1:28:2167:::::|h[Wristwraps of Night's Renewal]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Prototype Pantheon",
+				}, -- [5]
 			},
 			["Qyzme-Frostwolf"] = {
 				{
@@ -80495,6 +81936,78 @@ RCLootCouncilLootDB = {
 					["id"] = "1650481120-29",
 					["typeCode"] = "default",
 				}, -- [74]
+				{
+					["mapID"] = 2481,
+					["date"] = "04/05/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:29:20",
+					["iClass"] = 4,
+					["id"] = "1651685360-6",
+					["owner"] = "Cascadá-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189827::::::::60:257::6:5:7187:40:7579:1524:6646:1:28:2167:::::|h[Cartel Xy's Proof of Initiation]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Artificer Xy'mox",
+				}, -- [75]
+				{
+					["mapID"] = 2481,
+					["date"] = "09/05/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:49:24",
+					["iClass"] = 4,
+					["id"] = "1652122164-6",
+					["owner"] = "Cascadá-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189782::::::::60:257::6:6:7187:8132:8116:6652:1524:6646:1:28:2167:::::|h[Haunting Hymnal Robes]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["boss"] = "Dausegne, the Fallen Oracle",
+				}, -- [76]
+				{
+					["mapID"] = 2481,
+					["date"] = "15/06/22",
+					["class"] = "PRIEST",
+					["iSubClass"] = 15,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:59:45",
+					["iClass"] = 2,
+					["id"] = "1655323185-1",
+					["owner"] = "Cascadá-Gul'dan",
+					["response"] = "Personal Loot - Non tradeable",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:189852::::::::60:257::6:4:7187:6652:1524:6646:1:28:2167:::::|h[Antumbra, Shadow of the Cosmos]|h|r",
+					["boss"] = "Rygelon",
+					["responseID"] = "PL",
+					["instance"] = "Sepulcher of the First Ones-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.6, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [77]
 			},
 			["Xednara-Eredar"] = {
 				{

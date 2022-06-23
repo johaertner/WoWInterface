@@ -6656,7 +6656,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Nathrezim"] = {
-			["Adelgunde"] = 26335357347,
+			["Adelgunde"] = 26124914294,
 			["Wendelbert"] = 24169,
 			["Giselmund"] = 5924711,
 			["Wenzelaus"] = 507872219,

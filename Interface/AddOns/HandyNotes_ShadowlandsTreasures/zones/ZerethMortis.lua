@@ -288,33 +288,33 @@ ns.RegisterPoints(1970, {
 ns.RegisterPoints(1970, {
     -- Lost Ovoids
     -- https://ptr.wowhead.com/object=375411/mistaken-ovoid#comments:id=5299055
-    [34316656] = {quest=65522,achievement=15331,criteria=53060},
-    [33964576] = {quest=65522,achievement=15331,criteria=53060,note="In a cave."},
-    [34204869] = {quest=65522,achievement=15331,criteria=53060,note="In a cave."},
-    [34494976] = {quest=65522,achievement=15331,criteria=53060,note="In a cave."},
-    [35204889] = {quest=65522,achievement=15331,criteria=53060,note="In a cave."},
-    [34676925] = {quest=65522,achievement=15331,criteria=53060},
-    [35974620] = {quest=65522,achievement=15331,criteria=53060},
-    [36735967] = {quest=65522,achievement=15331,criteria=53060},
-    [39345098] = {quest=65522,achievement=15331,criteria=53060},
-    [41386931] = {quest=65522,achievement=15331,criteria=53060},
-    [41855715] = {quest=65522,achievement=15331,criteria=53060},
-    [43228490] = {quest=65522,achievement=15331,criteria=53060},
-    [44565985] = {quest=65522,achievement=15331,criteria=53060},
-    [44755183] = {quest=65522,achievement=15331,criteria=53060},
-    [46686301] = {quest=65522,achievement=15331,criteria=53060},
-    [48157357] = {quest=65522,achievement=15331,criteria=53060},
-    [49187153] = {quest=65522,achievement=15331,criteria=53060},
-    [50807081] = {quest=65522,achievement=15331,criteria=53060},
-    [52427364] = {quest=65522,achievement=15331,criteria=53060},
-    [53836486] = {quest=65522,achievement=15331,criteria=53060},
-    [55207685] = {quest=65522,achievement=15331,criteria=53060},
-    [55986879] = {quest=65522,achievement=15331,criteria=53060},
-    [58916831] = {quest=65522,achievement=15331,criteria=53060},
-    [60847592] = {quest=65522,achievement=15331,criteria=53060},
-    [61076515] = {quest=65522,achievement=15331,criteria=53060},
+    [34316656] = {},
+    [33964576] = {note="In a cave."},
+    [34204869] = {note="In a cave."},
+    [34494976] = {note="In a cave."},
+    [35204889] = {note="In a cave."},
+    [34676925] = {},
+    [35974620] = {},
+    [36735967] = {},
+    [39345098] = {},
+    [41386931] = {},
+    [41855715] = {},
+    [43228490] = {},
+    [44565985] = {},
+    [44755183] = {},
+    [46686301] = {},
+    [48157357] = {},
+    [49187153] = {},
+    [50807081] = {},
+    [52427364] = {},
+    [53836486] = {},
+    [55207685] = {},
+    [55986879] = {},
+    [58916831] = {},
+    [60847592] = {},
+    [61076515] = {},
 }, {
-    quest=65522,
+    quest={65624, 65522, any=true},
     achievement=15331, criteria=53060,
     label="{item:190239}",
     texture=ns.atlas_texture("playerpartyblip", {r=0.6,g=0.6,b=0.1,a=1,scale=0.8}),
@@ -522,6 +522,7 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     [62204623] = {},
     [36254810] = {},
     [34087043] = {},
+    [51078289] = {},
 }, {
     label="Shrouded Cypher Cache",
     loot={
@@ -536,6 +537,15 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     group="junk",
 })
 
+local discarded = {
+    label="Discarded Automa Scrap",
+    loot={
+        {189717, quest=65483}, -- Pocopoc's Shielded Core
+        {189718, quest=65484}, -- Pocopoc's Upgraded Core
+    },
+    texture=ns.atlas_texture("mechagon-projects", {r=0.5, g=0.5, b=1, scale=0.9}),
+    group="junk",
+}
 ns.RegisterPoints(1970, { -- Zereth Mortis
     [39607760] = {},
     [40706990] = {},
@@ -551,15 +561,11 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     [65804040] = {},
     [67604030] = {},
     [69903420] = {},
-}, {
-    label="Discarded Automa Scrap",
-    loot={
-        {189717, quest=65483}, -- Pocopoc's Shielded Core
-        {189718, quest=65484}, -- Pocopoc's Upgraded Core
-    },
-    texture=ns.atlas_texture("mechagon-projects", {r=0.5, g=0.5, b=1, scale=0.9}),
-    group="junk",
-})
+}, discarded)
+ns.RegisterPoints(2028, { -- Locrian Esper
+    [50257618] = {},
+    [79087500] = {},
+}, discarded)
 
 ns.RegisterPoints(1970, { -- Zereth Mortis
     [44403680] = {
@@ -642,6 +648,7 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
         note="Make pets here",
         texture=ns.atlas_texture("teleportationnetwork-32x32", {r=1,g=0.6,b=0.2,a=1,scale=1.2}),
         minimap=true,
+        achievement=15411, criteria=true, -- Synthe-supersized!
         hide_before=ns.conditions.QuestComplete(65419), -- Protoform Synthesis
     },
     [68703005] = { -- Protoform Repository
@@ -649,6 +656,7 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
         note="Make mounts here",
         texture=ns.atlas_texture("teleportationnetwork-32x32", {r=1,g=0.6,b=0.2,a=1,scale=1.2}),
         minimap=true,
+        achievement=15411, criteria=true, -- Synthe-supersized!
         hide_before=ns.conditions.QuestComplete(65427), -- A New Architect
     },
     [61505370] = { -- Wellspring of the First Ones
@@ -749,12 +757,18 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     -- Doubled from treasures:
     [67006940] = makeSchematic(65393, 189469, MOUNT, { -- Schematic: Prototype Leaper
         note="In the Forgotten Proto-Vault treasure; if you looted it before unlocking protoforms, it should just be sitting there",
-        hide_before=ns.conditions.QuestComplete(65178),
+        hide_before={
+            ns.conditions.QuestComplete(65427), -- New Architect
+            ns.conditions.QuestComplete(65178),
+        },
         requires_worldquest=65089,
     }),
     [60503050] = makeSchematic(65379, 189456, MOUNT, { -- Schematic: Sundered Zerethsteed
         note="In the Mawsworn Cache treasure; if you looted it before unlocking protoforms, it should just be sitting there",
-        hide_before=ns.conditions.QuestComplete(65441),
+        hide_before={
+            ns.conditions.QuestComplete(65427), -- New Architect
+            ns.conditions.QuestComplete(65441),
+        },
     }),
     -- mob drops
     [76405160] = makeSchematic(65391, 189468, MOUNT, { -- Schematic: Goldplate Bufonid
@@ -816,7 +830,7 @@ schematic.atlas = nil
 schematic.texture = ns.atlas_texture("poi-islands-table", {r=0,g=1,b=1,a=1,scale=0.9})
 schematic.hide_before=ns.conditions.QuestComplete(65419) -- Protoform Synthesis
 hide_flying = {
-    ns.conditions.QuestComplete(65419), -- A New Architect
+    ns.conditions.QuestComplete(65419), -- Protoform Synthesis
     ns.conditions.Achievement(15514), -- flying
 }
 
@@ -830,7 +844,10 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     }),
     [28105000] = makeSchematic(65358, 189445, PET, {note="Hidden in the leaves of the floating tree"}), -- Schematic: Microlicid
     [53807250] = makeSchematic(65333, 189435, PET, { -- Schematic: Multichicken
-        hide_before=ns.conditions.QuestComplete(65522),
+        hide_before={
+            ns.conditions.QuestComplete(65419), -- Protoform Synthesis
+            ns.conditions.QuestComplete(65522),
+        },
         note="In the Mistaken Ovoid treasure; if you looted it before unlocking protoforms, it should just be sitting there",
     }),
     [42804060] = makeSchematic(65348, 189440, PET, { -- Schematic: Omnipotential Core
@@ -855,7 +872,10 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
     [55705340] = makeSchematic(65361, 189448, PET, {note="Inside the Locrian Esper"}), -- Schematic: Tunneling Vombata
     [58807720] = makeSchematic(65360, 189447, PET, { -- Schematic: Viperid Menace
         -- TODO: the Library Vault was made inaccessible until you had Dealic on March 1st 2022, so this should no longer be a possible situation for new players. Remove this someday.
-        hide_before=ns.conditions.QuestComplete(65173),
+        hide_before={
+            ns.conditions.QuestComplete(65419), -- Protoform Synthesis
+            ns.conditions.QuestComplete(65173),
+        },
         note="In the Library Vault treasure; if you looted it before unlocking protoforms, it should just be sitting there",
         path=59258144,
     }),
@@ -1086,6 +1106,7 @@ local coreless = ns.nodeMaker{
     note="|cFFFFFF00Use with Pocopoc and gain access to a special ability|r",
     -- atlas="poi-scrapper",
     minimap=true, scale=0.9,
+    achievement=15542, always=true,
     group="coreless",
 }
 ns.RegisterPoints(1970, { -- Zereth Mortis
@@ -1226,6 +1247,9 @@ ns.RegisterPoints(1970, {
 -- 65560 serene pigment (above Firim's)
 -- 65016 volatile precursor
 -- 65014 incorporeal sand
+-- 65017 empyrean essence
+-- 65005 pollinated extraction
+-- 65015 energized firmament
 
 -- Adventurer of Zerith Mortis
 
@@ -1491,6 +1515,7 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
         npc=180746,
         quest=64668,
         criteria=52989,
+        vignette=4988,
         loot={
             189961, -- Enduring Protector's Shoulderguards
             189984, -- Drape of Idolized Symmetry
@@ -1629,6 +1654,7 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
         npc=183764,
         quest=65251,
         criteria=53044,
+        vignette=4990,
         loot={
             189902, -- Hapless Traveler's Treads
             189924, -- Buzzing Predator's Legs
@@ -1648,9 +1674,9 @@ ns.RegisterPoints(1970, { -- Zereth Mortis
         achievement=15392, criteria=true,
         atlas="VignetteKillElite", scale=1.2,
         quest={
-            65585, -- Iska, Outrider of Ruin, criteria 52992 (mount Rhuv, 65706)
-            65586, -- High Reaver Damaris, criteria 52993 (mount Edra, 65558)
-            65587, -- Reanimatrox Marzan, criteria 52994 (mount Phalangax, 65707)
+            65585, -- Iska, Outrider of Ruin, criteria 52992 (mount Rhuv, 65706), vignette 4918
+            65586, -- High Reaver Damaris, criteria 52993 (mount Edra, 65558), vignette 4951
+            65587, -- Reanimatrox Marzan, criteria 52994 (mount Phalangax, 65707), vignette 4952
             all=true,
         },
         note="One of these rares is here each day",

@@ -9,22 +9,22 @@ AstralKeys = {
 		["dungeon_id"] = 381,
 		["week"] = 225,
 		["faction"] = 1,
-		["time_stamp"] = 385547,
+		["time_stamp"] = 482294,
 	}, -- [1]
 	{
 		["source"] = "guild",
-		["weekly_best"] = 0,
+		["weekly_best"] = 22,
 		["class"] = "DEMONHUNTER",
 		["key_level"] = 20,
 		["unit"] = "Cleavarious-Gul'dan",
 		["dungeon_id"] = 376,
 		["week"] = 225,
 		["faction"] = 1,
-		["time_stamp"] = 384529,
+		["time_stamp"] = 481247,
 	}, -- [2]
 	{
 		["btag"] = "enton#2384",
-		["weekly_best"] = 0,
+		["weekly_best"] = 15,
 		["class"] = "SHAMAN",
 		["key_level"] = 18,
 		["unit"] = "Steropes-Nathrezim",
@@ -36,11 +36,11 @@ AstralKeys = {
 	}, -- [3]
 	{
 		["btag"] = "enton#2384",
-		["weekly_best"] = 0,
+		["weekly_best"] = 23,
 		["class"] = "HUNTER",
-		["key_level"] = 22,
+		["key_level"] = 23,
 		["unit"] = "Enton-Nathrezim",
-		["dungeon_id"] = 376,
+		["dungeon_id"] = 379,
 		["week"] = 225,
 		["faction"] = "1",
 		["time_stamp"] = 0,
@@ -60,11 +60,11 @@ AstralKeys = {
 	}, -- [5]
 	{
 		["btag"] = "Zwuckl#2992",
-		["weekly_best"] = 0,
+		["weekly_best"] = 23,
 		["class"] = "MONK",
-		["key_level"] = 22,
+		["key_level"] = 23,
 		["unit"] = "Zerfaustung-Nathrezim",
-		["dungeon_id"] = 382,
+		["dungeon_id"] = 377,
 		["week"] = 225,
 		["faction"] = "1",
 		["time_stamp"] = 0,
@@ -82,13 +82,25 @@ AstralKeys = {
 		["time_stamp"] = 0,
 		["source"] = "friend",
 	}, -- [7]
+	{
+		["btag"] = "Zwuckl#2992",
+		["weekly_best"] = 16,
+		["class"] = "DRUID",
+		["key_level"] = 17,
+		["unit"] = "Morhel-Nathrezim",
+		["dungeon_id"] = 378,
+		["week"] = 225,
+		["faction"] = "1",
+		["time_stamp"] = 0,
+		["source"] = "friend",
+	}, -- [8]
 }
 AstralCharacters = {
 	{
 		["weekly_best"] = 0,
 		["class"] = "PALADIN",
-		["unit"] = "Adelgunde-Nathrezim",
 		["faction"] = 1,
+		["unit"] = "Adelgunde-Nathrezim",
 	}, -- [1]
 }
 AstralKeysSettings = {
@@ -102,10 +114,10 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 		["report_on_message"] = {
-			["party"] = true,
-			["raid"] = false,
-			["guild"] = false,
 			["no_key"] = false,
+			["party"] = true,
+			["guild"] = false,
+			["raid"] = false,
 		},
 		["show_tooltip_key"] = {
 			["isEnabled"] = true,
@@ -125,6 +137,7 @@ AstralKeysSettings = {
 			["isEnabled"] = true,
 		},
 	},
+	["new_settings_config"] = true,
 	["frame"] = {
 		["rank_filter"] = {
 			true, -- [1]
@@ -138,7 +151,9 @@ AstralKeysSettings = {
 			true, -- [9]
 			true, -- [10]
 		},
-		["current_list"] = "GUILD",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
 		["isCollapsed"] = {
 			["isEnabled"] = false,
 		},
@@ -147,11 +162,8 @@ AstralKeysSettings = {
 			["isEnabled"] = false,
 		},
 		["sorth_method"] = "character_name",
-		["show_offline"] = {
-			["isEnabled"] = true,
-		},
+		["current_list"] = "GUILD",
 	},
-	["new_settings_config"] = true,
 }
 AstralMinimap = {
 	["profileKeys"] = {
@@ -161,11 +173,11 @@ AstralMinimap = {
 		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
 		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
 		["Eckehard - Nathrezim"] = "Eckehard - Nathrezim",
-		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
+		["Manfred - Nathrezim"] = "Manfred - Nathrezim",
 		["Dankrun - Nathrezim"] = "Dankrun - Nathrezim",
 		["Wendelbert - Nathrezim"] = "Wendelbert - Nathrezim",
 		["Guntram - Nathrezim"] = "Guntram - Nathrezim",
-		["Manfred - Nathrezim"] = "Manfred - Nathrezim",
+		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
 	},
 	["profiles"] = {
 		["Giselmund - Nathrezim"] = {
@@ -180,7 +192,7 @@ AstralMinimap = {
 		},
 		["Eckehard - Nathrezim"] = {
 		},
-		["Friedebrecht - Nathrezim"] = {
+		["Manfred - Nathrezim"] = {
 		},
 		["Dankrun - Nathrezim"] = {
 		},
@@ -188,7 +200,7 @@ AstralMinimap = {
 		},
 		["Guntram - Nathrezim"] = {
 		},
-		["Manfred - Nathrezim"] = {
+		["Friedebrecht - Nathrezim"] = {
 		},
 	},
 }
@@ -211,18 +223,18 @@ AstralLists = {
 			["Mozzarella-Nathrezim"] = true,
 			["Zaranija-Gul'dan"] = true,
 			["Xaranija-Gul'dan"] = true,
-			["Voluntas-Nathrezim"] = true,
+			["Aimbow-Nathrezim"] = true,
 			["Getrekt-Gul'dan"] = true,
-			["Cleavarious-Gul'dan"] = true,
 			["Zoxy-Gul'dan"] = true,
-			["Terrorsathan-Nathrezim"] = true,
-			["Morhal-Nathrezim"] = true,
-			["Schlêx-Nathrezim"] = true,
-			["Mieum-Nathrezim"] = true,
+			["Cleavarious-Gul'dan"] = true,
 			["Schlextoy-Nathrezim"] = true,
+			["Mieum-Nathrezim"] = true,
+			["Schlêx-Nathrezim"] = true,
+			["Morhal-Nathrezim"] = true,
+			["Terrorsathan-Nathrezim"] = true,
 			["Ecore-Gul'dan"] = true,
 			["Schléx-Nathrezim"] = true,
-			["Aimbow-Nathrezim"] = true,
+			["Voluntas-Nathrezim"] = true,
 		},
 	}, -- [1]
 	{
@@ -230,7 +242,7 @@ AstralLists = {
 		["units"] = {
 			["Janesmith-Nathrezim"] = "Heikel#2819",
 			["Bubble-Nathrezim"] = "Heikel#2819",
-			["Morhal-Nathrezim"] = "Zwuckl#2992",
+			["Zephalon-Nathrezim"] = "Nemokradon#1189",
 			["Elementax-Nathrezim"] = "Zertax#2252",
 			["Lokraa-Nathrezim"] = "Zanges#2732",
 			["Inari-Nathrezim"] = "Kratos#1184",
@@ -241,22 +253,22 @@ AstralLists = {
 			["Zerfaustung-Nathrezim"] = "Zwuckl#2992",
 			["Morhel-Nathrezim"] = "Zwuckl#2992",
 			["Zernichtung-Nathrezim"] = "Zwuckl#2992",
-			["Wiesonîcht-Nathrezim"] = "enton#2384",
+			["Nemokradon-Nathrezim"] = "Nemokradon#1189",
 			["Merkwürdig-Blackhand"] = "Heikel#2819",
 			["Entorôn-Nathrezim"] = "enton#2384",
 			["Krathor-Nathrezim"] = "Kratos#1184",
-			["Azrali-Nathrezim"] = "Azra#1147",
-			["Furfur-Nathrezim"] = "Nemokradon#1189",
+			["Steropes-Nathrezim"] = "enton#2384",
+			["Flirty-Nathrezim"] = "Heikel#2819",
 			["Thalen-Nathrezim"] = "Zwuckl#2992",
 			["Terrorsathan-Nathrezim"] = "Zwuckl#2992",
 			["Taxpayer-Nathrezim"] = "Heikel#2819",
 			["Entonmonk-Nathrezim"] = "enton#2384",
 			["Dhenton-Nathrezim"] = "enton#2384",
-			["Flirty-Nathrezim"] = "Heikel#2819",
-			["Steropes-Nathrezim"] = "enton#2384",
+			["Furfur-Nathrezim"] = "Nemokradon#1189",
+			["Azrali-Nathrezim"] = "Azra#1147",
 			["Enton-Nathrezim"] = "enton#2384",
-			["Nemokradon-Nathrezim"] = "Nemokradon#1189",
-			["Zephalon-Nathrezim"] = "Nemokradon#1189",
+			["Wiesonîcht-Nathrezim"] = "enton#2384",
+			["Morhal-Nathrezim"] = "Zwuckl#2992",
 		},
 	}, -- [2]
 }

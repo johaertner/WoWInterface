@@ -3,7 +3,7 @@
 ## Notes: Raid Cooldown Alerter
 ## Author: Nitrak
 ## SavedVariables: VocalRaidAssistantDB
-## Version: 2.3.5
+## Version: 2.4.1
 ## X-Curse-Project-ID: 83086
 ## X-WoWI-ID: 22983
 ## X-Wago-ID: kRNLr8Ko
@@ -21,5 +21,4 @@ Constants.lua
 SpellList.lua
 SpellCorrections.lua
 Config.lua
-
-
+Sound.lua

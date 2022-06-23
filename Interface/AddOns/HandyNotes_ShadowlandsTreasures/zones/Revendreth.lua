@@ -2,33 +2,33 @@ local myname, ns = ...
 
 local path = ns.path
 
-local secret_treasure = {
-    label=false, -- Secret Treasure
+-- Secret Treasure
+local secret = {
     loot={
         {180589, pet=2894}, -- Soullocked Sinstone
     },
-    _uiMapID=1525,
-    _coord=0,
 }
-ns.VignetteIDsToPoints[4173] = secret_treasure
-ns.VignetteIDsToPoints[4174] = secret_treasure
-ns.VignetteIDsToPoints[4175] = secret_treasure
-ns.VignetteIDsToPoints[4176] = secret_treasure
-ns.VignetteIDsToPoints[4177] = secret_treasure
-ns.VignetteIDsToPoints[4178] = secret_treasure
-ns.VignetteIDsToPoints[4179] = secret_treasure
-ns.VignetteIDsToPoints[4180] = secret_treasure
-ns.VignetteIDsToPoints[4181] = secret_treasure
-ns.VignetteIDsToPoints[4182] = secret_treasure
+ns.RegisterVignettes(1525, {
+    [4173] = secret,
+    [4174] = secret,
+    [4175] = secret,
+    [4176] = secret,
+    [4177] = secret,
+    [4178] = secret,
+    [4179] = secret,
+    [4180] = secret,
+    [4181] = secret,
+    [4182] = secret,
+    [4212] = {-- Bleakwood Chest
+        loot={
+            {180592, pet=2901}, -- Trapped Stonefiend
+        },
+    }
+})
 
-ns.VignetteIDsToPoints[4212] = {
-    label=false, -- Bleakwood Chest
-    loot={
-        {180592, pet=2901}, -- Trapped Stonefiend
-    },
-    _uiMapID=1525,
-    _coord=0,
-}
+-- Pepe costume: A Tiny Sinstone, 186580, q 64132
+
+-- abandoned belongings 60851
 
 ns.RegisterPoints(1525, { -- Revendreth
     [37706920] = {
@@ -387,7 +387,7 @@ ns.RegisterPoints(1525, {
 }, {
     achievement=14771,
     atlas="vehicle-silvershardmines-minecartred",scale=1.2,
-    always=true,
+    -- always=true,
     group="Carriage Routes",
 })
 
@@ -522,7 +522,7 @@ ns.RegisterPoints(1525, {
 }, {
     achievement=14770,
     texture=ns.merge(ns.atlas_texture("stablemaster"), {r=1, g=0.5, b=1, scale=1.2}),
-    always=true,
+    -- always=true,
     label="{npc:174032}",
     note="Requires {currency:1820} x 5",
     group="Sinrunners",
@@ -544,6 +544,45 @@ ns.RegisterPoints(1525, {
     level=60,
     note="It's inconsistent whether you'll get credit for animating any particular bat",
     group="Dredbats",
+})
+
+-- Mirrors
+-- TODO: gather the rest of the questsids
+ns.RegisterPoints(1525, {
+    -- these all have a repaired quest and a looted quest
+    -- group 1
+    [29493726] = {quest=61833, requires_worldquest=61879, note="Room with cauldron",}, -- 61818, 61833
+    [40417334] = {quest=61834, requires_worldquest=61879, note="Inside house with sleeping beasts",}, -- 61822, 61834
+    [27152163] = {quest=61835, requires_worldquest=61879, note="Base of cliff, room with elite spider",}, -- 61826, 61835
+    -- group 2
+    [39095218] = {quest=61836, requires_worldquest=61883, note="Inside, at base of cliff",}, -- 61819, 61836
+    [58806780] = {quest=61837, requires_worldquest=61883, note="Inside, at top of cliff",}, -- 61823, 61837
+    [70974363] = {quest=61838, requires_worldquest=61883, note="Inside the building",}, -- 61827, 61838
+    -- group 3
+    [72604365] = {quest=61830, requires_worldquest=61885, note="Inside the crypt",}, -- 61817, 61830
+    [40307716] = {quest=61831, requires_worldquest=61885, note="Inside a building",}, -- 61821, 61831
+    [77176543] = {quest=61832, requires_worldquest=61885, note="Inside a building with several elite mobs",}, -- 61825, 61832
+    -- group 4
+    [55123567] = {quest=61828, requires_worldquest=61886, note="Inside the crypt", nearby={55193472},}, -- 61820, 61828
+    [29602589] = {quest=61829, requires_worldquest=61886, note="Room with elite soulbender",}, -- 61824, 61829
+    [20755426] = {quest=60297, requires_worldquest=61886, note="Just inside manor entrance",}, -- 59236, 60297
+}, {
+    label="{spell:357778:Broken Mirror}",
+    loot={
+        -- TODO: there's also four blue daggers but wowhead shows them being way more restricted in their drop locations, so verify that
+        183707, -- Mantle of Burnished Blades
+        183710, -- Burnished Sinstone Chain
+        183711, -- Burnished Crypt Keeper's Mantle
+        {183855, pet=3012}, -- Stony's Infused Ruby
+        {183798, mount=1389}, -- Silessa's Battle Harness
+        {181124, set=2064}, -- Soulbreaker's Burnished Vestments (cloth)
+        {181061, set=2069}, -- Burnished Death Shroud Armor (leather)
+        {181088, set=2073}, -- Fearstalker's Burnished Battlegear (mail)
+        {181022, set=2076}, -- Dread Sentinel's Burnished Battleplate (plate)
+    },
+    active=ns.conditions.Item(181363), -- Handcrafted Mirror Repair Kit
+    requires={ns.conditions.GarrisonTalent(1049), ns.conditions.Covenant(Enum.CovenantType.Venthyr)}, -- Mirror's Edge
+    texture=ns.atlas_texture("teleportationnetwork-revendreth-32x32", {r=0.5, g=1, b=0.5}), scale=2, minimap=true,
 })
 
 -- Rares
@@ -587,6 +626,7 @@ ns.RegisterPoints(1525, {
         npc=166576,
         loot={
             183731, -- Smolder-Tempered Legplates
+            180690, -- Bottled Ash Cloud
         },
     },
     [35003230] = { -- Bog Beast

@@ -1,5 +1,19 @@
 # Vocal Raid Assistant
 
+## 2.4.1
+- Added missing Covenant abilities and Storm Bolt and Incapacitating Roar
+
+## 2.4.0
+- Split the included sound packs into separate addons (Default packaged with Vocal Raid Assistant is Julie (Legacy)). You can find the sound packs on your favorite WoW Addon Client!
+- Ana (https://www.curseforge.com/wow/addons/vocal-raid-assistant-ana-sound-pack)
+- Elizabeth (https://www.curseforge.com/wow/addons/vocal-raid-assistant-elizabeth-sound-pack)
+- Eric (https://www.curseforge.com/wow/addons/vocal-raid-assistant-eric-sound-pack)
+- Guy (https://www.curseforge.com/wow/addons/vocal-raid-assistant-guy-sound-pack)
+- Sara (https://www.curseforge.com/wow/addons/vocal-raid-assistant-sara-sound-pack)
+
+## 2.3.6
+- Optimized spell lookup time
+
 ## 2.3.5
 - Added ability to track Taunts - Audio will be "Taunted" to differentiate it from other voice packs that tells you to Taunt
 

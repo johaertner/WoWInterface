@@ -1,5 +1,37 @@
 # Changelog
 
+## Changed in v66
+
+* Updated for 9.2.5, fixing errors about C_TransmogCollection (in a rush, so there might be followup fixes)
+* Always show loot info on vignettes, bypassing my normal "should I show this point?" check
+
+## Changed in v65
+
+* Venthyr Broken Mirrors are now shown (only the available three for the current day)
+* Improve the amount of information shown in tooltips about reward items which aren't fully loaded yet
+
+## Changed in v64
+
+* Various quality of life improvements for points related to other points (hovering them will show a link to the related point)
+* Show Apocopocolypse Now progress on coreless automa in Zereth Mortis
+* Show Synthe-supersized! progress on the protoform points
+* Add a missing vignette ID to the Protector of the First Ones
+* A typo was stopping mount-completion from being shown on the Fallen Charger
+* Stop always-showing the Sinrunners and Carriages in Revendreth; since flying has been available that's much less useful
+
+## Changed in v63
+
+* Added Explorer achievements, via a map icon that shows a spot that'll definitely get you the map completion for the achievement
+* Improved paths to some points in several maps
+* Zereth Mortis: some schematics were shown as available too soon (before you'd unlocked protoform synthesis)
+* Group names in tooltips could sometimes be improperly formatted
+
+## Changed in v62
+
+* Show where some Automa Scraps are inside the Locrian Esper
+* Changes to how routes are drawn, which should be completely unnoticed
+* Bundle Taintless, which might(?) help with complaints about the upload dialog
+
 ## Changed in v61
 
 * Show the Creation Catalyst on the Zereth Mortis map

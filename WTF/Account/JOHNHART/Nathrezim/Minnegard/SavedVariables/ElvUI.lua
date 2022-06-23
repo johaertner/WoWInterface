@@ -1,27 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/cw Autho-Kazzak ty", -- [1]
-		"/cw Incarnia-Gul'dan inv", -- [2]
-		"/schlachtzug ich kann nur mit dem heilen 345", -- [3]
-		"/schlachtzug 440", -- [4]
-		"/schlachtzug gear", -- [5]
-		"/cw Getrekt-Gul'dan inv^^", -- [6]
-		"/cw Rahzs-Gul'dan inv", -- [7]
-		"/cw Pepo-Gul'dan inv", -- [8]
-		"/cw Rahmyra inv", -- [9]
-		"/cw Rahmyra-Gul'dan inv", -- [10]
-		"/cw Womblez inv!", -- [11]
-		"/cw Getrekt-Gul'dan inv", -- [12]
-		"/cw Getrekt-Gul'dan kannst mich inven?", -- [13]
-		"/details", -- [14]
-		"/schlachtzug das ist die alte classic fähigkeit", -- [15]
-		"/schlachtzug wo 5 leute nen dömonen beschwären", -- [16]
-		"/schlachtzug und einer stirbt", -- [17]
-		"/cw Xednara-Gul'dan skill mal lieber heal mein priest hat nur eternal palace gear", -- [18]
-		"/cw Xednara-Gul'dan na gut probieren wirs^^", -- [19]
-		"/cw Ursarus-Gul'dan inv", -- [20]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"|cffffff00|Hworldmap:118:4720:6610|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Geißelfürst Tyrannus  in 0h 06m", -- [1]
@@ -2203,4 +2181,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/cw Autho-Kazzak ty", -- [1]
+		"/cw Incarnia-Gul'dan inv", -- [2]
+		"/schlachtzug ich kann nur mit dem heilen 345", -- [3]
+		"/schlachtzug 440", -- [4]
+		"/schlachtzug gear", -- [5]
+		"/cw Getrekt-Gul'dan inv^^", -- [6]
+		"/cw Rahzs-Gul'dan inv", -- [7]
+		"/cw Pepo-Gul'dan inv", -- [8]
+		"/cw Rahmyra inv", -- [9]
+		"/cw Rahmyra-Gul'dan inv", -- [10]
+		"/cw Womblez inv!", -- [11]
+		"/cw Getrekt-Gul'dan inv", -- [12]
+		"/cw Getrekt-Gul'dan kannst mich inven?", -- [13]
+		"/details", -- [14]
+		"/schlachtzug das ist die alte classic fähigkeit", -- [15]
+		"/schlachtzug wo 5 leute nen dömonen beschwären", -- [16]
+		"/schlachtzug und einer stirbt", -- [17]
+		"/cw Xednara-Gul'dan skill mal lieber heal mein priest hat nur eternal palace gear", -- [18]
+		"/cw Xednara-Gul'dan na gut probieren wirs^^", -- [19]
+		"/cw Ursarus-Gul'dan inv", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

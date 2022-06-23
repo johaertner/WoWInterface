@@ -8,18 +8,19 @@ TomTomDB = {
 		["Friedebrecht - Nathrezim"] = "Default",
 		["Dankrun - Nathrezim"] = "Default",
 		["Warglgunde - Nathrezim"] = "Default",
+		["Arnun - Die Silberne Hand"] = "Default",
 		["Widukind - Nathrezim"] = "Default",
 		["Giselmund - Nathrezim"] = "Default",
-		["Arnun - Die Silberne Hand"] = "Default",
-		["Kudgy - Ravencrest"] = "Default",
-		["Adelgard - Anetheron"] = "Default",
+		["Minnegard - Nathrezim"] = "Default",
 		["Bernharda - Anetheron"] = "Default",
-		["Wendelbert - Nathrezim"] = "Default",
+		["Adelgard - Anetheron"] = "Default",
+		["Kudgy - Ravencrest"] = "Default",
+		["Bernhardates - Anetheron"] = "Default",
 		["Kudgy - Area 52"] = "Default",
 		["Adelgunde - Nathrezim"] = "Default",
 		["Eckehard - Nathrezim"] = "Default",
 		["Kudgy - Kazzak"] = "Default",
-		["Bernhardates - Anetheron"] = "Default",
+		["Wendelbert - Nathrezim"] = "Default",
 		["Siegenot - Nathrezim"] = "Default",
 		["Kudgy - Blackrock"] = "Default",
 		["Erkenbald - Nathrezim"] = "Default",
@@ -52,12 +53,15 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Dankrun - Nathrezim"] = "Dankrun - Nathrezim",
 		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
+		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
 		["Manfred - Nathrezim"] = "Manfred - Nathrezim",
 	},
 	["profiles"] = {
 		["Dankrun - Nathrezim"] = {
 		},
 		["Adelgunde - Nathrezim"] = {
+		},
+		["Minnegard - Nathrezim"] = {
 		},
 		["Manfred - Nathrezim"] = {
 		},

@@ -3,7 +3,7 @@ local L = VRA.L
 local WagoAnalytics = VRA.WAGO
 
 local tostring = tostring
-local profile = {}
+local pairs = pairs
 local popUpSemaphore = false
 
 local function indexOf(array, value)
@@ -67,18 +67,36 @@ local function spellOption(spellID)
 end
 
 local function createOptionsForCategory(category)
-	local spellList = addon:GetSpellEntries(category)
 	local args = {}
-	if (spellList ~= nil) then
-		for spellID, v in pairs(spellList) do
-			args[v.type] = args[v.type] or {
-				name = addon.CATEGORY[v.type],
-				type = 'group',
-				order = indexOf(addon.CATEGORY_SORT_ORDER,v.type),
-				inline = true,
-				args = {}
-			}
-			args[v.type].args[tostring(spellID)] = spellOption(spellID)
+	if category == "All Active" then
+		local spellList = addon:GetFullSpellListNoCategories()
+		if (spellList ~= nil) then
+			for category, x in pairs(spellList) do
+				for spellID, v in pairs(x) do
+					args[v] = args[v] or {
+						name = addon.CATEGORY[v],
+						type = 'group',
+						order = indexOf(addon.CATEGORY_SORT_ORDER,v),
+						inline = true,
+						args = {}
+					}
+					args[v].args[tostring(spellID)] = spellOption(spellID)
+				end
+			end
+		end
+	else
+		local spellEntries = addon:GetSpellEntries(category)
+		if (spellEntries ~= nil) then
+			for spellID, v in pairs(spellEntries) do
+				args[v.type] = args[v.type] or {
+					name = addon.CATEGORY[v.type],
+					type = 'group',
+					order = indexOf(addon.CATEGORY_SORT_ORDER,v.type),
+					inline = true,
+					args = {}
+				}
+				args[v.type].args[tostring(spellID)] = spellOption(spellID)
+			end
 		end
 	end
 	return args
@@ -88,9 +106,9 @@ local function setFilterValue(info, val)
 	local filter = addon.FILTER_VALUES[info]
 	if (filter ~= nil) then
 		if (val) then
-			profile.general.watchFor = bit.bor(profile.general.watchFor, filter)
+			addon.profile.general.watchFor = bit.bor(addon.profile.general.watchFor, filter)
 		else
-			profile.general.watchFor = bit.band(profile.general.watchFor, bit.bnot(filter))
+			addon.profile.general.watchFor = bit.band(addon.profile.general.watchFor, bit.bnot(filter))
 		end
 	end
 end
@@ -98,35 +116,35 @@ end
 local function getFilterValue(info)
 	local filter = addon.FILTER_VALUES[info]
 	if (filter ~= nil) then
-		return (bit.band(profile.general.watchFor, filter) == filter)
+		return (bit.band(addon.profile.general.watchFor, filter) == filter)
 	end
 end
 
 local function getSpellOption(info)
-	return profile.general.area[info[2]].spells[info[#info]]
+	return addon.profile.general.area[info[2]].spells[info[#info]]
 end
 
 local function setSpellOption(info, val)
-	profile.general.area[info[2]].spells[info[#info]] = val
+	addon.profile.general.area[info[2]].spells[info[#info]] = val
 	if (val == true) then
-		addon:playSpell(info[#info])
+		addon:playSpell(info[#info], true)
 	end
 end
 
 local function restoreDefaultSpells(area)
-	profile.general.area[area].spells = {}
+	addon.profile.general.area[area].spells = {}
 	for k, v in pairs(addon.DEFAULT_SPELLS) do
-		profile.general.area[area].spells[k] = v
+		addon.profile.general.area[area].spells[k] = v
 	end
-	profile.general.area[area].enableInterrupts = true
+	addon.profile.general.area[area].enableInterrupts = true
 end
 
 local function clearAll(area)
 	restoreDefaultSpells(area)
-	for k, _ in pairs(profile.general.area[area].spells) do
-		profile.general.area[area].spells[k] = false
+	for k, _ in pairs(addon.profile.general.area[area].spells) do
+		addon.profile.general.area[area].spells[k] = false
 	end
-	profile.general.area[area].enableInterrupts = false
+	addon.profile.general.area[area].enableInterrupts = false
 end
 
 local function createSpellCategory(category, name, icon, order)
@@ -142,6 +160,9 @@ local function createSpellCategory(category, name, icon, order)
 		set = function(info, val)
 			setSpellOption(info, val)
 		end,
+		hidden = function(info)
+			return category == "All Active" and tonumber(info[#info]) ~= nil and not getSpellOption(info)
+		end,
 		args = createOptionsForCategory(category)
 	}
 end
@@ -150,7 +171,7 @@ function importSpellSelection(importString, area)
 	local success, importDeserialized = addon.EXP:Deserialize(importString)
 	if (success) then
 		for k, v in pairs(importDeserialized) do
-			profile.general.area[area].spells[k] = v
+			addon.profile.general.area[area].spells[k] = v
 		end
 		addon.ACR:NotifyChange("VocalRaidAssistantConfig")
 	else
@@ -192,20 +213,20 @@ local mainOptions = {
 					end
 				},
 				linebreak1 = {
-					order = 5,
 					type = 'description',
-					name = ''
+					name = '',
+					order = 5
 				},
 				minimapIcon = {
 					order = 6,
 					type = "toggle",
 					name = L["Minimap Icon"],
 					get = function()
-						return not profile.general.minimap.hide
+						return not addon.profile.general.minimap.hide
 					end,
 					set = function(info, val)
-						profile.general.minimap.hide = not val
-						if profile.general.minimap.hide then
+						addon.profile.general.minimap.hide = not val
+						if addon.profile.general.minimap.hide then
 							VRA.ICON:Hide(addonName)
 						else
 							VRA.ICON:Show(addonName)
@@ -214,9 +235,9 @@ local mainOptions = {
 
 				},
 				linebreak2 = {
-					order = 7,
 					type = 'description',
-					name = '\n\n'
+					name = '\n\n',
+					order = 7
 				},
 				watchFor = {
 					type = 'group',
@@ -246,10 +267,10 @@ local mainOptions = {
 							name = L["OnlySelfExternalsName"],
 							desc = L["OnlySelfExternalsDesc"],
 							get = function(info)
-								return profile.general.onlySelf
+								return addon.profile.general.onlySelf
 							end,
 							set = function(info, val)
-								profile.general.onlySelf = val
+								addon.profile.general.onlySelf = val
 							end,
 							order = 3
 						}
@@ -260,17 +281,18 @@ local mainOptions = {
 					inline = true,
 					name = L["Voice"],
 					get = function(info)
-						return profile.sound[info[#info]]
+						return addon.profile.sound[info[#info]]
 					end,
 					set = function(info, val)
-						profile.sound[info[#info]] = val
+						addon.profile.sound[info[#info]] = val
 					end,
 					order = 9,
 					args = {
 						soundpack = {
 							type = 'select',
-							name = L["Soundpack"],
-							values = addon.SOUND_PACKS,
+							width = 1.3,
+							name = L["Sound pack"],
+							values = function() return VRA:GetRegisteredSoundpacks() end,
 							order = 1
 						},
 						playButton = {
@@ -279,13 +301,14 @@ local mainOptions = {
 							func = function()
 								addon:playSpell("740",true)
 							end,
+							width = "half",
 							order = 2
 						},
 						throttle = {
 							type = 'range',
-							max = 60,
+							max = 2,
 							min = 0,
-							step = 0.5,
+							step = 0.1,
 							name = L["Throttle"],
 							desc = L["The minimum interval between two alerts in seconds"],
 							order = 3
@@ -311,36 +334,45 @@ local mainOptions = {
 							name = L["Volume"],
 							desc = L["Adjusting the voice volume"],
 							set = function(info, value)
-								SetCVar("Sound_" .. profile.sound.channel .. "Volume", tostring(value))
+								SetCVar("Sound_" .. addon.profile.sound.channel .. "Volume", tostring(value))
 							end,
 							get = function()
-								return tonumber(GetCVar("Sound_" .. profile.sound.channel .. "Volume"))
+								return tonumber(GetCVar("Sound_" .. addon.profile.sound.channel .. "Volume"))
 							end,
 							order = 6
 						},
 						channelEnabled = {
 							type = 'toggle',
 							name = function()
-								return profile.sound.channel .. " channel"
+								return addon.profile.sound.channel .. " channel"
 							end,
 							width = "double",
 							desc = L["Enables or disables channel"],
 							set = function(info, value)
-								if (profile.sound.channel == "Master") then
+								if (addon.profile.sound.channel == "Master") then
 									SetCVar("Sound_EnableAllSound", (value and 1 or 0))
 								else
-									SetCVar("Sound_Enable" .. profile.sound.channel, (value and 1 or 0))
+									SetCVar("Sound_Enable" .. addon.profile.sound.channel, (value and 1 or 0))
 								end
 							end,
 							get = function()
-								if (profile.sound.channel == "Master") then
+								if (addon.profile.sound.channel == "Master") then
 									return tonumber(GetCVar("Sound_EnableAllSound")) == 1 and true or false
 								else
-									return tonumber(GetCVar("Sound_Enable" .. profile.sound.channel)) == 1 and true or false
+									return tonumber(GetCVar("Sound_Enable" .. addon.profile.sound.channel)) == 1 and true or false
 								end
 							end,
 							order = 7
-						}
+						},
+					}
+				},
+				soundPacksConfig = {
+					type = 'group',
+					inline = true,
+					name = "Officially supported sound packs not yet installed/active",
+					order = 10,
+					width = "half",
+					args = {
 					}
 				}
 			}
@@ -355,11 +387,69 @@ local mainOptions = {
 	}
 }
 
+local officialSoundPacks = {
+	["Ana"] = { displayName = "Vocal Raid Assistant - Ana", name = "VRA_EN_Ana", demoFileName = "Ana", link = "https://www.curseforge.com/wow/addons/vocal-raid-assistant-ana-sound-pack" },
+	["Elizabeth"] = { displayName = "Vocal Raid Assistant - Elizabeth", name = "VRA_EN_Elizabeth", demoFileName = "Elizabeth", link = "https://www.curseforge.com/wow/addons/vocal-raid-assistant-elizabeth-sound-pack" },
+	["Eric"] = { displayName = "Vocal Raid Assistant - Eric", name = "VRA_EN_Eric", demoFileName = "Eric", link = "https://www.curseforge.com/wow/addons/vocal-raid-assistant-eric-sound-pack" },
+	["Guy"] = { displayName = "Vocal Raid Assistant - Guy", name = "VRA_EN_Guy", demoFileName = "Guy", link = "https://www.curseforge.com/wow/addons/vocal-raid-assistant-sara-sound-pack" },
+	["Sara"] = { displayName = "Vocal Raid Assistant - Sara", name = "VRA_EN_Sara", demoFileName = "Sara", link = "https://www.curseforge.com/wow/addons/vocal-raid-assistant-sara-sound-pack" }
+}
+
+do
+	local order = 1
+
+	for k, v in pairs(officialSoundPacks) do
+		local isHidden = select(4, GetAddOnInfo(v.name)) -- name, title, notes, enabled, loadable, reason, security
+		local link = {
+			type = "input",
+			name = v.displayName,
+			get = function()
+				return v.link
+			end,
+			hidden = isHidden,
+			width = 1.5,
+			order = order
+		}
+		local playButton = {
+			type = 'execute',
+			name = L["Demo"],
+			func = function()
+				if not PlaySoundFile(format("Interface\\AddOns\\VocalRaidAssistant\\Media\\%s.ogg", v.demoFileName), addon.profile.sound.channel) then
+					addon:prettyPrint(addon:determinePlayerError("", addon.profile.sound.channel, true))
+				end
+			end,
+			width = "half",
+			hidden = isHidden,
+			order = order + 1
+		}
+		local lineBreak = {
+			type = 'description',
+			name = '',
+			hidden = isHidden,
+			order = order + 2
+		}
+
+		mainOptions.args.generalOptions.args.soundPacksConfig.args[k.."link"] = link
+		mainOptions.args.generalOptions.args.soundPacksConfig.args[k.."button"] = playButton
+		mainOptions.args.generalOptions.args.soundPacksConfig.args[k.."break"] = lineBreak
+
+		order = order + 3
+	end
+
+	mainOptions.args.generalOptions.args.soundPacksConfig.args["addition"] = {
+		type = "description",
+		name = L["Additional Voicepacks"],
+		order = order
+	}
+end
+
+officialSoundPacks = nil
+
 local spells = {
 	name = L["Abilities"],
 	type = "group",
 	disabled = function(info)
-		return not profile.general.area[info[2]].enabled
+		return not addon.profile.general.area[info[2]].enabled
 	end,
 	args = {
 		selectedArea = {
@@ -379,10 +469,10 @@ local spells = {
 				return t
 			end,
 			get = function(info)
-				return profile.general.area[info[2]].copyZone
+				return addon.profile.general.area[info[2]].copyZone
 			end,
 			set = function(info, val)
-				profile.general.area[info[2]].copyZone = val
+				addon.profile.general.area[info[2]].copyZone = val
 			end
 		},
 		copySelected = {
@@ -391,21 +481,21 @@ local spells = {
 			order = 2,
 			type = "execute",
 			disabled = function(info)
-				return not profile.general.area[info[2]].copyZone or profile.general.area[info[2]].copyZone == ''
+				return not addon.profile.general.area[info[2]].copyZone or addon.profile.general.area[info[2]].copyZone == ''
 			end,
 			func = function(info)
 				local t = {}
-				local source = profile.general.area[info[2]].copyZone
-				local sourceTable = profile.general.area[source]
+				local source = addon.profile.general.area[info[2]].copyZone
+				local sourceTable = addon.profile.general.area[source]
 				for k, v in pairs(sourceTable) do
 					t[k] = v
 				end
-				profile.general.area[info[2]] = t
-				profile.general.area[info[2]].copyZone = nil
+				addon.profile.general.area[info[2]] = t
+				addon.profile.general.area[info[2]].copyZone = nil
 				WagoAnalytics:IncrementCounter("Copy Settings")
 			end,
 			confirm = function(info)
-				return L["Copy Settings: "] .. addon.ZONES[profile.general.area[info[2]].copyZone].name .. " -> " ..
+				return L["Copy Settings: "] .. addon.ZONES[addon.profile.general.area[info[2]].copyZone].name .. " -> " ..
 										addon.ZONES[info[2]].name
 			end
 		},
@@ -452,7 +542,7 @@ local spells = {
 					popUpSemaphore = true
 					local dialog = StaticPopup_Show("VRA_EXPORT")
 					if (dialog) then
-						local exportString = VRA.EXP:Serialize(profile.general.area[info[2]].spells)
+						local exportString = VRA.EXP:Serialize(addon.profile.general.area[info[2]].spells)
 						dialog.editBox:SetText(exportString)
 						dialog.editBox:HighlightText()
 					else
@@ -473,10 +563,10 @@ local spells = {
 					desc = L["Play sound on interrupts"],
 					width = 1.05,
 					get = function(info)
-						return profile.general.area[info[2]].enableInterrupts
+						return addon.profile.general.area[info[2]].enableInterrupts
 					end,
 					set = function(info, val)
-						profile.general.area[info[2]].enableInterrupts = val
+						addon.profile.general.area[info[2]].enableInterrupts = val
 						if val then
 							addon:playSpell("countered")
 						end
@@ -488,10 +578,10 @@ local spells = {
 					desc = L["Play sound on taunts"],
 					width = 1.05,
 					get = function(info)
-						return profile.general.area[info[2]].enableTaunts
+						return addon.profile.general.area[info[2]].enableTaunts
 					end,
 					set = function(info, val)
-						profile.general.area[info[2]].enableTaunts = val
+						addon.profile.general.area[info[2]].enableTaunts = val
 						if val then
 							addon:playSpell("taunted")
 						end
@@ -504,50 +594,48 @@ local spells = {
 
 
 local additionalSpellCategories = {
+	["All Active"] = L["All Active"],
 	["TRINKET"] = INVTYPE_TRINKET,
 	["GENERAL"] = L["General Spells"],
 }
 
-for k, v in pairs(additionalSpellCategories) do
-	spells.args[k] = createSpellCategory(k, v, nil, 0)
-end
+do
+	for k, v in pairs(additionalSpellCategories) do
+		spells.args[k] = createSpellCategory(k, v, nil, 0)
+	end
 
-for i = 1, MAX_CLASSES do
-	local class = CLASS_SORT_ORDER[i]
-	local name = LOCALIZED_CLASS_NAMES_MALE[class]
-	local icon = "Interface\\Icons\\ClassIcon_" .. class
-	spells.args[class] = createSpellCategory(class, name, icon, i)
-end
+	for i = 1, MAX_CLASSES do
+		local class = CLASS_SORT_ORDER[i]
+		local name = LOCALIZED_CLASS_NAMES_MALE[class]
+		local icon = "Interface\\Icons\\ClassIcon_" .. class
+		spells.args[class] = createSpellCategory(class, name, icon, i)
+	end
 
-for k, v in pairs(addon.ZONES) do
-	mainOptions.args.abilitiesOptions.args[k] = {
-		name = v.name,
-		type = "group",
-		childGroups = "tab",
-		order = v.order,
-		args = {
-			enable = {
-				type = "toggle",
-				name = L["Enable"],
-				order = 1,
-				get = function(info)
-					return profile.general.area[info[2]].enabled
-				end,
-				set = function(info, val)
-					profile.general.area[info[2]].enabled = val
-				end
-			},
-			spells = spells
+	for k, v in pairs(addon.ZONES) do
+		mainOptions.args.abilitiesOptions.args[k] = {
+			name = v.name,
+			type = "group",
+			childGroups = "tab",
+			order = v.order,
+			args = {
+				enable = {
+					type = "toggle",
+					name = L["Enable"],
+					order = 1,
+					get = function(info)
+						return addon.profile.general.area[info[2]].enabled
+					end,
+					set = function(info, val)
+						addon.profile.general.area[info[2]].enabled = val
+					end
+				},
+				spells = spells
+			}
 		}
-	}
-end
-
-function addon:RefreshOptions(database)
-	profile = database.profile
+	end
 end
 
 function addon:InitConfigOptions()
-	profile = addon.db.profile
 	mainOptions.args.profiles = self.ACDBO:GetOptionsTable(self.db)
 	if(not self:IsClassic() and not self:IsBCC()) then
 		addon.LDS:EnhanceOptions(mainOptions.args.profiles, self.db)

@@ -21,12 +21,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2871479187,
 		["Contents"] = "{rt3} = Nookio Kalec Miesmuschel Yaice Skalas Hutnertarp\n{rt5} = Gresh Getrekt Nadilli Oreokeks Raiserx Xarrow\n{icon ability_mage_firestarter}Focused Dreadflame -> Kalec, Yaice, Nookio, Getrekt\n\nPhase1 {bl}\n\nPhase2\n\n#1{icon spell_shadow_rainoffire}Armageddon (Heiler nicht soaken) - Große Skalas\n#2{icon spell_shadow_rainoffire}Armageddon(Nadilli)\n#3{icon spell_shadow_rainoffire}Armageddon (Miesmuschel)\n#4{icon spell_shadow_rainoffire}Armageddon (Hutnertarp)\n#5{icon spell_shadow_rainoffire}Armageddon (Oreokeks) - Zusammen mit 2ten Adds\n#6{icon spell_shadow_rainoffire}Armageddon (Nadilli)\n\nIntermission: Boss auf {rt7} - {rt2} - {rt1} - {rt8}\nStun: Nadilli, Luvwen\n\n#1 Kite: Kalec Skalas Nookio\n#2 Kite: Kalec Oreokeks Nookio",
 	},
-	[653602369] = {
-		["Updated"] = 1513109785,
-		["Name"] = "T22/05: Eonar",
-		["Id"] = 653602369,
-		["UpdateId"] = 3184394462,
-		["Contents"] = "{icon priest_icon_chakra_blue} Rückkopplung Range\n{icon priest_icon_chakra_green} Rückkopplung Melee\n{icon priest_icon_chakra_red} Rückkopplung Range\n{icon priest_icon_chakra} Rückkopplung Healer\n\n{icon ability_creature_cursed_05} Final Doom - 4 Spieler\n#1 Nadilli, Rashao Raiserx Adelgunde\n#2 Getrekt, Miesmuschel, Oreokeks Milch\n#3 Kalec, Skalas, Booz, Twajamad\n#4 Xarrow, Wattikann, Gresh, Kza\n\n\nGroup 1\n0:40 {rt6} Unten\n1:00 {rt7} Mitte\n1:45 {rt6} Unten (Beide Gruppen)\n2:30 {rt7} Mitte\n3:30 {rt5} Fledermäuse RANGE\n3:30 {rt6} Unten MELEE\n4:30 {rt7} Mitte MELEE\n4:30 {rt5} Fledermäuse RANGE\n5:10 {rt6} Unten Nadilli/Getrekt\n5:40 (Adds töten wärend G2 nach Oben geht)\n6:20 {rt5} Fledermäuse G1 RANGE {bl}\n6:30 {rt7} Mitte G1 MELEE + Range nach Fledermäusen KILL DESTRUCTOR\n7:50 Südlich von Eonar (Mitte Weg) KILL OBFUSCATOR\n\nGroup 2\n0:40 {rt4} Oben\n1:00 {rt4} Oben -> {rt7} wenn alles tot\n1:45 {rt6} Unten (Beide Gruppen)\n2:30 {rt4} Oben\n3:30 {rt5} Fledermäuse RANGE\n3:30 {rt6} Unten MELEE\n4:30 {rt7} Mitte MELEE\n4:30 {rt5} Fledermäuse} RANGE\n5:10 {rt6} Unten Xarrow/Ranshao/Milch\n5:41 {rt4} Oben\n7:50 Südlich von Eonar (Mitte Weg) KILL OBFUSCATOR/FEL LORDs",
+	[1307460916] = {
+		["Updated"] = 1513114964,
+		["Name"] = "T22/04: Portal Keeper",
+		["Id"] = 1307460916,
+		["UpdateId"] = 3282012519,
+		["Contents"] = "90% Feuer: Xorot: G4/G3\n60% Fel: Rancora: G4/G3\n30% Void: Nathreza: G3/G4",
 	},
 	[330231487] = {
 		["Updated"] = 1510517954,
@@ -91,18 +91,18 @@ AngryAssign_Pages = {
 		["UpdateId"] = 870027279,
 		["Contents"] = "Heal-CDs:\n1. Milch \n2. Kza (orange)\n3. Twaja\n4. Bagel (lila)\n5. Adel",
 	},
-	[1307460916] = {
-		["Updated"] = 1513114964,
-		["Name"] = "T22/04: Portal Keeper",
-		["Id"] = 1307460916,
-		["UpdateId"] = 3282012519,
-		["Contents"] = "90% Feuer: Xorot: G4/G3\n60% Fel: Rancora: G4/G3\n30% Void: Nathreza: G3/G4",
+	[653602369] = {
+		["Updated"] = 1513109785,
+		["Name"] = "T22/05: Eonar",
+		["Id"] = 653602369,
+		["UpdateId"] = 3184394462,
+		["Contents"] = "{icon priest_icon_chakra_blue} Rückkopplung Range\n{icon priest_icon_chakra_green} Rückkopplung Melee\n{icon priest_icon_chakra_red} Rückkopplung Range\n{icon priest_icon_chakra} Rückkopplung Healer\n\n{icon ability_creature_cursed_05} Final Doom - 4 Spieler\n#1 Nadilli, Rashao Raiserx Adelgunde\n#2 Getrekt, Miesmuschel, Oreokeks Milch\n#3 Kalec, Skalas, Booz, Twajamad\n#4 Xarrow, Wattikann, Gresh, Kza\n\n\nGroup 1\n0:40 {rt6} Unten\n1:00 {rt7} Mitte\n1:45 {rt6} Unten (Beide Gruppen)\n2:30 {rt7} Mitte\n3:30 {rt5} Fledermäuse RANGE\n3:30 {rt6} Unten MELEE\n4:30 {rt7} Mitte MELEE\n4:30 {rt5} Fledermäuse RANGE\n5:10 {rt6} Unten Nadilli/Getrekt\n5:40 (Adds töten wärend G2 nach Oben geht)\n6:20 {rt5} Fledermäuse G1 RANGE {bl}\n6:30 {rt7} Mitte G1 MELEE + Range nach Fledermäusen KILL DESTRUCTOR\n7:50 Südlich von Eonar (Mitte Weg) KILL OBFUSCATOR\n\nGroup 2\n0:40 {rt4} Oben\n1:00 {rt4} Oben -> {rt7} wenn alles tot\n1:45 {rt6} Unten (Beide Gruppen)\n2:30 {rt4} Oben\n3:30 {rt5} Fledermäuse RANGE\n3:30 {rt6} Unten MELEE\n4:30 {rt7} Mitte MELEE\n4:30 {rt5} Fledermäuse} RANGE\n5:10 {rt6} Unten Xarrow/Ranshao/Milch\n5:41 {rt4} Oben\n7:50 Südlich von Eonar (Mitte Weg) KILL OBFUSCATOR/FEL LORDs",
 	},
 }
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["directionUp"] = true,
+	["locked"] = true,
 	["display"] = {
 		["y"] = 130.154876708984,
 		["x"] = -86.319091796875,
@@ -111,22 +111,22 @@ AngryAssign_State = {
 		["hidden"] = false,
 		["width"] = 350.180236816406,
 	},
-	["window"] = {
-	},
+	["directionUp"] = true,
 	["tree"] = {
 		["groups"] = {
 		},
 		["scrollvalue"] = 0,
-		["treesizable"] = true,
-		["selected"] = 3174942738,
-		["treewidth"] = 175,
 		["fullwidth"] = 666,
+		["treesizable"] = true,
+		["treewidth"] = 175,
+		["selected"] = 3174942738,
 	},
-	["locked"] = true,
+	["window"] = {
+	},
 }
 AngryAssign_Config = {
 	["scale"] = 1.05921983718872,
-	["highlight"] = "Adel Adelgunde",
 	["allowplayers"] = "Miesmuschel",
+	["highlight"] = "Adel Adelgunde",
 	["allowall"] = true,
 }

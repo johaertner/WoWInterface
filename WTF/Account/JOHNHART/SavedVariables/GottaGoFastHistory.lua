@@ -113,6 +113,19 @@ GottaGoFastHistoryDB = {
 						"Feindliche Streitkräfte", -- [5]
 					},
 				},
+				[2286] = {
+					["objectives"] = {
+						"Pestknochen besiegt", -- [1]
+						"Amarth besiegt", -- [2]
+						"Chirurg Fleischnaht besiegt", -- [3]
+						"Nalthor den Eisbinder besiegt", -- [4]
+						"Gegnerische Streitkräfte", -- [5]
+					},
+					["zoneID"] = 2286,
+					["name"] = "Die Nekrotische Schneise",
+					["runs"] = {
+					},
+				},
 				[1822] = {
 					["runs"] = {
 						{
@@ -420,206 +433,125 @@ GottaGoFastHistoryDB = {
 						"Gegnerische Streitkräfte", -- [5]
 					},
 				},
-				[2286] = {
+				[1516] = {
 					["objectives"] = {
-						"Pestknochen besiegt", -- [1]
-						"Amarth besiegt", -- [2]
-						"Chirurg Fleischnaht besiegt", -- [3]
-						"Nalthor den Eisbinder besiegt", -- [4]
-						"Gegnerische Streitkräfte", -- [5]
+						"Ivanyr", -- [1]
+						"Corstilax", -- [2]
+						"General Xakal", -- [3]
+						"Nal'tira", -- [4]
+						"Berater Vandros", -- [5]
+						"Feindliche Streitkräfte", -- [6]
 					},
-					["zoneID"] = 2286,
-					["name"] = "Die Nekrotische Schneise",
-					["runs"] = {
-					},
-				},
-				[1864] = {
+					["zoneID"] = 1516,
+					["name"] = "Der Arkus",
 					["runs"] = {
 						{
 							["corrupt"] = false,
-							["deaths"] = 3,
+							["deaths"] = 11,
 							["affixes"] = {
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
 								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 159482.9,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 11,
+								["hours"] = 21,
+								["year"] = 2016,
+								["mins"] = 24,
+							},
+							["level"] = 7,
+							["startTime"] = 157653.027,
+							["objectiveTimes"] = {
+								"25:47.018", -- [1]
+								"19:51.707", -- [2]
+								"10:49.572", -- [3]
+								"14:37.280", -- [4]
+								"31:05.207", -- [5]
+								"31:24.406", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Mickoo (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 15,
+							["affixes"] = {
 								[6] = {
 									["name"] = "Wütend",
 									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
 								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 784988.9940000001,
+							["endTime"] = 105154.498,
 							["timeStamp"] = {
-								["day"] = 25,
-								["month"] = 5,
+								["day"] = 24,
+								["month"] = 11,
 								["hours"] = 23,
-								["mins"] = 48,
-								["year"] = 2020,
+								["year"] = 2016,
+								["mins"] = 35,
+							},
+							["level"] = 4,
+							["startTime"] = 103728.764,
+							["objectiveTimes"] = {
+								"07:07.050", -- [1]
+								"10:26.411", -- [2]
+								"21:52.009", -- [3]
+								"15:17.789", -- [4]
+								"25:00.233", -- [5]
+								"22:49.707", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Paladin",
-									["name"] = "Quyncy (*)",
-									["role"] = "TANK",
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Mönch",
-									["name"] = "Mîlk (*)",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
 								}, -- [2]
 								{
-									["class"] = "Magierin",
-									["name"] = "Bunsbuns (*)",
+									["class"] = "Magier",
+									["name"] = "Maronai",
 									["role"] = "DAMAGER",
 								}, -- [3]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"04:27.166", -- [1]
-								"11:11.283", -- [2]
-								"19:56.390", -- [3]
-								"24:13.654", -- [4]
-								"22:06.637", -- [5]
-							},
-							["startTime"] = 783549.593,
-						}, -- [1]
-					},
-					["name"] = "Der Schrein des Sturms",
-					["zoneID"] = 1864,
-					["objectives"] = {
-						"Aqu'sirr besiegt", -- [1]
-						"Gezeitenrat besiegt", -- [2]
-						"Lord Sturmsang besiegt", -- [3]
-						"Vol'zith den Flüsterer besiegt", -- [4]
-						"Feindliche Streitkräfte", -- [5]
-					},
-				},
-				[1456] = {
-					["objectives"] = {
-						"Kriegsherr Parjesh", -- [1]
-						"Lady Hassnatter", -- [2]
-						"König Klafterbart", -- [3]
-						"Serpentrix", -- [4]
-						"Azsharas Zorn", -- [5]
-						"Feindliche Streitkräfte", -- [6]
-					},
-					["zoneID"] = 1456,
-					["name"] = "Das Auge Azsharas",
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 206329.738,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 11,
-								["hours"] = 3,
-								["year"] = 2016,
-								["mins"] = 42,
-							},
-							["level"] = 2,
-							["startTime"] = 205407.642,
-							["objectiveTimes"] = {
-								"02:25.844", -- [1]
-								"09:29.360", -- [2]
-								"12:57.877", -- [3]
-								"07:53.011", -- [4]
-								"15:21.617", -- [5]
-								"12:57.877", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Jägerin",
-									["name"] = "Onlíne (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Krieger",
-									["name"] = "Ayucael (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druide",
-									["name"] = "Clinico (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Peration (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 46316.865,
-							["timeStamp"] = {
-								["day"] = 27,
-								["month"] = 11,
-								["hours"] = 2,
-								["year"] = 2016,
-								["mins"] = 9,
-							},
-							["level"] = 2,
-							["startTime"] = 45281.45,
-							["objectiveTimes"] = {
-								"02:44.528", -- [1]
-								"06:14.272", -- [2]
-								"14:31.981", -- [3]
-								"10:38.394", -- [4]
-								"17:24.898", -- [5]
-								"14:31.981", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Xoldrai (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Vénôm (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
 								{
 									["class"] = "Dämonenjägerin",
-									["name"] = "Xauls (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Iviy (*)",
+									["name"] = "Zertax",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -631,137 +563,35 @@ GottaGoFastHistoryDB = {
 						}, -- [2]
 						{
 							["corrupt"] = false,
-							["deaths"] = 0,
+							["deaths"] = 14,
 							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 727208.881,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 12,
-								["hours"] = 23,
-								["mins"] = 18,
-								["year"] = 2016,
-							},
-							["players"] = {
 								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Admantium (*)",
-									["role"] = "TANK",
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
 								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 726406.865,
-							["objectiveTimes"] = {
-								"02:15.863", -- [1]
-								"04:47.593", -- [2]
-								"11:18.928", -- [3]
-								"07:44.917", -- [4]
-								"13:21.559", -- [5]
-								"11:18.928", -- [6]
-							},
-							["level"] = 2,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 332680.793,
-							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 12,
-								["hours"] = 16,
-								["year"] = 2016,
-								["mins"] = 29,
-							},
-							["startTime"] = 331534.215,
-							["level"] = 6,
-							["objectiveTimes"] = {
-								"02:58.109", -- [1]
-								"06:34.140", -- [2]
-								"16:27.524", -- [3]
-								"11:21.297", -- [4]
-								"19:11.173", -- [5]
-								"16:27.524", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Chrysalia (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Aidail (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jäger",
-									["name"] = "Hodels (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mönch",
-									["name"] = "Gromook (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 13,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
 								[7] = {
 									["name"] = "Anstachelnd",
 									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
 								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 176362.744,
+							["endTime"] = 461449.964,
 							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 1,
-								["hours"] = 19,
-								["mins"] = 45,
-								["year"] = 2017,
+								["day"] = 1,
+								["month"] = 12,
+								["hours"] = 21,
+								["year"] = 2016,
+								["mins"] = 29,
+							},
+							["startTime"] = 459765.412,
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"23:54.183", -- [1]
+								"16:25.764", -- [2]
+								"06:42.539", -- [3]
+								"12:19.214", -- [4]
+								"29:14.119", -- [5]
+								"27:02.308", -- [6]
 							},
 							["players"] = {
 								{
@@ -770,140 +600,18 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 174653.209,
-							["objectiveTimes"] = {
-								"05:41.783", -- [1]
-								"10:46.446", -- [2]
-								"25:44.365", -- [3]
-								"17:57.326", -- [4]
-								"29:34.120", -- [5]
-								"25:44.365", -- [6]
-							},
-							["level"] = 10,
-						}, -- [5]
-						{
-							["corrupt"] = false,
-							["deaths"] = 3,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 180003.864,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 1,
-								["hours"] = 20,
-								["mins"] = 47,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Druidin",
-									["name"] = "Beulchen",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
+									["class"] = "Dämonenjäger",
 									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 6,
-							["objectiveTimes"] = {
-								"02:18.186", -- [1]
-								"05:34.077", -- [2]
-								"15:22.925", -- [3]
-								"09:24.199", -- [4]
-								"18:12.147", -- [5]
-								"15:22.925", -- [6]
-							},
-							["startTime"] = 178926.216,
-						}, -- [6]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 181723.591,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 1,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 16,
-							},
-							["level"] = 5,
-							["startTime"] = 180784.231,
-							["objectiveTimes"] = {
-								"02:10.157", -- [1]
-								"05:03.493", -- [2]
-								"13:01.150", -- [3]
-								"08:31.844", -- [4]
-								"15:38.977", -- [5]
-								"13:01.150", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
+									["role"] = "TANK",
+								}, -- [2]
 								{
 									["class"] = "Jäger",
-									["name"] = "Unger",
+									["name"] = "Smagyou (*)",
 									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druide",
-									["name"] = "Kuscheleule",
-									["role"] = "TANK",
 								}, -- [3]
 								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
+									["class"] = "Schurkin",
+									["name"] = "Askará (*)",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -912,18 +620,18 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [7]
+						}, -- [3]
 						{
-							["corrupt"] = false,
-							["deaths"] = 3,
+							["corrupt"] = true,
+							["deaths"] = 12,
 							["affixes"] = {
 								{
 									["name"] = "Überschüssig",
 									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
 								}, -- [1]
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
 								},
 								[9] = {
 									["name"] = "Tyrannisch",
@@ -931,13 +639,75 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 363615.257,
+							["endTime"] = 808923.461,
 							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 1,
-								["hours"] = 23,
-								["mins"] = 46,
-								["year"] = 2017,
+								["day"] = 5,
+								["month"] = 12,
+								["hours"] = 22,
+								["mins"] = 0,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Malachai (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 806180.461,
+							["objectiveTimes"] = {
+								"12:53", -- [1]
+								"20:58", -- [2]
+								"38:48", -- [3]
+								"28:37", -- [4]
+								"45:43", -- [5]
+								"40:46", -- [6]
+							},
+							["level"] = 12,
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 96860.398,
+							["timeStamp"] = {
+								["day"] = 7,
+								["month"] = 12,
+								["hours"] = 22,
+								["year"] = 2016,
+								["mins"] = 58,
+							},
+							["level"] = 3,
+							["startTime"] = 95879.322,
+							["objectiveTimes"] = {
+								"04:16.566", -- [1]
+								"06:31.429", -- [2]
+								"13:55.524", -- [3]
+								"10:06.448", -- [4]
+								"16:35.625", -- [5]
+								"13:55.524", -- [6]
 							},
 							["players"] = {
 								{
@@ -953,12 +723,12 @@ GottaGoFastHistoryDB = {
 								{
 									["class"] = "Dämonenjägerin",
 									["name"] = "Zertax",
-									["role"] = "TANK",
+									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
@@ -966,306 +736,44 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 361945.748,
-							["objectiveTimes"] = {
-								"04:06.502", -- [1]
-								"10:55.695", -- [2]
-								"23:12.868", -- [3]
-								"17:02.297", -- [4]
-								"28:03.931", -- [5]
-								"23:12.868", -- [6]
-							},
-							["level"] = 12,
-						}, -- [8]
+						}, -- [5]
 						{
 							["corrupt"] = false,
-							["deaths"] = 3,
+							["deaths"] = 4,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
 									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
 								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 41085.317,
+							["endTime"] = 124811.854,
 							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 1,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 54,
-							},
-							["level"] = 12,
-							["startTime"] = 39571.775,
-							["objectiveTimes"] = {
-								"04:37.269", -- [1]
-								"09:33.245", -- [2]
-								"21:19.761", -- [3]
-								"15:40.522", -- [4]
-								"25:27.918", -- [5]
-								"21:19.761", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Thoriel",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [9]
-						{
-							["corrupt"] = false,
-							["deaths"] = 15,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 858231.516,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 1,
-								["hours"] = 17,
-								["year"] = 2017,
-								["mins"] = 13,
-							},
-							["startTime"] = 856446.376,
-							["level"] = 14,
-							["objectiveTimes"] = {
-								"06:03.737", -- [1]
-								"12:08.121", -- [2]
-								"26:21.288", -- [3]
-								"20:13.734", -- [4]
-								"30:59.695", -- [5]
-								"26:21.288", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ryandin",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [10]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 869855.165,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 1,
-								["hours"] = 20,
-								["mins"] = 26,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 868695.477,
-							["objectiveTimes"] = {
-								"03:03.718", -- [1]
-								"07:08.667", -- [2]
-								"16:26.405", -- [3]
-								"12:05.607", -- [4]
-								"19:24.225", -- [5]
-								"16:26.405", -- [6]
-							},
-							["level"] = 9,
-						}, -- [11]
-						{
-							["corrupt"] = false,
-							["deaths"] = 8,
-							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 184604.966,
-							["timeStamp"] = {
-								["day"] = 25,
-								["month"] = 1,
-								["hours"] = 22,
-								["mins"] = 48,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Thoriel",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"03:22.392", -- [1]
-								"08:00.188", -- [2]
-								"20:36.692", -- [3]
-								"13:38.162", -- [4]
-								"27:12.178", -- [5]
-								"20:36.692", -- [6]
-							},
-							["startTime"] = 183012.227,
-						}, -- [12]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 613850.37,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 2,
+								["day"] = 15,
+								["month"] = 12,
 								["hours"] = 21,
-								["mins"] = 32,
-								["year"] = 2017,
+								["mins"] = 36,
+								["year"] = 2016,
 							},
 							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [1]
 								{
 									["class"] = "Druidin",
-									["name"] = "Pacifai (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Magierin",
-									["name"] = "Sunris (*)",
+									["name"] = "Lunavia",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Priester",
-									["name"] = "Fiyerossong (*)",
+									["class"] = "Jäger",
+									["name"] = "Elow (*)",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jäger",
-									["name"] = "Nameth (*)",
+									["class"] = "Jägerin",
+									["name"] = "Chapman (*)",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -1274,144 +782,20 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 612791.458,
+							["level"] = 6,
 							["objectiveTimes"] = {
-								"02:33.530", -- [1]
-								"05:57.253", -- [2]
-								"13:47.139", -- [3]
-								"09:35.401", -- [4]
-								"17:38.473", -- [5]
-								"14:38.025", -- [6]
+								"06:54.824", -- [1]
+								"10:05.385", -- [2]
+								"19:54.159", -- [3]
+								"13:30.486", -- [4]
+								"23:14.807", -- [5]
+								"20:48.738", -- [6]
 							},
-							["level"] = 5,
-						}, -- [13]
+							["startTime"] = 123436.413,
+						}, -- [6]
 						{
-							["corrupt"] = false,
-							["deaths"] = 7,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 698456.974,
-							["timeStamp"] = {
-								["day"] = 3,
-								["month"] = 2,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 1,
-							},
-							["startTime"] = 697164.886,
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"03:15.469", -- [1]
-								"07:22.619", -- [2]
-								"18:50.716", -- [3]
-								"14:19.761", -- [4]
-								"22:06.554", -- [5]
-								"18:50.716", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Goblinbeer (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Ankalima (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Leighdh (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Velthar (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [14]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 14888.485,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 2,
-								["hours"] = 18,
-								["mins"] = 49,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ryandin",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Deviljinn",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 13533.446,
-							["objectiveTimes"] = {
-								"03:28.970", -- [1]
-								"07:53.899", -- [2]
-								"19:50.036", -- [3]
-								"13:16.076", -- [4]
-								"23:04.569", -- [5]
-								"19:50.036", -- [6]
-							},
-							["level"] = 11,
-						}, -- [15]
-						{
-							["corrupt"] = false,
-							["deaths"] = 12,
+							["corrupt"] = true,
+							["deaths"] = 0,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
@@ -1427,100 +811,44 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 85234.032,
+							["endTime"] = 293722.65,
 							["timeStamp"] = {
-								["day"] = 14,
-								["month"] = 2,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 30,
+								["day"] = 17,
+								["month"] = 12,
+								["hours"] = 20,
+								["year"] = 2016,
+								["mins"] = 33,
 							},
-							["level"] = 13,
-							["startTime"] = 83466.387,
+							["startTime"] = 288702.65,
+							["level"] = 11,
 							["objectiveTimes"] = {
-								"04:52.107", -- [1]
-								"13:03.489", -- [2]
-								"26:11.185", -- [3]
-								"20:05.334", -- [4]
-								"30:27.261", -- [5]
-								"26:11.185", -- [6]
+								"?", -- [1]
+								"?", -- [2]
+								"66:30", -- [3]
+								"?", -- [4]
+								"83:40", -- [5]
+								"70:58", -- [6]
 							},
 							["players"] = {
-								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
 								{
 									["class"] = "Dämonenjägerin",
 									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
 									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [16]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 182587.314,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 2,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 16,
-							},
-							["level"] = 6,
-							["startTime"] = 181768.155,
-							["objectiveTimes"] = {
-								"02:02.310", -- [1]
-								"04:29.183", -- [2]
-								"11:30.237", -- [3]
-								"08:02.351", -- [4]
-								"13:38.666", -- [5]
-								"11:30.237", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Abrechnung",
-									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Druide",
-									["name"] = "Boolean",
+									["class"] = "Priester",
+									["name"] = "Navia",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
+									["class"] = "Magier",
+									["name"] = "Maronai",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
@@ -1528,7 +856,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [17]
+						}, -- [7]
 						{
 							["corrupt"] = false,
 							["deaths"] = 5,
@@ -1547,23 +875,251 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 8136.696,
+							["endTime"] = 12371.61,
 							["timeStamp"] = {
-								["day"] = 19,
-								["month"] = 2,
-								["hours"] = 17,
-								["year"] = 2017,
-								["mins"] = 26,
+								["day"] = 24,
+								["month"] = 12,
+								["hours"] = 0,
+								["mins"] = 51,
+								["year"] = 2016,
 							},
-							["startTime"] = 6502.967,
-							["level"] = 14,
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druide",
+									["name"] = "Deffan (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Zenossama (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Rambosilek (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 10546.373,
 							["objectiveTimes"] = {
-								"04:24.108", -- [1]
-								"10:57.916", -- [2]
-								"23:21.165", -- [3]
-								"16:36.898", -- [4]
-								"27:38.246", -- [5]
-								"23:21.165", -- [6]
+								"25:11.531", -- [1]
+								"19:13.971", -- [2]
+								"09:21.427", -- [3]
+								"14:18.517", -- [4]
+								"30:49.703", -- [5]
+								"27:25.598", -- [6]
+							},
+							["level"] = 11,
+						}, -- [8]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 107479.478,
+							["timeStamp"] = {
+								["day"] = 27,
+								["month"] = 12,
+								["hours"] = 1,
+								["year"] = 2016,
+								["mins"] = 34,
+							},
+							["level"] = 5,
+							["startTime"] = 106245.89,
+							["objectiveTimes"] = {
+								"16:55.021", -- [1]
+								"12:43.226", -- [2]
+								"05:46.508", -- [3]
+								"08:59.154", -- [4]
+								"20:33.154", -- [5]
+								"16:55.021", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schurkin",
+									["name"] = "Dirtpwn (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priester",
+									["name"] = "Skuggprästen (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Taislin (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ajaaydh (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [9]
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 162138.638,
+							["timeStamp"] = {
+								["day"] = 27,
+								["month"] = 12,
+								["hours"] = 16,
+								["year"] = 2016,
+								["mins"] = 43,
+							},
+							["startTime"] = 160878.644,
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"16:10.183", -- [1]
+								"12:28.096", -- [2]
+								"05:44.476", -- [3]
+								"08:52.231", -- [4]
+								"21:19.560", -- [5]
+								"18:17.778", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schurke",
+									["name"] = "Domherren (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Zetank (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Schamanin",
+									["name"] = "Karjix (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Gurragranat (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [10]
+						{
+							["corrupt"] = true,
+							["deaths"] = 4,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 253608.883,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 12,
+								["hours"] = 18,
+								["year"] = 2016,
+								["mins"] = 7,
+							},
+							["level"] = 6,
+							["startTime"] = 252094.883,
+							["objectiveTimes"] = {
+								"09:40", -- [1]
+								"12:34", -- [2]
+								"20:52", -- [3]
+								"16:28", -- [4]
+								"25:14", -- [5]
+								"23:15", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Vraskah (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Kalidhor (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schurkin",
+									["name"] = "Bolletroll (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Sarphis (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [11]
+						{
+							["corrupt"] = false,
+							["deaths"] = 9,
+							["affixes"] = {
+								{
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
+								}, -- [1]
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 105805.382,
+							["timeStamp"] = {
+								["day"] = 8,
+								["month"] = 1,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 19,
+							},
+							["startTime"] = 104476.597,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"17:57.129", -- [1]
+								"13:58.101", -- [2]
+								"06:46.889", -- [3]
+								"09:54.471", -- [4]
+								"22:53.352", -- [5]
+								"20:26.728", -- [6]
 							},
 							["players"] = {
 								{
@@ -1572,13 +1128,13 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ryandin",
+									["class"] = "Magier",
+									["name"] = "Maronai",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
@@ -1592,10 +1148,10 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [18]
+						}, -- [12]
 						{
 							["corrupt"] = false,
-							["deaths"] = 7,
+							["deaths"] = 9,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
@@ -1607,34 +1163,34 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 791869.532,
+							["endTime"] = 10519.089,
 							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 3,
-								["hours"] = 0,
-								["mins"] = 49,
+								["day"] = 12,
+								["month"] = 1,
+								["hours"] = 21,
+								["mins"] = 46,
 								["year"] = 2017,
 							},
 							["players"] = {
 								{
-									["class"] = "Jäger",
-									["name"] = "Swangle (*)",
+									["class"] = "Priesterin",
+									["name"] = "Navia",
 									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Alkiller (*)",
-									["role"] = "DAMAGER",
+									["class"] = "Dämonenjäger",
+									["name"] = "Zertax",
+									["role"] = "TANK",
 								}, -- [2]
 								{
-									["class"] = "Schurke",
-									["name"] = "Buttbeak (*)",
+									["class"] = "Magierin",
+									["name"] = "Kayliesha",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Paladin",
-									["name"] = "Kåbøum (*)",
-									["role"] = "TANK",
+									["class"] = "Jägerin",
+									["name"] = "Cárà (*)",
+									["role"] = "DAMAGER",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
@@ -1642,20 +1198,20 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 7,
+							["startTime"] = 8995.172,
 							["objectiveTimes"] = {
-								"03:31.140", -- [1]
-								"07:10.872", -- [2]
-								"19:38.679", -- [3]
-								"11:23.101", -- [4]
-								"23:33.547", -- [5]
-								"22:02.908", -- [6]
+								"20:13.367", -- [1]
+								"16:00.546", -- [2]
+								"06:17.430", -- [3]
+								"10:41.978", -- [4]
+								"26:08.433", -- [5]
+								"23:39.941", -- [6]
 							},
-							["startTime"] = 790490.504,
-						}, -- [19]
+							["level"] = 9,
+						}, -- [13]
 						{
 							["corrupt"] = false,
-							["deaths"] = 3,
+							["deaths"] = 0,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
@@ -1667,28 +1223,198 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 875869.365,
+							["endTime"] = 442960.568,
 							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 3,
-								["hours"] = 0,
+								["day"] = 17,
+								["month"] = 1,
+								["hours"] = 21,
 								["year"] = 2017,
-								["mins"] = 9,
+								["mins"] = 52,
 							},
-							["level"] = 8,
-							["startTime"] = 874778.4,
+							["startTime"] = 441500.871,
+							["level"] = 9,
 							["objectiveTimes"] = {
-								"03:09.209", -- [1]
-								"07:11.194", -- [2]
-								"15:39.960", -- [3]
-								"11:54.091", -- [4]
-								"18:25.499", -- [5]
-								"15:39.960", -- [6]
+								"06:53.304", -- [1]
+								"10:10.815", -- [2]
+								"20:44.382", -- [3]
+								"13:52.135", -- [4]
+								"23:57.528", -- [5]
+								"24:19.280", -- [6]
 							},
 							["players"] = {
 								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [14]
+						{
+							["corrupt"] = true,
+							["deaths"] = 7,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 444285.051,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 1,
+								["hours"] = 22,
+								["mins"] = 28,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Schurkin",
+									["name"] = "Potzblitz (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Krieger",
+									["name"] = "Wigbald",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"22:21", -- [1]
+								"18:02", -- [2]
+								"07:34", -- [3]
+								"13:28", -- [4]
+								"26:42", -- [5]
+								"24:26", -- [6]
+							},
+							["startTime"] = 442683.051,
+						}, -- [15]
+						{
+							["corrupt"] = false,
+							["deaths"] = 17,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 8244.512,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 2,
+								["hours"] = 16,
+								["year"] = 2017,
+								["mins"] = 57,
+							},
+							["level"] = 9,
+							["startTime"] = 6476.372,
+							["objectiveTimes"] = {
+								"26:03.796", -- [1]
+								"21:21.241", -- [2]
+								"11:24.947", -- [3]
+								"17:21.522", -- [4]
+								"30:52.539", -- [5]
+								"28:15.707", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Wirbelwalter",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Enton",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
 									["class"] = "Schamane",
 									["name"] = "Grelix",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Deviljinn",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Krieger",
+									["name"] = "Wigbald",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [16]
+						{
+							["corrupt"] = false,
+							["deaths"] = 19,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 12866.35,
+							["timeStamp"] = {
+								["day"] = 7,
+								["month"] = 2,
+								["hours"] = 23,
+								["mins"] = 37,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Wirbelwalter",
 									["role"] = "DAMAGER",
 								}, -- [1]
 								{
@@ -1698,191 +1424,77 @@ GottaGoFastHistoryDB = {
 								}, -- [2]
 								{
 									["class"] = "Schamane",
-									["name"] = "Voluntas",
+									["name"] = "Grelix",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jäger",
-									["name"] = "Edgar (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [20]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 939819.822,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 3,
-								["hours"] = 17,
-								["year"] = 2017,
-								["mins"] = 54,
-							},
-							["startTime"] = 938679.82,
-							["level"] = 8,
-							["objectiveTimes"] = {
-								"02:44.855", -- [1]
-								"06:19.434", -- [2]
-								"16:07.555", -- [3]
-								"11:21.064", -- [4]
-								"19:04.551", -- [5]
-								"16:07.555", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Mönch",
-									["name"] = "Shirosakura (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Kitsue (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Bandid (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Druide",
-									["name"] = "Stèéll (*)",
+									["class"] = "Hexenmeister",
+									["name"] = "Deviljinn",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
 									["name"] = "Adelgunde",
-									["role"] = "HEALER",
+									["role"] = "TANK",
 								}, -- [5]
 							},
-						}, -- [21]
+							["level"] = 12,
+							["objectiveTimes"] = {
+								"35:06.931", -- [1]
+								"25:17.196", -- [2]
+								"11:24.239", -- [3]
+								"19:11.387", -- [4]
+								"42:02.948", -- [5]
+								"39:22.045", -- [6]
+							},
+							["startTime"] = 10437.769,
+						}, -- [17]
 						{
 							["corrupt"] = false,
-							["deaths"] = 1,
+							["deaths"] = 3,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
 									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 71409.384,
-							["timeStamp"] = {
-								["day"] = 12,
-								["month"] = 3,
-								["hours"] = 21,
-								["mins"] = 18,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 14,
-							["objectiveTimes"] = {
-								"04:15.731", -- [1]
-								"09:28.991", -- [2]
-								"21:06.452", -- [3]
-								"16:00.730", -- [4]
-								"25:08.870", -- [5]
-								"21:06.452", -- [6]
-							},
-							["startTime"] = 69904.963,
-						}, -- [22]
-						{
-							["corrupt"] = false,
-							["deaths"] = 13,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
 								},
 								[4] = {
 									["name"] = "Nekrotisch",
 									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
 								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
 								},
 							},
 							["active"] = false,
-							["endTime"] = 6840.22,
+							["endTime"] = 3070.772,
 							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 3,
-								["hours"] = 21,
+								["day"] = 13,
+								["month"] = 2,
+								["hours"] = 23,
 								["year"] = 2017,
-								["mins"] = 26,
+								["mins"] = 40,
 							},
-							["level"] = 15,
-							["startTime"] = 5279.752,
+							["startTime"] = 1116.561,
+							["level"] = 13,
 							["objectiveTimes"] = {
-								"04:11.783", -- [1]
-								"08:51.476", -- [2]
-								"21:49.834", -- [3]
-								"15:31.105", -- [4]
-								"27:04.868", -- [5]
-								"21:49.834", -- [6]
+								"08:48.962", -- [1]
+								"13:11.312", -- [2]
+								"26:59.717", -- [3]
+								"19:07.108", -- [4]
+								"32:48.794", -- [5]
+								"26:59.717", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
 								}, -- [2]
 								{
 									["class"] = "Jäger",
@@ -1890,8 +1502,8 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Magier",
-									["name"] = "Bároc",
+									["class"] = "Jägerin",
+									["name"] = "Enton",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -1900,7 +1512,187 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [23]
+						}, -- [18]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 82674.103,
+							["timeStamp"] = {
+								["day"] = 14,
+								["month"] = 2,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 47,
+							},
+							["startTime"] = 80325.378,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"11:27.942", -- [1]
+								"16:46.934", -- [2]
+								"33:47.820", -- [3]
+								"24:55.637", -- [4]
+								"39:33.242", -- [5]
+								"35:31.221", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Schamane",
+									["name"] = "Grelix",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [19]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 181283.055,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 2,
+								["hours"] = 22,
+								["mins"] = 53,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Tegou",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Abrechnung",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druide",
+									["name"] = "Boolean",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Guntram",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["level"] = 3,
+							["objectiveTimes"] = {
+								"15:32.679", -- [1]
+								"10:31.392", -- [2]
+								"04:26.557", -- [3]
+								"07:22.484", -- [4]
+								"18:52.413", -- [5]
+								"16:19.535", -- [6]
+							},
+							["startTime"] = 180155.142,
+						}, -- [20]
+						{
+							["corrupt"] = true,
+							["deaths"] = 2,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 20830.915,
+							["timeStamp"] = {
+								["day"] = 25,
+								["month"] = 2,
+								["hours"] = 23,
+								["mins"] = 51,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ryandin",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"48:41", -- [1]
+								"42:04", -- [2]
+								"?", -- [3]
+								"?", -- [4]
+								"52:32", -- [5]
+								"48:41", -- [6]
+							},
+							["startTime"] = 17678.915,
+						}, -- [21]
 						{
 							["corrupt"] = false,
 							["deaths"] = 11,
@@ -1913,113 +1705,45 @@ GottaGoFastHistoryDB = {
 									["name"] = "Nekrotisch",
 									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
 								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 99528.47,
+							["endTime"] = 12375.143,
 							["timeStamp"] = {
-								["day"] = 21,
+								["day"] = 20,
 								["month"] = 3,
-								["hours"] = 23,
+								["hours"] = 0,
 								["year"] = 2017,
-								["mins"] = 11,
+								["mins"] = 8,
 							},
-							["startTime"] = 97811.303,
-							["level"] = 10,
+							["level"] = 7,
+							["startTime"] = 10849.732,
 							["objectiveTimes"] = {
-								"04:44.576", -- [1]
-								"09:55.347", -- [2]
-								"25:17.358", -- [3]
-								"16:02.902", -- [4]
-								"29:31.633", -- [5]
-								"25:17.358", -- [6]
+								"07:32.321", -- [1]
+								"10:36.475", -- [2]
+								"23:11.104", -- [3]
+								"15:58.675", -- [4]
+								"26:19.961", -- [5]
+								"23:11.104", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Jäger",
-									["name"] = "Gazlim",
-									["role"] = "DAMAGER",
+									["class"] = "Krieger",
+									["name"] = "Zug",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Priester",
-									["name"] = "Lathion",
+									["class"] = "Schurkin",
+									["name"] = "Rothschildxx (*)",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Druidin",
-									["name"] = "Tegou",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Druide",
-									["name"] = "Heyduda",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [24]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 240077.212,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 3,
-								["hours"] = 18,
-								["year"] = 2017,
-								["mins"] = 55,
-							},
-							["level"] = 11,
-							["startTime"] = 238724.053,
-							["objectiveTimes"] = {
-								"03:06.722", -- [1]
-								"07:20.950", -- [2]
-								"18:45.507", -- [3]
-								"12:44.999", -- [4]
-								"22:52.675", -- [5]
-								"18:45.507", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Thoriel",
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jäger",
-									["name"] = "Omir",
+									["class"] = "Paladin",
+									["name"] = "Schachmatt",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -2028,74 +1752,74 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [25]
+						}, -- [22]
 						{
-							["corrupt"] = false,
-							["deaths"] = 18,
+							["corrupt"] = true,
+							["deaths"] = 20,
 							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
 								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
 								},
 							},
 							["active"] = false,
-							["endTime"] = 242991.54,
+							["endTime"] = 96494.646,
 							["timeStamp"] = {
-								["day"] = 26,
+								["day"] = 21,
 								["month"] = 3,
-								["hours"] = 19,
-								["mins"] = 45,
+								["hours"] = 22,
 								["year"] = 2017,
+								["mins"] = 20,
+							},
+							["startTime"] = 94215.646,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"33:43", -- [1]
+								"27:11", -- [2]
+								"13:02", -- [3]
+								"18:45", -- [4]
+								"37:59", -- [5]
+								"35:26", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Priester",
-									["name"] = "Lathion",
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ryandin",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Druide",
-									["name"] = "Guden",
-									["role"] = "HEALER",
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Magier",
-									["name"] = "Cojote",
+									["class"] = "Jägerin",
+									["name"] = "Enton",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
-									["class"] = "Krieger",
-									["name"] = "Wigbald",
-									["role"] = "TANK",
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 240599.503,
-							["objectiveTimes"] = {
-								"04:49.193", -- [1]
-								"09:57.377", -- [2]
-								"25:25.259", -- [3]
-								"15:41.899", -- [4]
-								"41:21.603", -- [5]
-								"25:25.259", -- [6]
-							},
-							["level"] = 12,
-						}, -- [26]
+						}, -- [23]
 						{
-							["corrupt"] = false,
-							["deaths"] = 0,
+							["corrupt"] = true,
+							["deaths"] = 37,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
@@ -2105,46 +1829,238 @@ GottaGoFastHistoryDB = {
 									["name"] = "Explosiv",
 									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
 								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
 							},
 							["active"] = false,
-							["endTime"] = 1369539.57,
+							["endTime"] = 11816.281,
 							["timeStamp"] = {
-								["day"] = 8,
+								["day"] = 11,
 								["month"] = 4,
-								["hours"] = 20,
+								["hours"] = 23,
+								["mins"] = 10,
 								["year"] = 2017,
-								["mins"] = 38,
-							},
-							["startTime"] = 1368412.279,
-							["level"] = 7,
-							["objectiveTimes"] = {
-								"03:04.722", -- [1]
-								"07:02.584", -- [2]
-								"16:23.856", -- [3]
-								"10:59.336", -- [4]
-								"18:46.740", -- [5]
-								"18:00.192", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
+									["class"] = "Magier",
+									["name"] = "Maronai",
 									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Hexenmeister",
-									["name"] = "Burkilla",
+									["class"] = "Druidin",
+									["name"] = "Tegou",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Krieger",
+									["name"] = "Lüdäl (*)",
 									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Worsel",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["startTime"] = 8922.281,
+							["objectiveTimes"] = {
+								"41:26", -- [1]
+								"30:03", -- [2]
+								"15:22", -- [3]
+								"23:37", -- [4]
+								"48:14", -- [5]
+								"45:15", -- [6]
+							},
+							["level"] = 11,
+						}, -- [24]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 342643.626,
+							["timeStamp"] = {
+								["day"] = 17,
+								["month"] = 4,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 45,
+							},
+							["startTime"] = 341308.987,
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"08:26.798", -- [1]
+								"11:16.260", -- [2]
+								"19:43.908", -- [3]
+								"14:51.558", -- [4]
+								"22:44.163", -- [5]
+								"19:43.908", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Tegou",
+									["role"] = "TANK",
 								}, -- [2]
 								{
 									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
+									["name"] = "Bbkha (*)",
+									["role"] = "DAMAGER",
 								}, -- [3]
 								{
 									["class"] = "Magierin",
-									["name"] = "Itsoktocry (*)",
+									["name"] = "Frosdmaitsch",
 									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [25]
+						{
+							["corrupt"] = true,
+							["deaths"] = 2,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5359.441,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 4,
+								["hours"] = 23,
+								["mins"] = 19,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Dhenton",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Mageonos (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 3764.441,
+							["objectiveTimes"] = {
+								"22:01", -- [1]
+								"16:44", -- [2]
+								"06:24", -- [3]
+								"11:27", -- [4]
+								"26:35", -- [5]
+								"23:42", -- [6]
+							},
+							["level"] = 10,
+						}, -- [26]
+						{
+							["corrupt"] = true,
+							["deaths"] = 9,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 166828.186,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 7,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 22,
+							},
+							["startTime"] = 165204.186,
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"22:45", -- [1]
+								"17:50", -- [2]
+								"08:28", -- [3]
+								"12:41", -- [4]
+								"27:04", -- [5]
+								"24:41", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Malachai (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Thorielle",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Zertax",
+									["role"] = "TANK",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
@@ -2154,72 +2070,8 @@ GottaGoFastHistoryDB = {
 							},
 						}, -- [27]
 						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 686792.803,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 6,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 14,
-							},
-							["startTime"] = 685551.988,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"03:18.182", -- [1]
-								"07:25.246", -- [2]
-								"17:50.615", -- [3]
-								"12:24.733", -- [4]
-								"20:40.422", -- [5]
-								"19:44.699", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [28]
-						{
-							["corrupt"] = false,
-							["deaths"] = 12,
+							["corrupt"] = true,
+							["deaths"] = 30,
 							["affixes"] = {
 								[5] = {
 									["name"] = "Wimmelnd",
@@ -2229,79 +2081,157 @@ GottaGoFastHistoryDB = {
 									["name"] = "Explosiv",
 									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
 								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
 							},
 							["active"] = false,
-							["endTime"] = 3861.298,
+							["endTime"] = 93428.657,
 							["timeStamp"] = {
-								["day"] = 30,
-								["month"] = 6,
-								["hours"] = 0,
-								["mins"] = 5,
+								["day"] = 4,
+								["month"] = 7,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 41,
+							},
+							["startTime"] = 90448.657,
+							["level"] = 12,
+							["objectiveTimes"] = {
+								"15:49", -- [1]
+								"20:41", -- [2]
+								"45:27", -- [3]
+								"28:08", -- [4]
+								"49:40", -- [5]
+								"45:27", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Senpino (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Takamatsuku (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [28]
+						{
+							["corrupt"] = true,
+							["deaths"] = 5,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 107109.337,
+							["timeStamp"] = {
+								["day"] = 14,
+								["month"] = 7,
+								["hours"] = 21,
+								["mins"] = 32,
 								["year"] = 2017,
 							},
 							["players"] = {
 								{
 									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "HEALER",
+									["name"] = "Kvirana",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
+									["class"] = "Jäger",
+									["name"] = "Wiesonîcht",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Magier",
-									["name"] = "Cojote",
+									["class"] = "Priester",
+									["name"] = "Shareer",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Mäddin",
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
 									["name"] = "Adelgunde",
-									["role"] = "TANK",
+									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 2531.98,
+							["level"] = 15,
 							["objectiveTimes"] = {
-								"03:04.343", -- [1]
-								"08:26.021", -- [2]
-								"20:21.294", -- [3]
-								"14:48.868", -- [4]
-								"23:08.850", -- [5]
-								"22:00.422", -- [6]
+								"29:45", -- [1]
+								"22:55", -- [2]
+								"10:08", -- [3]
+								"16:10", -- [4]
+								"34:49", -- [5]
+								"31:08", -- [6]
 							},
-							["level"] = 7,
+							["startTime"] = 105020.337,
 						}, -- [29]
 						{
-							["corrupt"] = false,
-							["deaths"] = 14,
+							["corrupt"] = true,
+							["deaths"] = 10,
 							["affixes"] = {
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
 								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
 								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
 								},
 							},
 							["active"] = false,
-							["endTime"] = 616627.63,
+							["endTime"] = 281786.375,
 							["timeStamp"] = {
-								["day"] = 10,
+								["day"] = 16,
 								["month"] = 7,
-								["hours"] = 23,
-								["mins"] = 0,
+								["hours"] = 22,
 								["year"] = 2017,
+								["mins"] = 3,
+							},
+							["startTime"] = 279100.375,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"13:14", -- [1]
+								"18:51", -- [2]
+								"40:02", -- [3]
+								"27:51", -- [4]
+								"44:46", -- [5]
+								"40:02", -- [6]
 							},
 							["players"] = {
 								{
@@ -2316,138 +2246,12 @@ GottaGoFastHistoryDB = {
 								}, -- [2]
 								{
 									["class"] = "Druidin",
-									["name"] = "Moira",
-									["role"] = "DAMAGER",
+									["name"] = "Kvirana",
+									["role"] = "TANK",
 								}, -- [3]
 								{
-									["class"] = "Mönch",
-									["name"] = "Evasiel",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"12:16.122", -- [1]
-								"41:19.265", -- [2]
-								"30:28.419", -- [3]
-								"22:49.066", -- [4]
-								"56:36.391", -- [5]
-								"43:38.794", -- [6]
-							},
-							["startTime"] = 613300.921,
-						}, -- [30]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 617970.541,
-							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 7,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 23,
-							},
-							["level"] = 2,
-							["startTime"] = 617233.935,
-							["objectiveTimes"] = {
-								"01:54.440", -- [1]
-								"04:09.450", -- [2]
-								"09:32.867", -- [3]
-								"06:45.909", -- [4]
-								"12:16.197", -- [5]
-								"11:36.725", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Tchokobou (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Kannah",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Schurke",
-									["name"] = "Lidrasel",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [31]
-						{
-							["corrupt"] = false,
-							["deaths"] = 16,
-							["affixes"] = {
-								[14] = {
-									["name"] = "Bebend",
-									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 81576.372,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 7,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 32,
-							},
-							["startTime"] = 79562.576,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"05:35.311", -- [1]
-								"12:40.318", -- [2]
-								"29:02.489", -- [3]
-								"21:34.676", -- [4]
-								"34:12.496", -- [5]
-								"34:53.500", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druide",
-									["name"] = "Nighthought (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Krieger",
-									["name"] = "Yuhiwar (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Totoz (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Bliitzz (*)",
+									["class"] = "Magierin",
+									["name"] = "Kayliesha",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -2456,581 +2260,9 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [32]
+						}, -- [30]
 						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 508696.13,
-							["timeStamp"] = {
-								["day"] = 15,
-								["month"] = 8,
-								["hours"] = 23,
-								["mins"] = 32,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Mönch",
-									["name"] = "Lowbaka (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 507196.186,
-							["objectiveTimes"] = {
-								"04:01.926", -- [1]
-								"08:21.570", -- [2]
-								"21:17.310", -- [3]
-								"13:36.472", -- [4]
-								"25:24.310", -- [5]
-								"23:56.027", -- [6]
-							},
-							["level"] = 14,
-						}, -- [33]
-						{
-							["corrupt"] = false,
-							["deaths"] = 10,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 16165.496,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 8,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 57,
-							},
-							["startTime"] = 14174.717,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"05:29.097", -- [1]
-								"14:45.129", -- [2]
-								"29:31.011", -- [3]
-								"22:33.244", -- [4]
-								"34:00.346", -- [5]
-								"31:41.790", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druide",
-									["name"] = "Noracos",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Aetheroleum",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [34]
-						{
-							["corrupt"] = false,
-							["deaths"] = 8,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Détonant",
-									["desc"] = "Quand un ennemi normal meurt, il explose et inflige aux personnages-joueurs un montant de dégâts égal à 10% de leur maximum de points de vie en 4 secondes. Effet cumulable.",
-								},
-								[14] = {
-									["name"] = "Sismique",
-									["desc"] = "Tous les personnages-joueurs émettent régulièrement une onde de choc qui inflige des dégâts aux alliés proches et les interrompt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 252861.731,
-							["timeStamp"] = {
-								["day"] = 9,
-								["month"] = 9,
-								["hours"] = 17,
-								["mins"] = 44,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Lîïght (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Kartøn (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Heink (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Chapodcapi (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"02:54.701", -- [1]
-								"08:03.951", -- [2]
-								"19:21.348", -- [3]
-								"12:53.438", -- [4]
-								"23:20.813", -- [5]
-								"22:01.074", -- [6]
-							},
-							["startTime"] = 251500.473,
-						}, -- [35]
-						{
-							["corrupt"] = false,
-							["deaths"] = 8,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 51707.584,
-							["timeStamp"] = {
-								["day"] = 13,
-								["month"] = 9,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 13,
-							},
-							["startTime"] = 50265.364,
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"03:22.182", -- [1]
-								"08:38.093", -- [2]
-								"20:21.581", -- [3]
-								"14:46.886", -- [4]
-								"24:41.745", -- [5]
-								"22:23.599", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "HEALER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Aimee",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Kripke",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Giselmund",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [36]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 90143.273,
-							["timeStamp"] = {
-								["day"] = 19,
-								["month"] = 9,
-								["hours"] = 21,
-								["mins"] = 27,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Chestêr",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Druidin",
-									["name"] = "Shareez",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 88765.632,
-							["objectiveTimes"] = {
-								"04:41.135", -- [1]
-								"09:00.487", -- [2]
-								"19:40.464", -- [3]
-								"14:30.204", -- [4]
-								"23:22.205", -- [5]
-								"21:17.301", -- [6]
-							},
-							["level"] = 10,
-						}, -- [37]
-						{
-							["corrupt"] = false,
-							["deaths"] = 19,
-							["affixes"] = {
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 502762.22,
-							["timeStamp"] = {
-								["day"] = 3,
-								["month"] = 10,
-								["hours"] = 18,
-								["year"] = 2017,
-								["mins"] = 42,
-							},
-							["startTime"] = 500826.321,
-							["level"] = 14,
-							["objectiveTimes"] = {
-								"09:29.241", -- [1]
-								"17:23.229", -- [2]
-								"29:37.541", -- [3]
-								"22:53.254", -- [4]
-								"33:50.527", -- [5]
-								"31:42.819", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Shareer",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [38]
-						{
-							["corrupt"] = false,
-							["deaths"] = 17,
-							["affixes"] = {
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 505199.993,
-							["timeStamp"] = {
-								["day"] = 3,
-								["month"] = 10,
-								["hours"] = 19,
-								["year"] = 2017,
-								["mins"] = 23,
-							},
-							["startTime"] = 503354.339,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"05:45.349", -- [1]
-								"11:24.488", -- [2]
-								"27:40.328", -- [3]
-								"18:15.604", -- [4]
-								"32:10.335", -- [5]
-								"29:39.427", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Priester",
-									["name"] = "Shareer",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [39]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 179366.316,
-							["timeStamp"] = {
-								["day"] = 13,
-								["month"] = 10,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 20,
-							},
-							["level"] = 10,
-							["startTime"] = 178132.396,
-							["objectiveTimes"] = {
-								"02:46.088", -- [1]
-								"07:05.875", -- [2]
-								"17:38.116", -- [3]
-								"11:55.585", -- [4]
-								"20:53.383", -- [5]
-								"19:20.044", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Kvirana",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Shanta",
-									["role"] = "HEALER",
-								}, -- [4]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Dankrun",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-						}, -- [40]
-						{
-							["corrupt"] = false,
-							["deaths"] = 10,
-							["affixes"] = {
-								[14] = {
-									["name"] = "Bebend",
-									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 28211.062,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 12,
-								["hours"] = 22,
-								["mins"] = 56,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Mönch",
-									["name"] = "Meruka",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Topekk",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Wirings",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 26714.506,
-							["objectiveTimes"] = {
-								"03:26.843", -- [1]
-								"08:54.930", -- [2]
-								"21:13.709", -- [3]
-								"14:30.669", -- [4]
-								"25:46.157", -- [5]
-								"24:03.814", -- [6]
-							},
-							["level"] = 13,
-						}, -- [41]
-						{
-							["corrupt"] = false,
+							["corrupt"] = true,
 							["deaths"] = 3,
 							["affixes"] = {
 								[11] = {
@@ -3047,179 +2279,175 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 19494.795,
+							["endTime"] = 15739.346,
 							["timeStamp"] = {
-								["day"] = 7,
-								["month"] = 1,
-								["hours"] = 21,
-								["year"] = 2018,
-								["mins"] = 11,
-							},
-							["startTime"] = 18128.131,
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"03:00.062", -- [1]
-								"08:45.674", -- [2]
-								"19:16.782", -- [3]
-								"14:24.600", -- [4]
-								"23:01.387", -- [5]
-								"21:03.322", -- [6]
+								["day"] = 19,
+								["month"] = 7,
+								["hours"] = 23,
+								["mins"] = 47,
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
-									["class"] = "Krieger",
-									["name"] = "Arctus (*)",
+									["class"] = "Druidin",
+									["name"] = "Kvirana",
 									["role"] = "TANK",
 								}, -- [1]
 								{
 									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
+									["name"] = "Shanta",
+									["role"] = "HEALER",
 								}, -- [2]
 								{
-									["class"] = "Magier",
-									["name"] = "Topekk",
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jägerin",
-									["name"] = "Livinglove (*)",
+									["class"] = "Priesterin",
+									["name"] = "Navia",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
 									["class"] = "Paladin",
 									["name"] = "Adelgunde",
-									["role"] = "HEALER",
+									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-						}, -- [42]
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"12:00", -- [1]
+								"16:21", -- [2]
+								"34:44", -- [3]
+								"23:47", -- [4]
+								"40:41", -- [5]
+								"36:36", -- [6]
+							},
+							["startTime"] = 13298.346,
+						}, -- [31]
 						{
 							["corrupt"] = false,
-							["deaths"] = 11,
+							["deaths"] = 3,
 							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 104677.469,
+							["timeStamp"] = {
+								["day"] = 29,
+								["month"] = 7,
+								["hours"] = 2,
+								["year"] = 2017,
+								["mins"] = 3,
+							},
+							["level"] = 5,
+							["startTime"] = 103730.122,
+							["objectiveTimes"] = {
+								"12:05.773", -- [1]
+								"08:49.879", -- [2]
+								"04:21.683", -- [3]
+								"06:21.708", -- [4]
+								"16:01.997", -- [5]
+								"13:59.419", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Aimee",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Charfadum (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Krieger",
+									["name"] = "Wigbald",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [32]
+						{
+							["corrupt"] = true,
+							["deaths"] = 32,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
 								},
 								[9] = {
 									["name"] = "Tyrannisch",
 									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
 								},
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 45304.779,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 2,
-								["hours"] = 0,
-								["mins"] = 22,
-								["year"] = 2018,
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Burkilla",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Aminea",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 43595.17,
-							["objectiveTimes"] = {
-								"04:59.084", -- [1]
-								"11:20.622", -- [2]
-								"25:13.141", -- [3]
-								"20:04.596", -- [4]
-								"29:24.355", -- [5]
-								"26:59.776", -- [6]
-							},
-							["level"] = 16,
-						}, -- [43]
-						{
-							["corrupt"] = false,
-							["deaths"] = 15,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 10760.711,
+							["endTime"] = 172695.953,
 							["timeStamp"] = {
 								["day"] = 6,
-								["month"] = 2,
-								["hours"] = 23,
-								["year"] = 2018,
-								["mins"] = 8,
+								["month"] = 8,
+								["hours"] = 19,
+								["year"] = 2017,
+								["mins"] = 18,
 							},
-							["startTime"] = 9071.818,
-							["level"] = 9,
+							["startTime"] = 169773.953,
+							["level"] = 15,
 							["objectiveTimes"] = {
-								"03:46.773", -- [1]
-								"10:07.144", -- [2]
-								"25:13.520", -- [3]
-								"15:33.567", -- [4]
-								"28:18.505", -- [5]
-								"29:23.676", -- [6]
+								"42:23", -- [1]
+								"30:06", -- [2]
+								"15:13", -- [3]
+								"22:27", -- [4]
+								"48:42", -- [5]
+								"44:46", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Latuntra (*)",
-									["role"] = "DAMAGER",
+									["class"] = "Krieger",
+									["name"] = "Ugru (*)",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Paladin",
-									["name"] = "Androssa (*)",
-									["role"] = "TANK",
+									["class"] = "Todesritter",
+									["name"] = "Антирыцарь (*)",
+									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Mönch",
-									["name"] = "Aireya (*)",
+									["class"] = "Todesritter",
+									["name"] = "Инфак (*)",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Todesritter",
-									["name"] = "Mîka (*)",
+									["class"] = "Schurkin",
+									["name"] = "Knubbelul (*)",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
-									["class"] = "Paladin",
-									["name"] = "Adelmuth",
+									["class"] = "Druide",
+									["name"] = "Rigobert",
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-						}, -- [44]
+						}, -- [33]
 						{
 							["corrupt"] = false,
-							["deaths"] = 8,
+							["deaths"] = 19,
 							["affixes"] = {
 								[13] = {
 									["name"] = "Explosiv",
@@ -3235,33 +2463,103 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 716882.166,
+							["endTime"] = 163120.594,
 							["timeStamp"] = {
-								["day"] = 19,
-								["month"] = 2,
-								["hours"] = 22,
-								["mins"] = 40,
-								["year"] = 2018,
+								["day"] = 2,
+								["month"] = 9,
+								["hours"] = 16,
+								["year"] = 2017,
+								["mins"] = 45,
+							},
+							["startTime"] = 161017.312,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"30:59.603", -- [1]
+								"21:55.538", -- [2]
+								"09:04.552", -- [3]
+								"16:49.020", -- [4]
+								"36:37.797", -- [5]
+								"33:17.715", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Mönch",
-									["name"] = "Meruka",
+									["class"] = "Todesritter",
+									["name"] = "Claytable (*)",
 									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
+									["class"] = "Schurkin",
+									["name"] = "Herpnificent (*)",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Magier",
-									["name"] = "Cryogenix (*)",
+									["class"] = "Schamanin",
+									["name"] = "Grundbulten (*)",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Priester",
-									["name"] = "Firstaid (*)",
+									["class"] = "Priesterin",
+									["name"] = "Dárkangel (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [34]
+						{
+							["corrupt"] = true,
+							["deaths"] = 21,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 357072.8,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 9,
+								["hours"] = 22,
+								["year"] = 2017,
+								["mins"] = 38,
+							},
+							["startTime"] = 355146.8,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"09:01", -- [1]
+								"12:42", -- [2]
+								"28:39", -- [3]
+								"19:13", -- [4]
+								"32:06", -- [5]
+								"28:39", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Shareez",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Ðraka",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Carambolage",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -3270,20 +2568,842 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"06:40.302", -- [1]
-								"12:40.055", -- [2]
-								"25:26.107", -- [3]
-								"19:04.441", -- [4]
-								"30:45.944", -- [5]
-								"27:36.882", -- [6]
+						}, -- [35]
+						{
+							["corrupt"] = true,
+							["deaths"] = 17,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
 							},
-							["startTime"] = 715075.738,
-						}, -- [45]
+							["active"] = false,
+							["endTime"] = 364006.629,
+							["timeStamp"] = {
+								["day"] = 5,
+								["month"] = 9,
+								["hours"] = 0,
+								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["level"] = 10,
+							["startTime"] = 361632.629,
+							["objectiveTimes"] = {
+								"31:44", -- [1]
+								"22:18", -- [2]
+								"10:01", -- [3]
+								"16:41", -- [4]
+								"39:34", -- [5]
+								"36:09", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Magierin",
+									["name"] = "Litzy",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Giselmund",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [36]
+						{
+							["corrupt"] = true,
+							["deaths"] = 24,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 99491.096,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 9,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 2,
+							},
+							["level"] = 10,
+							["startTime"] = 96993.096,
+							["objectiveTimes"] = {
+								"16:22", -- [1]
+								"21:41", -- [2]
+								"38:15", -- [3]
+								"28:12", -- [4]
+								"41:38", -- [5]
+								"38:15", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Magierin",
+									["name"] = "Zintara (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Druide",
+									["name"] = "Krathor",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [37]
+						{
+							["corrupt"] = true,
+							["deaths"] = 5,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 439151.671,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 9,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 25,
+							},
+							["level"] = 10,
+							["startTime"] = 437371.671,
+							["objectiveTimes"] = {
+								"24:52", -- [1]
+								"18:17", -- [2]
+								"08:43", -- [3]
+								"12:56", -- [4]
+								"29:40", -- [5]
+								"27:06", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Verfall",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Schurkin",
+									["name"] = "Zeratix",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Giselmund",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [38]
+						{
+							["corrupt"] = true,
+							["deaths"] = 11,
+							["affixes"] = {
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 316074.022,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 14,
+								["mins"] = 50,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Ayisha (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priester",
+									["name"] = "Tamibal (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Cuïllère (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Koilla (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 313893.022,
+							["objectiveTimes"] = {
+								"11:20", -- [1]
+								"15:52", -- [2]
+								"31:17", -- [3]
+								"23:46", -- [4]
+								"36:21", -- [5]
+								"31:17", -- [6]
+							},
+							["level"] = 11,
+						}, -- [39]
+						{
+							["corrupt"] = true,
+							["deaths"] = 42,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 477570.094,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 10,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 51,
+							},
+							["startTime"] = 473528.094,
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"18:38", -- [1]
+								"27:36", -- [2]
+								"56:19", -- [3]
+								"35:45", -- [4]
+								"67:22", -- [5]
+								"58:15", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druidin",
+									["name"] = "Shareez",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Magierin",
+									["name"] = "Zintara (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [40]
 						{
 							["corrupt"] = false,
-							["deaths"] = 5,
+							["deaths"] = 10,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 347034.064,
+							["timeStamp"] = {
+								["day"] = 15,
+								["month"] = 10,
+								["hours"] = 19,
+								["mins"] = 55,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Джерусалем (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Аксфексия (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magierin",
+									["name"] = "Фуерта (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Сквир (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"10:21.445", -- [1]
+								"15:08.930", -- [2]
+								"31:29.947", -- [3]
+								"21:41.924", -- [4]
+								"36:12.810", -- [5]
+								"31:29.947", -- [6]
+							},
+							["startTime"] = 344910.67,
+						}, -- [41]
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 150182.521,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 10,
+								["hours"] = 14,
+								["year"] = 2017,
+								["mins"] = 51,
+							},
+							["startTime"] = 148323.458,
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"09:19.085", -- [1]
+								"13:14.973", -- [2]
+								"27:06.436", -- [3]
+								"18:46.150", -- [4]
+								"31:18.546", -- [5]
+								"27:06.436", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Lamashtu (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Schamanin",
+									["name"] = "Cià (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [42]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 176202.961,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 10,
+								["hours"] = 22,
+								["year"] = 2017,
+								["mins"] = 4,
+							},
+							["startTime"] = 174842.709,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"17:48.288", -- [1]
+								"13:39.263", -- [2]
+								"06:15.372", -- [3]
+								"09:50.230", -- [4]
+								"22:49.723", -- [5]
+								"20:12.996", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Uesh (*)",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Mönch",
+									["name"] = "Vermalien (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Furiousfury (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Trydâr (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Dankrun",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [43]
+						{
+							["corrupt"] = false,
+							["deaths"] = 29,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 179958.519,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 10,
+								["hours"] = 23,
+								["mins"] = 6,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Schurkin",
+									["name"] = "Vala (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Mem (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Xáre (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Hellequinn (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Giselmund",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"14:18.168", -- [1]
+								"20:05.154", -- [2]
+								"41:44.980", -- [3]
+								"27:05.027", -- [4]
+								"46:59.282", -- [5]
+								"41:44.980", -- [6]
+							},
+							["startTime"] = 177283.723,
+						}, -- [44]
+						{
+							["corrupt"] = true,
+							["deaths"] = 11,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 123487.514,
+							["timeStamp"] = {
+								["day"] = 6,
+								["month"] = 11,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 9,
+							},
+							["startTime"] = 121310.514,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"10:32", -- [1]
+								"14:44", -- [2]
+								"32:42", -- [3]
+								"22:24", -- [4]
+								"36:17", -- [5]
+								"32:42", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Wunderknabe",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Krieger",
+									["name"] = "Getrekt",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Tavis",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [45]
+						{
+							["corrupt"] = true,
+							["deaths"] = 15,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 281241.5,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 11,
+								["hours"] = 23,
+								["mins"] = 18,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Magierin",
+									["name"] = "Litzy",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Burkilla",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 278927.5,
+							["objectiveTimes"] = {
+								"09:25", -- [1]
+								"13:11", -- [2]
+								"34:58", -- [3]
+								"19:56", -- [4]
+								"38:34", -- [5]
+								"34:58", -- [6]
+							},
+							["level"] = 10,
+						}, -- [46]
+						{
+							["corrupt"] = true,
+							["deaths"] = 29,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 22512.922,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 11,
+								["hours"] = 0,
+								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["startTime"] = 19246.922,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"15:19", -- [1]
+								"20:20", -- [2]
+								"49:06", -- [3]
+								"35:10", -- [4]
+								"54:26", -- [5]
+								"50:30", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druide",
+									["name"] = "Nastrod (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Mönch",
+									["name"] = "Meruka",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Schamane",
+									["name"] = "Brolax",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Dankrun",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [47]
+						{
+							["corrupt"] = true,
+							["deaths"] = 4,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 103690.955,
+							["timeStamp"] = {
+								["day"] = 27,
+								["month"] = 11,
+								["hours"] = 22,
+								["mins"] = 33,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Magierin",
+									["name"] = "Zintara",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Mönch",
+									["name"] = "Meruka",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 101618.955,
+							["objectiveTimes"] = {
+								"29:03", -- [1]
+								"22:18", -- [2]
+								"08:49", -- [3]
+								"16:05", -- [4]
+								"34:32", -- [5]
+								"31:21", -- [6]
+							},
+							["level"] = 13,
+						}, -- [48]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
 							["affixes"] = {
 								[3] = {
 									["name"] = "Vulkanisch",
@@ -3299,19 +3419,93 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 95802.269,
+							["endTime"] = 377111.133,
 							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 3,
-								["hours"] = 22,
-								["mins"] = 19,
-								["year"] = 2018,
+								["day"] = 6,
+								["month"] = 12,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 53,
+							},
+							["level"] = 16,
+							["startTime"] = 375290.049,
+							["objectiveTimes"] = {
+								"25:29.319", -- [1]
+								"19:58.216", -- [2]
+								"09:53.060", -- [3]
+								"14:53.802", -- [4]
+								"31:15.632", -- [5]
+								"27:47.907", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Schamane",
-									["name"] = "Zeius (*)",
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Wunderknabe",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
 									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [49]
+						{
+							["corrupt"] = true,
+							["deaths"] = 16,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 117443.101,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 4,
+								["hours"] = 22,
+								["year"] = 2018,
+								["mins"] = 48,
+							},
+							["level"] = 17,
+							["startTime"] = 115317.101,
+							["objectiveTimes"] = {
+								"10:11", -- [1]
+								"14:16", -- [2]
+								"30:36", -- [3]
+								"20:49", -- [4]
+								"35:26", -- [5]
+								"32:01", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren",
+									["role"] = "TANK",
 								}, -- [1]
 								{
 									["class"] = "Priesterin",
@@ -3319,13 +3513,13 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Todesritter",
-									["name"] = "Azuka",
-									["role"] = "TANK",
+									["class"] = "Paladin",
+									["name"] = "Говядовый (*)",
+									["role"] = "HEALER",
 								}, -- [3]
 								{
-									["class"] = "Todesritter",
-									["name"] = "Гнилохал (*)",
+									["class"] = "Hexenmeister",
+									["name"] = "Morg",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -3334,20 +3528,74 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["startTime"] = 94525.688,
-							["objectiveTimes"] = {
-								"03:15.671", -- [1]
-								"07:23.699", -- [2]
-								"16:48.064", -- [3]
-								"11:26.536", -- [4]
-								"20:50.972", -- [5]
-								"21:41.298", -- [6]
-							},
-							["level"] = 11,
-						}, -- [46]
+						}, -- [50]
 						{
 							["corrupt"] = false,
-							["deaths"] = 23,
+							["deaths"] = 22,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 17404.249,
+							["timeStamp"] = {
+								["day"] = 6,
+								["month"] = 5,
+								["hours"] = 20,
+								["mins"] = 43,
+								["year"] = 2018,
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mönch",
+									["name"] = "Xénji (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 15511.306,
+							["objectiveTimes"] = {
+								"28:19.419", -- [1]
+								"23:12.881", -- [2]
+								"11:19.499", -- [3]
+								"15:44.103", -- [4]
+								"33:22.665", -- [5]
+								"30:18.318", -- [6]
+							},
+							["level"] = 18,
+						}, -- [51]
+						{
+							["corrupt"] = false,
+							["deaths"] = 12,
 							["affixes"] = {
 								[13] = {
 									["name"] = "Explosiv",
@@ -3363,116 +3611,52 @@ GottaGoFastHistoryDB = {
 								},
 							},
 							["active"] = false,
-							["endTime"] = 96356.547,
+							["endTime"] = 93456.526,
 							["timeStamp"] = {
 								["day"] = 15,
 								["month"] = 5,
-								["hours"] = 22,
-								["mins"] = 43,
+								["hours"] = 21,
 								["year"] = 2018,
+								["mins"] = 56,
+							},
+							["startTime"] = 91852.855,
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"09:20.776", -- [1]
+								"12:24.730", -- [2]
+								"24:13.730", -- [3]
+								"17:33.984", -- [4]
+								"27:43.271", -- [5]
+								"24:13.730", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Hexenmeister",
-									["name"] = "Durilock (*)",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Khaladorei (*)",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Todesritter",
-									["name"] = "Yhendorn (*)",
-									["role"] = "TANK",
+									["class"] = "Paladin",
+									["name"] = "Úberduck (*)",
+									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Todesritter",
-									["name"] = "Caerghen (*)",
+									["class"] = "Hexenmeisterin",
+									["name"] = "Tinýng (*)",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Schurke",
-									["name"] = "Grakimas (*)",
+									["class"] = "Todesritter",
+									["name"] = "Xperìá (*)",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"05:28.983", -- [1]
-								"20:16.507", -- [2]
-								"35:28.370", -- [3]
-								"28:18.817", -- [4]
-								"39:30.949", -- [5]
-								"40:47.396", -- [6]
-							},
-							["startTime"] = 94023.85,
-						}, -- [47]
-						{
-							["corrupt"] = false,
-							["deaths"] = 27,
-							["affixes"] = {
-								[14] = {
-									["name"] = "Bebend",
-									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 31313.915,
-							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 5,
-								["hours"] = 23,
-								["year"] = 2018,
-								["mins"] = 26,
-							},
-							["level"] = 15,
-							["startTime"] = 28880.335,
-							["objectiveTimes"] = {
-								"11:59.521", -- [1]
-								"20:15.973", -- [2]
-								"37:36.851", -- [3]
-								"26:47.028", -- [4]
-								"41:40.006", -- [5]
-								"42:48.179", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Másapolamii (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Lurakon (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Magierin",
-									["name"] = "Edelweiss (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Orfé (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [48]
+						}, -- [52]
 					},
 				},
 				[1492] = {
@@ -8517,6 +8701,3115 @@ GottaGoFastHistoryDB = {
 						"Harbaron", -- [2]
 						"Helya", -- [3]
 						"Feindliche Streitkräfte", -- [4]
+					},
+				},
+				[1456] = {
+					["objectives"] = {
+						"Kriegsherr Parjesh", -- [1]
+						"Lady Hassnatter", -- [2]
+						"König Klafterbart", -- [3]
+						"Serpentrix", -- [4]
+						"Azsharas Zorn", -- [5]
+						"Feindliche Streitkräfte", -- [6]
+					},
+					["zoneID"] = 1456,
+					["name"] = "Das Auge Azsharas",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 206329.738,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 11,
+								["hours"] = 3,
+								["year"] = 2016,
+								["mins"] = 42,
+							},
+							["level"] = 2,
+							["startTime"] = 205407.642,
+							["objectiveTimes"] = {
+								"02:25.844", -- [1]
+								"09:29.360", -- [2]
+								"12:57.877", -- [3]
+								"07:53.011", -- [4]
+								"15:21.617", -- [5]
+								"12:57.877", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Jägerin",
+									["name"] = "Onlíne (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Krieger",
+									["name"] = "Ayucael (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druide",
+									["name"] = "Clinico (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Peration (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 46316.865,
+							["timeStamp"] = {
+								["day"] = 27,
+								["month"] = 11,
+								["hours"] = 2,
+								["year"] = 2016,
+								["mins"] = 9,
+							},
+							["level"] = 2,
+							["startTime"] = 45281.45,
+							["objectiveTimes"] = {
+								"02:44.528", -- [1]
+								"06:14.272", -- [2]
+								"14:31.981", -- [3]
+								"10:38.394", -- [4]
+								"17:24.898", -- [5]
+								"14:31.981", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Xoldrai (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Vénôm (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Xauls (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Iviy (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 727208.881,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 12,
+								["hours"] = 23,
+								["mins"] = 18,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Admantium (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Enton",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 726406.865,
+							["objectiveTimes"] = {
+								"02:15.863", -- [1]
+								"04:47.593", -- [2]
+								"11:18.928", -- [3]
+								"07:44.917", -- [4]
+								"13:21.559", -- [5]
+								"11:18.928", -- [6]
+							},
+							["level"] = 2,
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 332680.793,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 12,
+								["hours"] = 16,
+								["year"] = 2016,
+								["mins"] = 29,
+							},
+							["startTime"] = 331534.215,
+							["level"] = 6,
+							["objectiveTimes"] = {
+								"02:58.109", -- [1]
+								"06:34.140", -- [2]
+								"16:27.524", -- [3]
+								"11:21.297", -- [4]
+								"19:11.173", -- [5]
+								"16:27.524", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Chrysalia (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Aidail (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jäger",
+									["name"] = "Hodels (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mönch",
+									["name"] = "Gromook (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 13,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 176362.744,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 1,
+								["hours"] = 19,
+								["mins"] = 45,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 174653.209,
+							["objectiveTimes"] = {
+								"05:41.783", -- [1]
+								"10:46.446", -- [2]
+								"25:44.365", -- [3]
+								"17:57.326", -- [4]
+								"29:34.120", -- [5]
+								"25:44.365", -- [6]
+							},
+							["level"] = 10,
+						}, -- [5]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 180003.864,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 1,
+								["hours"] = 20,
+								["mins"] = 47,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druidin",
+									["name"] = "Beulchen",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 6,
+							["objectiveTimes"] = {
+								"02:18.186", -- [1]
+								"05:34.077", -- [2]
+								"15:22.925", -- [3]
+								"09:24.199", -- [4]
+								"18:12.147", -- [5]
+								"15:22.925", -- [6]
+							},
+							["startTime"] = 178926.216,
+						}, -- [6]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 181723.591,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 1,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 16,
+							},
+							["level"] = 5,
+							["startTime"] = 180784.231,
+							["objectiveTimes"] = {
+								"02:10.157", -- [1]
+								"05:03.493", -- [2]
+								"13:01.150", -- [3]
+								"08:31.844", -- [4]
+								"15:38.977", -- [5]
+								"13:01.150", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Jäger",
+									["name"] = "Unger",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druide",
+									["name"] = "Kuscheleule",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [7]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+								{
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
+								}, -- [1]
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 363615.257,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 1,
+								["hours"] = 23,
+								["mins"] = 46,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Schamane",
+									["name"] = "Grelix",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 361945.748,
+							["objectiveTimes"] = {
+								"04:06.502", -- [1]
+								"10:55.695", -- [2]
+								"23:12.868", -- [3]
+								"17:02.297", -- [4]
+								"28:03.931", -- [5]
+								"23:12.868", -- [6]
+							},
+							["level"] = 12,
+						}, -- [8]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 41085.317,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 1,
+								["hours"] = 22,
+								["year"] = 2017,
+								["mins"] = 54,
+							},
+							["level"] = 12,
+							["startTime"] = 39571.775,
+							["objectiveTimes"] = {
+								"04:37.269", -- [1]
+								"09:33.245", -- [2]
+								"21:19.761", -- [3]
+								"15:40.522", -- [4]
+								"25:27.918", -- [5]
+								"21:19.761", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Thoriel",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [9]
+						{
+							["corrupt"] = false,
+							["deaths"] = 15,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 858231.516,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 1,
+								["hours"] = 17,
+								["year"] = 2017,
+								["mins"] = 13,
+							},
+							["startTime"] = 856446.376,
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"06:03.737", -- [1]
+								"12:08.121", -- [2]
+								"26:21.288", -- [3]
+								"20:13.734", -- [4]
+								"30:59.695", -- [5]
+								"26:21.288", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ryandin",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [10]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 869855.165,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 1,
+								["hours"] = 20,
+								["mins"] = 26,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 868695.477,
+							["objectiveTimes"] = {
+								"03:03.718", -- [1]
+								"07:08.667", -- [2]
+								"16:26.405", -- [3]
+								"12:05.607", -- [4]
+								"19:24.225", -- [5]
+								"16:26.405", -- [6]
+							},
+							["level"] = 9,
+						}, -- [11]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								{
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
+								}, -- [1]
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 184604.966,
+							["timeStamp"] = {
+								["day"] = 25,
+								["month"] = 1,
+								["hours"] = 22,
+								["mins"] = 48,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Thoriel",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"03:22.392", -- [1]
+								"08:00.188", -- [2]
+								"20:36.692", -- [3]
+								"13:38.162", -- [4]
+								"27:12.178", -- [5]
+								"20:36.692", -- [6]
+							},
+							["startTime"] = 183012.227,
+						}, -- [12]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 613850.37,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 2,
+								["hours"] = 21,
+								["mins"] = 32,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Pacifai (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Magierin",
+									["name"] = "Sunris (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priester",
+									["name"] = "Fiyerossong (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Nameth (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 612791.458,
+							["objectiveTimes"] = {
+								"02:33.530", -- [1]
+								"05:57.253", -- [2]
+								"13:47.139", -- [3]
+								"09:35.401", -- [4]
+								"17:38.473", -- [5]
+								"14:38.025", -- [6]
+							},
+							["level"] = 5,
+						}, -- [13]
+						{
+							["corrupt"] = false,
+							["deaths"] = 7,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 698456.974,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 2,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 1,
+							},
+							["startTime"] = 697164.886,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"03:15.469", -- [1]
+								"07:22.619", -- [2]
+								"18:50.716", -- [3]
+								"14:19.761", -- [4]
+								"22:06.554", -- [5]
+								"18:50.716", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Goblinbeer (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Ankalima (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Leighdh (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Velthar (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [14]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 14888.485,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 2,
+								["hours"] = 18,
+								["mins"] = 49,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ryandin",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Minari",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Deviljinn",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 13533.446,
+							["objectiveTimes"] = {
+								"03:28.970", -- [1]
+								"07:53.899", -- [2]
+								"19:50.036", -- [3]
+								"13:16.076", -- [4]
+								"23:04.569", -- [5]
+								"19:50.036", -- [6]
+							},
+							["level"] = 11,
+						}, -- [15]
+						{
+							["corrupt"] = false,
+							["deaths"] = 12,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 85234.032,
+							["timeStamp"] = {
+								["day"] = 14,
+								["month"] = 2,
+								["hours"] = 22,
+								["year"] = 2017,
+								["mins"] = 30,
+							},
+							["level"] = 13,
+							["startTime"] = 83466.387,
+							["objectiveTimes"] = {
+								"04:52.107", -- [1]
+								"13:03.489", -- [2]
+								"26:11.185", -- [3]
+								"20:05.334", -- [4]
+								"30:27.261", -- [5]
+								"26:11.185", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Grelix",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [16]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 182587.314,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 2,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 16,
+							},
+							["level"] = 6,
+							["startTime"] = 181768.155,
+							["objectiveTimes"] = {
+								"02:02.310", -- [1]
+								"04:29.183", -- [2]
+								"11:30.237", -- [3]
+								"08:02.351", -- [4]
+								"13:38.666", -- [5]
+								"11:30.237", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Abrechnung",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druide",
+									["name"] = "Boolean",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Enton",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [17]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 8136.696,
+							["timeStamp"] = {
+								["day"] = 19,
+								["month"] = 2,
+								["hours"] = 17,
+								["year"] = 2017,
+								["mins"] = 26,
+							},
+							["startTime"] = 6502.967,
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"04:24.108", -- [1]
+								"10:57.916", -- [2]
+								"23:21.165", -- [3]
+								"16:36.898", -- [4]
+								"27:38.246", -- [5]
+								"23:21.165", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Ryandin",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Nureg",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [18]
+						{
+							["corrupt"] = false,
+							["deaths"] = 7,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 791869.532,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 3,
+								["hours"] = 0,
+								["mins"] = 49,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Jäger",
+									["name"] = "Swangle (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Alkiller (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schurke",
+									["name"] = "Buttbeak (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Kåbøum (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"03:31.140", -- [1]
+								"07:10.872", -- [2]
+								"19:38.679", -- [3]
+								"11:23.101", -- [4]
+								"23:33.547", -- [5]
+								"22:02.908", -- [6]
+							},
+							["startTime"] = 790490.504,
+						}, -- [19]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 875869.365,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 3,
+								["hours"] = 0,
+								["year"] = 2017,
+								["mins"] = 9,
+							},
+							["level"] = 8,
+							["startTime"] = 874778.4,
+							["objectiveTimes"] = {
+								"03:09.209", -- [1]
+								"07:11.194", -- [2]
+								"15:39.960", -- [3]
+								"11:54.091", -- [4]
+								"18:25.499", -- [5]
+								"15:39.960", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Grelix",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Tegou",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Edgar (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [20]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 939819.822,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 3,
+								["hours"] = 17,
+								["year"] = 2017,
+								["mins"] = 54,
+							},
+							["startTime"] = 938679.82,
+							["level"] = 8,
+							["objectiveTimes"] = {
+								"02:44.855", -- [1]
+								"06:19.434", -- [2]
+								"16:07.555", -- [3]
+								"11:21.064", -- [4]
+								"19:04.551", -- [5]
+								"16:07.555", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Mönch",
+									["name"] = "Shirosakura (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Kitsue (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schurkin",
+									["name"] = "Bandid (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druide",
+									["name"] = "Stèéll (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [21]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 71409.384,
+							["timeStamp"] = {
+								["day"] = 12,
+								["month"] = 3,
+								["hours"] = 21,
+								["mins"] = 18,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Grelix",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"04:15.731", -- [1]
+								"09:28.991", -- [2]
+								"21:06.452", -- [3]
+								"16:00.730", -- [4]
+								"25:08.870", -- [5]
+								"21:06.452", -- [6]
+							},
+							["startTime"] = 69904.963,
+						}, -- [22]
+						{
+							["corrupt"] = false,
+							["deaths"] = 13,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 6840.22,
+							["timeStamp"] = {
+								["day"] = 20,
+								["month"] = 3,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 26,
+							},
+							["level"] = 15,
+							["startTime"] = 5279.752,
+							["objectiveTimes"] = {
+								"04:11.783", -- [1]
+								"08:51.476", -- [2]
+								"21:49.834", -- [3]
+								"15:31.105", -- [4]
+								"27:04.868", -- [5]
+								"21:49.834", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jäger",
+									["name"] = "Giggitygoo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Bároc",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [23]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 99528.47,
+							["timeStamp"] = {
+								["day"] = 21,
+								["month"] = 3,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 11,
+							},
+							["startTime"] = 97811.303,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"04:44.576", -- [1]
+								"09:55.347", -- [2]
+								"25:17.358", -- [3]
+								"16:02.902", -- [4]
+								"29:31.633", -- [5]
+								"25:17.358", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Jäger",
+									["name"] = "Gazlim",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priester",
+									["name"] = "Lathion",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druidin",
+									["name"] = "Tegou",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Druide",
+									["name"] = "Heyduda",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [24]
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								{
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
+								}, -- [1]
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 240077.212,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 3,
+								["hours"] = 18,
+								["year"] = 2017,
+								["mins"] = 55,
+							},
+							["level"] = 11,
+							["startTime"] = 238724.053,
+							["objectiveTimes"] = {
+								"03:06.722", -- [1]
+								"07:20.950", -- [2]
+								"18:45.507", -- [3]
+								"12:44.999", -- [4]
+								"22:52.675", -- [5]
+								"18:45.507", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Thoriel",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Omir",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [25]
+						{
+							["corrupt"] = false,
+							["deaths"] = 18,
+							["affixes"] = {
+								{
+									["name"] = "Überschüssig",
+									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
+								}, -- [1]
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 242991.54,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 3,
+								["hours"] = 19,
+								["mins"] = 45,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Priester",
+									["name"] = "Lathion",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druide",
+									["name"] = "Guden",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Cojote",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Krieger",
+									["name"] = "Wigbald",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["startTime"] = 240599.503,
+							["objectiveTimes"] = {
+								"04:49.193", -- [1]
+								"09:57.377", -- [2]
+								"25:25.259", -- [3]
+								"15:41.899", -- [4]
+								"41:21.603", -- [5]
+								"25:25.259", -- [6]
+							},
+							["level"] = 12,
+						}, -- [26]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 1369539.57,
+							["timeStamp"] = {
+								["day"] = 8,
+								["month"] = 4,
+								["hours"] = 20,
+								["year"] = 2017,
+								["mins"] = 38,
+							},
+							["startTime"] = 1368412.279,
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"03:04.722", -- [1]
+								"07:02.584", -- [2]
+								"16:23.856", -- [3]
+								"10:59.336", -- [4]
+								"18:46.740", -- [5]
+								"18:00.192", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Burkilla",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Zertax",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Magierin",
+									["name"] = "Itsoktocry (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [27]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 686792.803,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 6,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 14,
+							},
+							["startTime"] = 685551.988,
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"03:18.182", -- [1]
+								"07:25.246", -- [2]
+								"17:50.615", -- [3]
+								"12:24.733", -- [4]
+								"20:40.422", -- [5]
+								"19:44.699", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [28]
+						{
+							["corrupt"] = false,
+							["deaths"] = 12,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 3861.298,
+							["timeStamp"] = {
+								["day"] = 30,
+								["month"] = 6,
+								["hours"] = 0,
+								["mins"] = 5,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Cojote",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Mäddin",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["startTime"] = 2531.98,
+							["objectiveTimes"] = {
+								"03:04.343", -- [1]
+								"08:26.021", -- [2]
+								"20:21.294", -- [3]
+								"14:48.868", -- [4]
+								"23:08.850", -- [5]
+								"22:00.422", -- [6]
+							},
+							["level"] = 7,
+						}, -- [29]
+						{
+							["corrupt"] = false,
+							["deaths"] = 14,
+							["affixes"] = {
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 616627.63,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 7,
+								["hours"] = 23,
+								["mins"] = 0,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Schurkin",
+									["name"] = "Zeratix",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druidin",
+									["name"] = "Moira",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mönch",
+									["name"] = "Evasiel",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"12:16.122", -- [1]
+								"41:19.265", -- [2]
+								"30:28.419", -- [3]
+								"22:49.066", -- [4]
+								"56:36.391", -- [5]
+								"43:38.794", -- [6]
+							},
+							["startTime"] = 613300.921,
+						}, -- [30]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 617970.541,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 7,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 23,
+							},
+							["level"] = 2,
+							["startTime"] = 617233.935,
+							["objectiveTimes"] = {
+								"01:54.440", -- [1]
+								"04:09.450", -- [2]
+								"09:32.867", -- [3]
+								"06:45.909", -- [4]
+								"12:16.197", -- [5]
+								"11:36.725", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Tchokobou (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Kannah",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Schurke",
+									["name"] = "Lidrasel",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [31]
+						{
+							["corrupt"] = false,
+							["deaths"] = 16,
+							["affixes"] = {
+								[14] = {
+									["name"] = "Bebend",
+									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 81576.372,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 7,
+								["hours"] = 22,
+								["year"] = 2017,
+								["mins"] = 32,
+							},
+							["startTime"] = 79562.576,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"05:35.311", -- [1]
+								"12:40.318", -- [2]
+								"29:02.489", -- [3]
+								"21:34.676", -- [4]
+								"34:12.496", -- [5]
+								"34:53.500", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druide",
+									["name"] = "Nighthought (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Krieger",
+									["name"] = "Yuhiwar (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Totoz (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Bliitzz (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druide",
+									["name"] = "Rigobert",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [32]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 508696.13,
+							["timeStamp"] = {
+								["day"] = 15,
+								["month"] = 8,
+								["hours"] = 23,
+								["mins"] = 32,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Mönch",
+									["name"] = "Lowbaka (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 507196.186,
+							["objectiveTimes"] = {
+								"04:01.926", -- [1]
+								"08:21.570", -- [2]
+								"21:17.310", -- [3]
+								"13:36.472", -- [4]
+								"25:24.310", -- [5]
+								"23:56.027", -- [6]
+							},
+							["level"] = 14,
+						}, -- [33]
+						{
+							["corrupt"] = false,
+							["deaths"] = 10,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 16165.496,
+							["timeStamp"] = {
+								["day"] = 31,
+								["month"] = 8,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 57,
+							},
+							["startTime"] = 14174.717,
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"05:29.097", -- [1]
+								"14:45.129", -- [2]
+								"29:31.011", -- [3]
+								"22:33.244", -- [4]
+								"34:00.346", -- [5]
+								"31:41.790", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druide",
+									["name"] = "Noracos",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Aetheroleum",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [34]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Détonant",
+									["desc"] = "Quand un ennemi normal meurt, il explose et inflige aux personnages-joueurs un montant de dégâts égal à 10% de leur maximum de points de vie en 4 secondes. Effet cumulable.",
+								},
+								[14] = {
+									["name"] = "Sismique",
+									["desc"] = "Tous les personnages-joueurs émettent régulièrement une onde de choc qui inflige des dégâts aux alliés proches et les interrompt.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 252861.731,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 9,
+								["hours"] = 17,
+								["mins"] = 44,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Lîïght (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Kartøn (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Heink (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Chapodcapi (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Mönch",
+									["name"] = "Friedebrecht",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"02:54.701", -- [1]
+								"08:03.951", -- [2]
+								"19:21.348", -- [3]
+								"12:53.438", -- [4]
+								"23:20.813", -- [5]
+								"22:01.074", -- [6]
+							},
+							["startTime"] = 251500.473,
+						}, -- [35]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 51707.584,
+							["timeStamp"] = {
+								["day"] = 13,
+								["month"] = 9,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 13,
+							},
+							["startTime"] = 50265.364,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"03:22.182", -- [1]
+								"08:38.093", -- [2]
+								"20:21.581", -- [3]
+								"14:46.886", -- [4]
+								"24:41.745", -- [5]
+								"22:23.599", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Aimee",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Kripke",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Giselmund",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [36]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 90143.273,
+							["timeStamp"] = {
+								["day"] = 19,
+								["month"] = 9,
+								["hours"] = 21,
+								["mins"] = 27,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Chestêr",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Enton",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druidin",
+									["name"] = "Shareez",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 88765.632,
+							["objectiveTimes"] = {
+								"04:41.135", -- [1]
+								"09:00.487", -- [2]
+								"19:40.464", -- [3]
+								"14:30.204", -- [4]
+								"23:22.205", -- [5]
+								"21:17.301", -- [6]
+							},
+							["level"] = 10,
+						}, -- [37]
+						{
+							["corrupt"] = false,
+							["deaths"] = 19,
+							["affixes"] = {
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 502762.22,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 18,
+								["year"] = 2017,
+								["mins"] = 42,
+							},
+							["startTime"] = 500826.321,
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"09:29.241", -- [1]
+								"17:23.229", -- [2]
+								"29:37.541", -- [3]
+								"22:53.254", -- [4]
+								"33:50.527", -- [5]
+								"31:42.819", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Shareer",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [38]
+						{
+							["corrupt"] = false,
+							["deaths"] = 17,
+							["affixes"] = {
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 505199.993,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 19,
+								["year"] = 2017,
+								["mins"] = 23,
+							},
+							["startTime"] = 503354.339,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"05:45.349", -- [1]
+								"11:24.488", -- [2]
+								"27:40.328", -- [3]
+								"18:15.604", -- [4]
+								"32:10.335", -- [5]
+								"29:39.427", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Wizo",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Krieger",
+									["name"] = "Dagren (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Priester",
+									["name"] = "Shareer",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [39]
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 179366.316,
+							["timeStamp"] = {
+								["day"] = 13,
+								["month"] = 10,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 20,
+							},
+							["level"] = 10,
+							["startTime"] = 178132.396,
+							["objectiveTimes"] = {
+								"02:46.088", -- [1]
+								"07:05.875", -- [2]
+								"17:38.116", -- [3]
+								"11:55.585", -- [4]
+								"20:53.383", -- [5]
+								"19:20.044", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Druidin",
+									["name"] = "Kvirana",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schamane",
+									["name"] = "Voluntas",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Enton",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Shanta",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Dankrun",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [40]
+						{
+							["corrupt"] = false,
+							["deaths"] = 10,
+							["affixes"] = {
+								[14] = {
+									["name"] = "Bebend",
+									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 28211.062,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 12,
+								["hours"] = 22,
+								["mins"] = 56,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Mönch",
+									["name"] = "Meruka",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Wirings",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 26714.506,
+							["objectiveTimes"] = {
+								"03:26.843", -- [1]
+								"08:54.930", -- [2]
+								"21:13.709", -- [3]
+								"14:30.669", -- [4]
+								"25:46.157", -- [5]
+								"24:03.814", -- [6]
+							},
+							["level"] = 13,
+						}, -- [41]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 19494.795,
+							["timeStamp"] = {
+								["day"] = 7,
+								["month"] = 1,
+								["hours"] = 21,
+								["year"] = 2018,
+								["mins"] = 11,
+							},
+							["startTime"] = 18128.131,
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"03:00.062", -- [1]
+								"08:45.674", -- [2]
+								"19:16.782", -- [3]
+								"14:24.600", -- [4]
+								"23:01.387", -- [5]
+								"21:03.322", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Arctus (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Topekk",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Livinglove (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [42]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 45304.779,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 2,
+								["hours"] = 0,
+								["mins"] = 22,
+								["year"] = 2018,
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Bumms",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Burkilla",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Aminea",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Magier",
+									["name"] = "Maronai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 43595.17,
+							["objectiveTimes"] = {
+								"04:59.084", -- [1]
+								"11:20.622", -- [2]
+								"25:13.141", -- [3]
+								"20:04.596", -- [4]
+								"29:24.355", -- [5]
+								"26:59.776", -- [6]
+							},
+							["level"] = 16,
+						}, -- [43]
+						{
+							["corrupt"] = false,
+							["deaths"] = 15,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 10760.711,
+							["timeStamp"] = {
+								["day"] = 6,
+								["month"] = 2,
+								["hours"] = 23,
+								["year"] = 2018,
+								["mins"] = 8,
+							},
+							["startTime"] = 9071.818,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"03:46.773", -- [1]
+								"10:07.144", -- [2]
+								"25:13.520", -- [3]
+								"15:33.567", -- [4]
+								"28:18.505", -- [5]
+								"29:23.676", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Latuntra (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Androssa (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Mönch",
+									["name"] = "Aireya (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Mîka (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelmuth",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [44]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 716882.166,
+							["timeStamp"] = {
+								["day"] = 19,
+								["month"] = 2,
+								["hours"] = 22,
+								["mins"] = 40,
+								["year"] = 2018,
+							},
+							["players"] = {
+								{
+									["class"] = "Mönch",
+									["name"] = "Meruka",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druidin",
+									["name"] = "Lunavia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Cryogenix (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priester",
+									["name"] = "Firstaid (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"06:40.302", -- [1]
+								"12:40.055", -- [2]
+								"25:26.107", -- [3]
+								"19:04.441", -- [4]
+								"30:45.944", -- [5]
+								"27:36.882", -- [6]
+							},
+							["startTime"] = 715075.738,
+						}, -- [45]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Vulkanisch",
+									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
+								},
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 95802.269,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 3,
+								["hours"] = 22,
+								["mins"] = 19,
+								["year"] = 2018,
+							},
+							["players"] = {
+								{
+									["class"] = "Schamane",
+									["name"] = "Zeius (*)",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Navia",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Azuka",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Гнилохал (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Hexenmeisterin",
+									["name"] = "Dankrun",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 94525.688,
+							["objectiveTimes"] = {
+								"03:15.671", -- [1]
+								"07:23.699", -- [2]
+								"16:48.064", -- [3]
+								"11:26.536", -- [4]
+								"20:50.972", -- [5]
+								"21:41.298", -- [6]
+							},
+							["level"] = 11,
+						}, -- [46]
+						{
+							["corrupt"] = false,
+							["deaths"] = 23,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 96356.547,
+							["timeStamp"] = {
+								["day"] = 15,
+								["month"] = 5,
+								["hours"] = 22,
+								["mins"] = 43,
+								["year"] = 2018,
+							},
+							["players"] = {
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Durilock (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Yhendorn (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Caerghen (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Schurke",
+									["name"] = "Grakimas (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"05:28.983", -- [1]
+								"20:16.507", -- [2]
+								"35:28.370", -- [3]
+								"28:18.817", -- [4]
+								"39:30.949", -- [5]
+								"40:47.396", -- [6]
+							},
+							["startTime"] = 94023.85,
+						}, -- [47]
+						{
+							["corrupt"] = false,
+							["deaths"] = 27,
+							["affixes"] = {
+								[14] = {
+									["name"] = "Bebend",
+									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 31313.915,
+							["timeStamp"] = {
+								["day"] = 20,
+								["month"] = 5,
+								["hours"] = 23,
+								["year"] = 2018,
+								["mins"] = 26,
+							},
+							["level"] = 15,
+							["startTime"] = 28880.335,
+							["objectiveTimes"] = {
+								"11:59.521", -- [1]
+								"20:15.973", -- [2]
+								"37:36.851", -- [3]
+								"26:47.028", -- [4]
+								"41:40.006", -- [5]
+								"42:48.179", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Másapolamii (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Todesritter",
+									["name"] = "Lurakon (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Magierin",
+									["name"] = "Edelweiss (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Orfé (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Minnegard",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [48]
+					},
+				},
+				[1594] = {
+					["objectives"] = {
+						"Münzbetriebenen Meuteverprügler besiegt", -- [1]
+						"Azerokk besiegt", -- [2]
+						"Rixxa Fluxflamme besiegt", -- [3]
+						"Mogul Ratztunk besiegt", -- [4]
+						"Feindliche Streitkräfte", -- [5]
+					},
+					["zoneID"] = 1594,
+					["name"] = "Das RIESENFLÖZ!!",
+					["runs"] = {
+						{
+							["corrupt"] = true,
+							["deaths"] = 0,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 14955.188,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 3,
+								["hours"] = 23,
+								["year"] = 2020,
+								["mins"] = 51,
+							},
+							["startTime"] = 13219.188,
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"?", -- [1]
+								"?", -- [2]
+								"22:57", -- [3]
+								"28:56", -- [4]
+								"25:23", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Druide",
+									["name"] = "Vulzal",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schurke",
+									["name"] = "Netrog (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schamanin",
+									["name"] = "Ehnaa",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Virkaltor (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 180041.918,
+							["timeStamp"] = {
+								["day"] = 20,
+								["month"] = 7,
+								["hours"] = 22,
+								["mins"] = 59,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Krieger",
+									["name"] = "Krohm",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Jägerin",
+									["name"] = "Sômêhunter",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Jäger",
+									["name"] = "Kurwagib",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"04:03.427", -- [1]
+								"15:24.080", -- [2]
+								"18:47.104", -- [3]
+								"23:02.068", -- [4]
+								"23:42.150", -- [5]
+							},
+							["startTime"] = 178629.117,
+						}, -- [2]
 					},
 				},
 				[1458] = {
@@ -14153,66 +17446,57 @@ GottaGoFastHistoryDB = {
 						}, -- [12]
 					},
 				},
-				[1771] = {
-					["objectives"] = {
-						"Die Sandkönigin besiegt", -- [1]
-						"Jes Knurris besiegt", -- [2]
-						"Kürassier Valyri besiegt", -- [3]
-						"Aufseher Korgus besiegt", -- [4]
-						"Feindliche Streitkräfte", -- [5]
-					},
-					["zoneID"] = 1771,
-					["name"] = "Tol Dagor",
+				[1864] = {
 					["runs"] = {
 						{
 							["corrupt"] = false,
-							["deaths"] = 14,
+							["deaths"] = 3,
 							["affixes"] = {
-								[11] = {
-									["name"] = "Bursting",
-									["desc"] = "When slain, non-boss enemies explode, causing all players to suffer 14% of their max health in damage over 4 sec. This effect stacks.",
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
 								},
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
 								},
 								[120] = {
-									["name"] = "Awakened",
-									["desc"] = "Obelisks throughout the dungeon allow players to enter Ny'alotha and confront powerful servants of N'Zoth. If a servant is not dealt with, they must be faced during the final boss encounter.",
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
 								},
 							},
 							["active"] = false,
-							["endTime"] = 86259.216,
+							["endTime"] = 784988.9940000001,
 							["timeStamp"] = {
-								["day"] = 17,
-								["month"] = 3,
-								["hours"] = 18,
-								["mins"] = 38,
+								["day"] = 25,
+								["month"] = 5,
+								["hours"] = 23,
+								["mins"] = 48,
 								["year"] = 2020,
 							},
 							["players"] = {
 								{
-									["class"] = "Todesritter",
-									["name"] = "Pepo",
+									["class"] = "Paladin",
+									["name"] = "Quyncy (*)",
 									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Schamanin",
-									["name"] = "Aseri",
+									["class"] = "Mönch",
+									["name"] = "Mîlk (*)",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Jäger",
-									["name"] = "Sitrap",
+									["class"] = "Magierin",
+									["name"] = "Bunsbuns (*)",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Schurkin",
-									["name"] = "Easyrogue",
+									["class"] = "Schurke",
+									["name"] = "Pikay",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -14223,14 +17507,23 @@ GottaGoFastHistoryDB = {
 							},
 							["level"] = 15,
 							["objectiveTimes"] = {
-								"04:31", -- [1]
-								"18:15.094", -- [2]
-								"27:18.393", -- [3]
-								"32:22.608", -- [4]
-								"29:36.329", -- [5]
+								"04:27.166", -- [1]
+								"11:11.283", -- [2]
+								"19:56.390", -- [3]
+								"24:13.654", -- [4]
+								"22:06.637", -- [5]
 							},
-							["startTime"] = 84386.28300000001,
+							["startTime"] = 783549.593,
 						}, -- [1]
+					},
+					["name"] = "Der Schrein des Sturms",
+					["zoneID"] = 1864,
+					["objectives"] = {
+						"Aqu'sirr besiegt", -- [1]
+						"Gezeitenrat besiegt", -- [2]
+						"Lord Sturmsang besiegt", -- [3]
+						"Vol'zith den Flüsterer besiegt", -- [4]
+						"Feindliche Streitkräfte", -- [5]
 					},
 				},
 				[1493] = {
@@ -18723,220 +22016,6 @@ GottaGoFastHistoryDB = {
 						"Feindliche Streitkräfte", -- [6]
 					},
 				},
-				[1841] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[14] = {
-									["name"] = "Bebend",
-									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 2024.59,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 3,
-								["hours"] = 23,
-								["mins"] = 42,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Azuka",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Clusta",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Florello",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Endaxis",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"02:48.602", -- [1]
-								"13:32.522", -- [2]
-								"16:31.988", -- [3]
-								"25:26.917", -- [4]
-								"24:21.046", -- [5]
-							},
-							["startTime"] = 507.196,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 16,
-							["affixes"] = {
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 48240.634,
-							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 4,
-								["hours"] = 23,
-								["mins"] = 48,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Xaj",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Trîâlbôdy",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Zinguhltus",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 46381.235,
-							["objectiveTimes"] = {
-								"05:14.200", -- [1]
-								"14:25.813", -- [2]
-								"20:13.844", -- [3]
-								"32:19.116", -- [4]
-								"30:18.453", -- [5]
-							},
-							["level"] = 15,
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 211446.681,
-							["timeStamp"] = {
-								["day"] = 27,
-								["month"] = 4,
-								["hours"] = 23,
-								["year"] = 2020,
-								["mins"] = 46,
-							},
-							["level"] = 15,
-							["startTime"] = 209850.666,
-							["objectiveTimes"] = {
-								"03:58.341", -- [1]
-								"12:44.142", -- [2]
-								"19:04.655", -- [3]
-								"27:00.403", -- [4]
-								"24:02.283", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Jûan",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Facenoodle",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Draenic",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-						}, -- [3]
-					},
-					["name"] = "Der Tiefenpfuhl",
-					["zoneID"] = 1841,
-					["objectives"] = {
-						"Älteste Leaxa besiegt", -- [1]
-						"Felsschlund den Befallenen besiegt", -- [2]
-						"Sporenrufer Zancha besiegt", -- [3]
-						"Entfesselte Monstrosität besiegt", -- [4]
-						"Feindliche Streitkräfte", -- [5]
-					},
-				},
 				[1753] = {
 					["objectives"] = {
 						"Besiegt Zuraal den Aufgestiegenen", -- [1]
@@ -19263,6 +22342,220 @@ GottaGoFastHistoryDB = {
 								}, -- [5]
 							},
 						}, -- [5]
+					},
+				},
+				[1841] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Wimmelnd",
+									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[14] = {
+									["name"] = "Bebend",
+									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 2024.59,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 3,
+								["hours"] = 23,
+								["mins"] = 42,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Azuka",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Clusta",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Florello",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Endaxis",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"02:48.602", -- [1]
+								"13:32.522", -- [2]
+								"16:31.988", -- [3]
+								"25:26.917", -- [4]
+								"24:21.046", -- [5]
+							},
+							["startTime"] = 507.196,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 16,
+							["affixes"] = {
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 48240.634,
+							["timeStamp"] = {
+								["day"] = 20,
+								["month"] = 4,
+								["hours"] = 23,
+								["mins"] = 48,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Xaj",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Magier",
+									["name"] = "Trîâlbôdy",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Zinguhltus",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 46381.235,
+							["objectiveTimes"] = {
+								"05:14.200", -- [1]
+								"14:25.813", -- [2]
+								"20:13.844", -- [3]
+								"32:19.116", -- [4]
+								"30:18.453", -- [5]
+							},
+							["level"] = 15,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Platzend",
+									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[4] = {
+									["name"] = "Nekrotisch",
+									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 211446.681,
+							["timeStamp"] = {
+								["day"] = 27,
+								["month"] = 4,
+								["hours"] = 23,
+								["year"] = 2020,
+								["mins"] = 46,
+							},
+							["level"] = 15,
+							["startTime"] = 209850.666,
+							["objectiveTimes"] = {
+								"03:58.341", -- [1]
+								"12:44.142", -- [2]
+								"19:04.655", -- [3]
+								"27:00.403", -- [4]
+								"24:02.283", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Jûan",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Facenoodle",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Schurkin",
+									["name"] = "Draenic",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [3]
+					},
+					["name"] = "Der Tiefenpfuhl",
+					["zoneID"] = 1841,
+					["objectives"] = {
+						"Älteste Leaxa besiegt", -- [1]
+						"Felsschlund den Befallenen besiegt", -- [2]
+						"Sporenrufer Zancha besiegt", -- [3]
+						"Entfesselte Monstrosität besiegt", -- [4]
+						"Feindliche Streitkräfte", -- [5]
 					},
 				},
 				[1651] = {
@@ -25748,380 +29041,6 @@ GottaGoFastHistoryDB = {
 						"Feindliche Streitkräfte", -- [5]
 					},
 				},
-				[2287] = {
-					["objectives"] = {
-						"Halkias besiegt", -- [1]
-						"Echelon besiegt", -- [2]
-						"Hochadjudikatorin Aleez besiegt", -- [3]
-						"Den Obersten Kämmerer besiegt", -- [4]
-						"Gegnerische Streitkräfte", -- [5]
-					},
-					["zoneID"] = 2287,
-					["name"] = "Hallen der Sühne",
-					["runs"] = {
-					},
-				},
-				[2097] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 16,
-							["affixes"] = {
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 48539.374,
-							["timeStamp"] = {
-								["day"] = 23,
-								["month"] = 3,
-								["hours"] = 23,
-								["mins"] = 59,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Ajami",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Endaxis",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magierin",
-									["name"] = "Dvaina",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Sômêwârri",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 46629.247,
-							["objectiveTimes"] = {
-								"02:45.659", -- [1]
-								"10:05.681", -- [2]
-								"19:16.048", -- [3]
-								"33:09.782", -- [4]
-								"29:32.599", -- [5]
-							},
-							["level"] = 16,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 9,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 46998.243,
-							["timeStamp"] = {
-								["day"] = 25,
-								["month"] = 3,
-								["hours"] = 23,
-								["mins"] = 47,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Pepo",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Endaxis",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Sômêwârri",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"03:29.979", -- [1]
-								"11:18.119", -- [2]
-								"19:22.419", -- [3]
-								"26:01.855", -- [4]
-								"22:13.479", -- [5]
-							},
-							["startTime"] = 45480.994,
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 12,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[14] = {
-									["name"] = "Bebend",
-									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 815849.203,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 5,
-								["hours"] = 23,
-								["mins"] = 40,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Revidar",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Zinguhltus",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Facenoodle",
-									["role"] = "HEALER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-							["startTime"] = 814224.914,
-							["objectiveTimes"] = {
-								"02:33.095", -- [1]
-								"08:54.922", -- [2]
-								"17:57.891", -- [3]
-								"28:03.808", -- [4]
-								"23:50.773", -- [5]
-							},
-							["level"] = 15,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 16,
-							["affixes"] = {
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 281721.694,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 5,
-								["hours"] = 23,
-								["year"] = 2020,
-								["mins"] = 55,
-							},
-							["level"] = 17,
-							["startTime"] = 279347.998,
-							["objectiveTimes"] = {
-								"03:44.621", -- [1]
-								"12:59.463", -- [2]
-								"26:28.479", -- [3]
-								"40:53.068", -- [4]
-								"35:40.802", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Xaj",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Trîâlbôdy",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Druidin",
-									["name"] = "Wubbel",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 18,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 1682563.701,
-							["timeStamp"] = {
-								["day"] = 13,
-								["month"] = 7,
-								["hours"] = 22,
-								["year"] = 2020,
-								["mins"] = 8,
-							},
-							["startTime"] = 1681006.184,
-							["level"] = 17,
-							["objectiveTimes"] = {
-								"03:21.460", -- [1]
-								"08:13.787", -- [2]
-								"20:52.424", -- [3]
-								"27:27.112", -- [4]
-								"25:05.122", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Druide",
-									["name"] = "Bestie",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Endaxis",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Tiá",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Bleibstehen (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [5]
-					},
-					["name"] = "Operation: Mechagon - Werkstatt",
-					["zoneID"] = 2097,
-					["objectives"] = {
-						"Prügelpanzer besiegt", -- [1]
-						"K.U.-J.0. besiegt", -- [2]
-						"Garten des Maschinisten besiegt", -- [3]
-						"König Mechagon besiegt", -- [4]
-						"Gegnerische Streitkräfte", -- [5]
-					},
-				},
-				[2285] = {
-					["objectives"] = {
-						"Kin-Tara besiegt", -- [1]
-						"Ventunax besiegt", -- [2]
-						"Oryphrion besiegt", -- [3]
-						"Devos besiegt", -- [4]
-						"Gegnerische Streitkräfte", -- [5]
-					},
-					["zoneID"] = 2285,
-					["name"] = "Spitzen des Aufstiegs",
-					["runs"] = {
-					},
-				},
 				[1501] = {
 					["runs"] = {
 						{
@@ -28208,6 +31127,380 @@ GottaGoFastHistoryDB = {
 						"Feindliche Streitkräfte", -- [5]
 					},
 				},
+				[2097] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 16,
+							["affixes"] = {
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[12] = {
+									["name"] = "Schrecklich",
+									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 48539.374,
+							["timeStamp"] = {
+								["day"] = 23,
+								["month"] = 3,
+								["hours"] = 23,
+								["mins"] = 59,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Ajami",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Endaxis",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magierin",
+									["name"] = "Dvaina",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Sômêwârri",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 46629.247,
+							["objectiveTimes"] = {
+								"02:45.659", -- [1]
+								"10:05.681", -- [2]
+								"19:16.048", -- [3]
+								"33:09.782", -- [4]
+								"29:32.599", -- [5]
+							},
+							["level"] = 16,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 9,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[6] = {
+									["name"] = "Wütend",
+									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 46998.243,
+							["timeStamp"] = {
+								["day"] = 25,
+								["month"] = 3,
+								["hours"] = 23,
+								["mins"] = 47,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Todesritter",
+									["name"] = "Pepo",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Endaxis",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Krieger",
+									["name"] = "Sômêwârri",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"03:29.979", -- [1]
+								"11:18.119", -- [2]
+								"19:22.419", -- [3]
+								"26:01.855", -- [4]
+								"22:13.479", -- [5]
+							},
+							["startTime"] = 45480.994,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 12,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Blutig",
+									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[14] = {
+									["name"] = "Bebend",
+									["desc"] = "Alle Spielercharaktere senden regelmäßig eine Schockwelle aus, die Schaden verursacht und Verbündete in der Nähe unterbricht.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 815849.203,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 5,
+								["hours"] = 23,
+								["mins"] = 40,
+								["year"] = 2020,
+							},
+							["players"] = {
+								{
+									["class"] = "Dämonenjäger",
+									["name"] = "Revidar",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hexenmeister",
+									["name"] = "Zinguhltus",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priesterin",
+									["name"] = "Facenoodle",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 814224.914,
+							["objectiveTimes"] = {
+								"02:33.095", -- [1]
+								"08:54.922", -- [2]
+								"17:57.891", -- [3]
+								"28:03.808", -- [4]
+								"23:50.773", -- [5]
+							},
+							["level"] = 15,
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 16,
+							["affixes"] = {
+								[9] = {
+									["name"] = "Tyrannisch",
+									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+								},
+								[13] = {
+									["name"] = "Explosiv",
+									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 281721.694,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 5,
+								["hours"] = 23,
+								["year"] = 2020,
+								["mins"] = 55,
+							},
+							["level"] = 17,
+							["startTime"] = 279347.998,
+							["objectiveTimes"] = {
+								"03:44.621", -- [1]
+								"12:59.463", -- [2]
+								"26:28.479", -- [3]
+								"40:53.068", -- [4]
+								"35:40.802", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Xaj",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Schurke",
+									["name"] = "Pikay",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Magier",
+									["name"] = "Trîâlbôdy",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druidin",
+									["name"] = "Wubbel",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 18,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Anstachelnd",
+									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
+								},
+								[2] = {
+									["name"] = "Launisch",
+									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+								},
+								[120] = {
+									["name"] = "Erweckt",
+									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+								},
+								[10] = {
+									["name"] = "Verstärkt",
+									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 1682563.701,
+							["timeStamp"] = {
+								["day"] = 13,
+								["month"] = 7,
+								["hours"] = 22,
+								["year"] = 2020,
+								["mins"] = 8,
+							},
+							["startTime"] = 1681006.184,
+							["level"] = 17,
+							["objectiveTimes"] = {
+								"03:21.460", -- [1]
+								"08:13.787", -- [2]
+								"20:52.424", -- [3]
+								"27:27.112", -- [4]
+								"25:05.122", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Druide",
+									["name"] = "Bestie",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Dämonenjägerin",
+									["name"] = "Endaxis",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Kriegerin",
+									["name"] = "Tiá",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Bleibstehen (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Paladin",
+									["name"] = "Adelgunde",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [5]
+					},
+					["name"] = "Operation: Mechagon - Werkstatt",
+					["zoneID"] = 2097,
+					["objectives"] = {
+						"Prügelpanzer besiegt", -- [1]
+						"K.U.-J.0. besiegt", -- [2]
+						"Garten des Maschinisten besiegt", -- [3]
+						"König Mechagon besiegt", -- [4]
+						"Gegnerische Streitkräfte", -- [5]
+					},
+				},
+				[2285] = {
+					["objectives"] = {
+						"Kin-Tara besiegt", -- [1]
+						"Ventunax besiegt", -- [2]
+						"Oryphrion besiegt", -- [3]
+						"Devos besiegt", -- [4]
+						"Gegnerische Streitkräfte", -- [5]
+					},
+					["zoneID"] = 2285,
+					["name"] = "Spitzen des Aufstiegs",
+					["runs"] = {
+					},
+				},
+				[2287] = {
+					["objectives"] = {
+						"Halkias besiegt", -- [1]
+						"Echelon besiegt", -- [2]
+						"Hochadjudikatorin Aleez besiegt", -- [3]
+						"Den Obersten Kämmerer besiegt", -- [4]
+						"Gegnerische Streitkräfte", -- [5]
+					},
+					["zoneID"] = 2287,
+					["name"] = "Hallen der Sühne",
+					["runs"] = {
+					},
+				},
 				[2289] = {
 					["runs"] = {
 					},
@@ -28542,133 +31835,66 @@ GottaGoFastHistoryDB = {
 						}, -- [2]
 					},
 				},
-				[1594] = {
+				[1771] = {
 					["objectives"] = {
-						"Münzbetriebenen Meuteverprügler besiegt", -- [1]
-						"Azerokk besiegt", -- [2]
-						"Rixxa Fluxflamme besiegt", -- [3]
-						"Mogul Ratztunk besiegt", -- [4]
+						"Die Sandkönigin besiegt", -- [1]
+						"Jes Knurris besiegt", -- [2]
+						"Kürassier Valyri besiegt", -- [3]
+						"Aufseher Korgus besiegt", -- [4]
 						"Feindliche Streitkräfte", -- [5]
 					},
-					["zoneID"] = 1594,
-					["name"] = "Das RIESENFLÖZ!!",
+					["zoneID"] = 1771,
+					["name"] = "Tol Dagor",
 					["runs"] = {
 						{
-							["corrupt"] = true,
-							["deaths"] = 0,
+							["corrupt"] = false,
+							["deaths"] = 14,
 							["affixes"] = {
 								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
+									["name"] = "Bursting",
+									["desc"] = "When slain, non-boss enemies explode, causing all players to suffer 14% of their max health in damage over 4 sec. This effect stacks.",
 								},
 								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
 								},
 								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
 								},
 								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
+									["name"] = "Awakened",
+									["desc"] = "Obelisks throughout the dungeon allow players to enter Ny'alotha and confront powerful servants of N'Zoth. If a servant is not dealt with, they must be faced during the final boss encounter.",
 								},
 							},
 							["active"] = false,
-							["endTime"] = 14955.188,
+							["endTime"] = 86259.216,
 							["timeStamp"] = {
-								["day"] = 11,
+								["day"] = 17,
 								["month"] = 3,
-								["hours"] = 23,
+								["hours"] = 18,
+								["mins"] = 38,
 								["year"] = 2020,
-								["mins"] = 51,
-							},
-							["startTime"] = 13219.188,
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"?", -- [1]
-								"?", -- [2]
-								"22:57", -- [3]
-								"28:56", -- [4]
-								"25:23", -- [5]
 							},
 							["players"] = {
 								{
-									["class"] = "Druide",
-									["name"] = "Vulzal",
+									["class"] = "Todesritter",
+									["name"] = "Pepo",
 									["role"] = "TANK",
 								}, -- [1]
-								{
-									["class"] = "Schurke",
-									["name"] = "Netrog (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
 								{
 									["class"] = "Schamanin",
-									["name"] = "Ehnaa",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Virkaltor (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 14% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[120] = {
-									["name"] = "Erweckt",
-									["desc"] = "Obelisken im gesamten Dungeon ermöglichen es Spielercharakteren, Ny'alotha zu betreten und gegen mächtige Diener N'Zoths zu kämpfen. Diener, die nicht besiegt werden, müssen während des letzten Bosskampfs bekämpft werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 180041.918,
-							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 7,
-								["hours"] = 22,
-								["mins"] = 59,
-								["year"] = 2020,
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Krohm",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurke",
-									["name"] = "Pikay",
+									["name"] = "Aseri",
 									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Jägerin",
-									["name"] = "Sômêhunter",
+									["class"] = "Jäger",
+									["name"] = "Sitrap",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
-									["class"] = "Jäger",
-									["name"] = "Kurwagib",
+									["class"] = "Schurkin",
+									["name"] = "Easyrogue",
 									["role"] = "DAMAGER",
 								}, -- [4]
 								{
@@ -28679,14 +31905,14 @@ GottaGoFastHistoryDB = {
 							},
 							["level"] = 15,
 							["objectiveTimes"] = {
-								"04:03.427", -- [1]
-								"15:24.080", -- [2]
-								"18:47.104", -- [3]
-								"23:02.068", -- [4]
-								"23:42.150", -- [5]
+								"04:31", -- [1]
+								"18:15.094", -- [2]
+								"27:18.393", -- [3]
+								"32:22.608", -- [4]
+								"29:36.329", -- [5]
 							},
-							["startTime"] = 178629.117,
-						}, -- [2]
+							["startTime"] = 84386.28300000001,
+						}, -- [1]
 					},
 				},
 				[1477] = {
@@ -33479,3230 +36705,16 @@ GottaGoFastHistoryDB = {
 						"Feindliche Streitkräfte", -- [4]
 					},
 				},
-				[1516] = {
+				[2441] = {
 					["objectives"] = {
-						"Ivanyr", -- [1]
-						"Corstilax", -- [2]
-						"General Xakal", -- [3]
-						"Nal'tira", -- [4]
-						"Berater Vandros", -- [5]
-						"Feindliche Streitkräfte", -- [6]
+						"Hylbrand besiegt", -- [1]
+						"Zeitkäpt'n Hakenschwanz besiegt", -- [2]
+						"So'leah besiegt", -- [3]
+						"Gegnerische Streitkräfte", -- [4]
 					},
-					["zoneID"] = 1516,
-					["name"] = "Der Arkus",
+					["zoneID"] = 2441,
+					["name"] = "Tazavesh: So'leahs Schachzug",
 					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 11,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 159482.9,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 11,
-								["hours"] = 21,
-								["year"] = 2016,
-								["mins"] = 24,
-							},
-							["level"] = 7,
-							["startTime"] = 157653.027,
-							["objectiveTimes"] = {
-								"25:47.018", -- [1]
-								"19:51.707", -- [2]
-								"10:49.572", -- [3]
-								"14:37.280", -- [4]
-								"31:05.207", -- [5]
-								"31:24.406", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Mickoo (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 15,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 105154.498,
-							["timeStamp"] = {
-								["day"] = 24,
-								["month"] = 11,
-								["hours"] = 23,
-								["year"] = 2016,
-								["mins"] = 35,
-							},
-							["level"] = 4,
-							["startTime"] = 103728.764,
-							["objectiveTimes"] = {
-								"07:07.050", -- [1]
-								"10:26.411", -- [2]
-								"21:52.009", -- [3]
-								"15:17.789", -- [4]
-								"25:00.233", -- [5]
-								"22:49.707", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 14,
-							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 461449.964,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 12,
-								["hours"] = 21,
-								["year"] = 2016,
-								["mins"] = 29,
-							},
-							["startTime"] = 459765.412,
-							["level"] = 7,
-							["objectiveTimes"] = {
-								"23:54.183", -- [1]
-								"16:25.764", -- [2]
-								"06:42.539", -- [3]
-								"12:19.214", -- [4]
-								"29:14.119", -- [5]
-								"27:02.308", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Jäger",
-									["name"] = "Smagyou (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Askará (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [3]
-						{
-							["corrupt"] = true,
-							["deaths"] = 12,
-							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 808923.461,
-							["timeStamp"] = {
-								["day"] = 5,
-								["month"] = 12,
-								["hours"] = 22,
-								["mins"] = 0,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Malachai (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 806180.461,
-							["objectiveTimes"] = {
-								"12:53", -- [1]
-								"20:58", -- [2]
-								"38:48", -- [3]
-								"28:37", -- [4]
-								"45:43", -- [5]
-								"40:46", -- [6]
-							},
-							["level"] = 12,
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 3,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 96860.398,
-							["timeStamp"] = {
-								["day"] = 7,
-								["month"] = 12,
-								["hours"] = 22,
-								["year"] = 2016,
-								["mins"] = 58,
-							},
-							["level"] = 3,
-							["startTime"] = 95879.322,
-							["objectiveTimes"] = {
-								"04:16.566", -- [1]
-								"06:31.429", -- [2]
-								"13:55.524", -- [3]
-								"10:06.448", -- [4]
-								"16:35.625", -- [5]
-								"13:55.524", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [5]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 124811.854,
-							["timeStamp"] = {
-								["day"] = 15,
-								["month"] = 12,
-								["hours"] = 21,
-								["mins"] = 36,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jäger",
-									["name"] = "Elow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Chapman (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 6,
-							["objectiveTimes"] = {
-								"06:54.824", -- [1]
-								"10:05.385", -- [2]
-								"19:54.159", -- [3]
-								"13:30.486", -- [4]
-								"23:14.807", -- [5]
-								"20:48.738", -- [6]
-							},
-							["startTime"] = 123436.413,
-						}, -- [6]
-						{
-							["corrupt"] = true,
-							["deaths"] = 0,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 293722.65,
-							["timeStamp"] = {
-								["day"] = 17,
-								["month"] = 12,
-								["hours"] = 20,
-								["year"] = 2016,
-								["mins"] = 33,
-							},
-							["startTime"] = 288702.65,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"?", -- [1]
-								"?", -- [2]
-								"66:30", -- [3]
-								"?", -- [4]
-								"83:40", -- [5]
-								"70:58", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priester",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [7]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 12371.61,
-							["timeStamp"] = {
-								["day"] = 24,
-								["month"] = 12,
-								["hours"] = 0,
-								["mins"] = 51,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druide",
-									["name"] = "Deffan (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zenossama (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Rambosilek (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 10546.373,
-							["objectiveTimes"] = {
-								"25:11.531", -- [1]
-								"19:13.971", -- [2]
-								"09:21.427", -- [3]
-								"14:18.517", -- [4]
-								"30:49.703", -- [5]
-								"27:25.598", -- [6]
-							},
-							["level"] = 11,
-						}, -- [8]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 107479.478,
-							["timeStamp"] = {
-								["day"] = 27,
-								["month"] = 12,
-								["hours"] = 1,
-								["year"] = 2016,
-								["mins"] = 34,
-							},
-							["level"] = 5,
-							["startTime"] = 106245.89,
-							["objectiveTimes"] = {
-								"16:55.021", -- [1]
-								"12:43.226", -- [2]
-								"05:46.508", -- [3]
-								"08:59.154", -- [4]
-								"20:33.154", -- [5]
-								"16:55.021", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schurkin",
-									["name"] = "Dirtpwn (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priester",
-									["name"] = "Skuggprästen (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Taislin (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ajaaydh (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [9]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 162138.638,
-							["timeStamp"] = {
-								["day"] = 27,
-								["month"] = 12,
-								["hours"] = 16,
-								["year"] = 2016,
-								["mins"] = 43,
-							},
-							["startTime"] = 160878.644,
-							["level"] = 5,
-							["objectiveTimes"] = {
-								"16:10.183", -- [1]
-								"12:28.096", -- [2]
-								"05:44.476", -- [3]
-								"08:52.231", -- [4]
-								"21:19.560", -- [5]
-								"18:17.778", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schurke",
-									["name"] = "Domherren (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Zetank (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Schamanin",
-									["name"] = "Karjix (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Gurragranat (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [10]
-						{
-							["corrupt"] = true,
-							["deaths"] = 4,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 253608.883,
-							["timeStamp"] = {
-								["day"] = 28,
-								["month"] = 12,
-								["hours"] = 18,
-								["year"] = 2016,
-								["mins"] = 7,
-							},
-							["level"] = 6,
-							["startTime"] = 252094.883,
-							["objectiveTimes"] = {
-								"09:40", -- [1]
-								"12:34", -- [2]
-								"20:52", -- [3]
-								"16:28", -- [4]
-								"25:14", -- [5]
-								"23:15", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Vraskah (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Kalidhor (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Bolletroll (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Sarphis (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [11]
-						{
-							["corrupt"] = false,
-							["deaths"] = 9,
-							["affixes"] = {
-								{
-									["name"] = "Überschüssig",
-									["desc"] = "Überheilung wird in einen Heilungsabsorptionseffekt umgewandelt.",
-								}, -- [1]
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 105805.382,
-							["timeStamp"] = {
-								["day"] = 8,
-								["month"] = 1,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 19,
-							},
-							["startTime"] = 104476.597,
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"17:57.129", -- [1]
-								"13:58.101", -- [2]
-								"06:46.889", -- [3]
-								"09:54.471", -- [4]
-								"22:53.352", -- [5]
-								"20:26.728", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [12]
-						{
-							["corrupt"] = false,
-							["deaths"] = 9,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 10519.089,
-							["timeStamp"] = {
-								["day"] = 12,
-								["month"] = 1,
-								["hours"] = 21,
-								["mins"] = 46,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Magierin",
-									["name"] = "Kayliesha",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Cárà (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 8995.172,
-							["objectiveTimes"] = {
-								"20:13.367", -- [1]
-								"16:00.546", -- [2]
-								"06:17.430", -- [3]
-								"10:41.978", -- [4]
-								"26:08.433", -- [5]
-								"23:39.941", -- [6]
-							},
-							["level"] = 9,
-						}, -- [13]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 442960.568,
-							["timeStamp"] = {
-								["day"] = 17,
-								["month"] = 1,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 52,
-							},
-							["startTime"] = 441500.871,
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"06:53.304", -- [1]
-								"10:10.815", -- [2]
-								"20:44.382", -- [3]
-								"13:52.135", -- [4]
-								"23:57.528", -- [5]
-								"24:19.280", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [14]
-						{
-							["corrupt"] = true,
-							["deaths"] = 7,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 444285.051,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 1,
-								["hours"] = 22,
-								["mins"] = 28,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Schurkin",
-									["name"] = "Potzblitz (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Krieger",
-									["name"] = "Wigbald",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["level"] = 5,
-							["objectiveTimes"] = {
-								"22:21", -- [1]
-								"18:02", -- [2]
-								"07:34", -- [3]
-								"13:28", -- [4]
-								"26:42", -- [5]
-								"24:26", -- [6]
-							},
-							["startTime"] = 442683.051,
-						}, -- [15]
-						{
-							["corrupt"] = false,
-							["deaths"] = 17,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 8244.512,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 2,
-								["hours"] = 16,
-								["year"] = 2017,
-								["mins"] = 57,
-							},
-							["level"] = 9,
-							["startTime"] = 6476.372,
-							["objectiveTimes"] = {
-								"26:03.796", -- [1]
-								"21:21.241", -- [2]
-								"11:24.947", -- [3]
-								"17:21.522", -- [4]
-								"30:52.539", -- [5]
-								"28:15.707", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Wirbelwalter",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Deviljinn",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Krieger",
-									["name"] = "Wigbald",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [16]
-						{
-							["corrupt"] = false,
-							["deaths"] = 19,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 12866.35,
-							["timeStamp"] = {
-								["day"] = 7,
-								["month"] = 2,
-								["hours"] = 23,
-								["mins"] = 37,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Wirbelwalter",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Tegou",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Deviljinn",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["level"] = 12,
-							["objectiveTimes"] = {
-								"35:06.931", -- [1]
-								"25:17.196", -- [2]
-								"11:24.239", -- [3]
-								"19:11.387", -- [4]
-								"42:02.948", -- [5]
-								"39:22.045", -- [6]
-							},
-							["startTime"] = 10437.769,
-						}, -- [17]
-						{
-							["corrupt"] = false,
-							["deaths"] = 3,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 3070.772,
-							["timeStamp"] = {
-								["day"] = 13,
-								["month"] = 2,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 40,
-							},
-							["startTime"] = 1116.561,
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"08:48.962", -- [1]
-								"13:11.312", -- [2]
-								"26:59.717", -- [3]
-								"19:07.108", -- [4]
-								"32:48.794", -- [5]
-								"26:59.717", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [18]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 20% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 82674.103,
-							["timeStamp"] = {
-								["day"] = 14,
-								["month"] = 2,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 47,
-							},
-							["startTime"] = 80325.378,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"11:27.942", -- [1]
-								"16:46.934", -- [2]
-								"33:47.820", -- [3]
-								"24:55.637", -- [4]
-								"39:33.242", -- [5]
-								"35:31.221", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Schamane",
-									["name"] = "Grelix",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [19]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 181283.055,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 2,
-								["hours"] = 22,
-								["mins"] = 53,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Tegou",
-									["role"] = "HEALER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Abrechnung",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Druide",
-									["name"] = "Boolean",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Giggitygoo",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Guntram",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-							["level"] = 3,
-							["objectiveTimes"] = {
-								"15:32.679", -- [1]
-								"10:31.392", -- [2]
-								"04:26.557", -- [3]
-								"07:22.484", -- [4]
-								"18:52.413", -- [5]
-								"16:19.535", -- [6]
-							},
-							["startTime"] = 180155.142,
-						}, -- [20]
-						{
-							["corrupt"] = true,
-							["deaths"] = 2,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Die Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 20830.915,
-							["timeStamp"] = {
-								["day"] = 25,
-								["month"] = 2,
-								["hours"] = 23,
-								["mins"] = 51,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Zertax",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Nureg",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ryandin",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"48:41", -- [1]
-								"42:04", -- [2]
-								"?", -- [3]
-								"?", -- [4]
-								"52:32", -- [5]
-								"48:41", -- [6]
-							},
-							["startTime"] = 17678.915,
-						}, -- [21]
-						{
-							["corrupt"] = false,
-							["deaths"] = 11,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 12375.143,
-							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 3,
-								["hours"] = 0,
-								["year"] = 2017,
-								["mins"] = 8,
-							},
-							["level"] = 7,
-							["startTime"] = 10849.732,
-							["objectiveTimes"] = {
-								"07:32.321", -- [1]
-								"10:36.475", -- [2]
-								"23:11.104", -- [3]
-								"15:58.675", -- [4]
-								"26:19.961", -- [5]
-								"23:11.104", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Zug",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Rothschildxx (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Schachmatt",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [22]
-						{
-							["corrupt"] = true,
-							["deaths"] = 20,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 40% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 96494.646,
-							["timeStamp"] = {
-								["day"] = 21,
-								["month"] = 3,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 20,
-							},
-							["startTime"] = 94215.646,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"33:43", -- [1]
-								"27:11", -- [2]
-								"13:02", -- [3]
-								"18:45", -- [4]
-								"37:59", -- [5]
-								"35:26", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Ryandin",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Enton",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [23]
-						{
-							["corrupt"] = true,
-							["deaths"] = 37,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 11816.281,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 4,
-								["hours"] = 23,
-								["mins"] = 10,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Magier",
-									["name"] = "Maronai",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Tegou",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Krieger",
-									["name"] = "Lüdäl (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Jäger",
-									["name"] = "Worsel",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["startTime"] = 8922.281,
-							["objectiveTimes"] = {
-								"41:26", -- [1]
-								"30:03", -- [2]
-								"15:22", -- [3]
-								"23:37", -- [4]
-								"48:14", -- [5]
-								"45:15", -- [6]
-							},
-							["level"] = 11,
-						}, -- [24]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 342643.626,
-							["timeStamp"] = {
-								["day"] = 17,
-								["month"] = 4,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 45,
-							},
-							["startTime"] = 341308.987,
-							["level"] = 7,
-							["objectiveTimes"] = {
-								"08:26.798", -- [1]
-								"11:16.260", -- [2]
-								"19:43.908", -- [3]
-								"14:51.558", -- [4]
-								"22:44.163", -- [5]
-								"19:43.908", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Tegou",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Bbkha (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Magierin",
-									["name"] = "Frosdmaitsch",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [25]
-						{
-							["corrupt"] = true,
-							["deaths"] = 2,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 5359.441,
-							["timeStamp"] = {
-								["day"] = 28,
-								["month"] = 4,
-								["hours"] = 23,
-								["mins"] = 19,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Dhenton",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Minari",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Magier",
-									["name"] = "Mageonos (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 3764.441,
-							["objectiveTimes"] = {
-								"22:01", -- [1]
-								"16:44", -- [2]
-								"06:24", -- [3]
-								"11:27", -- [4]
-								"26:35", -- [5]
-								"23:42", -- [6]
-							},
-							["level"] = 10,
-						}, -- [26]
-						{
-							["corrupt"] = true,
-							["deaths"] = 9,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 166828.186,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 7,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 22,
-							},
-							["startTime"] = 165204.186,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"22:45", -- [1]
-								"17:50", -- [2]
-								"08:28", -- [3]
-								"12:41", -- [4]
-								"27:04", -- [5]
-								"24:41", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Malachai (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Thorielle",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjäger",
-									["name"] = "Zertax",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [27]
-						{
-							["corrupt"] = true,
-							["deaths"] = 30,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 93428.657,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 7,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 41,
-							},
-							["startTime"] = 90448.657,
-							["level"] = 12,
-							["objectiveTimes"] = {
-								"15:49", -- [1]
-								"20:41", -- [2]
-								"45:27", -- [3]
-								"28:08", -- [4]
-								"49:40", -- [5]
-								"45:27", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Senpino (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Takamatsuku (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [28]
-						{
-							["corrupt"] = true,
-							["deaths"] = 5,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 107109.337,
-							["timeStamp"] = {
-								["day"] = 14,
-								["month"] = 7,
-								["hours"] = 21,
-								["mins"] = 32,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Kvirana",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Jäger",
-									["name"] = "Wiesonîcht",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priester",
-									["name"] = "Shareer",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"29:45", -- [1]
-								"22:55", -- [2]
-								"10:08", -- [3]
-								"16:10", -- [4]
-								"34:49", -- [5]
-								"31:08", -- [6]
-							},
-							["startTime"] = 105020.337,
-						}, -- [29]
-						{
-							["corrupt"] = true,
-							["deaths"] = 10,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 281786.375,
-							["timeStamp"] = {
-								["day"] = 16,
-								["month"] = 7,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 3,
-							},
-							["startTime"] = 279100.375,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"13:14", -- [1]
-								"18:51", -- [2]
-								"40:02", -- [3]
-								"27:51", -- [4]
-								"44:46", -- [5]
-								"40:02", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Zeratix",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druidin",
-									["name"] = "Kvirana",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Magierin",
-									["name"] = "Kayliesha",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [30]
-						{
-							["corrupt"] = true,
-							["deaths"] = 3,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 15739.346,
-							["timeStamp"] = {
-								["day"] = 19,
-								["month"] = 7,
-								["hours"] = 23,
-								["mins"] = 47,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Kvirana",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Shanta",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"12:00", -- [1]
-								"16:21", -- [2]
-								"34:44", -- [3]
-								"23:47", -- [4]
-								"40:41", -- [5]
-								"36:36", -- [6]
-							},
-							["startTime"] = 13298.346,
-						}, -- [31]
-						{
-							["corrupt"] = false,
-							["deaths"] = 3,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 104677.469,
-							["timeStamp"] = {
-								["day"] = 29,
-								["month"] = 7,
-								["hours"] = 2,
-								["year"] = 2017,
-								["mins"] = 3,
-							},
-							["level"] = 5,
-							["startTime"] = 103730.122,
-							["objectiveTimes"] = {
-								"12:05.773", -- [1]
-								"08:49.879", -- [2]
-								"04:21.683", -- [3]
-								"06:21.708", -- [4]
-								"16:01.997", -- [5]
-								"13:59.419", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "HEALER",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Aimee",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Krieger",
-									["name"] = "Charfadum (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Krieger",
-									["name"] = "Wigbald",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [32]
-						{
-							["corrupt"] = true,
-							["deaths"] = 32,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 172695.953,
-							["timeStamp"] = {
-								["day"] = 6,
-								["month"] = 8,
-								["hours"] = 19,
-								["year"] = 2017,
-								["mins"] = 18,
-							},
-							["startTime"] = 169773.953,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"42:23", -- [1]
-								"30:06", -- [2]
-								"15:13", -- [3]
-								"22:27", -- [4]
-								"48:42", -- [5]
-								"44:46", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Ugru (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Антирыцарь (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Инфак (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Knubbelul (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druide",
-									["name"] = "Rigobert",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [33]
-						{
-							["corrupt"] = false,
-							["deaths"] = 19,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 163120.594,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 9,
-								["hours"] = 16,
-								["year"] = 2017,
-								["mins"] = 45,
-							},
-							["startTime"] = 161017.312,
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"30:59.603", -- [1]
-								"21:55.538", -- [2]
-								"09:04.552", -- [3]
-								"16:49.020", -- [4]
-								"36:37.797", -- [5]
-								"33:17.715", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Claytable (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Herpnificent (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Schamanin",
-									["name"] = "Grundbulten (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Dárkangel (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [34]
-						{
-							["corrupt"] = true,
-							["deaths"] = 21,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 357072.8,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 9,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 38,
-							},
-							["startTime"] = 355146.8,
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"09:01", -- [1]
-								"12:42", -- [2]
-								"28:39", -- [3]
-								"19:13", -- [4]
-								"32:06", -- [5]
-								"28:39", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Shareez",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Ðraka",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Carambolage",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [35]
-						{
-							["corrupt"] = true,
-							["deaths"] = 17,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 364006.629,
-							["timeStamp"] = {
-								["day"] = 5,
-								["month"] = 9,
-								["hours"] = 0,
-								["year"] = 2017,
-								["mins"] = 34,
-							},
-							["level"] = 10,
-							["startTime"] = 361632.629,
-							["objectiveTimes"] = {
-								"31:44", -- [1]
-								"22:18", -- [2]
-								"10:01", -- [3]
-								"16:41", -- [4]
-								"39:34", -- [5]
-								"36:09", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Magierin",
-									["name"] = "Litzy",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Giselmund",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [36]
-						{
-							["corrupt"] = true,
-							["deaths"] = 24,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 99491.096,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 9,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 2,
-							},
-							["level"] = 10,
-							["startTime"] = 96993.096,
-							["objectiveTimes"] = {
-								"16:22", -- [1]
-								"21:41", -- [2]
-								"38:15", -- [3]
-								"28:12", -- [4]
-								"41:38", -- [5]
-								"38:15", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Magierin",
-									["name"] = "Zintara (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Druide",
-									["name"] = "Krathor",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [37]
-						{
-							["corrupt"] = true,
-							["deaths"] = 5,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Wimmelnd",
-									["desc"] = "Im gesamten Dungeon sind zusätzliche normale Gegner vorhanden.",
-								},
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 439151.671,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 9,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 25,
-							},
-							["level"] = 10,
-							["startTime"] = 437371.671,
-							["objectiveTimes"] = {
-								"24:52", -- [1]
-								"18:17", -- [2]
-								"08:43", -- [3]
-								"12:56", -- [4]
-								"29:40", -- [5]
-								"27:06", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Schamane",
-									["name"] = "Voluntas",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Verfall",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Schurkin",
-									["name"] = "Zeratix",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Giselmund",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [38]
-						{
-							["corrupt"] = true,
-							["deaths"] = 11,
-							["affixes"] = {
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 316074.022,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 10,
-								["hours"] = 14,
-								["mins"] = 50,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Ayisha (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Priester",
-									["name"] = "Tamibal (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Dämonenjägerin",
-									["name"] = "Cuïllère (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Koilla (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 313893.022,
-							["objectiveTimes"] = {
-								"11:20", -- [1]
-								"15:52", -- [2]
-								"31:17", -- [3]
-								"23:46", -- [4]
-								"36:21", -- [5]
-								"31:17", -- [6]
-							},
-							["level"] = 11,
-						}, -- [39]
-						{
-							["corrupt"] = true,
-							["deaths"] = 42,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 477570.094,
-							["timeStamp"] = {
-								["day"] = 9,
-								["month"] = 10,
-								["hours"] = 21,
-								["year"] = 2017,
-								["mins"] = 51,
-							},
-							["startTime"] = 473528.094,
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"18:38", -- [1]
-								"27:36", -- [2]
-								"56:19", -- [3]
-								"35:45", -- [4]
-								"67:22", -- [5]
-								"58:15", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Druidin",
-									["name"] = "Shareez",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Magierin",
-									["name"] = "Zintara (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [40]
-						{
-							["corrupt"] = false,
-							["deaths"] = 10,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 347034.064,
-							["timeStamp"] = {
-								["day"] = 15,
-								["month"] = 10,
-								["hours"] = 19,
-								["mins"] = 55,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Джерусалем (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Аксфексия (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magierin",
-									["name"] = "Фуерта (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Сквир (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Mönch",
-									["name"] = "Friedebrecht",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"10:21.445", -- [1]
-								"15:08.930", -- [2]
-								"31:29.947", -- [3]
-								"21:41.924", -- [4]
-								"36:12.810", -- [5]
-								"31:29.947", -- [6]
-							},
-							["startTime"] = 344910.67,
-						}, -- [41]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 150182.521,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 10,
-								["hours"] = 14,
-								["year"] = 2017,
-								["mins"] = 51,
-							},
-							["startTime"] = 148323.458,
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"09:19.085", -- [1]
-								"13:14.973", -- [2]
-								"27:06.436", -- [3]
-								"18:46.150", -- [4]
-								"31:18.546", -- [5]
-								"27:06.436", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Lamashtu (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Schamanin",
-									["name"] = "Cià (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [42]
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 176202.961,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 10,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 4,
-							},
-							["startTime"] = 174842.709,
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"17:48.288", -- [1]
-								"13:39.263", -- [2]
-								"06:15.372", -- [3]
-								"09:50.230", -- [4]
-								"22:49.723", -- [5]
-								"20:12.996", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Schamane",
-									["name"] = "Uesh (*)",
-									["role"] = "HEALER",
-								}, -- [1]
-								{
-									["class"] = "Mönch",
-									["name"] = "Vermalien (*)",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Kriegerin",
-									["name"] = "Furiousfury (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Magier",
-									["name"] = "Trydâr (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Dankrun",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-						}, -- [43]
-						{
-							["corrupt"] = false,
-							["deaths"] = 29,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[4] = {
-									["name"] = "Nekrotisch",
-									["desc"] = "Alle Nahkampfangriffe der Gegner belegen Ziele mit einer stapelbaren 'Verseuchung', die regelmäßigen Schaden verursacht und die erhaltene Heilung verringert.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 179958.519,
-							["timeStamp"] = {
-								["day"] = 31,
-								["month"] = 10,
-								["hours"] = 23,
-								["mins"] = 6,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Schurkin",
-									["name"] = "Vala (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Mem (*)",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Xáre (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Hellequinn (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Giselmund",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"14:18.168", -- [1]
-								"20:05.154", -- [2]
-								"41:44.980", -- [3]
-								"27:05.027", -- [4]
-								"46:59.282", -- [5]
-								"41:44.980", -- [6]
-							},
-							["startTime"] = 177283.723,
-						}, -- [44]
-						{
-							["corrupt"] = true,
-							["deaths"] = 11,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 123487.514,
-							["timeStamp"] = {
-								["day"] = 6,
-								["month"] = 11,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 9,
-							},
-							["startTime"] = 121310.514,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"10:32", -- [1]
-								"14:44", -- [2]
-								"32:42", -- [3]
-								"22:24", -- [4]
-								"36:17", -- [5]
-								"32:42", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Todesritter",
-									["name"] = "Wunderknabe",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Krieger",
-									["name"] = "Getrekt",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Tavis",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [45]
-						{
-							["corrupt"] = true,
-							["deaths"] = 15,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 281241.5,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 11,
-								["hours"] = 23,
-								["mins"] = 18,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Magierin",
-									["name"] = "Litzy",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Bumms",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Topekk",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Burkilla",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Minnegard",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 278927.5,
-							["objectiveTimes"] = {
-								"09:25", -- [1]
-								"13:11", -- [2]
-								"34:58", -- [3]
-								"19:56", -- [4]
-								"38:34", -- [5]
-								"34:58", -- [6]
-							},
-							["level"] = 10,
-						}, -- [46]
-						{
-							["corrupt"] = true,
-							["deaths"] = 29,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 22512.922,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 11,
-								["hours"] = 0,
-								["year"] = 2017,
-								["mins"] = 34,
-							},
-							["startTime"] = 19246.922,
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"15:19", -- [1]
-								"20:20", -- [2]
-								"49:06", -- [3]
-								"35:10", -- [4]
-								"54:26", -- [5]
-								"50:30", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druide",
-									["name"] = "Nastrod (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Mönch",
-									["name"] = "Meruka",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Schamane",
-									["name"] = "Brolax",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Dankrun",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-						}, -- [47]
-						{
-							["corrupt"] = true,
-							["deaths"] = 4,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 103690.955,
-							["timeStamp"] = {
-								["day"] = 27,
-								["month"] = 11,
-								["hours"] = 22,
-								["mins"] = 33,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Magierin",
-									["name"] = "Zintara",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Mönch",
-									["name"] = "Meruka",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Magier",
-									["name"] = "Topekk",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 101618.955,
-							["objectiveTimes"] = {
-								"29:03", -- [1]
-								"22:18", -- [2]
-								"08:49", -- [3]
-								"16:05", -- [4]
-								"34:32", -- [5]
-								"31:21", -- [6]
-							},
-							["level"] = 13,
-						}, -- [48]
-						{
-							["corrupt"] = false,
-							["deaths"] = 11,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Vulkanisch",
-									["desc"] = "Im Kampf lassen Gegner regelmäßig Flammentropfen unter den Füßen entfernter Spielercharaktere hervorbrechen.",
-								},
-								[6] = {
-									["name"] = "Wütend",
-									["desc"] = "Normale Gegner bekommen bei 30% Gesundheit einen Wutanfall und verursachen 100% mehr Schaden, bis sie besiegt werden.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 377111.133,
-							["timeStamp"] = {
-								["day"] = 6,
-								["month"] = 12,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 53,
-							},
-							["level"] = 16,
-							["startTime"] = 375290.049,
-							["objectiveTimes"] = {
-								"25:29.319", -- [1]
-								"19:58.216", -- [2]
-								"09:53.060", -- [3]
-								"14:53.802", -- [4]
-								"31:15.632", -- [5]
-								"27:47.907", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Magier",
-									["name"] = "Topekk",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Jägerin",
-									["name"] = "Wizo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Wunderknabe",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [49]
-						{
-							["corrupt"] = true,
-							["deaths"] = 16,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Platzend",
-									["desc"] = "Wenn normale Gegner getötet werden, explodieren sie und fügen allen Spielercharakteren im Verlauf von 4 Sek. 10% ihrer maximalen Gesundheit als Schaden zu. Dieser Effekt ist stapelbar.",
-								},
-								[2] = {
-									["name"] = "Launisch",
-									["desc"] = "Gegner schenken der von Tanks erzeugten Bedrohung deutlich weniger Aufmerksamkeit.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 117443.101,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 4,
-								["hours"] = 22,
-								["year"] = 2018,
-								["mins"] = 48,
-							},
-							["level"] = 17,
-							["startTime"] = 115317.101,
-							["objectiveTimes"] = {
-								"10:11", -- [1]
-								"14:16", -- [2]
-								"30:36", -- [3]
-								"20:49", -- [4]
-								"35:26", -- [5]
-								"32:01", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Priesterin",
-									["name"] = "Navia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Говядовый (*)",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Hexenmeister",
-									["name"] = "Morg",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Dankrun",
-									["role"] = "DAMAGER",
-								}, -- [5]
-							},
-						}, -- [50]
-						{
-							["corrupt"] = false,
-							["deaths"] = 22,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Blutig",
-									["desc"] = "Wenn normale Gegner sterben, hinterlassen sie eine Sekretpfütze, die ihre Verbündeten heilt und Spielercharakteren Schaden zufügt.",
-								},
-								[10] = {
-									["name"] = "Verstärkt",
-									["desc"] = "Normale Gegner haben 20% mehr Gesundheit und verursachen bis zu 30% mehr Schaden.",
-								},
-								[12] = {
-									["name"] = "Schrecklich",
-									["desc"] = "Wenn die Gesundheit von Spielercharakteren unter 90% sinkt, erleiden sie ansteigenden regelmäßigen Schaden, bis sie über 90% ihrer Gesundheit geheilt wurden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 17404.249,
-							["timeStamp"] = {
-								["day"] = 6,
-								["month"] = 5,
-								["hours"] = 20,
-								["mins"] = 43,
-								["year"] = 2018,
-							},
-							["players"] = {
-								{
-									["class"] = "Krieger",
-									["name"] = "Dagren",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Druidin",
-									["name"] = "Lunavia",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Magier",
-									["name"] = "Topekk (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mönch",
-									["name"] = "Xénji (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 15511.306,
-							["objectiveTimes"] = {
-								"28:19.419", -- [1]
-								"23:12.881", -- [2]
-								"11:19.499", -- [3]
-								"15:44.103", -- [4]
-								"33:22.665", -- [5]
-								"30:18.318", -- [6]
-							},
-							["level"] = 18,
-						}, -- [51]
-						{
-							["corrupt"] = false,
-							["deaths"] = 12,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosiv",
-									["desc"] = "Gegner, die sich im Kampf befinden, beschwören regelmäßig explosive Kugeln, die explodieren, wenn sie nicht zerstört werden.",
-								},
-								[7] = {
-									["name"] = "Anstachelnd",
-									["desc"] = "Wenn normale Gegner sterben, erfüllt ihr Todesschrei Verbündete in der Nähe mit Macht und erhöht ihre maximale Gesundheit und ihren Schaden um 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannisch",
-									["desc"] = "Bossgegner haben 40% mehr Gesundheit und verursachen bis zu 15% mehr Schaden.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 93456.526,
-							["timeStamp"] = {
-								["day"] = 15,
-								["month"] = 5,
-								["hours"] = 21,
-								["year"] = 2018,
-								["mins"] = 56,
-							},
-							["startTime"] = 91852.855,
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"09:20.776", -- [1]
-								"12:24.730", -- [2]
-								"24:13.730", -- [3]
-								"17:33.984", -- [4]
-								"27:43.271", -- [5]
-								"24:13.730", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Khaladorei (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Úberduck (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hexenmeisterin",
-									["name"] = "Tinýng (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Todesritter",
-									["name"] = "Xperìá (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Paladin",
-									["name"] = "Adelgunde",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [52]
 					},
 				},
 			},

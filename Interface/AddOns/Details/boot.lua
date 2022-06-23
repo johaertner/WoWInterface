@@ -6,9 +6,9 @@
 
 		local version, build, date, tocversion = GetBuildInfo()
 
-		_detalhes.build_counter = 9735
-		_detalhes.alpha_build_counter = 9735 --if this is higher than the regular counter, use it instead
-		_detalhes.bcc_counter = 31
+		_detalhes.build_counter = 9817
+		_detalhes.alpha_build_counter = 9817 --if this is higher than the regular counter, use it instead
+		_detalhes.bcc_counter = 37
 		_detalhes.dont_open_news = true
 		_detalhes.game_version = version
 		_detalhes.userversion = version .. _detalhes.build_counter
@@ -33,6 +33,33 @@ do
 	local Loc = _G.LibStub("AceLocale-3.0"):GetLocale( "Details" )
 
 	local news = {
+		{"v9.2.0.9814.146", "May 15th, 2022"},
+		"Added slash command /keystone, this command show keystones of other users with addons using Open Raid library.",
+		"Added a second Title Bar (disabled by default), is recomended to make the Skin Color (under Window Body) full transparent while using it.",
+		"Added Overlay Texture and Color options under Bars: General.",
+		"Added Wallpaper Alignment 'Full Body', this alignment make the wallpaper fill over the title bar.",
+		"Added Auto Alignment for 'Aligned Text Columns', this option is enabled by default.",
+		"Added 'Window Area Border' and 'Row Area Border' under 'Window Body' section in the options panel.",
+		"Added an option to color the Row Border by player class.",
+		"Added new automation auto hide option: Arena.",
+		"Blizzard Death Recap kill ability only shows on Dungeons and Raids now.",
+		"Fixed an issue where player names was overlapping damage numbers with enbaled 'Aligned Text Columns'.",
+		"Fixed a bug on 'DeathLog Min Healing' option where it was reseting to 1 on each logon.",
+		"Fixed several bugs with 'Bar Orientation: Right to Left' (fix by Flamanis).",
+		"Fixed an error on Vanguard plugin.",
+		"Fixed Spec Icons 'Specialization Alpha' offseted by 2 pixels to the right.",
+
+		{"v9.2.0.9778.146", "April 26th, 2022"},
+		--"A cooldown tracker experiment has been added, its options is visible at the Options Panel.",
+		"Added a search box in the '/details scroll' feature.",
+		"When using Details! Death Recap, a message is now printed to chat showing what killed you accordingly to Blizzard Death Recap.",
+		"Fixed some errors while using Mind Control on an arena match.",
+		"Fixed encounter phase detection while using voice packs for boss mods addons.",
+		"Fixed an error after killing a boss encounter on heroic dificulty for the first time.",
+		"Fixed the issue of skins installed after the window has been loaded and the skin was not found at that time.",
+		"API: added 'UNIT_SPEC' and 'UNIT_TALENTS' event to details! event listener.",
+		"API: added Details:GetUnitId(unitName) which return the unitId for a given player name.",
+
 		{"v9.2.0.9735.146", "April 8th, 2022"},
 		"Arena Enemy Player deaths has been greatly improved on this version.",
 		"Added M+ Score into the player info tooltip (hover over the spec icon).",

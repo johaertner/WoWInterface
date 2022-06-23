@@ -30,7 +30,7 @@ H: 240
 Frame: MRTNote
 FrameLevel: 1
 Anchor: LEFT
-X: 39
-Y: -141
-W: 474
-H: 243
+X: -15
+Y: -197
+W: 385
+H: 194

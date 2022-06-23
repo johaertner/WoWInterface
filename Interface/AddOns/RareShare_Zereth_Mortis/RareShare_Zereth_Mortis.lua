@@ -79,10 +79,10 @@ function RareShare:CheckZerethMortisEvent(inText, inSourceName)
 			end
 		end
         
-        if Rare == nil or QuestID == nil then return end
+        if Rare == nil then return end
 		
 		-- Blizzard keeps broadcasting even after Helmix is done for some reason
-		if C_QuestLog.IsQuestFlaggedCompleted(QuestID) == true then return end
+		if QuestID ~= nil and C_QuestLog.IsQuestFlaggedCompleted(QuestID) == true then return end
 		
 		Msg = Msg .. Rare .. " (" .. x .. ", " .. y .. ")"
 		

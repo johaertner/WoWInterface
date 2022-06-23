@@ -1,6 +1,5 @@
-## Changed in v61
+## Changed in v66
 
-* Show the Creation Catalyst on the Zereth Mortis map
-* Minor Zereth Mortis note/point tweaks
-* The last set of Lunarlight Buds was finally up in Ardenweald, so they're added with proper questids
+* Updated for 9.2.5, fixing errors about C_TransmogCollection (in a rush, so there might be followup fixes)
+* Always show loot info on vignettes, bypassing my normal "should I show this point?" check
 

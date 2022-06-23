@@ -2,8 +2,8 @@
 TomCats_Account = {
 	["loveisintheair"] = {
 	},
-	["discoveriesVersion"] = "2.4.9",
-	["lastVersionSeen"] = "2.4.9",
+	["discoveriesVersion"] = "2.4.11",
+	["lastVersionSeen"] = "2.4.11",
 	["preferences"] = {
 		["MapOptions"] = {
 			["iconScale"] = 1,

@@ -1,28 +1,22 @@
 local myname, ns = ...
 
-local path = ns.path
-
 local growth = {
-    label=false, -- Sp(r)outing Growth
     loot={
         {181173, pet=2949}, -- Skittering Venomspitter
     },
-    _uiMapID=1536,
-    _coord=0,
 }
-ns.VignetteIDsToPoints[4202] = growth
-ns.VignetteIDsToPoints[4362] = growth
-ns.VignetteIDsToPoints[4363] = growth
-
-ns.VignetteIDsToPoints[4366] = {
-    label=false, -- Slime-Coated Crate
-    loot={
-        {181262, pet=2952}, -- Bubbling Pustule
-        {184447, toy=true}, -- Kevin's Party Supplies
+ns.RegisterVignettes(1536, {
+    -- Sp(r)outing Growth
+    [4202] = growth,
+    [4362] = growth,
+    [4363] = growth,
+    [4366] = { -- Slime-Coated Crate
+        loot={
+            {181262, pet=2952}, -- Bubbling Pustule
+            {184447, toy=true}, -- Kevin's Party Supplies
+        },
     },
-    _uiMapID=1536,
-    _coord=0,
-}
+})
 
 ns.RegisterPoints(1536, { -- Maldraxxus
     [47206210] = {
@@ -110,19 +104,16 @@ ns.RegisterPoints(1536, { -- Maldraxxus
         },
         level=60,
         note="Kill {npc:170563:Runespeaker Phaeton} to obtain the {item:181777:Phaeton's Key} required to unlock the treasure",
-    },
-    [37907000] = {
-        label="{npc:170563}",
-        achievement=14312, criteria=50073, -- Runespeaker's Trove
-        quest=61491,
-        loot={
-            181777, -- Phaeton's Key
+        path={
+            37907000,
+            label="{npc:170563}",
+            loot={
+                181777, -- Phaeton's Key
+            },
+            inbag=181777,
+            atlas="Garr_LevelUpgradeLocked", scale=1.3,
+            note="Take the key to 31.7 70.0",
         },
-        atlas="Garr_LevelUpgradeLocked", scale=1.3,
-        inbag=181777,
-        minimap=true,
-        level=60, -- or at least quest-gated? 57619 is the tracker for confronting Vyraz...
-        note="Take the key to 31.7 70.0",
     },
     [57607580] = {
         achievement=14312, criteria=50074, -- Plaguefallen Chest
@@ -132,13 +123,11 @@ ns.RegisterPoints(1536, { -- Maldraxxus
         },
         level=60,
         note="Enter the tunnels at 62.4 76.5 to become {spell:330092:Plaguefallen} and unlock the treasure",
-    },
-    [62387655] = ns.path{
-        label="Tunnel entrance",
-        achievement=14312, criteria=50074, -- Plaguefallen Chest
-        quest=61474,
-        level=60,
-        note="Under the platform; stand in the goo to get 10 stacks of {spell:330069} and become become {spell:330092:Plaguefallen}, then go into the cave and you'll be able to get through the pipe",
+        path={
+            62387655,
+            label="Tunnel entrance",
+            note="Under the platform; stand in the goo to get 10 stacks of {spell:330069} and become become {spell:330092:Plaguefallen}, then go into the cave and you'll be able to get through the pipe",
+        },
     },
     [64602470] = {
         achievement=14312, criteria=50075, -- Ritualist's Cache
@@ -347,13 +336,13 @@ ns.RegisterPoints(1536, { -- Maldraxxus
         note="Spawns in multiple places inside Sightless Hold",
     },
     -- the world map ones:
-    [36208145] = {
-        quest=60662,
-        label="Bonebound Chest",
-        loot={181723}, -- Meticulously pickled head (high sell value)
-        junk=true,
-        level=60,
-    },
+    -- [36208145] = {
+    --     quest=60662,
+    --     label="Bonebound Chest",
+    --     loot={181723}, -- Meticulously pickled head (high sell value)
+    --     junk=true,
+    --     level=60,
+    -- },
     -- [38036548] = {
     --     quest=61647, -- 61648, 61649, 61650
     --     label="Chosen Runecoffer",

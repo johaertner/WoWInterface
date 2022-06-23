@@ -105,11 +105,25 @@ L.SKT_Enabled				= "顯示目前戰鬥的最佳紀錄勝利計時器"
 L.ShowRespawn				= "顯示下一次首領重生計時器"
 L.ShowQueuePop				= "顯示接受彈出佇列的剩餘時間(尋求組隊、戰場..等)"
 --
-L.Area_AutoLogging			= "自動記錄選項"
-L.AutologBosses				= "自動使用暴雪戰鬥日誌記錄地城/團隊戰鬥"
-L.AdvancedAutologBosses		= "自動使用Transcriptor紀錄地城/團隊戰鬥"
-L.RecordOnlyBosses			= "只記錄首領的戰鬥 (排除所有小怪。請於首領開打前使用 /dbm pull 以獲取數據)"
-L.LogOnlyNonTrivial			= "只記錄重要內容 (普通或更難的當前內容團隊副本 & 傳奇+ 地下城)"
+--Auto Logging: Logging toggles/types
+L.Area_AutoLogging			= "自動記錄切換"
+L.AutologBosses				= "自動使用暴雪戰鬥日誌記錄所選內容"
+L.AdvancedAutologBosses		= "自動使用Transcriptor紀錄所選內容"
+--Auto Logging: Global filter Options
+L.Area_AutoLoggingFilters	= "自動記錄過濾"
+L.RecordOnlyBosses			= "不記錄小怪的戰鬥 (只記錄首領。請於首領開打前使用 /dbm pull 以獲取數據)"
+
+L.DoNotLogLFG				= "不記錄地城搜尋器或團隊搜尋器 (佇列的內容)"
+--Auto Logging: Recorded Content types
+L.Area_AutoLoggingContent	= "自動記錄內容"
+L.LogCurrentMythicRaids		= "當前等級傳奇團隊副本"--Retail Only
+L.LogCurrentRaids			= "當前等級團隊"
+L.LogTWRaids				= "時光漫遊 或 克羅米時光團隊副本"--Retail Only
+L.LogTrivialRaids			= "低等團隊副本 (低於角色等級)"
+L.LogCurrentMPlus			= "當前等級傳奇+地下城"--Retail Only
+L.LogCurrentMythicZero		= "當前等級傳奇0層地下城"--Retail Only
+L.LogTWDungeons				= "時光漫遊 或 克羅米時光地下城"--Retail Only
+L.LogCurrentHeroic			= "當前等級英雄地下城 (注意：如果您通過地城搜尋器佇列英雄並想要記錄，請關閉地城搜尋器過濾)"
 --
 L.Area_3rdParty				= "協力插件選項"
 L.oRA3AnnounceConsumables	= "在戰鬥開始時通告oRA3消耗品檢查"
@@ -341,6 +355,8 @@ L.BarSpark					= "計時條閃光"
 L.BarFlash					= "快結束時閃爍計時條"
 L.BarSort					= "依剩餘時間排序"
 L.BarColorByType			= "根據類型上色"
+L.Highest					= "頂部最高"
+L.Lowest					= "頂部最低"
 L.NoBarFade					= "使用開始/結束顏色作為小型/大型顏色，而不是逐漸改變顏色"
 L.BarInlineIcons			= "顯示嵌入圖示"
 L.ShortTimerText			= "使用較短的計時器文字(如果可用時)"
@@ -361,14 +377,16 @@ L.SpamBlockNoShowTgtAnnounce		= "不顯示目標的提示文字或播放警告�
 L.SpamBlockNoTrivialSpecWarnSound	= "如果相對你等級是不重要的內容則不要播放特別提示音效 (播放使用者選擇的標準提示音效替代)"
 
 L.Area_SpamFilter_SpecRoleFilters	= "特別提示類型過濾（控制DBM要怎麼做）"
-L.SpamSpecRoleDispel				= "過濾 '驅散/偷取' 警報"
-L.SpamSpecRoleInterrupt				= "過濾 '打斷' 警報"
-L.SpamSpecRoleDefensive				= "過濾 '減傷' 警報"
-L.SpamSpecRoleTaunt					= "過濾 '嘲諷' 警報"
-L.SpamSpecRoleSoak					= "過濾 '吸收' 警報"
-L.SpamSpecRoleStack					= "過濾 '疊加層數' 警報"
-L.SpamSpecRoleSwitch				= "過濾 '切換目標''小怪' 警報"
-L.SpamSpecRoleGTFO					= "過濾 '地面有害技能' 警報"
+L.SpamSpecInformationalOnly			= "從特別警告中刪除所有教學文字/口語警報 (需要重載UI)。警報仍顯示和播放聲音，但將是通用和非指示性"
+L.SpamSpecRoleDispel				= "完全過濾 '驅散' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleInterrupt				= "過濾 '打斷' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleDefensive				= "過濾 '減傷' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleTaunt					= "過濾 '嘲諷' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleSoak					= "過濾 '吸收' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleStack					= "過濾 '疊加層數' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleSwitch				= "過濾 '切換目標''小怪' 警報 (完全無文字或聲音)"
+L.SpamSpecRoleGTFO					= "過濾 '地面有害技能' 警報 (完全無文字或聲音)"
+
 
 L.Area_SpamFilter_SpecFeatures		= "特別提示功能切換"
 L.SpamBlockNoSpecWarnText			= "不顯示特別提示文字"

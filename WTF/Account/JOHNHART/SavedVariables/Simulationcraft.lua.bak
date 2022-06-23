@@ -7,11 +7,11 @@ SimulationCraftDB = {
 		["Minnegard - Nathrezim"] = "Minnegard - Nathrezim",
 		["Adelgunde - Nathrezim"] = "Adelgunde - Nathrezim",
 		["Eckehard - Nathrezim"] = "Eckehard - Nathrezim",
-		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
+		["Manfred - Nathrezim"] = "Manfred - Nathrezim",
 		["Dankrun - Nathrezim"] = "Dankrun - Nathrezim",
 		["Wendelbert - Nathrezim"] = "Wendelbert - Nathrezim",
 		["Guntram - Nathrezim"] = "Guntram - Nathrezim",
-		["Manfred - Nathrezim"] = "Manfred - Nathrezim",
+		["Friedebrecht - Nathrezim"] = "Friedebrecht - Nathrezim",
 	},
 	["profiles"] = {
 		["Giselmund - Nathrezim"] = {
@@ -26,7 +26,7 @@ SimulationCraftDB = {
 		},
 		["Eckehard - Nathrezim"] = {
 		},
-		["Friedebrecht - Nathrezim"] = {
+		["Manfred - Nathrezim"] = {
 		},
 		["Dankrun - Nathrezim"] = {
 		},
@@ -34,7 +34,7 @@ SimulationCraftDB = {
 		},
 		["Guntram - Nathrezim"] = {
 		},
-		["Manfred - Nathrezim"] = {
+		["Friedebrecht - Nathrezim"] = {
 		},
 	},
 }
